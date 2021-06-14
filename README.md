@@ -16,6 +16,12 @@ A set of free sounds that mods can use.
 | sounds_footstep_hard.* | Erdie          | CC BY 3.0    | [fressound.org][fs.41579] |
 | sounds_place_node.*    | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
 
+### Links:
+
+- [Git repo](https://github.com/AntumMT/mod-sounds)
+- [Changelog](changelog.txt)
+- [TODO](TODO.txt)
+
 
 [default]: https://github.com/minetest/minetest_game/tree/master/mods/default
 [fs.41579]: https://freesound.org/people/Erdie/sounds/41579
