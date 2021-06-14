@@ -14,6 +14,7 @@ As of right now, only sounds from the [default][] mod have been added.
 | sounds_break_glass.2   | Tomlija        | CC BY 3.0    | [freesound.org][fs.97669]  |
 | sounds_break_glass.3   | lsprice        | CC BY 3.0    | [freesound.org][fs.88808]  |
 | sounds_dig_gravel.*    | lolamadeus     | CC0          | [freesound.org][fs.179341] |
+| sounds_dig_ice.*       | dheming        | CC BY 3.0    | [freesound.org][fs.268023] |
 | sounds_dug_gravel.*    | lolamadeus     | CC0          | [freesound.org][fs.179341] |
 | sounds_dug_node.*      | Mito551        | CC BY-SA 3.0 | [minetest_game][default]   |
 | sounds_footstep_dirt.* | Mito551        | CC BY-SA 3.0 | [minetest_game][default]   |
@@ -36,4 +37,5 @@ As of right now, only sounds from the [default][] mod have been added.
 [fs.88808]: https://www.freesound.org/people/lsprice/sounds/88808
 [fs.97669]: https://www.freesound.org/people/Tomlija/sounds/97669
 [fs.179341]: https://freesound.org/people/lolamadeus/sounds/179341
+[fs.268023]: https://freesound.org/people/dheming/sounds/268023
 [fs.416967]: https://freesound.org/people/InspectorJ/sounds/416967
