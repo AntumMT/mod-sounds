@@ -16,6 +16,7 @@ As of right now, only sounds from the [default][] mod have been added.
 | sounds_dug_node.*      | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
 | sounds_footstep_dirt.* | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
 | sounds_footstep_glass  | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
+| sounds_footstep_gravel | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
 | sounds_footstep_hard.* | Erdie          | CC BY 3.0    | [fressound.org][fs.41579] |
 | sounds_place_node*     | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
 
