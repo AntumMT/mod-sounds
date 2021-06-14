@@ -8,13 +8,13 @@ A set of free sounds that mods can use.
 
 | Filename               | Author         | License      | Source                    |
 | ---------------------- | -------------- | ------------ | ------------------------- |
+| sounds_break_glass.1   | cmusounddesign | CC BY 3.0    | [freesound.org][fs.71947] |
+| sounds_break_glass.2   | Tomlija        | CC BY 3.0    | [freesound.org][fs.97669] |
+| sounds_break_glass.3   | lsprice        | CC BY 3.0    | [freesound.org][fs.88808] |
+| sounds_dug_node.*      | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
+| sounds_footstep_glass  | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
 | sounds_footstep_hard.* | Erdie          | CC BY 3.0    | [fressound.org][fs.41579] |
-| sounds_glass_break.1   | cmusounddesign | CC BY 3.0    | [freesound.org][fs.71947] |
-| sounds_glass_break.2   | Tomlija        | CC BY 3.0    | [freesound.org][fs.97669] |
-| sounds_glass_break.3   | lsprice        | CC BY 3.0    | [freesound.org][fs.88808] |
-| sounds_glass_footstep  | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
-| sounds_node_dug.*      | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
-| sounds_node_place.*    | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
+| sounds_place_node.*    | Mito551        | CC BY-SA 3.0 | [minetest_game][default]  |
 
 
 [default]: https://github.com/minetest/minetest_game/tree/master/mods/default
