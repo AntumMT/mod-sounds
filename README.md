@@ -29,6 +29,9 @@ As of right now, only sounds from the [default][] mod have been added.
 | sounds_step_metal.*  | mypantsfelldown    | CC0          | [freesound.org][fs.398937]   |
 | sounds_step_sand.*   | worthahep88        | CC0          | [freesound.org][fs.319224]   |
 | sounds_step_snow.*   | Ryding             | CC0          | [freesound.org][fs.94337]    |
+| sounds_step_water.1  | AGFX               | CC BY 3.0    | [freesound.org][fs.20432]    |
+| sounds_step_water.2  | AGFX               | CC BY 3.0    | [freesound.org][fs.20434]    |
+| sounds_step_water.3  | AGFX               | CC BY 3.0    | [freesound.org][fs.20437]    |
 | sounds_place_metal.* | Ogrebane           | CC0          | [opengameart.org][oga.3511]  |
 | sounds_place_node*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
 
@@ -40,6 +43,9 @@ As of right now, only sounds from the [default][] mod have been added.
 
 
 [default]: https://github.com/minetest/minetest_game/tree/master/mods/default
+[fs.20432]: https://freesound.org/people/AGFX/sounds/20432
+[fs.20434]: https://freesound.org/people/AGFX/sounds/20434
+[fs.20437]: https://freesound.org/people/AGFX/sounds/20437
 [fs.41579]: https://freesound.org/people/Erdie/sounds/41579
 [fs.49190]: https://freesound.org/people/Angel_Perez_Grandi/sounds/49190
 [fs.71947]: https://freesound.org/people/cmusounddesign/sounds/71947
