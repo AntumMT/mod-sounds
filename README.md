@@ -4,6 +4,8 @@
 
 A set of free sounds that mods can use.
 
+As of right now, only sounds from the [default][] mod have been added.
+
 ### Sound file sources & licensing:
 
 | Filename               | Author         | License      | Source                    |
