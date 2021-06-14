@@ -1,3 +1,4 @@
 
 TODO:
-- add sounds from default mod
+- add node sounds from default mod
+- normalize sound files
