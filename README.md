@@ -32,6 +32,7 @@ As of right now, only sounds from the [default][] mod have been added.
 | sounds_step_water.1  | AGFX               | CC BY 3.0    | [freesound.org][fs.20432]    |
 | sounds_step_water.2  | AGFX               | CC BY 3.0    | [freesound.org][fs.20434]    |
 | sounds_step_water.3  | AGFX               | CC BY 3.0    | [freesound.org][fs.20437]    |
+| sounds_step_water.4  | AntumDeluge        | CC0          | generated with Audacity      |
 | sounds_place_metal.* | Ogrebane           | CC0          | [opengameart.org][oga.3511]  |
 | sounds_place_node*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
 
