@@ -24,6 +24,7 @@ As of right now, only sounds from the [default][] mod have been added.
 | sounds_step_gravel   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]   |
 | sounds_step_hard.*   | Erdie              | CC BY 3.0    | [freesound.org][fs.41579]  |
 | sounds_step_ice.*    | InspectorJ         | CC BY 3.0    | [freesound.org][fs.416967] |
+| sounds_step_metal.*  | mypantsfelldown    | CC0          | [freesound.org][fs.398937] |
 | sounds_place_node*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]   |
 
 ### Links:
@@ -41,4 +42,5 @@ As of right now, only sounds from the [default][] mod have been added.
 [fs.97669]: https://www.freesound.org/people/Tomlija/sounds/97669
 [fs.179341]: https://freesound.org/people/lolamadeus/sounds/179341
 [fs.268023]: https://freesound.org/people/dheming/sounds/268023
+[fs.398937]: https://freesound.org/people/mypantsfelldown/sounds/398937
 [fs.416967]: https://freesound.org/people/InspectorJ/sounds/416967
