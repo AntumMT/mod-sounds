@@ -27,6 +27,7 @@ As of right now, only sounds from the [default][] mod have been added.
 | sounds_step_hard.*   | Erdie              | CC BY 3.0    | [freesound.org][fs.41579]    |
 | sounds_step_ice.*    | InspectorJ         | CC BY 3.0    | [freesound.org][fs.416967]   |
 | sounds_step_metal.*  | mypantsfelldown    | CC0          | [freesound.org][fs.398937]   |
+| sounds_step_sand.*   | worthahep88        | CC0          | [freesound.org][fs.319224]   |
 | sounds_place_metal.* | Ogrebane           | CC0          | [opengameart.org][oga.3511]  |
 | sounds_place_node*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
 
@@ -45,6 +46,7 @@ As of right now, only sounds from the [default][] mod have been added.
 [fs.97669]: https://www.freesound.org/people/Tomlija/sounds/97669
 [fs.179341]: https://freesound.org/people/lolamadeus/sounds/179341
 [fs.268023]: https://freesound.org/people/dheming/sounds/268023
+[fs.319224]: https://freesound.org/people/worthahep88/sounds/319224
 [fs.320397]: https://www.freesound.org/people/yadronoff/sounds/320397
 [fs.398937]: https://freesound.org/people/mypantsfelldown/sounds/398937
 [fs.416967]: https://freesound.org/people/InspectorJ/sounds/416967
