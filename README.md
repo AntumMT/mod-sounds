@@ -8,25 +8,26 @@ As of right now, only sounds from the [default][] mod have been added.
 
 ### Sound file sources & licensing:
 
-| Filename             | Author             | License      | Source                     |
-| -------------------- | ------------------ | ------------ | -------------------------- |
-| sounds_break_glass.1 | cmusounddesign     | CC BY 3.0    | [freesound.org][fs.71947]  |
-| sounds_break_glass.2 | Tomlija            | CC BY 3.0    | [freesound.org][fs.97669]  |
-| sounds_break_glass.3 | lsprice            | CC BY 3.0    | [freesound.org][fs.88808]  |
-| sounds_dig_gravel.*  | lolamadeus         | CC0          | [freesound.org][fs.179341] |
-| sounds_dig_ice.*     | dheming            | CC BY 3.0    | [freesound.org][fs.268023] |
-| sounds_dig_metal     | yadronoff          | CC BY 3.0    | [freesound.org][fs.320397] |
-| sounds_dug_gravel.*  | lolamadeus         | CC0          | [freesound.org][fs.179341] |
-| sounds_dug_ice       | Angel_Perez_Grandi | CC BY 3.0    | [freesound.org][fs.49190]  |
-| sounds_dug_node.*    | Mito551            | CC BY-SA 3.0 | [minetest_game][default]   |
-| sounds_step_dirt.*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]   |
-| sounds_step_glass    | Mito551            | CC BY-SA 3.0 | [minetest_game][default]   |
-| sounds_step_grass.*  | Mito551            | CC BY-SA 3.0 | [minetest_game][default]   |
-| sounds_step_gravel   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]   |
-| sounds_step_hard.*   | Erdie              | CC BY 3.0    | [freesound.org][fs.41579]  |
-| sounds_step_ice.*    | InspectorJ         | CC BY 3.0    | [freesound.org][fs.416967] |
-| sounds_step_metal.*  | mypantsfelldown    | CC0          | [freesound.org][fs.398937] |
-| sounds_place_node*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]   |
+| Filename             | Author             | License      | Source                       |
+| -------------------- | ------------------ | ------------ | ---------------------------- |
+| sounds_break_glass.1 | cmusounddesign     | CC BY 3.0    | [freesound.org][fs.71947]    |
+| sounds_break_glass.2 | Tomlija            | CC BY 3.0    | [freesound.org][fs.97669]    |
+| sounds_break_glass.3 | lsprice            | CC BY 3.0    | [freesound.org][fs.88808]    |
+| sounds_dig_gravel.*  | lolamadeus         | CC0          | [freesound.org][fs.179341]   |
+| sounds_dig_ice.*     | dheming            | CC BY 3.0    | [freesound.org][fs.268023]   |
+| sounds_dig_metal     | yadronoff          | CC BY 3.0    | [freesound.org][fs.320397]   |
+| sounds_dug_gravel.*  | lolamadeus         | CC0          | [freesound.org][fs.179341]   |
+| sounds_dug_ice       | Angel_Perez_Grandi | CC BY 3.0    | [freesound.org][fs.49190]    |
+| sounds_dug_metal.*   | qubodup            | CC0          | [opengameart.org][oga.18150] |
+| sounds_dug_node.*    | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
+| sounds_step_dirt.*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
+| sounds_step_glass    | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
+| sounds_step_grass.*  | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
+| sounds_step_gravel   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
+| sounds_step_hard.*   | Erdie              | CC BY 3.0    | [freesound.org][fs.41579]    |
+| sounds_step_ice.*    | InspectorJ         | CC BY 3.0    | [freesound.org][fs.416967]   |
+| sounds_step_metal.*  | mypantsfelldown    | CC0          | [freesound.org][fs.398937]   |
+| sounds_place_node*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
 
 ### Links:
 
@@ -46,3 +47,4 @@ As of right now, only sounds from the [default][] mod have been added.
 [fs.320397]: https://www.freesound.org/people/yadronoff/sounds/320397
 [fs.398937]: https://freesound.org/people/mypantsfelldown/sounds/398937
 [fs.416967]: https://freesound.org/people/InspectorJ/sounds/416967
+[oga.18150]: https://opengameart.org/node/18150
