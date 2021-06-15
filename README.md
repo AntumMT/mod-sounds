@@ -48,7 +48,7 @@ As of right now, only sounds from [default][] mod have been added.
 
 ### Usage:
 
-If your mod depends on `default` for node sounds only, then you can easily switch to `sounds`. Simply add `default` & `sounds` as optional dependencies in your `mod.conf`. `sounds` aliases or overrides methods used by `default` to its own. For example `default.node_sound_dirt_defaults`.
+If your mod depends on *default* for node sounds only, then you can easily switch to *sounds*. Simply add *default* & *sounds* as optional dependencies in your *mod.conf*. *sounds* aliases or overrides methods used by *default* to its own. For example *default.node_sound_dirt_defaults*.
 
 Example code:
 ```lua
