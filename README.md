@@ -71,6 +71,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 
 ### Links:
 
+- [![ContentDB](https://content.minetest.net/packages/AntumDeluge/sounds/shields/title/)](https://content.minetest.net/packages/AntumDeluge/sounds/)
 - [Forum](https://forum.minetest.net/viewtopic.php?t=26868)
 - [Git repo](https://github.com/AntumMT/mod-sounds)
 - [API](https://antummt.github.io/mod-sounds/docs/api.html)
