@@ -6,9 +6,12 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 
 As of right now, only sounds from *default* mod have been added.
 
+![icon](screenshot.png =400x)
+
 ### Licensing:
 
 - Code: [MIT](LICENSE.txt)
+- Icon/Screenshot: [CC0](https://openclipart.org/detail/260975)
 - Media: see following table
 
 #### Sound file sources & licensing:
