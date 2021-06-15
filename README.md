@@ -48,6 +48,7 @@ As of right now, only sounds from the [default][] mod have been added.
 
 ### Links:
 
+- [Forum](https://forum.minetest.net/viewtopic.php?t=26868)
 - [Git repo](https://github.com/AntumMT/mod-sounds)
 - [Changelog](changelog.txt)
 - [TODO](TODO.txt)
