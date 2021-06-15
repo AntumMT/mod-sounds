@@ -6,7 +6,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 
 As of right now, only sounds from *default* mod have been added.
 
-![icon](screenshot.png =400x)
+<img src="screenshot.png" alt="icon" width="200" />
 
 ### Licensing:
 
