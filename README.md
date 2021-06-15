@@ -2,9 +2,9 @@
 
 ### Description:
 
-A set of free sounds that mods can use.
+A [Minetest][] mod that provides a set of free sounds & methods for nodes.
 
-As of right now, only sounds from the [default][] mod have been added.
+As of right now, only sounds from [default][] mod have been added.
 
 ### Licensing:
 
@@ -46,6 +46,26 @@ As of right now, only sounds from the [default][] mod have been added.
 | sounds_place_metal.* | Ogrebane           | CC0          | [opengameart.org][oga.3511]  |
 | sounds_place_node*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
 
+### Usage:
+
+If your mod depends on `default` for node sounds only, then you can easily switch to `sounds`. Simply add `default` & `sounds` as optional dependencies in your `mod.conf`. `sounds` aliases or overrides methods used by `default` to its own. For example `default.node_sound_dirt_defaults`.
+
+Example code:
+```lua
+function sounds.node_dirt(tbl)
+	tbl = tbl or {}
+
+	tbl.footstep = tbl.footstep or {name="sounds_step_dirt", gain=0.4}
+	tbl.dug = tbl.dug or {name="sounds_step_dirt", gain=1.0}
+	tbl.place = tbl.place or {name="sounds_place_node_soft", gain=1.0}
+
+	sounds.node(tbl)
+	return tbl
+end
+
+default.node_sound_dirt_defaults = sounds.node_dirt
+```
+
 ### Links:
 
 - [Forum](https://forum.minetest.net/viewtopic.php?t=26868)
@@ -54,6 +74,7 @@ As of right now, only sounds from the [default][] mod have been added.
 - [TODO](TODO.txt)
 
 
+[Minetest]: http://minetest.net/
 [default]: https://github.com/minetest/minetest_game/tree/master/mods/default
 [fs.20432]: https://freesound.org/people/AGFX/sounds/20432
 [fs.20434]: https://freesound.org/people/AGFX/sounds/20434
