@@ -175,3 +175,22 @@ function sounds.node_wood(tbl)
 	sounds.node(tbl)
 	return tbl
 end
+
+
+-- compatibility with default mod function
+if not core.global_exists("default") then
+	default = {}
+end
+
+default.node_sound_defaults        = sounds.node
+default.node_sound_dirt_defaults   = sounds.node_dirt
+default.node_sound_glass_defaults  = sounds.node_glass
+default.node_sound_gravel_defaults = sounds.node_gravel
+default.node_sound_ice_defaults    = sounds.node_ice
+default.node_sound_leaves_defaults = sounds.node_leaves
+default.node_sound_metal_defaults  = sounds.node_metal
+default.node_sound_sand_defaults   = sounds.node_sand
+default.node_sound_snow_defaults   = sounds.node_snow
+default.node_sound_stone_defaults  = sounds.node_stone
+default.node_sound_water_defaults  = sounds.node_water
+default.node_sound_wood_defaults   = sounds.node_wood
