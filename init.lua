@@ -70,6 +70,14 @@ function sounds.node_glass(tbl)
 	return tbl
 end
 
+function sounds.node_grass(tbl)
+	tbl = tbl or {}
+
+	tbl.footstep = tbl.footstep or {name="sounds_step_grass", gain=0.25}
+
+	return sounds.node_dirt(tbl)
+end
+
 function sounds.node_gravel(tbl)
 	tbl = tbl or {}
 
