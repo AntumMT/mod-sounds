@@ -70,6 +70,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 
 - [Forum](https://forum.minetest.net/viewtopic.php?t=26868)
 - [Git repo](https://github.com/AntumMT/mod-sounds)
+- [API](https://antummt.github.io/mod-sounds/docs/api.html)
 - [Changelog](changelog.txt)
 - [TODO](TODO.txt)
 
