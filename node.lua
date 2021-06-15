@@ -1,4 +1,16 @@
 
+--- Node sounds.
+--
+--  @module node.lua
+
+
+--- General sounds.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node(tbl)
 	tbl = tbl or {}
 
@@ -9,6 +21,9 @@ function sounds.node(tbl)
 	return tbl
 end
 
+--- Sounds for "choppy" objects & tools.
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_choppy(tbl)
 	tbl = tbl or {}
 
@@ -18,6 +33,9 @@ function sounds.node_choppy(tbl)
 	return tbl
 end
 
+--- Sounds for "cracky" objects & tools.
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_cracky(tbl)
 	tbl = tbl or {}
 
@@ -27,6 +45,9 @@ function sounds.node_cracky(tbl)
 	return tbl
 end
 
+--- Sounds for "crumbly" objects & tools.
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_crumbly(tbl)
 	tbl = tbl or {}
 
@@ -36,6 +57,9 @@ function sounds.node_crumbly(tbl)
 	return tbl
 end
 
+--- Sounds for "snappy" objects & tools.
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_snappy(tbl)
 	tbl = tbl or {}
 
@@ -45,6 +69,13 @@ function sounds.node_snappy(tbl)
 	return tbl
 end
 
+--- Sounds for dirt-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_dirt_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_dirt(tbl)
 	tbl = tbl or {}
 
@@ -56,6 +87,13 @@ function sounds.node_dirt(tbl)
 	return tbl
 end
 
+--- Sounds for glass-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_glass_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_glass(tbl)
 	tbl = tbl or {}
 
@@ -67,6 +105,9 @@ function sounds.node_glass(tbl)
 	return tbl
 end
 
+--- Sounds for grass-like nodes.
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_grass(tbl)
 	tbl = tbl or {}
 
@@ -75,6 +116,13 @@ function sounds.node_grass(tbl)
 	return sounds.node_dirt(tbl)
 end
 
+--- Sounds for gravel-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_gravel_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_gravel(tbl)
 	tbl = tbl or {}
 
@@ -87,6 +135,13 @@ function sounds.node_gravel(tbl)
 	return tbl
 end
 
+--- Sounds for ice-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_ice_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_ice(tbl)
 	tbl = tbl or {}
 
@@ -98,6 +153,13 @@ function sounds.node_ice(tbl)
 	return tbl
 end
 
+--- Sounds for leaf-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_leaves_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_leaves(tbl)
 	tbl = tbl or {}
 
@@ -109,6 +171,13 @@ function sounds.node_leaves(tbl)
 	return tbl
 end
 
+--- Sounds for metal-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_metal_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_metal(tbl)
 	tbl = tbl or {}
 
@@ -121,6 +190,13 @@ function sounds.node_metal(tbl)
 	return tbl
 end
 
+--- Sounds for sand-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_sand_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_sand(tbl)
 	tbl = tbl or {}
 
@@ -132,6 +208,13 @@ function sounds.node_sand(tbl)
 	return tbl
 end
 
+--- Sounds for snow-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_snow_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_snow(tbl)
 	tbl = tbl or {}
 
@@ -144,6 +227,13 @@ function sounds.node_snow(tbl)
 	return tbl
 end
 
+--- Sounds for stone-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_stone_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_stone(tbl)
 	tbl = tbl or {}
 
@@ -154,6 +244,13 @@ function sounds.node_stone(tbl)
 	return tbl
 end
 
+--- Sounds for water-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_water_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_water(tbl)
 	tbl = tbl or {}
 
@@ -163,6 +260,13 @@ function sounds.node_water(tbl)
 	return tbl
 end
 
+--- Sounds for wood-like nodes.
+--
+--  Aliased or overridden methods:
+--
+--  - `default.node_sound_wood_defaults`
+--
+--  @tparam[opt] table tbl Sound table to update.
 function sounds.node_wood(tbl)
 	tbl = tbl or {}
 
