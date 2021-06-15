@@ -3,3 +3,4 @@ v1.0
 ----
 - initial release
 - added node sounds from default mod
+- added methods for setting node sounds
