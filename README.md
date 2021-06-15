@@ -2,9 +2,9 @@
 
 ### Description:
 
-A [Minetest][] mod that provides a set of free sounds & methods for nodes.
+A [Minetest][] mod that provides a set of free sounds & methods. It is intended as a more universal method for adding sounds to games than depending on [MTG & default][default] for sounds only.
 
-As of right now, only sounds from [default][] mod have been added.
+As of right now, only sounds from *default* mod have been added.
 
 ### Licensing:
 
