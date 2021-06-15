@@ -12,6 +12,42 @@ function sounds.node(tbl)
 	return tbl
 end
 
+function sounds.node_choppy(tbl)
+	tbl = tbl or {}
+
+	tbl.dig = tbl.dig or {name="sounds_dig_choppy", gain=0.5}
+
+	sounds.node(tbl)
+	return tbl
+end
+
+function sounds.node_cracky(tbl)
+	tbl = tbl or {}
+
+	tbl.dig = tbl.dig or {name="sounds_dig_cracky", gain=0.5}
+
+	sounds.node(tbl)
+	return tbl
+end
+
+function sounds.node_crumbly(tbl)
+	tbl = tbl or {}
+
+	tbl.dig = tbl.dig or {name="sounds_dig_crumbly", gain=0.5}
+
+	sounds.node(tbl)
+	return tbl
+end
+
+function sounds.node_snappy(tbl)
+	tbl = tbl or {}
+
+	tbl.dig = tbl.dig or {name="sounds_dig_snappy", gain=0.5}
+
+	sounds.node(tbl)
+	return tbl
+end
+
 function sounds.node_dirt(tbl)
 	tbl = tbl or {}
 
