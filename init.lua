@@ -135,16 +135,6 @@ function sounds.node_sand(tbl)
 	return tbl
 end
 
-function sounds.node_stone(tbl)
-	tbl = tbl or {}
-
-	tbl.footstep = tbl.footstep or {name="sounds_step_hard", gain=0.3}
-	tbl.dug = tbl.dug or {name="sounds_step_hard", gain=1.0}
-
-	sounds.node(tbl)
-	return tbl
-end
-
 function sounds.node_snow(tbl)
 	tbl = tbl or {}
 
@@ -152,6 +142,16 @@ function sounds.node_snow(tbl)
 	tbl.dig = tbl.dig or {name="sounds_step_snow", gain=0.3}
 	tbl.dug = tbl.dug or {name="sounds_step_snow", gain=0.3}
 	tbl.place = tbl.place or {name="sounds_place_node_soft", gain=1.0}
+
+	sounds.node(tbl)
+	return tbl
+end
+
+function sounds.node_stone(tbl)
+	tbl = tbl or {}
+
+	tbl.footstep = tbl.footstep or {name="sounds_step_hard", gain=0.3}
+	tbl.dug = tbl.dug or {name="sounds_step_hard", gain=1.0}
 
 	sounds.node(tbl)
 	return tbl
