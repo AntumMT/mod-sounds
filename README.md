@@ -32,6 +32,7 @@ As of right now, only sounds from *default* mod have been added.
 | sounds_dug_ice       | Angel_Perez_Grandi | CC BY 3.0    | [freesound.org][fs.49190]    |
 | sounds_dug_metal.*   | qubodup            | CC0          | [opengameart.org][oga.18150] |
 | sounds_dug_node.*    | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
+| sounds_entity_hit    | sonictechtonic     | CC BY 3.0    | [freesound.org][fs.241872]   |
 | sounds_step_dirt.*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
 | sounds_step_glass    | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
 | sounds_step_grass.*  | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
@@ -88,14 +89,15 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [fs.49190]: https://freesound.org/people/Angel_Perez_Grandi/sounds/49190
 [fs.71823]: https://freesound.org/people/Benboncan/sounds/71823
 [fs.71947]: https://freesound.org/people/cmusounddesign/sounds/71947
-[fs.88808]: https://www.freesound.org/people/lsprice/sounds/88808
+[fs.88808]: https://freesound.org/people/lsprice/sounds/88808
 [fs.94337]: https://freesound.org/people/Ryding/sounds/94337
-[fs.97669]: https://www.freesound.org/people/Tomlija/sounds/97669
+[fs.97669]: https://freesound.org/people/Tomlija/sounds/97669
 [fs.179341]: https://freesound.org/people/lolamadeus/sounds/179341
-[fs.251660]: https://www.freesound.org/people/blukotek/sounds/251660
+[fs.241872]: https://freesound.org/people/sonictechtonic/sounds/241872
+[fs.251660]: https://freesound.org/people/blukotek/sounds/251660
 [fs.268023]: https://freesound.org/people/dheming/sounds/268023
 [fs.319224]: https://freesound.org/people/worthahep88/sounds/319224
-[fs.320397]: https://www.freesound.org/people/yadronoff/sounds/320397
+[fs.320397]: https://freesound.org/people/yadronoff/sounds/320397
 [fs.398937]: https://freesound.org/people/mypantsfelldown/sounds/398937
 [fs.416967]: https://freesound.org/people/InspectorJ/sounds/416967
 [fs.476113]: https://freesound.org/people/Sheyvan/sounds/476113

@@ -1,4 +1,8 @@
 
+v1.1
+----
+- added entity hit sound from default mod
+
 v1.0
 ----
 - initial release
