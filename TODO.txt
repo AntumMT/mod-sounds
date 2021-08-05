@@ -1,4 +1,17 @@
 
 TODO:
+- add more methods for playing sounds
+- rename sounds (e.g. "place_metal" to "metal_place"
 - normalize sound files
-- add more sounds
+- add more sounds:
+	- coins
+	- hit/damage
+	- tool breaks
+	- lava cool
+- add sounds from:
+	- cleaner
+	- cmer
+	- kpgmobs
+	- slingshot
+	- sneeker
+	- trampoline
