@@ -18,6 +18,7 @@ As of right now, only sounds from *default* mod have been added.
 
 | Filename             | Author             | License      | Source                       |
 | -------------------- | ------------------ | ------------ | ---------------------------- |
+| sounds_apple_bite    | sonicmariobrotha   | CC0          | [freesound.org][fs.333825]   |
 | sounds_break_glass.1 | cmusounddesign     | CC BY 3.0    | [freesound.org][fs.71947]    |
 | sounds_break_glass.2 | Tomlija            | CC BY 3.0    | [freesound.org][fs.97669]    |
 | sounds_break_glass.3 | lsprice            | CC BY 3.0    | [freesound.org][fs.88808]    |
@@ -33,6 +34,12 @@ As of right now, only sounds from *default* mod have been added.
 | sounds_dug_metal.*   | qubodup            | CC0          | [opengameart.org][oga.18150] |
 | sounds_dug_node.*    | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
 | sounds_entity_hit    | sonictechtonic     | CC BY 3.0    | [freesound.org][fs.241872]   |
+| sounds_gallop_01     | Alan McKinney (alanmcki) | CC BY 3.0 | [freesound.org][403026]   |
+| sounds_gallop_02     | Alan McKinney (alanmcki) | CC BY 3.0 | [freesound.org][403025]   |
+| sounds_horse_neigh_01 | GoodListener      | CC BY 3.0    | [freesound.org][322443]      |
+| sounds_horse_neigh_02 | foxen10           | CC0          | [freesound.org][149024]      |
+| sounds_horse_snort_01 | madklown          | CC0          | [freesound.org][184503]      |
+| sounds_horse_snort_02 | 0_ciz             | CC0          | [freesound.org][475480]      |
 | sounds_step_dirt.*   | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
 | sounds_step_glass    | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
 | sounds_step_grass.*  | Mito551            | CC BY-SA 3.0 | [minetest_game][default]     |
@@ -92,14 +99,21 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [fs.88808]: https://freesound.org/people/lsprice/sounds/88808
 [fs.94337]: https://freesound.org/people/Ryding/sounds/94337
 [fs.97669]: https://freesound.org/people/Tomlija/sounds/97669
+[fs.149024]: https://freesound.org/people/foxen10/sounds/149024/
 [fs.179341]: https://freesound.org/people/lolamadeus/sounds/179341
+[fs.184503]: https://freesound.org/people/madklown/sounds/184503/
 [fs.241872]: https://freesound.org/people/sonictechtonic/sounds/241872
 [fs.251660]: https://freesound.org/people/blukotek/sounds/251660
 [fs.268023]: https://freesound.org/people/dheming/sounds/268023
 [fs.319224]: https://freesound.org/people/worthahep88/sounds/319224
 [fs.320397]: https://freesound.org/people/yadronoff/sounds/320397
+[fs.322443]: https://freesound.org/people/GoodListener/sounds/322443/
+[fs.333825]: https://freesound.org/people/sonicmariobrotha/sounds/333825/
 [fs.398937]: https://freesound.org/people/mypantsfelldown/sounds/398937
+[fs.403025]: https://freesound.org/people/alanmcki/sounds/403025/
+[fs.403026]: https://freesound.org/people/alanmcki/sounds/403026/
 [fs.416967]: https://freesound.org/people/InspectorJ/sounds/416967
+[fs.475480]: https://freesound.org/people/o_ciz/sounds/475480/
 [fs.476113]: https://freesound.org/people/Sheyvan/sounds/476113
 [oga.3511]: https://opengameart.org/node/3511
 [oga.18150]: https://opengameart.org/node/18150
