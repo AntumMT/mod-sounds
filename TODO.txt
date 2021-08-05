@@ -13,4 +13,3 @@ TODO:
 	- kpgmobs
 	- slingshot
 	- sneeker
-	- trampoline
