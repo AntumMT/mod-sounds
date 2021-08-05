@@ -9,7 +9,6 @@ TODO:
 	- tool breaks
 	- lava cool
 - add sounds from:
-	- cleaner
 	- cmer
 	- kpgmobs
 	- slingshot
