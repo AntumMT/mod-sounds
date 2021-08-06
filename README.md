@@ -123,6 +123,6 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [sand_step]: https://freesound.org/s/319224/
 [snow_step]: https://freesound.org/s/94337/
 [step_hard]: https://freesound.org/s/41579/
-[water.1_step]: https://freesound.org/s/20432/
-[water.2_step]: https://freesound.org/s/20434/
-[water.3_step]: https://freesound.org/s/20437/
+[water_step.1]: https://freesound.org/s/20432/
+[water_step.2]: https://freesound.org/s/20434/
+[water_step.3]: https://freesound.org/s/20437/
