@@ -1,0 +1,625 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Sound Pack for Minetest</title>
+    <link rel="stylesheet" href="ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>sounds</h1>
+
+
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><strong>node.lua</strong></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>node.lua</code></h1>
+<p>Node sounds.</p>
+<p>
+
+</p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node">sounds.node ([tbl])</a></td>
+	<td class="summary">General sounds.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_choppy">sounds.node_choppy ([tbl])</a></td>
+	<td class="summary">Sounds for "choppy" objects &amp; tools.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_cracky">sounds.node_cracky ([tbl])</a></td>
+	<td class="summary">Sounds for "cracky" objects &amp; tools.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_crumbly">sounds.node_crumbly ([tbl])</a></td>
+	<td class="summary">Sounds for "crumbly" objects &amp; tools.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_snappy">sounds.node_snappy ([tbl])</a></td>
+	<td class="summary">Sounds for "snappy" objects &amp; tools.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_dirt">sounds.node_dirt ([tbl])</a></td>
+	<td class="summary">Sounds for dirt-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_glass">sounds.node_glass ([tbl])</a></td>
+	<td class="summary">Sounds for glass-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_grass">sounds.node_grass ([tbl])</a></td>
+	<td class="summary">Sounds for grass-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_gravel">sounds.node_gravel ([tbl])</a></td>
+	<td class="summary">Sounds for gravel-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_ice">sounds.node_ice ([tbl])</a></td>
+	<td class="summary">Sounds for ice-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_leaves">sounds.node_leaves ([tbl])</a></td>
+	<td class="summary">Sounds for leaf-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_metal">sounds.node_metal ([tbl])</a></td>
+	<td class="summary">Sounds for metal-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_sand">sounds.node_sand ([tbl])</a></td>
+	<td class="summary">Sounds for sand-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_snow">sounds.node_snow ([tbl])</a></td>
+	<td class="summary">Sounds for snow-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_stone">sounds.node_stone ([tbl])</a></td>
+	<td class="summary">Sounds for stone-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_water">sounds.node_water ([tbl])</a></td>
+	<td class="summary">Sounds for water-like nodes.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.node_wood">sounds.node_wood ([tbl])</a></td>
+	<td class="summary">Sounds for wood-like nodes.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "sounds.node"></a>
+    <strong>sounds.node ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>General sounds. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_choppy"></a>
+    <strong>sounds.node_choppy ([tbl])</strong>
+    </dt>
+    <dd>
+    Sounds for "choppy" objects &amp; tools.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_cracky"></a>
+    <strong>sounds.node_cracky ([tbl])</strong>
+    </dt>
+    <dd>
+    Sounds for "cracky" objects &amp; tools.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_crumbly"></a>
+    <strong>sounds.node_crumbly ([tbl])</strong>
+    </dt>
+    <dd>
+    Sounds for "crumbly" objects &amp; tools.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_snappy"></a>
+    <strong>sounds.node_snappy ([tbl])</strong>
+    </dt>
+    <dd>
+    Sounds for "snappy" objects &amp; tools.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_dirt"></a>
+    <strong>sounds.node_dirt ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for dirt-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_dirt_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_glass"></a>
+    <strong>sounds.node_glass ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for glass-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_glass_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_grass"></a>
+    <strong>sounds.node_grass ([tbl])</strong>
+    </dt>
+    <dd>
+    Sounds for grass-like nodes.
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_gravel"></a>
+    <strong>sounds.node_gravel ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for gravel-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_gravel_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_ice"></a>
+    <strong>sounds.node_ice ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for ice-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_ice_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_leaves"></a>
+    <strong>sounds.node_leaves ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for leaf-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_leaves_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_metal"></a>
+    <strong>sounds.node_metal ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for metal-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_metal_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_sand"></a>
+    <strong>sounds.node_sand ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for sand-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_sand_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_snow"></a>
+    <strong>sounds.node_snow ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for snow-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_snow_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_stone"></a>
+    <strong>sounds.node_stone ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for stone-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_stone_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_water"></a>
+    <strong>sounds.node_water ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for water-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_water_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.node_wood"></a>
+    <strong>sounds.node_wood ([tbl])</strong>
+    </dt>
+    <dd>
+
+<p>Sounds for wood-like nodes. </p>
+
+<p>  Aliased or overridden methods:</p>
+
+<ul>
+    <li><code>default.node_sound_wood_defaults</code></li>
+</ul>
+
+
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">tbl</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound table to update.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/AntumDeluge/LDoc/tree/custom">LDoc 1.4.6-antum-dev</a></i>
+<i style="float:right;">Last updated 2021-08-06 21:38:04 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>
