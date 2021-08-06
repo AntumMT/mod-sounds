@@ -67,6 +67,19 @@ end
 -- END:
 
 
+local function format_string(value, flags)
+	local st = '<span style="'
+	if flags.color then
+		st = st .. 'color:' .. flags.color .. ';'
+	end
+	if flags.size then
+		st = st .. 'font-size:' .. flags.size .. ';'
+	end
+
+	return st .. '">' .. value:gsub("_", "\\_") .. '</span>'
+end
+
+
 local function format_setting_tag(desc, value)
 	return "\n- <span style=\"font-size:80%;\">`" .. desc .. ":`</span> `" .. value .. "`"
 end
@@ -161,12 +174,26 @@ local function chatcmd_handler(item)
 	return item
 end
 
+local function sndgroup_handler(item)
+	if item.tags.snd then
+		item.description = item.description .. "\n\n**Sounds:**\n"
+		for _, s in ipairs(item.tags.snd) do
+			item.description = item.description
+				.. "\n- " .. format_string(s, {size="80%", color="darkgreen"})
+		end
+	end
+
+	return item
+end
+
 function custom_display_name_handler(item, default_handler)
 	if not is_registered(item) then
 		if item.type == "setting" then
 			item = setting_handler(item)
 		elseif item.type == "chatcmd" then
 			item = chatcmd_handler(item)
+		elseif item.type == "sndgroup" then
+			item = sndgroup_handler(item)
 		end
 
 		local parse_tags = {"priv", "note"}
@@ -202,6 +229,7 @@ local custom_see_links = {
 	["groups"] = "https://minetest.gitlab.io/minetest/groups/",
 	["entity_damage_mechanism"] = "https://minetest.gitlab.io/minetest/entity-damage-mechanism/",
 	["vector"] = "https://minetest.gitlab.io/minetest/representations-of-simple-things/#positionvector",
+	["SoundParams"] = "https://minetest.gitlab.io/minetest/sounds/",
 }
 
 local function format_custom_see(name, section)
@@ -244,4 +272,8 @@ end)
 
 custom_see_handler("^(vector)$", function(name, section)
 	return name, "https://minetest.gitlab.io/minetest/representations-of-simple-things/#positionvector"
+end)
+
+custom_see_handler("^(SoundParams)$", function(name, section)
+	return format_custom_see(name, section)
 end)

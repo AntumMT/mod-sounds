@@ -19,6 +19,19 @@ local rand = PcgRandom(os.time())
 --  @tparam string name Sound file without .ogg suffix.
 --  @tparam[opt] SoundParams sp Sound parameters.
 --  @treturn bool `true` if sound is available to be played.
+--  @usage
+--  -- create new sound groups
+--  local s_group1 = SoundGroup:new({"sound1", "sound2"})
+--  local s_group2 = SoundGroup:new({"modname_sound1", "modname_sound2", no_prepend=true})
+--
+--  -- play sound at index
+--  s_group1:play(2)
+--
+--  -- play random sound from group
+--  s_group1:play()
+--
+--  -- play sound with parameters
+--  s_group1:play(1, {gain=1.0, max_hear_distance=100})
 sounds.play = function(self, name, sp)
 	local s_type = type(name)
 	if s_type ~= "string" then
@@ -43,6 +56,10 @@ sounds.play = function(self, name, sp)
 	return true
 end
 
+
+--- Objects
+--
+--  @section objects
 
 --- Sound Group.
 --
@@ -138,9 +155,14 @@ SoundGroup = {
 }
 
 
+--- Pre-defined sound groups
+--
+--  @section groups
+
 --- Bite sounds.
 --
 --  @sndgroup sounds.bite
+--  @snd apple_bite
 sounds.bite = SoundGroup:new({
 	"apple_bite",
 })
@@ -148,6 +170,7 @@ sounds.bite = SoundGroup:new({
 --- Bounce sounds.
 --
 --  @sndgroup sounds.bounce
+--  @snd boing
 sounds.bounce = SoundGroup:new({
 	"boing",
 })
@@ -155,6 +178,7 @@ sounds.bounce = SoundGroup:new({
 --- Entity hit sounds.
 --
 --  @sndgroup sounds.entity_hit
+--  @snd entity_hit
 sounds.entity_hit = SoundGroup:new({
 	"entity_hit",
 })
@@ -162,6 +186,7 @@ sounds.entity_hit = SoundGroup:new({
 --- Explosion sounds.
 --
 --  @sndgroup sounds.explosion
+--  @snd explosion
 sounds.explosion = SoundGroup:new({
 	"explosion",
 })
@@ -169,6 +194,7 @@ sounds.explosion = SoundGroup:new({
 --- Fuse sounds.
 --
 --  @sndgroup sounds.fuse
+--  @snd fuse
 sounds.fuse = SoundGroup:new({
 	"fuse",
 })
@@ -176,6 +202,8 @@ sounds.fuse = SoundGroup:new({
 --- Gallop sounds.
 --
 --  @sndgroup sounds.gallop
+--  @snd gallop_01
+--  @snd gallop_02
 sounds.gallop = SoundGroup:new({
 	"gallop_01",
 	"gallop_02",
@@ -184,6 +212,8 @@ sounds.gallop = SoundGroup:new({
 --- Horse neigh sounds.
 --
 --  @sndgroup sounds.horse_neigh
+--  @snd horse_neigh_01
+--  @snd horse_neigh_02
 sounds.horse_neigh = SoundGroup:new({
 	"horse_neigh_01",
 	"horse_neigh_02",
@@ -192,6 +222,8 @@ sounds.horse_neigh = SoundGroup:new({
 --- Horse snort sounds.
 --
 --  @sndgroup sounds.horse_snort
+--  @snd horse_snort_01
+--  @snd horse_snort_02
 sounds.horse_snort = SoundGroup:new({
 	"horse_snort_01",
 	"horse_snort_02",
@@ -200,6 +232,8 @@ sounds.horse_snort = SoundGroup:new({
 --- Pencil sounds.
 --
 --  @sndgroup sounds.pencil
+--  @snd pencil_erase
+--  @snd pencil_write
 sounds.pencil = SoundGroup:new({
 	"pencil_erase",
 	"pencil_write",

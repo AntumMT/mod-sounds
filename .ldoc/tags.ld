@@ -71,6 +71,10 @@ local new_tags = {
 		title = "Parameters",
 		hidden = true,
 	},
+	-- sounds
+	["snd"] = {
+		hidden = true,
+	},
 }
 
 for k, v in pairs(new_tags) do
