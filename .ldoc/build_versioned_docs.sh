@@ -69,7 +69,8 @@ for vinfo in $(git tag -l --sort=-v:refname | grep "^v[0-9]"); do
 	mv "${d_temp}" "${d_export}/${vinfo}"
 	if test -z ${vcur+x}; then
 		vcur="${vinfo}"
-		cp -r "${d_export}/${vinfo}" "${d_export}/current"
+		ln -s "${d_export}/${vinfo}" "${d_export}/current"
+		ln -s "${d_export}/${vinfo}" "${d_export}/latest"
 		html_out="${html_out}  <li><a href=\"current/\">current</a></li>\n"
 	fi
 	html_out="${html_out}  <li><a href=\"${vinfo}/\">${vinfo}</a></li>\n"
