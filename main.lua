@@ -166,6 +166,13 @@ sounds.explosion = SoundGroup:new({
 	"explosion",
 })
 
+--- Fuse sounds.
+--
+--  @sndgroup sounds.fuse
+sounds.fuse = SoundGroup:new({
+	"fuse",
+})
+
 --- Gallop sounds.
 --
 --  @sndgroup sounds.gallop

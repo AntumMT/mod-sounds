@@ -27,6 +27,7 @@ As of right now, only sounds from *default* mod have been added.
 | [dirt_step.*][default]       | Mito551                  | CC BY-SA 3.0 |                         |
 | [entity_hit][]               | sonictechtonic           | CC BY 3.0    |                         |
 | [explosion][]                | JuveriSetila             | CC0          |                         |
+| [fuse][]                     | Ned Bouhalassa           | CC0          |                         |
 | [gallop_01][]                | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
 | [gallop_02][]                | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
 | [glass_break.1][]            | cmusounddesign           | CC BY 3.0    |                         |
@@ -104,6 +105,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [dig_snappy]: https://freesound.org/s/251660/
 [entity_hit]: https://freesound.org/s/241872/
 [explosion]: https://freesound.org/s/514133/
+[fuse]: https://freesound.org/s/8320/
 [gallop_01]: https://freesound.org/s/403026/
 [gallop_02]: https://freesound.org/s/403025/
 [gravel_dig]: https://freesound.org/s/179341/
