@@ -1,7 +1,7 @@
 
---- Node sounds.
+--- Node Sounds
 --
---  @module node.lua
+--  @topic node
 
 
 --- General sounds.
@@ -10,16 +10,20 @@
 --
 --  - `default.node_sound_defaults`
 --
+--  @function sounds.node
 --  @tparam[opt] table tbl Sound table to update.
-function sounds.node(tbl)
-	tbl = tbl or {}
+local node_sounds = {
+	__call = function(self, tbl)
+		tbl = tbl or {}
 
-	tbl.footstep = tbl.footstep or {name="", gain=1.0}
-	tbl.dug = tbl.dug or {name="sounds_node_dug", gain=0.25}
-	tbl.place = tbl.place or {name="sounds_node_place", gain=1.0}
+		tbl.footstep = tbl.footstep or {name="", gain=1.0}
+		tbl.dug = tbl.dug or {name="sounds_node_dug", gain=0.25}
+		tbl.place = tbl.place or {name="sounds_node_place", gain=1.0}
 
-	return tbl
-end
+		return tbl
+	end,
+}
+setmetatable(sounds.node, node_sounds)
 
 --- Sounds for "choppy" objects & tools.
 --
