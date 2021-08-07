@@ -96,12 +96,23 @@ SoundGroup = {
 			end
 
 			def.__init = {
+				-- execute "play" methode when called directly
 				__call = self.play,
+
+				-- allow arithmetic operation to join groups
+				__add = function(self, g1)
+					local new_group = SoundGroup(self)
+					for _, snd in ipairs(g1) do
+						table.insert(new_group, snd)
+					end
+
+					return new_group
+				end,
 			}
 			setmetatable(def, def.__init)
 
 			return def
-		end
+		end,
 	},
 
 	--- Creates a new sound definition (deprecated).
