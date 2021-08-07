@@ -5,6 +5,7 @@ next
 - added sounds:
 	- apple_bite
 	- bounce
+	- cow_moo
 	- explosion
 	- fuse
 	- gallop

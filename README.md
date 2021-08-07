@@ -20,6 +20,7 @@ As of right now, only sounds from *default* mod have been added.
 | ---------------------------- | ------------------------ | ------------ | ----------------------- |
 | [apple_bite][]               | sonicmariobrotha         | CC0          |                         |
 | [boing][]                    | reelworldstudio          | CC0          |                         |
+| [cow_moo*][cow_moo]          | JosephSardin             | CC0          |                         |
 | [dig_choppy.*][dig_choppy]   | Sheyvan                  | CC0          |                         |
 | [dig_cracky.*][dig_cracky]   | Benboncan                | CC BY 3.0    |                         |
 | [dig_crumbly][default]       | Mito551                  | CC BY-SA 3.0 |                         |
@@ -97,6 +98,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 
 [apple_bite]: https://freesound.org/s/333825/
 [boing]: https://freesound.org/s/161122/
+[cow_moo]: https://freesound.org/s/177253/
 [glass_break.1]: https://freesound.org/s/71947/
 [glass_break.2]: https://freesound.org/s/97669/
 [glass_break.3]: https://freesound.org/s/88808/
