@@ -20,7 +20,6 @@ TODO:
 	- camel
 	- monkey / chimp
 	- dolphin
-	- elephant
 	- frog
 	- goat
 	- bear

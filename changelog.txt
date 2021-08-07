@@ -5,11 +5,12 @@ next
 - added sounds:
 	- apple_bite
 	- bird
-	- cat_meow
-	- dog_bark
 	- bounce
+	- cat_meow
 	- coins
 	- cow_moo
+	- dog_bark
+	- elephant
 	- explosion
 	- fuse
 	- gallop

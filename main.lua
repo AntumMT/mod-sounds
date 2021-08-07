@@ -283,6 +283,14 @@ sounds.dog_bark = SoundGroup({
 	"dog_bark",
 })
 
+--- Elephant sounds.
+--
+--  @sndgroup sounds.elephant
+--  @snd elephant
+sounds.elephant = SoundGroup({
+	"elephant",
+})
+
 --- Entity hit sounds.
 --
 --  @sndgroup sounds.entity_hit

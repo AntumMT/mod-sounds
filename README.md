@@ -30,6 +30,7 @@ As of right now, only sounds from *default* mod have been added.
 | [dig_snappy][]               | blukotek                 | CC0          |                         |
 | [dirt_step.*][default]       | Mito551                  | CC BY-SA 3.0 |                         |
 | [dog_bark][]                 | ivolipa                  | CC0          |                         |
+| [elephant][]                 | vataaa                   | CC0          |                         |
 | [entity_hit][]               | sonictechtonic           | CC BY 3.0    |                         |
 | [explosion][]                | JuveriSetila             | CC0          |                         |
 | [fuse][]                     | Ned Bouhalassa           | CC0          |                         |
@@ -117,6 +118,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [dig_choppy]: https://freesound.org/s/476113/
 [dig_cracky]: https://freesound.org/s/71823/
 [dig_snappy]: https://freesound.org/s/251660/
+[elephant]: https://freesound.org/s/148873/
 [entity_hit]: https://freesound.org/s/241872/
 [explosion]: https://freesound.org/s/514133/
 [fuse]: https://freesound.org/s/8320/
