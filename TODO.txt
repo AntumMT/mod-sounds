@@ -12,4 +12,3 @@ TODO:
 	- cmer
 	- kpgmobs
 	- slingshot
-	- sneeker
