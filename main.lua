@@ -188,6 +188,36 @@ SoundGroup = {
 
 		return sounds:play(selected, sp)
 	end,
+
+	--- Retrieves sounds names in group.
+	--
+	--  If `idx` is supplied, a `string` or `nil` is returned. If
+	--  there is only one sound in the group, the `string` name of
+	--  that sound is returned. Otherwise, a table is returned with
+	--  all sound file names.
+	--
+	--  @function SoundGroup:get
+	--  @tparam[opt] int idx Sound index.
+	--  @return `string` or `table` containing sound file names.
+	get = function(self, idx)
+		local count = self:count()
+		if count == 0 then return end
+
+		if type(idx) == "number" then
+			return self[idx]
+		end
+
+		if count == 1 then
+			return self[1]
+		end
+
+		local all_sounds = {}
+		for _, snd in ipairs(self) do
+			table.insert(all_sounds, snd)
+		end
+
+		return all_sounds
+	end,
 }
 setmetatable(SoundGroup, SoundGroup.__init)
 
