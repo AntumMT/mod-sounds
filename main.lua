@@ -82,15 +82,23 @@ SoundGroup = {
 	--
 	--  -- play random sound with parameters
 	--  s_group1:play({gain=1.0, max_hear_distance=100})
+	--
+	--  -- calling a SoundGroup instance is the same as executing the "play" method
+	--  s_group(1, {gain=1.0, max_hear_distance=100})
 	__init = {
 		__call = function(self, def)
 			def = def or {}
 
 			for k, v in pairs(self) do
-				if k ~= "new" and def[k] == nil then
+				if k ~= "new" and k ~= "__init" and def[k] == nil then
 					def[k] = v
 				end
 			end
+
+			def.__init = {
+				__call = self.play,
+			}
+			setmetatable(def, def.__init)
 
 			return def
 		end
