@@ -37,11 +37,11 @@ core.register_on_mods_loaded(function()
 	for _, modname in ipairs(core.get_modnames()) do
 		local s_dir = core.get_modpath(modname) .. "/sounds"
 		for _, ogg in ipairs(core.get_dir_list(s_dir, false)) do
-			if ogg:find(".ogg$") then
-				local basename = ogg:gsub(".ogg$", "")
+			if ogg:find("%.ogg$") then
+				local basename = ogg:gsub("%.ogg$", "")
 				-- files for playing randomly by core must have suffix trimmed
-				if basename:find(".[0-9]$") then
-					basename = basename:gsub(".[0-9]$", "")
+				if basename:find("%.[0-9]$") then
+					basename = basename:gsub("%.[0-9]$", "")
 				end
 
 				sounds.cache[basename] = true
