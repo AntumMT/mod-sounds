@@ -18,20 +18,12 @@ local rand = PcgRandom(os.time())
 --  @function sounds:play
 --  @tparam string name Sound file without .ogg suffix.
 --  @tparam[opt] SoundParams sp Sound parameters.
---  @treturn bool `true` if sound is available to be played.
+--  @treturn list `bool` ***true*** if sound played & `int` sound handle.
 --  @usage
---  -- create new sound groups
---  local s_group1 = SoundGroup({"sound1", "sound2"})
---  local s_group2 = SoundGroup({"modname_sound1", "modname_sound2", no_prepend=true})
---
---  -- play sound at index
---  s_group1:play(2)
---
---  -- play random sound from group
---  s_group1:play()
---
---  -- play sound with parameters
---  s_group1:play(1, {gain=1.0, max_hear_distance=100})
+--  local ret, handle = sounds:play("sound1", {gain=1.0})
+--  if ret then
+--    print("Sound handle: " .. handle)
+--  end
 sounds.play = function(self, name, sp)
 	local s_type = type(name)
 	if s_type ~= "string" then
@@ -53,7 +45,7 @@ sounds.play = function(self, name, sp)
 	-- TODO: register check to see if sound is still playing & remove from "playing" list
 	--playing[s_handle] = name
 
-	return true
+	return true, s_handle
 end
 
 
@@ -74,6 +66,22 @@ SoundGroup = {
 	--  @function SoundGroup
 	--  @tparam table def Sound definition.
 	--  @treturn SoundGroup Sound group definition table.
+	--  @usage
+	--  -- create new sound groups
+	--  local s_group1 = SoundGroup({"sound1", "sound2"})
+	--  local s_group2 = SoundGroup({"modname_sound1", "modname_sound2", no_prepend=true})
+	--
+	--  -- play sound at index
+	--  s_group1:play(2)
+	--
+	--  -- play random sound from group
+	--  s_group1:play()
+	--
+	--  -- play sound at index with parameters
+	--  s_group1:play(1, {gain=1.0, max_hear_distance=100})
+	--
+	--  -- play random sound with parameters
+	--  s_group1:play({gain=1.0, max_hear_distance=100})
 	__init = {
 		__call = function(self, def)
 			def = def or {}
@@ -87,6 +95,7 @@ SoundGroup = {
 			return def
 		end
 	},
+
 	--- Creates a new sound definition (deprecated).
 	--
 	--  Deprecated: Use ***SoundGroup()***.
@@ -123,7 +132,13 @@ SoundGroup = {
 	--  @function SoundGroup:play
 	--  @tparam[opt] int idx Sound index.
 	--  @tparam[opt] SoundParams sp Sound parameters.
+	--  @treturn list `bool` ***true*** if sound played & `int` sound handle.
 	--  @note idx & sp parameters positions can be switched.
+	--  @usage
+	--  local ret, handle = SoundGroup:play(2, {gain=1.0})
+	--  if ret then
+	--    print("Sound handle: " .. handle)
+	--  end
 	play = function(self, idx, sp)
 		local s_count = self:count()
 		if s_count < 1 then
@@ -169,7 +184,7 @@ SoundGroup = {
 setmetatable(SoundGroup, SoundGroup.__init)
 
 
---- Pre-defined sound groups
+--- Pre-defined Sound Groups
 --
 --  @section groups
 
