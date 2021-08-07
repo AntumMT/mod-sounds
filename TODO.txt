@@ -9,7 +9,71 @@ TODO:
 	- hit/damage
 	- tool breaks
 	- lava cool
+	- cat
+	- chicken
+	- sheep
+	- skeleton
+	- zombie
+	- bee
+	- rat / mouse
+	- wind
+	- tree
+	- leaves
+	- duck
+	- bat
+	- camel
+	- monkey / chimp
+	- dolphin
+	- elephant
+	- frog
+	- goat
+	- bear
+	- leopard
+	- lion
+	- tiger
+	- lamb
+	- parrot
+	- penguin
+	- pig
+	- dog
+	- puppy
+	- squirrel
+	- toucan
+	- wolf
+	- coyote
+	- bird
+	- quail
+	- airplane
+	- car
+	- motorcycle
+	- bicycle
+	- clock
+	- fire
+	- grasshopper
+	- cricket
+	- raccoon
+	- train
+	- rain
+	- ticking bomb
+	- zipper
+	- jaguar
+	- gorilla
+	- owl
+	- rooster
+	- vulture
+	- whale
+	- zebra
+	- piano
+	- whistle
+	- inflate
+	- pop
+	- gas motor / generator
+	- chalk
+	- horn
+	- creak
+	- door open
+	- door close
+	- door slam
 - add sounds from:
 	- cmer
-	- kpgmobs
 	- slingshot
