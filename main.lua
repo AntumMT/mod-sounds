@@ -167,7 +167,7 @@ SoundGroup = {
 			if s_count == 1 then
 				idx = 1
 			else
-				idx = rand.next(1, s_count)
+				idx = rand:next(1, s_count)
 			end
 		end
 
