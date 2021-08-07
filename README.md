@@ -33,6 +33,7 @@ As of right now, only sounds from *default* mod have been added.
 | [elephant][]                 | vataaa                   | CC0          |                         |
 | [entity_hit][]               | sonictechtonic           | CC BY 3.0    |                         |
 | [explosion][]                | JuveriSetila             | CC0          |                         |
+| [frog][]                     | kayceemixer              | CC0          |                         |
 | [fuse][]                     | Ned Bouhalassa           | CC0          |                         |
 | [gallop_01][]                | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
 | [gallop_02][]                | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
@@ -121,6 +122,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [elephant]: https://freesound.org/s/148873/
 [entity_hit]: https://freesound.org/s/241872/
 [explosion]: https://freesound.org/s/514133/
+[frog]: https://freesound.org/s/251495/
 [fuse]: https://freesound.org/s/8320/
 [gallop_01]: https://freesound.org/s/403026/
 [gallop_02]: https://freesound.org/s/403025/

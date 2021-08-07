@@ -307,6 +307,14 @@ sounds.explosion = SoundGroup({
 	"explosion",
 })
 
+--- Frog sounds.
+--
+--  @sndgroup sounds.frog
+--  @snd frog
+sounds.frog = SoundGroup({
+	"frog",
+})
+
 --- Fuse sounds.
 --
 --  @sndgroup sounds.fuse
