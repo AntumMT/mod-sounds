@@ -1,7 +1,22 @@
 
+next
+----
+- added API object "SoundGroup" for creating & playing sound groups
+- added sounds:
+	- apple_bite
+	- bounce
+	- explosion
+	- fuse
+	- gallop
+	- horse_neigh
+	- horse_snort
+	- pencil
+
+
 v1.1
 ----
 - added entity hit sound from default mod
+
 
 v1.0
 ----
