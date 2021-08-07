@@ -330,6 +330,14 @@ sounds.pencil = SoundGroup({
 	"pencil_write",
 })
 
+--- Quail sounds.
+--
+--  @sndgroup sounds.quail
+--  @snd quail
+sounds.quail = SoundGroup({
+	"quail",
+})
+
 sounds.node = {
 	["break"] = {
 		glass = SoundGroup({"glass_break"}),
