@@ -10,7 +10,6 @@ TODO:
 	- lava cool
 	- cat
 	- chicken
-	- skeleton
 	- zombie
 	- bee
 	- rat / mouse

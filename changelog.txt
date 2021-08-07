@@ -17,6 +17,7 @@ next
 	- quail
 	- rooster
 	- sheep
+	- skeleton_bones
 
 
 v1.1

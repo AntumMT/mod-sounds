@@ -362,6 +362,14 @@ sounds.sheep = SoundGroup({
 	"sheep",
 })
 
+--- Skeleton sounds.
+--
+--  @sndgroup sounds.skeleton
+--  @snd skeleton_bones
+sounds.skeleton = SoundGroup({
+	"skeleton_bones",
+})
+
 sounds.node = {
 	["break"] = {
 		glass = SoundGroup({"glass_break"}),

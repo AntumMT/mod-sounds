@@ -60,6 +60,7 @@ As of right now, only sounds from *default* mod have been added.
 | [rooster][]                  | poorenglishjuggler       | CC0          |                         |
 | [sand_step.*][sand_step]     | worthahep88              | CC0          |                         |
 | [sheep][]                    | mikewest                 | CC0          |                         |
+| [skeleton_bones][]           | AntumDeluge              | CC0          |                         |
 | [snow_step.*][snow_step]     | Ryding                   | CC0          |                         |
 | [step_hard.*][step_hard]     | Erdie                    | CC BY 3.0    |                         |
 | [water_step.1][]             | AGFX                     | CC BY 3.0    |                         |
@@ -135,6 +136,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [rooster]: https://freesound.org/s/269496/
 [sand_step]: https://freesound.org/s/319224/
 [sheep]: https://freesound.org/s/414342/
+[skeleton_bones]: https://opengameart.org/node/16324
 [snow_step]: https://freesound.org/s/94337/
 [step_hard]: https://freesound.org/s/41579/
 [water_step.1]: https://freesound.org/s/20432/
