@@ -34,9 +34,9 @@
 
 <h2>Contents</h2>
 <ul>
-<li><a href="#Sound_Groups">Sound Groups</a></li>
 <li><a href="#Functions">Functions</a></li>
-<li><a href="#Tables">Tables</a></li>
+<li><a href="#Objects">Objects </a></li>
+<li><a href="#Pre_defined_Sound_Groups">Pre-defined Sound Groups </a></li>
 </ul>
 
 
@@ -57,8 +57,42 @@
 </p>
 
 
-<h2><a href="#Sound_Groups">Sound Groups</a></h2>
+<h2><a href="#Functions">Functions</a></h2>
 <table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#sounds:play">sounds:play (name[, sp])</a></td>
+	<td class="summary">Plays a sound.</td>
+	</tr>
+</table>
+<h2><a href="#Objects">Objects </a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup">SoundGroup</a></td>
+	<td class="summary">Sound Group.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup">SoundGroup (def)</a></td>
+	<td class="summary">Constructor.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup:count">SoundGroup:count ()</a></td>
+	<td class="summary">Retrieves number of sounds in group.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup:play">SoundGroup:play ([idx[, sp]])</a></td>
+	<td class="summary">Plays a sound from the group.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup:get">SoundGroup:get ([idx])</a></td>
+	<td class="summary">Retrieves sounds names in group.</td>
+	</tr>
+</table>
+<h2><a href="#Pre_defined_Sound_Groups">Pre-defined Sound Groups </a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#sounds.bird">sounds.bird</a></td>
+	<td class="summary">Bird sounds.</td>
+	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#sounds.bite">sounds.bite</a></td>
 	<td class="summary">Bite sounds.</td>
@@ -68,12 +102,40 @@
 	<td class="summary">Bounce sounds.</td>
 	</tr>
 	<tr>
+	<td class="name" nowrap><a href="#sounds.cat_meow">sounds.cat_meow</a></td>
+	<td class="summary">Cat meow sounds.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.coin">sounds.coin</a></td>
+	<td class="summary">Coin sounds.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.cow_moo">sounds.cow_moo</a></td>
+	<td class="summary">Cow moo sounds.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.dog_bark">sounds.dog_bark</a></td>
+	<td class="summary">Dog bark sounds.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.elephant">sounds.elephant</a></td>
+	<td class="summary">Elephant sounds.</td>
+	</tr>
+	<tr>
 	<td class="name" nowrap><a href="#sounds.entity_hit">sounds.entity_hit</a></td>
 	<td class="summary">Entity hit sounds.</td>
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#sounds.explosion">sounds.explosion</a></td>
 	<td class="summary">Explosion sounds.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.frog">sounds.frog</a></td>
+	<td class="summary">Frog sounds.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds.fuse">sounds.fuse</a></td>
+	<td class="summary">Fuse sounds.</td>
 	</tr>
 	<tr>
 	<td class="name" nowrap><a href="#sounds.gallop">sounds.gallop</a></td>
@@ -88,34 +150,28 @@
 	<td class="summary">Horse snort sounds.</td>
 	</tr>
 	<tr>
+	<td class="name" nowrap><a href="#sounds.horse">sounds.horse</a></td>
+	<td class="summary">Horse sounds.</td>
+	</tr>
+	<tr>
 	<td class="name" nowrap><a href="#sounds.pencil">sounds.pencil</a></td>
 	<td class="summary">Pencil sounds.</td>
 	</tr>
-</table>
-<h2><a href="#Functions">Functions</a></h2>
-<table class="function_list">
 	<tr>
-	<td class="name" nowrap><a href="#sounds:play">sounds:play (name[, sp])</a></td>
-	<td class="summary">Plays a sound.</td>
+	<td class="name" nowrap><a href="#sounds.quail">sounds.quail</a></td>
+	<td class="summary">Quail sounds.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#SoundGroup:new">SoundGroup:new (def)</a></td>
-	<td class="summary">Creates a new sound definition.</td>
+	<td class="name" nowrap><a href="#sounds.rooster">sounds.rooster</a></td>
+	<td class="summary">Rooster sounds.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#SoundGroup:count">SoundGroup:count ()</a></td>
-	<td class="summary">Retrieves number of sounds in group.</td>
+	<td class="name" nowrap><a href="#sounds.sheep">sounds.sheep</a></td>
+	<td class="summary">Sheep sounds.</td>
 	</tr>
 	<tr>
-	<td class="name" nowrap><a href="#SoundGroup:play">SoundGroup:play (idx, sp)</a></td>
-	<td class="summary">Plays a sound from the group.</td>
-	</tr>
-</table>
-<h2><a href="#Tables">Tables</a></h2>
-<table class="function_list">
-	<tr>
-	<td class="name" nowrap><a href="#SoundGroup">SoundGroup</a></td>
-	<td class="summary">Sound Group.</td>
+	<td class="name" nowrap><a href="#sounds.skeleton">sounds.skeleton</a></td>
+	<td class="summary">Skeleton sounds.</td>
 	</tr>
 </table>
 
@@ -123,186 +179,6 @@
 <br/>
 
 
-    <h2 class="section-header "><a name="Sound_Groups"></a>Sound Groups</h2>
-
-    <dl class="function">
-    <dt>
-    <a name = "sounds.bite"></a>
-    <strong>sounds.bite</strong>
-    </dt>
-    <dd>
-    Bite sounds.
-
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "sounds.bounce"></a>
-    <strong>sounds.bounce</strong>
-    </dt>
-    <dd>
-    Bounce sounds.
-
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "sounds.entity_hit"></a>
-    <strong>sounds.entity_hit</strong>
-    </dt>
-    <dd>
-    Entity hit sounds.
-
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "sounds.explosion"></a>
-    <strong>sounds.explosion</strong>
-    </dt>
-    <dd>
-    Explosion sounds.
-
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "sounds.gallop"></a>
-    <strong>sounds.gallop</strong>
-    </dt>
-    <dd>
-    Gallop sounds.
-
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "sounds.horse_neigh"></a>
-    <strong>sounds.horse_neigh</strong>
-    </dt>
-    <dd>
-    Horse neigh sounds.
-
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "sounds.horse_snort"></a>
-    <strong>sounds.horse_snort</strong>
-    </dt>
-    <dd>
-    Horse snort sounds.
-
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "sounds.pencil"></a>
-    <strong>sounds.pencil</strong>
-    </dt>
-    <dd>
-    Pencil sounds.
-
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-
-
-
-
-
-
-</dd>
-</dl>
     <h2 class="section-header "><a name="Functions"></a>Functions</h2>
 
     <dl class="function">
@@ -321,6 +197,7 @@
     </ul>
     </ul>
     </ul>
+    </ul>
 
     <h3>Parameters:</h3>
     <ul>
@@ -329,7 +206,7 @@
          Sound file without .ogg suffix.
         </li>
         <li><span class="parameter">sp</span>
-            <span class="types"><span class="type">SoundParams</span></span>
+            <span class="types"><a class="type" href="https://minetest.gitlab.io/minetest/sounds/">SoundParams</a></span>
          Sound parameters.
          (<em>optional</em>)
         </li>
@@ -338,21 +215,71 @@
     <h3>Returns:</h3>
     <ol>
 
-           <span class="types"><span class="type">bool</span></span>
-        <code>true</code> if sound is available to be played.
+           <span class="types"><span class="type">list</span></span>
+        <code>bool</code> <strong><em>true</em></strong> if sound played &amp; <code>int</code> sound handle.
     </ol>
+
+
+
+    <h3>Usage:</h3>
+    <ul>
+        <pre class="example"><span class="keyword">local</span> ret, handle = sounds:play(<span class="string">"sound1"</span>, {gain=<span class="number">1.0</span>})
+<span class="keyword">if</span> ret <span class="keyword">then</span>
+  <span class="global">print</span>(<span class="string">"Sound handle: "</span> .. handle)
+<span class="keyword">end</span></pre>
+    </ul>
+
+</dd>
+</dl>
+    <h2 class="section-header "><a name="Objects"></a>Objects </h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "SoundGroup"></a>
+    <strong>SoundGroup</strong>
+    </dt>
+    <dd>
+    Sound Group.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">count</span>
+            <span class="types"><a class="type" href="../topics/general.html#SoundGroup:count">SoundGroup:count</a></span>
+         Retrieves number of available sounds.
+        </li>
+        <li><span class="parameter">play</span>
+            <span class="types"><a class="type" href="../topics/general.html#SoundGroup:play">SoundGroup:play</a></span>
+         Plays indexed or random sound.
+        </li>
+        <li><span class="parameter">no_prepend</span>
+            <span class="types"><span class="type">bool</span></span>
+         If set to <code>true</code>, omits prepending "sounds_" to sound filenames when played.
+        </li>
+    </ul>
+
 
 
 
 
 </dd>
     <dt>
-    <a name = "SoundGroup:new"></a>
-    <strong>SoundGroup:new (def)</strong>
+    <a name = "SoundGroup"></a>
+    <strong>SoundGroup (def)</strong>
     </dt>
     <dd>
-    Creates a new sound definition.
+    Constructor.
 
+    </ul>
     </ul>
     </ul>
     </ul>
@@ -366,17 +293,39 @@
     <ul>
         <li><span class="parameter">def</span>
             <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
-         Definition.
+         Sound definition.
         </li>
     </ul>
 
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../topics/general.html#SoundGroup">SoundGroup</a></span>
+        Sound group definition table.
+    </ol>
 
 
 
     <h3>Usage:</h3>
     <ul>
-        <pre class="example"><span class="keyword">local</span> sdef1 = SoundGroup:new({<span class="string">"sound1"</span>, <span class="string">"sound2"</span>})
-  <span class="keyword">local</span> sdef2 = SoundGroup:new({<span class="string">"sound3"</span>, <span class="string">"sound4"</span>, no_prepend=<span class="keyword">true</span>})</pre>
+        <pre class="example"><span class="comment">-- create new sound groups
+</span><span class="keyword">local</span> s_group1 = SoundGroup({<span class="string">"sound1"</span>, <span class="string">"sound2"</span>})
+<span class="keyword">local</span> s_group2 = SoundGroup({<span class="string">"modname_sound1"</span>, <span class="string">"modname_sound2"</span>, no_prepend=<span class="keyword">true</span>})
+
+<span class="comment">-- play sound at index
+</span>s_group1:play(<span class="number">2</span>)
+
+<span class="comment">-- play random sound from group
+</span>s_group1:play()
+
+<span class="comment">-- play sound at index with parameters
+</span>s_group1:play(<span class="number">1</span>, {gain=<span class="number">1.0</span>, max_hear_distance=<span class="number">100</span>})
+
+<span class="comment">-- play random sound with parameters
+</span>s_group1:play({gain=<span class="number">1.0</span>, max_hear_distance=<span class="number">100</span>})
+
+<span class="comment">-- calling a SoundGroup instance directly is the same as executing the "play" method
+</span>s_group(<span class="number">1</span>, {gain=<span class="number">1.0</span>, max_hear_distance=<span class="number">100</span>})</pre>
     </ul>
 
 </dd>
@@ -387,6 +336,7 @@
     <dd>
     Retrieves number of sounds in group.
 
+    </ul>
     </ul>
     </ul>
     </ul>
@@ -412,7 +362,7 @@
 </dd>
     <dt>
     <a name = "SoundGroup:play"></a>
-    <strong>SoundGroup:play (idx, sp)</strong>
+    <strong>SoundGroup:play ([idx[, sp]])</strong>
     </dt>
     <dd>
 
@@ -425,10 +375,11 @@
 <h3>Notes:</h3>
 
 <ul>
-    <li><strong><em>*idx</em></strong> &amp; <strong><em>sp</em></strong> parameters positions can be switched.*</li>
+    <li><em>idx &amp; sp parameters positions can be switched.</em></li>
 </ul>
 
 
+    </ul>
     </ul>
     </ul>
     </ul>
@@ -443,28 +394,94 @@
         <li><span class="parameter">idx</span>
             <span class="types"><span class="type">int</span></span>
          Sound index.
+         (<em>optional</em>)
         </li>
         <li><span class="parameter">sp</span>
-            <span class="types"><span class="type">SoundParams</span></span>
+            <span class="types"><a class="type" href="https://minetest.gitlab.io/minetest/sounds/">SoundParams</a></span>
          Sound parameters.
+         (<em>optional</em>)
         </li>
     </ul>
 
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">list</span></span>
+        <code>bool</code> <strong><em>true</em></strong> if sound played &amp; <code>int</code> sound handle.
+    </ol>
+
+
+
+    <h3>Usage:</h3>
+    <ul>
+        <pre class="example"><span class="keyword">local</span> ret, handle = SoundGroup:play(<span class="number">2</span>, {gain=<span class="number">1.0</span>})
+<span class="keyword">if</span> ret <span class="keyword">then</span>
+  <span class="global">print</span>(<span class="string">"Sound handle: "</span> .. handle)
+<span class="keyword">end</span></pre>
+    </ul>
+
+</dd>
+    <dt>
+    <a name = "SoundGroup:get"></a>
+    <strong>SoundGroup:get ([idx])</strong>
+    </dt>
+    <dd>
+    Retrieves sounds names in group. </p>
+
+<p>  If <code>idx</code> is supplied, a <a href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a> or <code>nil</code> is returned. If
+  there is only one sound in the group, the <a href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a> name of
+  that sound is returned. Otherwise, a table is returned with
+  all sound file names.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">idx</span>
+            <span class="types"><span class="type">int</span></span>
+         Sound index.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        <a href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a> or <a href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a> containing sound file names.
+    </ol>
 
 
 
 
 </dd>
 </dl>
-    <h2 class="section-header "><a name="Tables"></a>Tables</h2>
+    <h2 class="section-header "><a name="Pre_defined_Sound_Groups"></a>Pre-defined Sound Groups </h2>
 
     <dl class="function">
     <dt>
-    <a name = "SoundGroup"></a>
-    <strong>SoundGroup</strong>
+    <a name = "sounds.bird"></a>
+    <strong>sounds.bird</strong>
     </dt>
     <dd>
-    Sound Group.
+
+<p>Bird sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">bird_01</span></li>
+    <li><span style="color:darkgreen;font-size:80%;">bird_02</span></li>
+    <li><span style="color:darkgreen;font-size:80%;">bird_03</span></li>
+</ul>
+
 
     </ul>
     </ul>
@@ -474,26 +491,627 @@
     </ul>
     </ul>
     </ul>
-
-    <h3>Fields:</h3>
-    <ul>
-        <li><span class="parameter">new</span>
-            <span class="types"><a class="type" href="../topics/general.html#SoundGroup:new">SoundGroup:new</a></span>
-         Constructor method.
-        </li>
-        <li><span class="parameter">count</span>
-            <span class="types"><a class="type" href="../topics/general.html#SoundGroup:count">SoundGroup:count</a></span>
-         Retrieves number of available sounds.
-        </li>
-        <li><span class="parameter">play</span>
-            <span class="types"><a class="type" href="../topics/general.html#SoundGroup:play">SoundGroup:play</a></span>
-         Plays indexed or random sound.
-        </li>
-        <li><span class="parameter">no_prepend</span>
-            <span class="types"><span class="type">bool</span></span>
-         If set to <code>true</code>, omits prepending "sounds_" to sound filenames when played.
-        </li>
     </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.bite"></a>
+    <strong>sounds.bite</strong>
+    </dt>
+    <dd>
+
+<p>Bite sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">apple_bite</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.bounce"></a>
+    <strong>sounds.bounce</strong>
+    </dt>
+    <dd>
+
+<p>Bounce sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">boing</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.cat_meow"></a>
+    <strong>sounds.cat_meow</strong>
+    </dt>
+    <dd>
+
+<p>Cat meow sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">cat_meow</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.coin"></a>
+    <strong>sounds.coin</strong>
+    </dt>
+    <dd>
+
+<p>Coin sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">coin</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.cow_moo"></a>
+    <strong>sounds.cow_moo</strong>
+    </dt>
+    <dd>
+
+<p>Cow moo sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">cow_moo_01</span></li>
+    <li><span style="color:darkgreen;font-size:80%;">cow_moo_02</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.dog_bark"></a>
+    <strong>sounds.dog_bark</strong>
+    </dt>
+    <dd>
+
+<p>Dog bark sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">dog_bark</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.elephant"></a>
+    <strong>sounds.elephant</strong>
+    </dt>
+    <dd>
+
+<p>Elephant sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">elephant</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.entity_hit"></a>
+    <strong>sounds.entity_hit</strong>
+    </dt>
+    <dd>
+
+<p>Entity hit sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">entity_hit</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.explosion"></a>
+    <strong>sounds.explosion</strong>
+    </dt>
+    <dd>
+
+<p>Explosion sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">explosion</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.frog"></a>
+    <strong>sounds.frog</strong>
+    </dt>
+    <dd>
+
+<p>Frog sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">frog</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.fuse"></a>
+    <strong>sounds.fuse</strong>
+    </dt>
+    <dd>
+
+<p>Fuse sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">fuse</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.gallop"></a>
+    <strong>sounds.gallop</strong>
+    </dt>
+    <dd>
+
+<p>Gallop sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">gallop_01</span></li>
+    <li><span style="color:darkgreen;font-size:80%;">gallop_02</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.horse_neigh"></a>
+    <strong>sounds.horse_neigh</strong>
+    </dt>
+    <dd>
+
+<p>Horse neigh sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">horse_neigh_01</span></li>
+    <li><span style="color:darkgreen;font-size:80%;">horse_neigh_02</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.horse_snort"></a>
+    <strong>sounds.horse_snort</strong>
+    </dt>
+    <dd>
+
+<p>Horse snort sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">horse_snort_01</span></li>
+    <li><span style="color:darkgreen;font-size:80%;">horse_snort_02</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.horse"></a>
+    <strong>sounds.horse</strong>
+    </dt>
+    <dd>
+    Horse sounds. </p>
+
+<p>  Includes sounds from <a href="../topics/general.html#sounds.horse_neigh">sounds.horse_neigh</a> &amp; <a href="../topics/general.html#sounds.horse_snort">sounds.horse_snort</a>.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.pencil"></a>
+    <strong>sounds.pencil</strong>
+    </dt>
+    <dd>
+
+<p>Pencil sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">pencil_erase</span></li>
+    <li><span style="color:darkgreen;font-size:80%;">pencil_write</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.quail"></a>
+    <strong>sounds.quail</strong>
+    </dt>
+    <dd>
+
+<p>Quail sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">quail</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.rooster"></a>
+    <strong>sounds.rooster</strong>
+    </dt>
+    <dd>
+
+<p>Rooster sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">rooster</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.sheep"></a>
+    <strong>sounds.sheep</strong>
+    </dt>
+    <dd>
+
+<p>Sheep sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">sheep</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds.skeleton"></a>
+    <strong>sounds.skeleton</strong>
+    </dt>
+    <dd>
+
+<p>Skeleton sounds. </p>
+
+<p><strong>Sounds:</strong></p>
+
+<ul>
+    <li><span style="color:darkgreen;font-size:80%;">skeleton_bones</span></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
 
 
 
@@ -507,7 +1125,7 @@
 </div> <!-- id="main" -->
 <div id="about">
 <i>generated by <a href="http://github.com/AntumDeluge/LDoc/tree/custom">LDoc 1.4.6-antum-dev</a></i>
-<i style="float:right;">Last updated 2021-08-06 21:55:09 </i>
+<i style="float:right;">Last updated 2021-08-07 09:33:27 </i>
 </div> <!-- id="about" -->
 </div> <!-- id="container" -->
 </body>
