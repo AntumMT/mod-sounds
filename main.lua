@@ -251,7 +251,7 @@ sounds.bounce = SoundGroup({
 
 --- Cat meow sounds.
 --
---  @sndgrp sounds.cat_meow
+--  @sndgroup sounds.cat_meow
 --  @snd cat_meow
 sounds.cat_meow = SoundGroup({
 	"cat_meow",
