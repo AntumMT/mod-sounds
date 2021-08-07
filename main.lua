@@ -56,7 +56,6 @@ end
 --- Sound Group.
 --
 --  @table SoundGroup
---  @tfield SoundGroup:new new Constructor method (deprecated).
 --  @tfield SoundGroup:count count Retrieves number of available sounds.
 --  @tfield SoundGroup:play play Plays indexed or random sound.
 --  @tfield bool no_prepend If set to `true`, omits prepending "sounds_" to sound filenames when played.
@@ -114,21 +113,6 @@ SoundGroup = {
 			return def
 		end,
 	},
-
-	--- Creates a new sound definition (deprecated).
-	--
-	--  Deprecated: Use ***SoundGroup()***.
-	--
-	--  @function SoundGroup:new
-	--  @tparam table def Definition.
-	--  @usage
-	--  local sdef1 = SoundGroup:new({"sound1", "sound2"})
-	--  local sdef2 = SoundGroup:new({"sound3", "sound4", no_prepend=true})
-	new = function(self, def)
-		sounds.log("warning", "SoundGroup:new() is deprected, use SoundGroup()")
-
-		return self(def)
-	end,
 
 	--- Retrieves number of sounds in group.
 	--
