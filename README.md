@@ -29,6 +29,7 @@ As of right now, only sounds from *default* mod have been added.
 | [dig_crumbly][default]       | Mito551                  | CC BY-SA 3.0 |                         |
 | [dig_snappy][]               | blukotek                 | CC0          |                         |
 | [dirt_step.*][default]       | Mito551                  | CC BY-SA 3.0 |                         |
+| [dog_bark][]                 | ivolipa                  | CC0          |                         |
 | [entity_hit][]               | sonictechtonic           | CC BY 3.0    |                         |
 | [explosion][]                | JuveriSetila             | CC0          |                         |
 | [fuse][]                     | Ned Bouhalassa           | CC0          |                         |
@@ -109,6 +110,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [cat_meow]: https://freesound.org/s/397661/
 [coin]: https://freesound.org/s/423332/
 [cow_moo]: https://freesound.org/s/177253/
+[dog_bark]: https://freesound.org/s/328730/
 [glass_break.1]: https://freesound.org/s/71947/
 [glass_break.2]: https://freesound.org/s/97669/
 [glass_break.3]: https://freesound.org/s/88808/

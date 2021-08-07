@@ -31,7 +31,6 @@ TODO:
 	- parrot
 	- penguin
 	- pig
-	- dog
 	- puppy
 	- squirrel
 	- toucan

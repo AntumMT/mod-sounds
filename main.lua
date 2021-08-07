@@ -275,6 +275,14 @@ sounds.cow_moo = SoundGroup({
 	"cow_moo_02",
 })
 
+--- Dog bark sounds.
+--
+--  @sndgroup sounds.dog_bark
+--  @snd dog_bark
+sounds.dog_bark = SoundGroup({
+	"dog_bark",
+})
+
 --- Entity hit sounds.
 --
 --  @sndgroup sounds.entity_hit

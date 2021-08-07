@@ -6,6 +6,7 @@ next
 	- apple_bite
 	- bird
 	- cat_meow
+	- dog_bark
 	- bounce
 	- coins
 	- cow_moo
