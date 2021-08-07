@@ -1,5 +1,5 @@
 
-next
+v1.2
 ----
 - added API object "SoundGroup" for creating & playing sound groups
 - added sounds:
