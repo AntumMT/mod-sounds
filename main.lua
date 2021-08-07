@@ -307,6 +307,13 @@ sounds.horse_snort = SoundGroup({
 	"horse_snort_02",
 })
 
+--- Horse sounds.
+--
+--  Includes sounds from `sounds.horse_neigh` & `sounds.horse_snort`.
+--
+--  @sndgroup sounds.horse
+sounds.horse = sounds.horse_neigh + sounds.horse_snort
+
 --- Pencil sounds.
 --
 --  @sndgroup sounds.pencil
