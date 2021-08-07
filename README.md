@@ -57,6 +57,7 @@ As of right now, only sounds from *default* mod have been added.
 | [pencil_erase][]             | damsur                   | CC0          |                         |
 | [pencil_write][]             | NachtmahrTV              | CC0          |                         |
 | [quail][]                    | PrincessGrace            | CC0          |                         |
+| [rooster][]                  | poorenglishjuggler       | CC0          |                         |
 | [sand_step.*][sand_step]     | worthahep88              | CC0          |                         |
 | [snow_step.*][snow_step]     | Ryding                   | CC0          |                         |
 | [step_hard.*][step_hard]     | Erdie                    | CC BY 3.0    |                         |
@@ -130,6 +131,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [pencil_erase]: https://freesound.org/s/443241/
 [pencil_write]: https://freesound.org/s/571800/
 [quail]: https://freesound.org/s/329371/
+[rooster]: https://freesound.org/s/269496/
 [sand_step]: https://freesound.org/s/319224/
 [snow_step]: https://freesound.org/s/94337/
 [step_hard]: https://freesound.org/s/41579/

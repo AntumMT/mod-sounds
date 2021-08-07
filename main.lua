@@ -346,6 +346,14 @@ sounds.quail = SoundGroup({
 	"quail",
 })
 
+--- Rooster sounds.
+--
+--  @sndgroup sounds.rooster
+--  @snd rooster
+sounds.rooster = SoundGroup({
+	"rooster",
+})
+
 sounds.node = {
 	["break"] = {
 		glass = SoundGroup({"glass_break"}),

@@ -15,6 +15,7 @@ next
 	- horse_snort
 	- pencil
 	- quail
+	- rooster
 
 
 v1.1

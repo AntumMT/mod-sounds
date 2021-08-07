@@ -56,7 +56,6 @@ TODO:
 	- jaguar
 	- gorilla
 	- owl
-	- rooster
 	- vulture
 	- whale
 	- zebra
