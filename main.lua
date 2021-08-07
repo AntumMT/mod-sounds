@@ -21,8 +21,8 @@ local rand = PcgRandom(os.time())
 --  @treturn bool `true` if sound is available to be played.
 --  @usage
 --  -- create new sound groups
---  local s_group1 = SoundGroup:new({"sound1", "sound2"})
---  local s_group2 = SoundGroup:new({"modname_sound1", "modname_sound2", no_prepend=true})
+--  local s_group1 = SoundGroup({"sound1", "sound2"})
+--  local s_group2 = SoundGroup({"modname_sound1", "modname_sound2", no_prepend=true})
 --
 --  -- play sound at index
 --  s_group1:play(2)
@@ -64,29 +64,42 @@ end
 --- Sound Group.
 --
 --  @table SoundGroup
---  @tfield SoundGroup:new new Constructor method.
+--  @tfield SoundGroup:new new Constructor method (deprecated).
 --  @tfield SoundGroup:count count Retrieves number of available sounds.
 --  @tfield SoundGroup:play play Plays indexed or random sound.
 --  @tfield bool no_prepend If set to `true`, omits prepending "sounds_" to sound filenames when played.
 SoundGroup = {
-	--- Creates a new sound definition.
+	--- Constructor.
+	--
+	--  @function SoundGroup
+	--  @tparam table def Sound definition.
+	--  @treturn SoundGroup Sound group definition table.
+	__init = {
+		__call = function(self, def)
+			def = def or {}
+
+			for k, v in pairs(self) do
+				if k ~= "new" and def[k] == nil then
+					def[k] = v
+				end
+			end
+
+			return def
+		end
+	},
+	--- Creates a new sound definition (deprecated).
+	--
+	--  Deprecated: Use ***SoundGroup()***.
 	--
 	--  @function SoundGroup:new
 	--  @tparam table def Definition.
-	--  @usage local sdef1 = SoundGroup:new({"sound1", "sound2"})
+	--  @usage
+	--  local sdef1 = SoundGroup:new({"sound1", "sound2"})
 	--  local sdef2 = SoundGroup:new({"sound3", "sound4", no_prepend=true})
 	new = function(self, def)
-		def = def or {}
+		sounds.log("warning", "SoundGroup:new() is deprected, use SoundGroup()")
 
-		for k, v in pairs(self) do
-			if k ~= "new" and def[k] == nil then
-				def[k] = v
-			end
-		end
-
-		setmetatable(def, self)
-		self.__index = self
-		return def
+		return self(def)
 	end,
 
 	--- Retrieves number of sounds in group.
@@ -108,9 +121,9 @@ SoundGroup = {
 	--  randomly from the group.
 	--
 	--  @function SoundGroup:play
-	--  @tparam int idx Sound index.
-	--  @tparam SoundParams sp Sound parameters.
-	--  @note ***idx*** & ***sp*** parameters positions can be switched.
+	--  @tparam[opt] int idx Sound index.
+	--  @tparam[opt] SoundParams sp Sound parameters.
+	--  @note idx & sp parameters positions can be switched.
 	play = function(self, idx, sp)
 		local s_count = self:count()
 		if s_count < 1 then
@@ -153,6 +166,7 @@ SoundGroup = {
 		return sounds:play(selected, sp)
 	end,
 }
+setmetatable(SoundGroup, SoundGroup.__init)
 
 
 --- Pre-defined sound groups
@@ -163,7 +177,7 @@ SoundGroup = {
 --
 --  @sndgroup sounds.bite
 --  @snd apple_bite
-sounds.bite = SoundGroup:new({
+sounds.bite = SoundGroup({
 	"apple_bite",
 })
 
@@ -171,7 +185,7 @@ sounds.bite = SoundGroup:new({
 --
 --  @sndgroup sounds.bounce
 --  @snd boing
-sounds.bounce = SoundGroup:new({
+sounds.bounce = SoundGroup({
 	"boing",
 })
 
@@ -179,7 +193,7 @@ sounds.bounce = SoundGroup:new({
 --
 --  @sndgroup sounds.entity_hit
 --  @snd entity_hit
-sounds.entity_hit = SoundGroup:new({
+sounds.entity_hit = SoundGroup({
 	"entity_hit",
 })
 
@@ -187,7 +201,7 @@ sounds.entity_hit = SoundGroup:new({
 --
 --  @sndgroup sounds.explosion
 --  @snd explosion
-sounds.explosion = SoundGroup:new({
+sounds.explosion = SoundGroup({
 	"explosion",
 })
 
@@ -195,7 +209,7 @@ sounds.explosion = SoundGroup:new({
 --
 --  @sndgroup sounds.fuse
 --  @snd fuse
-sounds.fuse = SoundGroup:new({
+sounds.fuse = SoundGroup({
 	"fuse",
 })
 
@@ -204,7 +218,7 @@ sounds.fuse = SoundGroup:new({
 --  @sndgroup sounds.gallop
 --  @snd gallop_01
 --  @snd gallop_02
-sounds.gallop = SoundGroup:new({
+sounds.gallop = SoundGroup({
 	"gallop_01",
 	"gallop_02",
 })
@@ -214,7 +228,7 @@ sounds.gallop = SoundGroup:new({
 --  @sndgroup sounds.horse_neigh
 --  @snd horse_neigh_01
 --  @snd horse_neigh_02
-sounds.horse_neigh = SoundGroup:new({
+sounds.horse_neigh = SoundGroup({
 	"horse_neigh_01",
 	"horse_neigh_02",
 })
@@ -224,7 +238,7 @@ sounds.horse_neigh = SoundGroup:new({
 --  @sndgroup sounds.horse_snort
 --  @snd horse_snort_01
 --  @snd horse_snort_02
-sounds.horse_snort = SoundGroup:new({
+sounds.horse_snort = SoundGroup({
 	"horse_snort_01",
 	"horse_snort_02",
 })
@@ -234,43 +248,43 @@ sounds.horse_snort = SoundGroup:new({
 --  @sndgroup sounds.pencil
 --  @snd pencil_erase
 --  @snd pencil_write
-sounds.pencil = SoundGroup:new({
+sounds.pencil = SoundGroup({
 	"pencil_erase",
 	"pencil_write",
 })
 
 sounds.node = {
 	["break"] = {
-		glass = SoundGroup:new({"glass_break"}),
+		glass = SoundGroup({"glass_break"}),
 	},
 	dig = {
-		choppy = SoundGroup:new({"dig_choppy"}),
-		cracky = SoundGroup:new({"dig_cracky"}),
-		crumbly = SoundGroup:new({"dig_crumbly"}),
-		snappy = SoundGroup:new({"dig_snappy"}),
-		gravel = SoundGroup:new({"gravel_dig"}),
-		ice = SoundGroup:new({"ice_dig"}),
-		metal = SoundGroup:new({"metal_dig"}),
+		choppy = SoundGroup({"dig_choppy"}),
+		cracky = SoundGroup({"dig_cracky"}),
+		crumbly = SoundGroup({"dig_crumbly"}),
+		snappy = SoundGroup({"dig_snappy"}),
+		gravel = SoundGroup({"gravel_dig"}),
+		ice = SoundGroup({"ice_dig"}),
+		metal = SoundGroup({"metal_dig"}),
 	},
-	dug = SoundGroup:new({"node_dug",
-		gravel = SoundGroup:new({"gravel_dug"}),
-		ice = SoundGroup:new({"ice_dug"}),
-		metal = SoundGroup:new({"metal_dug"}),
+	dug = SoundGroup({"node_dug",
+		gravel = SoundGroup({"gravel_dug"}),
+		ice = SoundGroup({"ice_dug"}),
+		metal = SoundGroup({"metal_dug"}),
 	}),
-	place = SoundGroup:new({"node_place",
-		metal = SoundGroup:new({"metal_step"}),
-		soft = SoundGroup:new({"node_place_soft"}),
+	place = SoundGroup({"node_place",
+		metal = SoundGroup({"metal_step"}),
+		soft = SoundGroup({"node_place_soft"}),
 	}),
 	step = {
-		dirt = SoundGroup:new({"dirt_step"}),
-		glass = SoundGroup:new({"glass_step"}),
-		grass = SoundGroup:new({"grass_step"}),
-		gravel = SoundGroup:new({"gravel_step"}),
-		hard = SoundGroup:new({"step_hard"}),
-		ice = SoundGroup:new({"ice_step"}),
-		metal = SoundGroup:new({"metal_step"}),
-		sand = SoundGroup:new({"sand_step"}),
-		snow = SoundGroup:new({"snow_step"}),
-		water = SoundGroup:new({"water_step"}),
+		dirt = SoundGroup({"dirt_step"}),
+		glass = SoundGroup({"glass_step"}),
+		grass = SoundGroup({"grass_step"}),
+		gravel = SoundGroup({"gravel_step"}),
+		hard = SoundGroup({"step_hard"}),
+		ice = SoundGroup({"ice_step"}),
+		metal = SoundGroup({"metal_step"}),
+		sand = SoundGroup({"sand_step"}),
+		snow = SoundGroup({"snow_step"}),
+		water = SoundGroup({"water_step"}),
 	},
 }
