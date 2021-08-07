@@ -21,6 +21,7 @@ As of right now, only sounds from *default* mod have been added.
 | [apple_bite][]               | sonicmariobrotha         | CC0          |                         |
 | [bird*][bird]                | Jc Guan                  | CC0          |                         |
 | [boing][]                    | reelworldstudio          | CC0          |                         |
+| [coin][]                     | greenvwbeetle            | CC0          |                         |
 | [cow_moo*][cow_moo]          | JosephSardin             | CC0          |                         |
 | [dig_choppy.*][dig_choppy]   | Sheyvan                  | CC0          |                         |
 | [dig_cracky.*][dig_cracky]   | Benboncan                | CC BY 3.0    |                         |
@@ -101,6 +102,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [apple_bite]: https://freesound.org/s/333825/
 [bird]: https://soundbible.com/340-Bird-Song.html
 [boing]: https://freesound.org/s/161122/
+[coin]: https://freesound.org/s/423332/
 [cow_moo]: https://freesound.org/s/177253/
 [glass_break.1]: https://freesound.org/s/71947/
 [glass_break.2]: https://freesound.org/s/97669/

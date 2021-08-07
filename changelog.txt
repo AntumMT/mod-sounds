@@ -6,6 +6,7 @@ next
 	- apple_bite
 	- bird
 	- bounce
+	- coins
 	- cow_moo
 	- explosion
 	- fuse

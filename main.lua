@@ -249,6 +249,14 @@ sounds.bounce = SoundGroup({
 	"boing",
 })
 
+--- Coin sounds.
+--
+--  @sndgroup sounds.coin
+--  @snd coin
+sounds.coin = SoundGroup({
+	"coin",
+})
+
 --- Cow moo sounds.
 --
 --  @sndgroup sounds.cow_moo

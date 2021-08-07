@@ -5,7 +5,6 @@ TODO:
 - normalize sound files
 - document node sound groups
 - add more sounds:
-	- coins
 	- hit/damage
 	- tool breaks
 	- lava cool
