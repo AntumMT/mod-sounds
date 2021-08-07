@@ -82,7 +82,7 @@ SoundGroup = {
 	--  -- play random sound with parameters
 	--  s_group1:play({gain=1.0, max_hear_distance=100})
 	--
-	--  -- calling a SoundGroup instance is the same as executing the "play" method
+	--  -- calling a SoundGroup instance directly is the same as executing the "play" method
 	--  s_group(1, {gain=1.0, max_hear_distance=100})
 	__init = {
 		__call = function(self, def)
