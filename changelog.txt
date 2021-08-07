@@ -5,6 +5,7 @@ next
 - added sounds:
 	- apple_bite
 	- bird
+	- cat_meow
 	- bounce
 	- coins
 	- cow_moo
