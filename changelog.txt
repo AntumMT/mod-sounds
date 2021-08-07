@@ -4,6 +4,7 @@ next
 - added API object "SoundGroup" for creating & playing sound groups
 - added sounds:
 	- apple_bite
+	- bird
 	- bounce
 	- cow_moo
 	- explosion

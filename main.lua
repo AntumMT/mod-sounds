@@ -221,6 +221,18 @@ setmetatable(SoundGroup, SoundGroup.__init)
 --
 --  @section groups
 
+--- Bird sounds.
+--
+--  @sndgroup sounds.bird
+--  @snd bird_01
+--  @snd bird_02
+--  @snd bird_03
+sounds.bird = SoundGroup({
+	"bird_01",
+	"bird_02",
+	"bird_03",
+})
+
 --- Bite sounds.
 --
 --  @sndgroup sounds.bite

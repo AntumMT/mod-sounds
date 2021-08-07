@@ -41,7 +41,6 @@ TODO:
 	- toucan
 	- wolf
 	- coyote
-	- bird
 	- quail
 	- airplane
 	- car
