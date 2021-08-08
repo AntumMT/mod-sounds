@@ -1,4 +1,10 @@
 
+next
+----
+- added sounds:
+	- grasshopper
+
+
 v1.2
 ----
 - added API object "SoundGroup" for creating & playing sound groups

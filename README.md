@@ -42,6 +42,7 @@ As of right now, only sounds from *default* mod have been added.
 | [glass_break.3][]            | lsprice                  | CC BY 3.0    |                         |
 | [glass_step][default]        | Mito551                  | CC BY-SA 3.0 |                         |
 | [grass_step.*][default]      | Mito551                  | CC BY-SA 3.0 |                         |
+| [grasshopper][]              | straget                  | CC0          |                         |
 | [gravel_dig.*][gravel_dig]   | lolamadeus               | CC0          |                         |
 | [gravel_dug.*][gravel_dig]   | lolamadeus               | CC0          |                         |
 | [gravel_step][default]       | Mito551                  | CC BY-SA 3.0 |                         |
@@ -126,6 +127,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [fuse]: https://freesound.org/s/8320/
 [gallop_01]: https://freesound.org/s/403026/
 [gallop_02]: https://freesound.org/s/403025/
+[grasshopper]: https://freesound.org/s/401939/
 [gravel_dig]: https://freesound.org/s/179341/
 [horse_neigh_01]: https://freesound.org/s/322443/
 [horse_neigh_02]: https://freesound.org/s/149024/

@@ -40,7 +40,6 @@ TODO:
 	- bicycle
 	- clock
 	- fire
-	- grasshopper
 	- cricket
 	- raccoon
 	- train
