@@ -360,15 +360,28 @@ sounds.horse_snort = SoundGroup({
 --  @sndgroup sounds.horse
 sounds.horse = sounds.horse_neigh + sounds.horse_snort
 
---- Pencil sounds.
+--- Pencil erase sounds.
 --
---  @sndgroup sounds.pencil
+--  @sndgroup sounds.pencil_erase
 --  @snd pencil_erase
+sounds.pencil_erase = SoundGroup({
+ "pencil_erase",
+})
+
+--- Pencil write sounds.
+--
+--  @sndgroup sounds.pencil_write
 --  @snd pencil_write
-sounds.pencil = SoundGroup({
-	"pencil_erase",
+sounds.pencil_write = SoundGroup({
 	"pencil_write",
 })
+
+--- Pencil sounds.
+--
+--  Includes sounds from `sounds.pencil_erase` & `sounds.pencil_write`.
+--
+--  @sndgroup sounds.pencil
+sounds.pencil = sounds.pencil_erase + sounds.pencil_write
 
 --- Quail sounds.
 --
