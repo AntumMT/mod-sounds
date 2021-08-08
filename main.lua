@@ -100,12 +100,15 @@ SoundGroup = {
 
 				-- allow arithmetic operation to join groups
 				__add = function(self, g1)
-					local new_group = SoundGroup(self)
+					local new_group = {}
+					for _, snd in ipairs(self) do
+						table.insert(new_group, snd)
+					end
 					for _, snd in ipairs(g1) do
 						table.insert(new_group, snd)
 					end
 
-					return new_group
+					return SoundGroup(new_group)
 				end,
 			}
 			setmetatable(def, def.__init)
