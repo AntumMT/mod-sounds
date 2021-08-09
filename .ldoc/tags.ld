@@ -66,11 +66,6 @@ local new_tags = {
 			return "<img src=\"../data/" .. value .. "\" style=\"width:32px; height:32px;\" />"
 		end,
 	},
-	-- chat commands
-	["chatparam"] = {
-		title = "Parameters",
-		hidden = true,
-	},
 	-- sounds
 	["snd"] = {
 		hidden = true,
