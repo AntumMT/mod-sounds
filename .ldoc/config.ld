@@ -1,13 +1,29 @@
 
-local dofile = import("dofile")
-local print = import("print")
-local error = import("error")
-local type = import("type")
-local table = import("table")
-local pairs = import("pairs")
-local ipairs = import("ipairs")
-local string = import("string")
-local tostring = import("tostring")
+-- Place this file in mod's ".ldoc" directory
+
+
+local env = {
+	import = import,
+}
+
+local loadfile = import("loadfile")
+local type = import("type", env)
+local string = import("string", env)
+local tostring = import("tostring", env)
+local table = import("table", env)
+local pairs = import("pairs", env)
+local ipairs = import("ipairs", env)
+
+local dofile = function(f)
+	return loadfile(f, "t", env)()
+end
+env["dofile"] = dofile
+
+dofile(".ldoc/auxf.ld")
+
+local args = import("args")
+local d_data = args.dir .. "/data"
+
 
 project = "Sounds"
 title = "Sound Pack for Minetest"
