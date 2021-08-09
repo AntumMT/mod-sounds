@@ -6,6 +6,7 @@ next
 - renamed node sound files
 - SoundGroup:play returns handle or nil only
 - added sounds:
+	- bees
 	- bumble_bee
 	- clock_tick
 	- grasshopper
