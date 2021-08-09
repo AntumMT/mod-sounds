@@ -1,6 +1,10 @@
 
 next
 ----
+- pencil sounds split into "pencil_erase" & "pencil_write" groups
+- fixed arithmetic operations on SoundGroup
+- renamed node sound files
+- SoundGroup:play returns handle or nil only
 - added sounds:
 	- clock_tick
 	- grasshopper
