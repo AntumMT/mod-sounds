@@ -188,7 +188,7 @@ function sounds.node_metal(tbl)
 	tbl.footstep = tbl.footstep or {name="sounds_node_step_metal", gain=0.4}
 	tbl.dig = tbl.dig or {name="sounds_node_dig_metal", gain=0.5}
 	tbl.dug = tbl.dug or {name="sounds_node_dug_metal", gain=0.5}
-	tbl.place = tbl.place or {name="sounds_node_metal_place", gain=0.5}
+	tbl.place = tbl.place or {name="sounds_node_place_metal", gain=0.5}
 
 	sounds.node(tbl)
 	return tbl
