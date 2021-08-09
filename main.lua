@@ -516,7 +516,7 @@ sounds.yak = SoundGroup({
 
 --- Zebra sounds.
 --
---  @sndgroup zebra
+--  @sndgroup sounds.zebra
 --  @snd zebra
 sounds.zebra = SoundGroup({
 	"zebra",
