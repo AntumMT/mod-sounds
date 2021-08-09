@@ -53,6 +53,7 @@ As of right now, only sounds from *default* mod have been added.
 | [owl_hoot][]                      | Anthousai                | CC0          |                         |
 | [pencil_erase][]                  | damsur                   | CC0          |                         |
 | [pencil_write][]                  | NachtmahrTV              | CC0          |                         |
+| [pigeon][]                        | JavierSerrat             | CC0          |                         |
 | [quail][]                         | PrincessGrace            | CC0          |                         |
 | [rooster][]                       | poorenglishjuggler       | CC0          |                         |
 | [sheep][]                         | mikewest                 | CC0          |                         |
@@ -194,6 +195,7 @@ sounds.horse_neigh(2, {gain=1.0})
 [owl_hoot]: https://freesound.org/s/398734/
 [pencil_erase]: https://freesound.org/s/443241/
 [pencil_write]: https://freesound.org/s/571800/
+[pigeon]: https://freesound.org/s/524345/
 [place_metal]: https://opengameart.org/node/3511
 [quail]: https://freesound.org/s/329371/
 [rooster]: https://freesound.org/s/269496/

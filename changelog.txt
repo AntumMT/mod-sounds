@@ -18,6 +18,7 @@ next
 	- lion
 	- mouse
 	- owl
+	- pigeon
 	- tiger_roar
 	- tiger_snarl
 	- undead_moan
