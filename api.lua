@@ -93,6 +93,8 @@ SoundGroup = {
 				end
 			end
 
+			def.__type = "SoundGroup"
+
 			def.__init = {
 				-- execute "play" methode when called directly
 				__call = self.play,

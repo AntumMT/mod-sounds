@@ -20,6 +20,7 @@ end
 
 
 local scripts = {
+	"override",
 	"api",
 	"groups",
 	"node_groups",
