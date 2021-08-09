@@ -19,8 +19,10 @@ not_luadoc = true
 favicon = "https://www.minetest.net/media/icon.svg"
 
 file = {
-	"main.lua",
-	"node.lua"
+	"api.lua",
+	"groups.lua",
+	"node_groups.lua",
+	"node.lua",
 }
 
 new_type("chatcmd", "Chat Commands")

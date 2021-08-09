@@ -20,7 +20,9 @@ end
 
 
 local scripts = {
-	"main",
+	"api",
+	"groups",
+	"node_groups",
 	"node",
 }
 
