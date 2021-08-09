@@ -15,7 +15,6 @@ TODO:
 	- camel
 	- monkey / chimp
 	- dolphin
-	- goat
 	- bear
 	- leopard
 	- lamb

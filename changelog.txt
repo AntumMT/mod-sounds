@@ -13,6 +13,7 @@ next
 	- clock_tick
 	- crow_caw
 	- duck_quack
+	- goat_bleat
 	- grasshopper
 	- jaguar_saw
 	- lion

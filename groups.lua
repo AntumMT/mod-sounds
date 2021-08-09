@@ -164,6 +164,18 @@ sounds.gallop = SoundGroup({
 	"gallop_02",
 })
 
+--- Goat bleat sounds.
+--
+--  @sndgroup sounds.goat_bleat
+--  @snd goat_bleat_01
+--  @snd goat_bleat_02
+--  @snd goat_bleat_03
+sounds.goat_bleat = SoundGroup({
+	"goat_bleat_01",
+	"goat_bleat_02",
+	"goat_bleat_03",
+})
+
 --- Grasshopper sounds.
 --
 --  @sndgroup sounds.grasshopper

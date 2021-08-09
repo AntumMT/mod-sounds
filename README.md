@@ -42,6 +42,7 @@ As of right now, only sounds from *default* mod have been added.
 | [fuse][]                          | Ned Bouhalassa           | CC0          |                         |
 | [gallop_01][]                     | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
 | [gallop_02][]                     | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
+| [goat_bleat_*][goat_bleat]        | Stephan                  | CC0          |                         |
 | [grasshopper][]                   | straget                  | CC0          |                         |
 | [horse_neigh_01][]                | GoodListener             | CC BY 3.0    |                         |
 | [horse_neigh_02][]                | foxen10                  | CC0          |                         |
@@ -184,6 +185,7 @@ sounds.horse_neigh(2, {gain=1.0})
 [fuse]: https://freesound.org/s/8320/
 [gallop_01]: https://freesound.org/s/403026/
 [gallop_02]: https://freesound.org/s/403025/
+[goat_bleat]: https://pdsounds.org/pdsounds_files/files/audio/ziegengatter.mp3
 [grasshopper]: https://freesound.org/s/401939/
 [horse_neigh_01]: https://freesound.org/s/322443/
 [horse_neigh_02]: https://freesound.org/s/149024/
