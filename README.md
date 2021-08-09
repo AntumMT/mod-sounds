@@ -109,16 +109,16 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 
 Playing sounds manually:
 ```lua
-# play random sound from group
+-- play random sound from group
 sounds.horse_neigh()
 
-# play specific sound from group
+-- play specific sound from group
 sounds.harse_neigh(2)
 
-# play random sound from group with parameters
+-- play random sound from group with parameters
 sounds.horse_neigh({gain=1.0})
 
-# play specific sound from group with parameters
+-- play specific sound from group with parameters
 sounds.horse_neigh(2, {gain=1.0})
 ```
 
