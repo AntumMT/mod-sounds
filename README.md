@@ -28,6 +28,7 @@ As of right now, only sounds from *default* mod have been added.
 | [bumble_bee_01][]                 | Iain McCurdy             | CC BY 3.0    |                         |
 | [bumble_bee_02][]                 | CGEffex                  | CC BY 3.0    |                         |
 | [cat_meow][]                      | blimp66                  | CC BY 3.0    |                         |
+| [chicken_[01-02]][chicken]        | www.bonson.ca            | CC BY 3.0    |                         |
 | [clock_tick][]                    | AntumDeluge              | CC0          |                         |
 | [coin][]                          | greenvwbeetle            | CC0          |                         |
 | [cow_moo*][cow_moo]               | JosephSardin             | CC0          |                         |
@@ -154,6 +155,7 @@ sounds.horse_neigh(2, {gain=1.0})
 [bumble_bee_01]: https://freesound.org/s/498412/
 [bumble_bee_02]: https://freesound.org/s/99955/
 [cat_meow]: https://freesound.org/s/397661/
+[chicken]: https://freesound.org/s/24967/
 [clock_tick]: https://opengameart.org/node/16323
 [coin]: https://freesound.org/s/423332/
 [cow_moo]: https://freesound.org/s/177253/

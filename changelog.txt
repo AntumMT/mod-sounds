@@ -9,6 +9,7 @@ next
 	- bee
 	- bees
 	- bumble_bee
+	- chicken
 	- clock_tick
 	- grasshopper
 	- jaguar_saw

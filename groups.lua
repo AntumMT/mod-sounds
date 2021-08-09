@@ -54,6 +54,16 @@ sounds.cat_meow = SoundGroup({
 	"cat_meow",
 })
 
+--- Chicken sounds.
+--
+--  @sndgroup sounds.chicken
+--  @snd chicken_01
+--  @snd chicken_02
+sounds.chicken = SoundGroup({
+	"chicken_01",
+	"chicken_02",
+})
+
 --- Clock sounds.
 --
 --  @sndgroup sounds.clock
