@@ -286,6 +286,20 @@ sounds.tiger = SoundGroup({
 	"tiger_snarl_04",
 })
 
+--- Undead moan sounds.
+--
+--  @sndgroup sounds.undead_moan
+--  @snd undead_moan_01
+--  @snd undead_moan_02
+--  @snd undead_moan_03
+--  @snd undead_moan_04
+sounds.undead_moan = SoundGroup({
+	"undead_moan_01",
+	"undead_moan_02",
+	"undead_moan_03",
+	"undead_moan_04",
+})
+
 --- Vulture sounds.
 --
 --  @sndgroup sounds.vulture

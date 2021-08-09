@@ -18,6 +18,7 @@ next
 	- owl
 	- tiger_roar
 	- tiger_snarl
+	- undead_moan
 	- vulture
 	- watch_tick
 	- whistle

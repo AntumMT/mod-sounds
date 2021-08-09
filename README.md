@@ -28,7 +28,7 @@ As of right now, only sounds from *default* mod have been added.
 | [bumble_bee_01][]                 | Iain McCurdy             | CC BY 3.0    |                         |
 | [bumble_bee_02][]                 | CGEffex                  | CC BY 3.0    |                         |
 | [cat_meow][]                      | blimp66                  | CC BY 3.0    |                         |
-| [chicken_[01-02]][chicken]        | www.bonson.ca            | CC BY 3.0    |                         |
+| [chicken_*]][chicken]             | www.bonson.ca            | CC BY 3.0    |                         |
 | [clock_tick][]                    | AntumDeluge              | CC0          |                         |
 | [coin][]                          | greenvwbeetle            | CC0          |                         |
 | [cow_moo*][cow_moo]               | JosephSardin             | CC0          |                         |
@@ -58,6 +58,7 @@ As of right now, only sounds from *default* mod have been added.
 | [tiger_roar_01][]                 | videog                   | CC BY 3.0    |                         |
 | [tiger_snarl_01][tiger_roar_01]   | videog                   | CC BY 3.0    |                         |
 | [tiger_snarl_[02-04][tiger_snarl] | schots                   | CC0          |                         |
+| [undead_moan_*][undead_moan]      | AntumDeluge              | CC0          |                         |
 | [vulture][]                       | AntumDeluge              | CC0          |                         |
 | [watch_tick][]                    | Nicolas4677              | CC0          |                         |
 | [whistle][]                       | pawsound                 | CC0          |                         |
@@ -204,6 +205,7 @@ sounds.horse_neigh(2, {gain=1.0})
 [skeleton_bones]: https://opengameart.org/node/16324
 [tiger_roar_01]: https://freesound.org/s/149190/
 [tiger_snarl]: https://freesound.org/s/439280/
+[undead_moan]: https://opengameart.org/node/81246
 [vulture]: https://opengameart.org/node/16329
 [watch_tick]: https://freesound.org/s/446611/
 [whistle]: https://freesound.org/s/154873/
