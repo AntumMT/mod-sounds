@@ -224,20 +224,30 @@ SoundGroup = {
 		local count = self:count()
 		if count == 0 then return end
 
+		local retval
 		if type(idx) == "number" then
-			return self[idx]
+			retval = self[idx]
+		elseif count == 1 then
+			retval = self[1]
+		else
+			retval = {}
+			for _, snd in ipairs(self) do
+				table.insert(retval, snd)
+			end
 		end
 
-		if count == 1 then
-			return self[1]
+		if self.no_prepend ~= true then
+			local rtype = type(retval)
+			if rtype == "string" then
+				retval = "sounds_" .. retval
+			elseif rtype == "table" then
+				for idx, snd in ipairs(retval) do
+					retval[idx] = "sounds_" .. snd
+				end
+			end
 		end
 
-		local all_sounds = {}
-		for _, snd in ipairs(self) do
-			table.insert(all_sounds, snd)
-		end
-
-		return all_sounds
+		return retval
 	end,
 }
 setmetatable(SoundGroup, SoundGroup.__init)
