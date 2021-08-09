@@ -35,9 +35,12 @@ sounds.bounce = SoundGroup({
 --- Bee sounds.
 --
 --  @sndgroup sounds.bee
---  @snd bumble_bee
+--  @snd bee
+--  @snd bumble_bee_01
+--  @snd bumble_bee_02
 --  @snd bees
 sounds.bee = SoundGroup({
+	"bee",
 	"bumble_bee_01",
 	"bumble_bee_02",
 	"bees",

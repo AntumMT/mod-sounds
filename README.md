@@ -21,6 +21,7 @@ As of right now, only sounds from *default* mod have been added.
 | Filename (sounds_) / Source       | Author                   | License      | Notes                   |
 | --------------------------------- | ------------------------ | ------------ | ----------------------- |
 | [apple_bite][]                    | sonicmariobrotha         | CC0          |                         |
+| [bee][]                           | DrDufus                  | CC0          |                         |
 | [bees][]                          | tom_woysky               | CC0          |                         |
 | [bird*][bird]                     | Jc Guan                  | CC0          |                         |
 | [boing][]                         | reelworldstudio          | CC0          |                         |
@@ -146,6 +147,7 @@ sounds.horse_neigh(2, {gain=1.0})
 [default]: https://github.com/minetest/minetest_game/tree/master/mods/default
 
 [apple_bite]: https://freesound.org/s/333825/
+[bee]: https://freesound.org/s/462875/
 [bees]: https://freesound.org/s/243011/
 [bird]: https://soundbible.com/340-Bird-Song.html
 [boing]: https://freesound.org/s/161122/
