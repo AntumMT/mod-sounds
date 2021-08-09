@@ -18,17 +18,17 @@ local rand = PcgRandom(os.time())
 --  @function sounds:play
 --  @tparam string name Sound file without .ogg suffix.
 --  @tparam[opt] SoundParams sp Sound parameters.
---  @treturn list `bool` ***true*** if sound played & `int` sound handle.
+--  @treturn int Sound handle or `nil`.
 --  @usage
---  local ret, handle = sounds:play("sound1", {gain=1.0})
---  if ret then
+--  local handle = sounds:play("sound1", {gain=1.0})
+--  if handle then
 --    print("Sound handle: " .. handle)
 --  end
 sounds.play = function(self, name, sp)
 	local s_type = type(name)
 	if s_type ~= "string" then
 		sounds.log("error", "cannot play non-string type: " .. s_type)
-		return false
+		return
 	end
 
 	if not sounds.cache[name] then
@@ -37,7 +37,7 @@ sounds.play = function(self, name, sp)
 			sounds.log("error", "\"" .. name .. "\" not available for playing")
 		end
 
-		return false
+		return
 	end
 
 	local s_handle = core.sound_play(name, sp)
@@ -45,7 +45,7 @@ sounds.play = function(self, name, sp)
 	-- TODO: register check to see if sound is still playing & remove from "playing" list
 	--playing[s_handle] = name
 
-	return true, s_handle
+	return s_handle
 end
 
 
@@ -138,18 +138,18 @@ SoundGroup = {
 	--  @function SoundGroup:play
 	--  @tparam[opt] int idx Sound index.
 	--  @tparam[opt] SoundParams sp Sound parameters.
-	--  @treturn list `bool` ***true*** if sound played & `int` sound handle.
+	--  @treturn int Sound handle or `nil`.
 	--  @note idx & sp parameters positions can be switched.
 	--  @usage
-	--  local ret, handle = SoundGroup:play(2, {gain=1.0})
-	--  if ret then
+	--  local handle = SoundGroup:play(2, {gain=1.0})
+	--  if handle then
 	--    print("Sound handle: " .. handle)
 	--  end
 	play = function(self, idx, sp)
 		local s_count = self:count()
 		if s_count < 1 then
 			sounds.log("error", "no sounds to play")
-			return false
+			return
 		end
 
 		-- allow second parameter to be sound parameters table
@@ -171,12 +171,12 @@ SoundGroup = {
 
 		if type(idx) ~= "number" then
 			print("idx must be a number")
-			return false
+			return
 		end
 
 		if idx > s_count then
 			sounds.log("error", "sound index " .. idx .. " out of range: max " .. s_count)
-			return false
+			return
 		end
 
 		local selected = self[idx]
