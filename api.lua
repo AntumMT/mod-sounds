@@ -188,6 +188,28 @@ SoundGroup = {
 		return sounds:play(selected, sp)
 	end,
 
+	--- Retrieves random name from group.
+	--
+	--  @function SoundGroup:get_random
+	--  @treturn string
+	get_random = function(self)
+		local name
+		local s_count = self:count()
+		if s_count > 0 then
+			if s_count == 1 then
+				name = self[1]
+			else
+				name = self[rand:next(1, s_count)]
+			end
+
+			if self.no_prepend ~= true then
+				name = "sounds_" .. name
+			end
+		end
+
+		return name
+	end,
+
 	--- Retrieves sounds names in group.
 	--
 	--  If `idx` is supplied, a `string` or `nil` is returned. If
