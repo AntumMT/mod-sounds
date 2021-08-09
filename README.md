@@ -24,7 +24,8 @@ As of right now, only sounds from *default* mod have been added.
 | [bees][]                          | tom_woysky               | CC0          |                         |
 | [bird*][bird]                     | Jc Guan                  | CC0          |                         |
 | [boing][]                         | reelworldstudio          | CC0          |                         |
-| [bumble_bee][]                    | Iain McCurdy             | CC BY 3.0    |                         |
+| [bumble_bee_01][]                 | Iain McCurdy             | CC BY 3.0    |                         |
+| [bumble_bee_02][]                 | CGEffex                  | CC BY 3.0    |                         |
 | [cat_meow][]                      | blimp66                  | CC BY 3.0    |                         |
 | [clock_tick][]                    | AntumDeluge              | CC0          |                         |
 | [coin][]                          | greenvwbeetle            | CC0          |                         |
@@ -148,7 +149,8 @@ sounds.horse_neigh(2, {gain=1.0})
 [bees]: https://freesound.org/s/243011/
 [bird]: https://soundbible.com/340-Bird-Song.html
 [boing]: https://freesound.org/s/161122/
-[bumble_bee]: https://freesound.org/s/498412/
+[bumble_bee_01]: https://freesound.org/s/498412/
+[bumble_bee_02]: https://freesound.org/s/99955/
 [cat_meow]: https://freesound.org/s/397661/
 [clock_tick]: https://opengameart.org/node/16323
 [coin]: https://freesound.org/s/423332/
