@@ -98,6 +98,14 @@ sounds.dog_bark = SoundGroup({
 	"dog_bark",
 })
 
+--- Duck quack sounds.
+--
+--  @sndgroup sounds.duck_quack
+--  @snd duck_quack
+sounds.duck_quack = SoundGroup({
+	"duck_quack",
+})
+
 --- Elephant sounds.
 --
 --  @sndgroup sounds.elephant

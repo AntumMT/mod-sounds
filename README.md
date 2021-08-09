@@ -33,6 +33,7 @@ As of right now, only sounds from *default* mod have been added.
 | [coin][]                          | greenvwbeetle            | CC0          |                         |
 | [cow_moo*][cow_moo]               | JosephSardin             | CC0          |                         |
 | [dog_bark][]                      | ivolipa                  | CC0          |                         |
+| [duck_quack][]                    | Jonathon Jongsma         | CC BY-SA 3.0 |                         |
 | [elephant][]                      | vataaa                   | CC0          |                         |
 | [entity_hit][]                    | sonictechtonic           | CC BY 3.0    |                         |
 | [explosion][]                     | JuveriSetila             | CC0          |                         |
@@ -167,6 +168,7 @@ sounds.horse_neigh(2, {gain=1.0})
 [dig_metal]: https://freesound.org/s/320397/
 [dig_snappy]: https://freesound.org/s/251660/
 [dog_bark]: https://freesound.org/s/328730/
+[duck_quack]: https://www.xeno-canto.org/62258
 [dug_glass.1]: https://freesound.org/s/71947/
 [dug_glass.2]: https://freesound.org/s/97669/
 [dug_glass.3]: https://freesound.org/s/88808/
