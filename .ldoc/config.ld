@@ -179,9 +179,11 @@ end
 local function sndgroup_handler(item)
 	if item.tags.snd then
 		item.description = item.description .. "\n\n**Sounds:**\n"
+		local s_count = 1
 		for _, s in ipairs(item.tags.snd) do
 			item.description = item.description
-				.. "\n- " .. format_string(s, {size="80%", color="darkgreen"})
+				.. "\n" .. s_count .. ". " .. format_string(s, {size="80%", color="darkgreen"})
+			s_count = s_count + 1
 		end
 	end
 
