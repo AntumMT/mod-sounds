@@ -22,6 +22,7 @@ As of right now, only sounds from *default* mod have been added.
 | [bird*][bird]                | Jc Guan                  | CC0          |                         |
 | [boing][]                    | reelworldstudio          | CC0          |                         |
 | [cat_meow][]                 | blimp66                  | CC BY 3.0    |                         |
+| [clock_tick][]               | AntumDeluge              | CC0          |                         |
 | [coin][]                     | greenvwbeetle            | CC0          |                         |
 | [cow_moo*][cow_moo]          | JosephSardin             | CC0          |                         |
 | [dig_choppy.*][dig_choppy]   | Sheyvan                  | CC0          |                         |
@@ -53,12 +54,16 @@ As of right now, only sounds from *default* mod have been added.
 | [ice_dig.*][ice_dig]         | dheming                  | CC BY 3.0    |                         |
 | [ice_dug][]                  | Angel_Perez_Grandi       | CC BY 3.0    |                         |
 | [ice_step.*][ice_step]       | InspectorJ               | CC BY 3.0    |                         |
+| [jaguar_saw][]               | About Zoos               | CC BY        |                         |
+| [lion_bellow][]              | felix.blume              | CC0          |                         |
 | [metal_dig][]                | yadronoff                | CC BY 3.0    |                         |
 | [metal_dug.*][metal_dug]     | qubodup                  | CC0          |                         |
 | [metal_place.*][metal_place] | Ogrebane                 | CC0          |                         |
 | [metal_step.*][metal_step]   | mypantsfelldown          | CC0          |                         |
+| [mouse][]                    | AntumDeluge              | CC0          |                         |
 | [node_dug.*][default]        | Mito551                  | CC BY-SA 3.0 |                         |
 | [node_place*][default]       | Mito551                  | CC BY-SA 3.0 |                         |
+| [owl_hoot][]                 | Anthousai                | CC0          |                         |
 | [pencil_erase][]             | damsur                   | CC0          |                         |
 | [pencil_write][]             | NachtmahrTV              | CC0          |                         |
 | [quail][]                    | PrincessGrace            | CC0          |                         |
@@ -68,11 +73,16 @@ As of right now, only sounds from *default* mod have been added.
 | [skeleton_bones][]           | AntumDeluge              | CC0          |                         |
 | [snow_step.*][snow_step]     | Ryding                   | CC0          |                         |
 | [step_hard.*][step_hard]     | Erdie                    | CC BY 3.0    |                         |
+| [vulture][]                  | AntumDeluge              | CC0          |                         |
+| [watch_tick][]               | Nicolas4677              | CC0          |                         |
 | [water_step.1][]             | AGFX                     | CC BY 3.0    |                         |
 | [water_step.2][]             | AGFX                     | CC BY 3.0    |                         |
 | [water_step.3][]             | AGFX                     | CC BY 3.0    |                         |
 | water_step.4                 | AntumDeluge              | CC0          | generated with Audacity |
+| [whistle][]                  | pawsound                 | CC0          |                         |
 | [wood_step.*][default]       | Mito551                  | CC BY-SA 3.0 |                         |
+| [yak][]                      | AntumDeluge              | CC0          |                         |
+| [zebra][]                    | Peet J van Eeden         | CC BY        |                         |
 
 ### Usage:
 
@@ -111,6 +121,7 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [bird]: https://soundbible.com/340-Bird-Song.html
 [boing]: https://freesound.org/s/161122/
 [cat_meow]: https://freesound.org/s/397661/
+[clock_tick]: https://opengameart.org/node/16323
 [coin]: https://freesound.org/s/423332/
 [cow_moo]: https://freesound.org/s/177253/
 [dog_bark]: https://freesound.org/s/328730/
@@ -136,10 +147,14 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [ice_dig]: https://freesound.org/s/268023/
 [ice_dug]: https://freesound.org/s/49190/
 [ice_step]: https://freesound.org/s/416967/
+[jaguar_saw]: https://www.youtube.com/watch?v=VJ0RCZXu0v4
+[lion_bellow]: https://freesound.org/s/405211/
 [metal_dig]: https://freesound.org/s/320397/
 [metal_dug]: https://opengameart.org/node/18150
 [metal_place]: https://opengameart.org/node/3511
 [metal_step]: https://freesound.org/s/398937/
+[mouse]: https://opengameart.org/node/16331
+[owl_hoot]: https://freesound.org/s/398734/
 [pencil_erase]: https://freesound.org/s/443241/
 [pencil_write]: https://freesound.org/s/571800/
 [quail]: https://freesound.org/s/329371/
@@ -149,6 +164,11 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [skeleton_bones]: https://opengameart.org/node/16324
 [snow_step]: https://freesound.org/s/94337/
 [step_hard]: https://freesound.org/s/41579/
+[vulture]: https://opengameart.org/node/16329
+[watch_tick]: https://freesound.org/s/446611/
 [water_step.1]: https://freesound.org/s/20432/
 [water_step.2]: https://freesound.org/s/20434/
 [water_step.3]: https://freesound.org/s/20437/
+[whistle]: https://freesound.org/s/154873/
+[yak]: https://opengameart.org/node/98682
+[zebra]: https://www.youtube.com/watch?v=xjGJ_XMVTRE

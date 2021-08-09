@@ -2,7 +2,17 @@
 next
 ----
 - added sounds:
+	- clock_tick
 	- grasshopper
+	- jaguar_saw
+	- lion
+	- mouse
+	- owl
+	- vulture
+	- watch_tick
+	- whistle
+	- yak
+	- zebra
 
 
 v1.2

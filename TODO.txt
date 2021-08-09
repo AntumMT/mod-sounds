@@ -11,7 +11,6 @@ TODO:
 	- chicken
 	- zombie
 	- bee
-	- rat / mouse
 	- wind
 	- tree
 	- leaves
@@ -23,7 +22,6 @@ TODO:
 	- goat
 	- bear
 	- leopard
-	- lion
 	- tiger
 	- lamb
 	- parrot
@@ -38,22 +36,15 @@ TODO:
 	- car
 	- motorcycle
 	- bicycle
-	- clock
 	- fire
 	- cricket
 	- raccoon
 	- train
 	- rain
-	- ticking bomb
 	- zipper
-	- jaguar
 	- gorilla
-	- owl
-	- vulture
 	- whale
-	- zebra
 	- piano
-	- whistle
 	- inflate
 	- pop
 	- gas motor / generator
@@ -63,6 +54,14 @@ TODO:
 	- door open
 	- door close
 	- door slam
+	- turkey
+	- swan / goose
+	- snake hiss
+	- snake rattle
+	- crow
+	- pigeon
+	- peacock
+	- hyena
 - add sounds from:
 	- cmer
 	- slingshot

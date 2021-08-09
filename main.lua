@@ -260,6 +260,14 @@ sounds.cat_meow = SoundGroup({
 	"cat_meow",
 })
 
+--- Clock sounds.
+--
+--  @sndgroup sounds.clock
+--  @snd clock_tick
+sounds.clock = SoundGroup({
+	"clock_tick",
+})
+
 --- Coin sounds.
 --
 --  @sndgroup sounds.coin
@@ -371,6 +379,38 @@ sounds.horse_snort = SoundGroup({
 --  @sndgroup sounds.horse
 sounds.horse = sounds.horse_neigh + sounds.horse_snort
 
+--- Jaguar sounds.
+--
+--  @sndgroup sounds.jaguar
+--  @snd jaguar_saw
+sounds.jaguar = SoundGroup({
+	"jaguar_saw",
+})
+
+--- Lion sounds.
+--
+--  @sndgroup sounds.lion
+--  @snd "lion_bellow"
+sounds.lion = SoundGroup({
+	"lion_bellow",
+})
+
+--- Mouse sounds.
+--
+--  @sndgroup sounds.mouse
+--  @snd mouse
+sounds.mouse = SoundGroup({
+	"mouse",
+})
+
+--- Owl sounds.
+--
+--  @sndgroup sounds.owl
+--  @snd owl_hoot
+sounds.owl = SoundGroup({
+	"owl_hoot",
+})
+
 --- Pencil erase sounds.
 --
 --  @sndgroup sounds.pencil_erase
@@ -424,6 +464,38 @@ sounds.sheep = SoundGroup({
 --  @snd skeleton_bones
 sounds.skeleton = SoundGroup({
 	"skeleton_bones",
+})
+
+--- Vulture sounds.
+--
+--  @sndgroup sounds.vulture
+--  @snd vulture
+sounds.vulture = SoundGroup({
+	"vulture",
+})
+
+--- Watch sounds.
+--
+--  @sndgroup sounds.watch
+--  @snd watch_tick
+sounds.watch = SoundGroup({
+	"watch_tick",
+})
+
+--- Whistle sounds.
+--
+--  @sndgroup sounds.whistle
+--  @snd whistle
+sounds.whistle = SoundGroup({
+	"whistle",
+})
+
+--- Yak sounds.
+--
+--  @sndgroup sounds.yak
+--  @snd yak
+sounds.yak = SoundGroup({
+	"yak",
 })
 
 sounds.node = {
