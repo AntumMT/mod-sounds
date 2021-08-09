@@ -243,6 +243,14 @@ sounds.owl = SoundGroup({
 	"owl_hoot",
 })
 
+--- Peacock sounds.
+--
+--  @sndgroup sound.peacock
+--  @snd peacock
+sounds.peacock = SoundGroup({
+	"peacock",
+})
+
 --- Pencil erase sounds.
 --
 --  @sndgroup sounds.pencil_erase

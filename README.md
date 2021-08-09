@@ -52,6 +52,7 @@ As of right now, only sounds from *default* mod have been added.
 | [lion_bellow][]                   | felix.blume              | CC0          |                         |
 | [mouse][]                         | AntumDeluge              | CC0          |                         |
 | [owl_hoot][]                      | Anthousai                | CC0          |                         |
+| [peacock][]                       | dobroide                 | CC BY 3.0    |                         |
 | [pencil_erase][]                  | damsur                   | CC0          |                         |
 | [pencil_write][]                  | NachtmahrTV              | CC0          |                         |
 | [pigeon][]                        | JavierSerrat             | CC0          |                         |
@@ -195,6 +196,7 @@ sounds.horse_neigh(2, {gain=1.0})
 [lion_bellow]: https://freesound.org/s/405211/
 [mouse]: https://opengameart.org/node/16331
 [owl_hoot]: https://freesound.org/s/398734/
+[peacock]: https://freesound.org/s/59186/
 [pencil_erase]: https://freesound.org/s/443241/
 [pencil_write]: https://freesound.org/s/571800/
 [pigeon]: https://freesound.org/s/524345/

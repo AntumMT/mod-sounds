@@ -19,6 +19,7 @@ next
 	- lion
 	- mouse
 	- owl
+	- peacock
 	- pigeon
 	- tiger_roar
 	- tiger_snarl

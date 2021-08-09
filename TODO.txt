@@ -52,7 +52,6 @@ TODO:
 	- swan / goose
 	- snake hiss
 	- snake rattle
-	- peacock
 	- hyena
 - add sounds from:
 	- cmer
