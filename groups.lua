@@ -32,6 +32,14 @@ sounds.bounce = SoundGroup({
 	"boing",
 })
 
+--- Bee sounds.
+--
+--  @sndgroup sounds.bee
+--  @snd bumble_bee
+sounds.bee = SoundGroup({
+	"bumble_bee",
+})
+
 --- Cat meow sounds.
 --
 --  @sndgroup sounds.cat_meow
