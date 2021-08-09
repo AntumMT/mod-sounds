@@ -128,7 +128,7 @@ sounds.gallop = SoundGroup({
 --
 --  @sndgroup sounds.grasshopper
 --  @snd grasshopper
-sound.grasshopper = SoundGroup({
+sounds.grasshopper = SoundGroup({
 	"grasshopper",
 })
 
