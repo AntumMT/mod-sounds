@@ -498,6 +498,14 @@ sounds.yak = SoundGroup({
 	"yak",
 })
 
+--- Zebra sounds.
+--
+--  @sndgroup zebra
+--  @snd zebra
+sounds.zebra = SoundGroup({
+	"zebra",
+})
+
 sounds.node = {
 	["break"] = {
 		glass = SoundGroup({"glass_break"}),
