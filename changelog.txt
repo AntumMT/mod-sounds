@@ -8,6 +8,8 @@ next
 	- lion
 	- mouse
 	- owl
+	- tiger_roar
+	- tiger_snarl
 	- vulture
 	- watch_tick
 	- whistle

@@ -466,6 +466,22 @@ sounds.skeleton = SoundGroup({
 	"skeleton_bones",
 })
 
+--- Tiger sounds.
+--
+--  @sndgroup sounds.tiger
+--  @snd tiger_roar_01
+--  @snd tiger_snarl_01
+--  @snd tiger_snarl_02
+--  @snd tiger_snarl_03
+--  @snd tiger_snarl_04
+sounds.tiger = SoundGroup({
+	"tiger_roar_01",
+	"tiger_snarl_01",
+	"tiger_snarl_02",
+	"tiger_snarl_03",
+	"tiger_snarl_04",
+})
+
 --- Vulture sounds.
 --
 --  @sndgroup sounds.vulture

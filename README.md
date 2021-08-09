@@ -16,73 +16,76 @@ As of right now, only sounds from *default* mod have been added.
 
 #### Sound file sources & licensing:
 
-| Filename (sounds_) / Source  | Author                   | License      | Notes                   |
-| ---------------------------- | ------------------------ | ------------ | ----------------------- |
-| [apple_bite][]               | sonicmariobrotha         | CC0          |                         |
-| [bird*][bird]                | Jc Guan                  | CC0          |                         |
-| [boing][]                    | reelworldstudio          | CC0          |                         |
-| [cat_meow][]                 | blimp66                  | CC BY 3.0    |                         |
-| [clock_tick][]               | AntumDeluge              | CC0          |                         |
-| [coin][]                     | greenvwbeetle            | CC0          |                         |
-| [cow_moo*][cow_moo]          | JosephSardin             | CC0          |                         |
-| [dig_choppy.*][dig_choppy]   | Sheyvan                  | CC0          |                         |
-| [dig_cracky.*][dig_cracky]   | Benboncan                | CC BY 3.0    |                         |
-| [dig_crumbly][default]       | Mito551                  | CC BY-SA 3.0 |                         |
-| [dig_snappy][]               | blukotek                 | CC0          |                         |
-| [dirt_step.*][default]       | Mito551                  | CC BY-SA 3.0 |                         |
-| [dog_bark][]                 | ivolipa                  | CC0          |                         |
-| [elephant][]                 | vataaa                   | CC0          |                         |
-| [entity_hit][]               | sonictechtonic           | CC BY 3.0    |                         |
-| [explosion][]                | JuveriSetila             | CC0          |                         |
-| [frog][]                     | kayceemixer              | CC0          |                         |
-| [fuse][]                     | Ned Bouhalassa           | CC0          |                         |
-| [gallop_01][]                | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
-| [gallop_02][]                | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
-| [glass_break.1][]            | cmusounddesign           | CC BY 3.0    |                         |
-| [glass_break.2][]            | Tomlija                  | CC BY 3.0    |                         |
-| [glass_break.3][]            | lsprice                  | CC BY 3.0    |                         |
-| [glass_step][default]        | Mito551                  | CC BY-SA 3.0 |                         |
-| [grass_step.*][default]      | Mito551                  | CC BY-SA 3.0 |                         |
-| [grasshopper][]              | straget                  | CC0          |                         |
-| [gravel_dig.*][gravel_dig]   | lolamadeus               | CC0          |                         |
-| [gravel_dug.*][gravel_dig]   | lolamadeus               | CC0          |                         |
-| [gravel_step][default]       | Mito551                  | CC BY-SA 3.0 |                         |
-| [horse_neigh_01][]           | GoodListener             | CC BY 3.0    |                         |
-| [horse_neigh_02][]           | foxen10                  | CC0          |                         |
-| [horse_snort_01][]           | madklown                 | CC0          |                         |
-| [horse_snort_02][]           | 0_ciz                    | CC0          |                         |
-| [ice_dig.*][ice_dig]         | dheming                  | CC BY 3.0    |                         |
-| [ice_dug][]                  | Angel_Perez_Grandi       | CC BY 3.0    |                         |
-| [ice_step.*][ice_step]       | InspectorJ               | CC BY 3.0    |                         |
-| [jaguar_saw][]               | About Zoos               | CC BY        |                         |
-| [lion_bellow][]              | felix.blume              | CC0          |                         |
-| [metal_dig][]                | yadronoff                | CC BY 3.0    |                         |
-| [metal_dug.*][metal_dug]     | qubodup                  | CC0          |                         |
-| [metal_place.*][metal_place] | Ogrebane                 | CC0          |                         |
-| [metal_step.*][metal_step]   | mypantsfelldown          | CC0          |                         |
-| [mouse][]                    | AntumDeluge              | CC0          |                         |
-| [node_dug.*][default]        | Mito551                  | CC BY-SA 3.0 |                         |
-| [node_place*][default]       | Mito551                  | CC BY-SA 3.0 |                         |
-| [owl_hoot][]                 | Anthousai                | CC0          |                         |
-| [pencil_erase][]             | damsur                   | CC0          |                         |
-| [pencil_write][]             | NachtmahrTV              | CC0          |                         |
-| [quail][]                    | PrincessGrace            | CC0          |                         |
-| [rooster][]                  | poorenglishjuggler       | CC0          |                         |
-| [sand_step.*][sand_step]     | worthahep88              | CC0          |                         |
-| [sheep][]                    | mikewest                 | CC0          |                         |
-| [skeleton_bones][]           | AntumDeluge              | CC0          |                         |
-| [snow_step.*][snow_step]     | Ryding                   | CC0          |                         |
-| [step_hard.*][step_hard]     | Erdie                    | CC BY 3.0    |                         |
-| [vulture][]                  | AntumDeluge              | CC0          |                         |
-| [watch_tick][]               | Nicolas4677              | CC0          |                         |
-| [water_step.1][]             | AGFX                     | CC BY 3.0    |                         |
-| [water_step.2][]             | AGFX                     | CC BY 3.0    |                         |
-| [water_step.3][]             | AGFX                     | CC BY 3.0    |                         |
-| water_step.4                 | AntumDeluge              | CC0          | generated with Audacity |
-| [whistle][]                  | pawsound                 | CC0          |                         |
-| [wood_step.*][default]       | Mito551                  | CC BY-SA 3.0 |                         |
-| [yak][]                      | AntumDeluge              | CC0          |                         |
-| [zebra][]                    | Peet J van Eeden         | CC BY        |                         |
+| Filename (sounds_) / Source       | Author                   | License      | Notes                   |
+| --------------------------------- | ------------------------ | ------------ | ----------------------- |
+| [apple_bite][]                    | sonicmariobrotha         | CC0          |                         |
+| [bird*][bird]                     | Jc Guan                  | CC0          |                         |
+| [boing][]                         | reelworldstudio          | CC0          |                         |
+| [cat_meow][]                      | blimp66                  | CC BY 3.0    |                         |
+| [clock_tick][]                    | AntumDeluge              | CC0          |                         |
+| [coin][]                          | greenvwbeetle            | CC0          |                         |
+| [cow_moo*][cow_moo]               | JosephSardin             | CC0          |                         |
+| [dig_choppy.*][dig_choppy]        | Sheyvan                  | CC0          |                         |
+| [dig_cracky.*][dig_cracky]        | Benboncan                | CC BY 3.0    |                         |
+| [dig_crumbly][default]            | Mito551                  | CC BY-SA 3.0 |                         |
+| [dig_snappy][]                    | blukotek                 | CC0          |                         |
+| [dirt_step.*][default]            | Mito551                  | CC BY-SA 3.0 |                         |
+| [dog_bark][]                      | ivolipa                  | CC0          |                         |
+| [elephant][]                      | vataaa                   | CC0          |                         |
+| [entity_hit][]                    | sonictechtonic           | CC BY 3.0    |                         |
+| [explosion][]                     | JuveriSetila             | CC0          |                         |
+| [frog][]                          | kayceemixer              | CC0          |                         |
+| [fuse][]                          | Ned Bouhalassa           | CC0          |                         |
+| [gallop_01][]                     | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
+| [gallop_02][]                     | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
+| [glass_break.1][]                 | cmusounddesign           | CC BY 3.0    |                         |
+| [glass_break.2][]                 | Tomlija                  | CC BY 3.0    |                         |
+| [glass_break.3][]                 | lsprice                  | CC BY 3.0    |                         |
+| [glass_step][default]             | Mito551                  | CC BY-SA 3.0 |                         |
+| [grass_step.*][default]           | Mito551                  | CC BY-SA 3.0 |                         |
+| [grasshopper][]                   | straget                  | CC0          |                         |
+| [gravel_dig.*][gravel_dig]        | lolamadeus               | CC0          |                         |
+| [gravel_dug.*][gravel_dig]        | lolamadeus               | CC0          |                         |
+| [gravel_step][default]            | Mito551                  | CC BY-SA 3.0 |                         |
+| [horse_neigh_01][]                | GoodListener             | CC BY 3.0    |                         |
+| [horse_neigh_02][]                | foxen10                  | CC0          |                         |
+| [horse_snort_01][]                | madklown                 | CC0          |                         |
+| [horse_snort_02][]                | 0_ciz                    | CC0          |                         |
+| [ice_dig.*][ice_dig]              | dheming                  | CC BY 3.0    |                         |
+| [ice_dug][]                       | Angel_Perez_Grandi       | CC BY 3.0    |                         |
+| [ice_step.*][ice_step]            | InspectorJ               | CC BY 3.0    |                         |
+| [jaguar_saw][]                    | About Zoos               | CC BY        |                         |
+| [lion_bellow][]                   | felix.blume              | CC0          |                         |
+| [metal_dig][]                     | yadronoff                | CC BY 3.0    |                         |
+| [metal_dug.*][metal_dug]          | qubodup                  | CC0          |                         |
+| [metal_place.*][metal_place]      | Ogrebane                 | CC0          |                         |
+| [metal_step.*][metal_step]        | mypantsfelldown          | CC0          |                         |
+| [mouse][]                         | AntumDeluge              | CC0          |                         |
+| [node_dug.*][default]             | Mito551                  | CC BY-SA 3.0 |                         |
+| [node_place*][default]            | Mito551                  | CC BY-SA 3.0 |                         |
+| [owl_hoot][]                      | Anthousai                | CC0          |                         |
+| [pencil_erase][]                  | damsur                   | CC0          |                         |
+| [pencil_write][]                  | NachtmahrTV              | CC0          |                         |
+| [quail][]                         | PrincessGrace            | CC0          |                         |
+| [rooster][]                       | poorenglishjuggler       | CC0          |                         |
+| [sand_step.*][sand_step]          | worthahep88              | CC0          |                         |
+| [sheep][]                         | mikewest                 | CC0          |                         |
+| [skeleton_bones][]                | AntumDeluge              | CC0          |                         |
+| [snow_step.*][snow_step]          | Ryding                   | CC0          |                         |
+| [step_hard.*][step_hard]          | Erdie                    | CC BY 3.0    |                         |
+| [tiger_roar_01][]                 | videog                   | CC BY 3.0    |                         |
+| [tiger_snarl_01][tiger_roar_01]   | videog                   | CC BY 3.0    |                         |
+| [tiger_snarl_[02-04][tiger_snarl] | schots                   | CC0          |                         |
+| [vulture][]                       | AntumDeluge              | CC0          |                         |
+| [watch_tick][]                    | Nicolas4677              | CC0          |                         |
+| [water_step.1][]                  | AGFX                     | CC BY 3.0    |                         |
+| [water_step.2][]                  | AGFX                     | CC BY 3.0    |                         |
+| [water_step.3][]                  | AGFX                     | CC BY 3.0    |                         |
+| water_step.4                      | AntumDeluge              | CC0          | generated with Audacity |
+| [whistle][]                       | pawsound                 | CC0          |                         |
+| [wood_step.*][default]            | Mito551                  | CC BY-SA 3.0 |                         |
+| [yak][]                           | AntumDeluge              | CC0          |                         |
+| [zebra][]                         | Peet J van Eeden         | CC BY        |                         |
 
 ### Usage:
 
@@ -102,6 +105,21 @@ function sounds.node_dirt(tbl)
 end
 
 default.node_sound_dirt_defaults = sounds.node_dirt
+```
+
+Playing sounds manually:
+```lua
+# play random sound from group
+sounds.horse_neigh()
+
+# play specific sound from group
+sounds.harse_neigh(2)
+
+# play random sound from group with parameters
+sounds.horse_neigh({gain=1.0})
+
+# play specific sound from group with parameters
+sounds.horse_neigh(2, {gain=1.0})
 ```
 
 ### Links:
@@ -164,6 +182,8 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 [skeleton_bones]: https://opengameart.org/node/16324
 [snow_step]: https://freesound.org/s/94337/
 [step_hard]: https://freesound.org/s/41579/
+[tiger_roar_01]: https://freesound.org/s/149190/
+[tiger_snarl]: https://freesound.org/s/439280/
 [vulture]: https://opengameart.org/node/16329
 [watch_tick]: https://freesound.org/s/446611/
 [water_step.1]: https://freesound.org/s/20432/

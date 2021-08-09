@@ -22,7 +22,6 @@ TODO:
 	- goat
 	- bear
 	- leopard
-	- tiger
 	- lamb
 	- parrot
 	- penguin
