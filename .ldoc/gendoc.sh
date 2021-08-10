@@ -10,5 +10,14 @@ cd "${d_root}"
 # clean old files
 rm -rf "${d_export}"
 
+rm -f "${d_ldoc}/README.md"
+
+./.ldoc/parse_readme.py
+
 # create new files
 ldoc --UNSAFE_NO_SANDBOX -c "${f_config}" -d "${d_export}" "${d_root}"
+
+# cleanup
+rm -f "${d_ldoc}/README.md"
+
+cp "${d_root}/screenshot.png" "${d_export}"
