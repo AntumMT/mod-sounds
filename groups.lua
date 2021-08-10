@@ -242,7 +242,7 @@ sounds.jaguar = SoundGroup({
 --- Lion sounds.
 --
 --  @sndgroup sounds.lion
---  @snd "lion_bellow"
+--  @snd lion_bellow
 sounds.lion = SoundGroup({
 	"lion_bellow",
 })
