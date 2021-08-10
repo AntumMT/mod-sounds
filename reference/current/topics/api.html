@@ -1,0 +1,419 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Sound Pack for Minetest</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+    <link rel="icon" href="https://www.minetest.net/media/icon.svg" type="image/png" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>Sounds</h1>
+
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+<li><a href="#Objects">Objects </a></li>
+</ul>
+
+
+<h2>Topics</h2>
+<ul class="">
+  <li><strong>api</strong></li>
+  <li><a href="../topics/groups.html">groups</a></li>
+  <li><a href="../topics/node_groups.html">node_groups</a></li>
+  <li><a href="../topics/node.html">node</a></li>
+  <li><a href="../topics/README.md.html">README</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Topic <code>api</code></h1>
+<p>Sounds API</p>
+<p>
+
+</p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#sounds:play">sounds:play (name[, sp])</a></td>
+	<td class="summary">Plays a sound.</td>
+	</tr>
+</table>
+<h2><a href="#Objects">Objects </a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup">SoundGroup</a></td>
+	<td class="summary">Sound Group.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup">SoundGroup (def)</a></td>
+	<td class="summary">Constructor.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup:count">SoundGroup:count ()</a></td>
+	<td class="summary">Retrieves number of sounds in group.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup:play">SoundGroup:play ([idx[, sp]])</a></td>
+	<td class="summary">Plays a sound from the group.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup:get_random">SoundGroup:get_random ()</a></td>
+	<td class="summary">Retrieves random name from group.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SoundGroup:get">SoundGroup:get ([idx])</a></td>
+	<td class="summary">Retrieves sounds names in group.</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "sounds:play"></a>
+    <strong>sounds:play (name[, sp])</strong>
+    </dt>
+    <dd>
+    Plays a sound.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">name</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a></span>
+         Sound file without .ogg suffix.
+        </li>
+        <li><span class="parameter">sp</span>
+            <span class="types"><a class="type" href="https://minetest.gitlab.io/minetest/sounds/">SoundParams</a></span>
+         Sound parameters.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        Sound handle or <code>nil</code>.
+    </ol>
+
+
+
+    <h3>Usage:</h3>
+    <ul>
+        <pre class="example"><span class="keyword">local</span> handle = sounds:play(<span class="string">"sound1"</span>, {gain=<span class="number">1.0</span>})
+<span class="keyword">if</span> handle <span class="keyword">then</span>
+  <span class="global">print</span>(<span class="string">"Sound handle: "</span> .. handle)
+<span class="keyword">end</span></pre>
+    </ul>
+
+</dd>
+</dl>
+    <h2 class="section-header "><a name="Objects"></a>Objects </h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "SoundGroup"></a>
+    <strong>SoundGroup</strong>
+    </dt>
+    <dd>
+    Sound Group.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">count</span>
+            <span class="types"><a class="type" href="../topics/api.html#SoundGroup:count">SoundGroup:count</a></span>
+         Retrieves number of available sounds.
+        </li>
+        <li><span class="parameter">play</span>
+            <span class="types"><a class="type" href="../topics/api.html#SoundGroup:play">SoundGroup:play</a></span>
+         Plays indexed or random sound.
+        </li>
+        <li><span class="parameter">no_prepend</span>
+            <span class="types"><span class="type">bool</span></span>
+         If set to <code>true</code>, omits prepending "sounds_" to sound filenames when played.
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SoundGroup"></a>
+    <strong>SoundGroup (def)</strong>
+    </dt>
+    <dd>
+    Constructor.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">def</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound definition.
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="../topics/api.html#SoundGroup">SoundGroup</a></span>
+        Sound group definition table.
+    </ol>
+
+
+
+    <h3>Usage:</h3>
+    <ul>
+        <pre class="example"><span class="comment">-- create new sound groups
+</span><span class="keyword">local</span> s_group1 = SoundGroup({<span class="string">"sound1"</span>, <span class="string">"sound2"</span>})
+<span class="keyword">local</span> s_group2 = SoundGroup({<span class="string">"modname_sound1"</span>, <span class="string">"modname_sound2"</span>, no_prepend=<span class="keyword">true</span>})
+
+<span class="comment">-- play sound at index
+</span>s_group1:play(<span class="number">2</span>)
+
+<span class="comment">-- play random sound from group
+</span>s_group1:play()
+
+<span class="comment">-- play sound at index with parameters
+</span>s_group1:play(<span class="number">1</span>, {gain=<span class="number">1.0</span>, max_hear_distance=<span class="number">100</span>})
+
+<span class="comment">-- play random sound with parameters
+</span>s_group1:play({gain=<span class="number">1.0</span>, max_hear_distance=<span class="number">100</span>})
+
+<span class="comment">-- calling a SoundGroup instance directly is the same as executing the "play" method
+</span>s_group(<span class="number">1</span>, {gain=<span class="number">1.0</span>, max_hear_distance=<span class="number">100</span>})</pre>
+    </ul>
+
+</dd>
+    <dt>
+    <a name = "SoundGroup:count"></a>
+    <strong>SoundGroup:count ()</strong>
+    </dt>
+    <dd>
+    Retrieves number of sounds in group.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+
+
+
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SoundGroup:play"></a>
+    <strong>SoundGroup:play ([idx[, sp]])</strong>
+    </dt>
+    <dd>
+
+<p>Plays a sound from the group. </p>
+
+<p>  If <strong><em>idx</em></strong> is not specified, an available sound will be selected
+  randomly from the group.</p>
+
+
+<h3>Notes:</h3>
+
+<ul>
+    <li><em>idx &amp; sp parameters positions can be switched.</em></li>
+</ul>
+
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">idx</span>
+            <span class="types"><span class="type">int</span></span>
+         Sound index.
+         (<em>optional</em>)
+        </li>
+        <li><span class="parameter">sp</span>
+            <span class="types"><a class="type" href="https://minetest.gitlab.io/minetest/sounds/">SoundParams</a></span>
+         Sound parameters.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><span class="type">int</span></span>
+        Sound handle or <code>nil</code>.
+    </ol>
+
+
+
+    <h3>Usage:</h3>
+    <ul>
+        <pre class="example"><span class="keyword">local</span> handle = SoundGroup:play(<span class="number">2</span>, {gain=<span class="number">1.0</span>})
+<span class="keyword">if</span> handle <span class="keyword">then</span>
+  <span class="global">print</span>(<span class="string">"Sound handle: "</span> .. handle)
+<span class="keyword">end</span></pre>
+    </ul>
+
+</dd>
+    <dt>
+    <a name = "SoundGroup:get_random"></a>
+    <strong>SoundGroup:get_random ()</strong>
+    </dt>
+    <dd>
+    Retrieves random name from group.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+           <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a></span>
+
+
+
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SoundGroup:get"></a>
+    <strong>SoundGroup:get ([idx])</strong>
+    </dt>
+    <dd>
+    Retrieves sounds names in group. </p>
+
+<p>  If <code>idx</code> is supplied, a <a href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a> or <code>nil</code> is returned. If
+  there is only one sound in the group, the <a href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a> name of
+  that sound is returned. Otherwise, a table is returned with
+  all sound file names.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">idx</span>
+            <span class="types"><span class="type">int</span></span>
+         Sound index.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        <a href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a> or <a href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a> containing sound file names.
+    </ol>
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/AntumDeluge/LDoc/tree/custom">LDoc 1.4.6-antum-dev</a></i>
+<i style="float:right;">Last updated 2021-08-10 05:43:39 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>
