@@ -221,7 +221,7 @@ end
 - [![ContentDB](https://content.minetest.net/packages/AntumDeluge/sounds/shields/title/)](https://content.minetest.net/packages/AntumDeluge/sounds/)
 - [Forum](https://forum.minetest.net/viewtopic.php?t=26868)
 - [Git repo](https://github.com/AntumMT/mod-sounds)
-- [API](https://antummt.github.io/mod-sounds/reference/)
+- [Reference](https://antummt.github.io/mod-sounds/reference/)
 - [Changelog](changelog.txt)
 - [TODO](TODO.txt)
 
