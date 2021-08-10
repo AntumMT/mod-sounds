@@ -12,7 +12,11 @@ rm -rf "${d_export}"
 
 rm -f "${d_ldoc}/README.md"
 
-./.ldoc/parse_readme.py
+if test ! -x "${d_ldoc}/parse_readme.py"; then
+	chmod +x "${d_ldoc}/parse_readme.py"
+fi
+
+"${d_ldoc}/parse_readme.py"
 
 # create new files
 ldoc --UNSAFE_NO_SANDBOX -c "${f_config}" -d "${d_export}" "${d_root}"
