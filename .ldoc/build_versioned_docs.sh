@@ -3,9 +3,9 @@
 # place this file in mod ".ldoc" directory
 
 
-d_config="$(dirname $(readlink -f $0))"
+d_ldoc="$(dirname $(readlink -f $0))"
 
-cd "${d_config}/.."
+cd "${d_ldoc}/.."
 
 d_root="$(pwd)"
 d_export="${d_export:-${d_root}/docs/reference}"
@@ -32,21 +32,35 @@ mkdir -p "${d_export}"
 for vinfo in $(git tag -l --sort=-v:refname | grep "^v[0-9]"); do
 	echo -e "\nbuilding ${vinfo} docs ..."
 	git checkout ${vinfo}
-	d_temp="${d_config}/temp"
+	d_temp="${d_ldoc}/temp"
 	mkdir -p "${d_temp}"
 
 	# backward compat
 	f_config="${d_root}/docs/config.ld"
 	if test ! -f "${f_config}"; then
-		f_config="${d_config}/config.ld"
+		f_config="${d_ldoc}/config.ld"
 	fi
 
+	parse_readme="${d_ldoc}/parse_readme.py"
+	if test -f "${parse_readme}"; then
+		if test ! -x "${parse_readme}"; then
+			chmod +x "${parse_readme}"
+		fi
+
+		"${parse_readme}"
+	else
+		echo -e "\nparse_readme.py not found, skipping README.md parsing ..."
+	fi
+
+	echo
 	"${cmd_ldoc}" --UNSAFE_NO_SANDBOX --multimodule -c "${f_config}" -d "${d_temp}" "${d_root}"; retval=$?
 	if test ${retval} -ne 0; then
 		echo -e "\nERROR: doc build for ${vinfo} failed!"
 		rm -rf "${d_temp}"
 		continue
 	fi
+
+	rm -f "${d_ldoc}/README.md"
 
 	if test -d "${d_root}/textures"; then
 		# copy textures to data directory

@@ -14,6 +14,8 @@ if not os.path.isfile(f_readme_src):
 	print("ERROR: source README.md does not exists")
 	sys.exit(errno.ENOENT)
 
+print("\nparsing {}".format(f_readme_src))
+
 buffer = codecs.open(f_readme_src, "r", "utf-8")
 if not buffer:
 	print("ERROR: could not open source README.md for reading")
@@ -81,4 +83,4 @@ if not buffer:
 buffer.write("{}\n\n{}\n\n{}".format("\n".join(r_lines_pre), "\n".join(table), "\n".join(r_lines_post)))
 buffer.close()
 
-print("\nDone!")
+print("\nExported README.md to {}".format(f_readme_tgt))
