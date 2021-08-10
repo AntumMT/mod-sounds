@@ -5,6 +5,7 @@ next
 - fixed arithmetic operations on SoundGroup
 - renamed node sound files
 - SoundGroup:play returns handle or nil only
+- using built-in type function on SoundGroup instance will return "SoundGroup"
 - added sounds:
 	- bee
 	- bees
