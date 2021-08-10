@@ -142,7 +142,7 @@ Example of setting node sounds:
 ```lua
 minetest.register_node("foo:bar", {
 	description = "Foo Node",
-	sounds = default.node_sound_stone_defaults() -- this is the same as `sounds.node_stone()`
+	sounds = default.node_sound_stone_defaults() -- this is the same as calling `sounds.node_stone()`
 	...
 })
 ```
@@ -153,11 +153,17 @@ minetest.register_node("foo:bar", {
 
 Creating `SoundGroup` objects:
 ```lua
-local s_group1 = SoundGroup("sound1", "sound2")
-local s_group2 = SoundGroup("sound3", "sound4", "sound5")
+local s_group1 = SoundGroup({"sound1", "sound2"})
+local s_group2 = SoundGroup({"sound3", "sound4", "sound5"})
 
 -- SoundGroup objects can be concatenated with the arithmetic operator
 local s_group3 = s_group1 + s_group2
+
+-- to prevent sound file names from being prefixed with "sounds_" when played, the `no_prepend` field must be set to `true`
+s_group1(2) -- plays "sounds_sound2"
+
+s_group1.no_prepend = true
+s_group1(2) -- plays "sound2"
 ```
 
 There are many [pre-defined sound groups](https://antummt.github.io/mod-sounds/reference/latest/topics/groups.html).
@@ -191,6 +197,24 @@ minetest.register_node("foo:bar", {
 ```
 
 Currently using `SoundGroup` for node sounds only works for "dig", "dug", & "place".
+
+`SoundGroup` objects are tables & are indexed by integer. But using the `get` method is more reliable as it will return the string name with "sounds_" prefix if `no_prepend` isn't set:
+```lua
+local s_group1 = SoundGroup({"sound1", "sound2"})
+local s1 = s_group1:get(1) -- returns "sounds_sound1"
+local s2 = s_group1[2] -- returns "sound2"
+
+local s_group2 = SoundGroup({"sound3", "sound4", no_prepend=true})
+local s3 = s_group2:get(1) -- returns "sound3"
+local s4 = s_group2[2] -- returns "sound4"
+```
+
+The built-in `type` function can be used to check for a `SoundGroup` instance:
+```lua
+if type(s_group1) == "SoundGroup" then
+	s_group1()
+end
+```
 
 ### Links:
 
