@@ -395,3 +395,11 @@ sounds.yak = SoundGroup({
 sounds.zebra = SoundGroup({
 	"zebra",
 })
+
+--- Zipper sounds.
+--
+--  @sndgroup sounds.zipper
+--  @snd zipper
+sounds.zipper = SoundGroup({
+	"zipper",
+})

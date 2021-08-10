@@ -35,7 +35,6 @@ TODO:
 	- raccoon
 	- train
 	- rain
-	- zipper
 	- gorilla
 	- whale
 	- piano

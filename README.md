@@ -72,6 +72,7 @@ As of right now, only sounds from *default* mod have been added.
 | [whistle][]                       | pawsound                 | CC0          |                         |
 | [yak][]                           | AntumDeluge              | CC0          |                         |
 | [zebra][]                         | Peet J van Eeden         | CC BY        |                         |
+| [zipper][]                        | AntumDeluge              | CC0          |                         |
 
 ###### Authors:
 
@@ -231,3 +232,4 @@ sounds.horse_neigh(2, {gain=1.0})
 [whistle]: https://freesound.org/s/154873/
 [yak]: https://opengameart.org/node/98682
 [zebra]: https://www.youtube.com/watch?v=xjGJ_XMVTRE
+[zipper]: https://opengameart.org/node/16332
