@@ -84,7 +84,7 @@ As of right now, only sounds from *default* mod have been added.
 | [dig_choppy.*][dig_choppy]        | Sheyvan                  | CC0          |                         |
 | [dig_cracky.*][dig_cracky]        | Benboncan                | CC BY 3.0    |                         |
 | [dig_crumbly][default]            | Mito551                  | CC BY-SA 3.0 |                         |
-| [dig_gravel.*][gravel_dig]        | lolamadeus               | CC0          |                         |
+| [dig_gravel.*][dig_gravel]        | lolamadeus               | CC0          |                         |
 | [dig_ice.*][dig_ice]              | dheming                  | CC BY 3.0    |                         |
 | [dig_metal][]                     | yadronoff                | CC BY 3.0    |                         |
 | [dig_snappy][]                    | blukotek                 | CC0          |                         |
@@ -92,7 +92,7 @@ As of right now, only sounds from *default* mod have been added.
 | [dug_glass.1][]                   | cmusounddesign           | CC BY 3.0    |                         |
 | [dug_glass.2][]                   | Tomlija                  | CC BY 3.0    |                         |
 | [dug_glass.3][]                   | lsprice                  | CC BY 3.0    |                         |
-| [dug_gravel.*][gravel_dig]        | lolamadeus               | CC0          |                         |
+| [dug_gravel.*][dig_gravel]        | lolamadeus               | CC0          |                         |
 | [dug_ice][]                       | Angel_Perez_Grandi       | CC BY 3.0    |                         |
 | [dug_metal.*][dug_metal]          | qubodup                  | CC0          |                         |
 | [place*][default]                 | Mito551                  | CC BY-SA 3.0 |                         |
@@ -102,10 +102,10 @@ As of right now, only sounds from *default* mod have been added.
 | [step_grass.*][default]           | Mito551                  | CC BY-SA 3.0 |                         |
 | [step_gravel][default]            | Mito551                  | CC BY-SA 3.0 |                         |
 | [step_hard.*][step_hard]          | Erdie                    | CC BY 3.0    |                         |
-| [step_ice.*][ice]                 | InspectorJ               | CC BY 3.0    |                         |
-| [step_metal.*][metal]             | mypantsfelldown          | CC0          |                         |
-| [step_sand.*][sand]               | worthahep88              | CC0          |                         |
-| [step_snow.*][snow]               | Ryding                   | CC0          |                         |
+| [step_ice.*][step_ice]                 | InspectorJ               | CC BY 3.0    |                         |
+| [step_metal.*][step_metal]             | mypantsfelldown          | CC0          |                         |
+| [step_sand.*][step_sand]               | worthahep88              | CC0          |                         |
+| [step_snow.*][step_snow]               | Ryding                   | CC0          |                         |
 | [step_water.1][]                  | AGFX                     | CC BY 3.0    |                         |
 | [step_water.2][]                  | AGFX                     | CC BY 3.0    |                         |
 | [step_water.3][]                  | AGFX                     | CC BY 3.0    |                         |
