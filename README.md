@@ -72,6 +72,7 @@ As of right now, only sounds from *default* mod have been added.
 | [watch_tick][]                    | Nicolas4677              | CC0          |                         |
 | [whistle][]                       | pawsound                 | CC0          |                         |
 | [wolf_howl][]                     | killyourpepe             | CC0          |                         |
+| [wolf_snarl][]                    | newagesoup               | CC BY 3.0    |                         |
 | [yak][]                           | AntumDeluge              | CC0          |                         |
 | [zebra][]                         | Peet J van Eeden         | CC BY        |                         |
 | [zipper][]                        | AntumDeluge              | CC0          |                         |
@@ -235,6 +236,7 @@ sounds.horse_neigh(2, {gain=1.0})
 [watch_tick]: https://freesound.org/s/446611/
 [whistle]: https://freesound.org/s/154873/
 [wolf_howl]: https://freesound.org/s/395192/
+[wolf_snarl]: https://freesound.org/s/338674/
 [yak]: https://opengameart.org/node/98682
 [zebra]: https://www.youtube.com/watch?v=xjGJ_XMVTRE
 [zipper]: https://opengameart.org/node/16332
