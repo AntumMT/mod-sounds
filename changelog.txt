@@ -1,5 +1,5 @@
 
-next
+v1.3
 ----
 - pencil sounds split into "pencil_erase" & "pencil_write" groups
 - fixed arithmetic operations on SoundGroup
