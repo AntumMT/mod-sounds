@@ -15,6 +15,7 @@ next
 	- duck_quack
 	- goat_bleat
 	- grasshopper
+	- hyena
 	- jaguar_saw
 	- lion
 	- mouse

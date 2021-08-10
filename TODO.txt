@@ -52,7 +52,6 @@ TODO:
 	- swan / goose
 	- snake hiss
 	- snake rattle
-	- hyena
 - add sounds from:
 	- cmer
 	- slingshot

@@ -28,7 +28,7 @@ As of right now, only sounds from *default* mod have been added.
 | [bumble_bee_01][]                 | Iain McCurdy             | CC BY 3.0    |                         |
 | [bumble_bee_02][]                 | CGEffex                  | CC BY 3.0    |                         |
 | [cat_meow][]                      | blimp66                  | CC BY 3.0    |                         |
-| [chicken_*]][chicken]             | www.bonson.ca            | CC BY 3.0    |                         |
+| [chicken_*][chicken]              | www.bonson.ca            | CC BY 3.0    |                         |
 | [clock_tick][]                    | AntumDeluge              | CC0          |                         |
 | [coin][]                          | greenvwbeetle            | CC0          |                         |
 | [cow_moo*][cow_moo]               | JosephSardin             | CC0          |                         |
@@ -48,6 +48,9 @@ As of right now, only sounds from *default* mod have been added.
 | [horse_neigh_02][]                | foxen10                  | CC0          |                         |
 | [horse_snort_01][]                | madklown                 | CC0          |                         |
 | [horse_snort_02][]                | 0_ciz                    | CC0          |                         |
+| [hyena_01][]                      | [authors](#authors)      | CC BY 2.0    |                         |
+| [hyena_02][]                      | [authors](#authors)      | CC BY 2.0    |                         |
+| [hyena_03][]                      | [authors](#authors)      | CC BY 2.0    |                         |
 | [jaguar_saw][]                    | About Zoos               | CC BY        |                         |
 | [lion_bellow][]                   | felix.blume              | CC0          |                         |
 | [mouse][]                         | AntumDeluge              | CC0          |                         |
@@ -62,13 +65,17 @@ As of right now, only sounds from *default* mod have been added.
 | [skeleton_bones][]                | AntumDeluge              | CC0          |                         |
 | [tiger_roar_01][]                 | videog                   | CC BY 3.0    |                         |
 | [tiger_snarl_01][tiger_roar_01]   | videog                   | CC BY 3.0    |                         |
-| [tiger_snarl_[02-04][tiger_snarl] | schots                   | CC0          |                         |
+| [tiger_snarl_0[2-4]][tiger_snarl] | schots                   | CC0          |                         |
 | [undead_moan_*][undead_moan]      | AntumDeluge              | CC0          |                         |
 | [vulture][]                       | AntumDeluge              | CC0          |                         |
 | [watch_tick][]                    | Nicolas4677              | CC0          |                         |
 | [whistle][]                       | pawsound                 | CC0          |                         |
 | [yak][]                           | AntumDeluge              | CC0          |                         |
 | [zebra][]                         | Peet J van Eeden         | CC BY        |                         |
+
+###### Authors:
+
+- **hyena:** Mathevon N, Koralek A, Weldele M, Glickman S, & Theunissen F
 
 ##### Node Sounds:
 
@@ -192,6 +199,9 @@ sounds.horse_neigh(2, {gain=1.0})
 [horse_neigh_02]: https://freesound.org/s/149024/
 [horse_snort_01]: https://freesound.org/s/184503/
 [horse_snort_02]: https://freesound.org/s/475480/
+[hyena_01]: https://commons.wikimedia.org/wiki/File:Giggling_call_of_a_spotted_hyena_(Crocuta_crocuta)_-_1472-6785-10-9-S1.oga
+[hyena_02]: https://commons.wikimedia.org/wiki/File:Giggling_call_of_a_spotted_hyena_(Crocuta_crocuta)_-_1472-6785-10-9-S3.oga
+[hyena_03]: https://commons.wikimedia.org/wiki/File:Giggling_call_of_a_spotted_hyena_(Crocuta_crocuta)_-_1472-6785-10-9-S5.oga
 [jaguar_saw]: https://www.youtube.com/watch?v=VJ0RCZXu0v4
 [lion_bellow]: https://freesound.org/s/405211/
 [mouse]: https://opengameart.org/node/16331

@@ -211,6 +211,18 @@ sounds.horse_snort = SoundGroup({
 --  @sndgroup sounds.horse
 sounds.horse = sounds.horse_neigh + sounds.horse_snort
 
+--- Hyena sounds.
+--
+--  @sndgroup sounds.hyena
+--  @snd hyena_01
+--  @snd hyena_02
+--  @snd hyena_03
+sounds.hyena = SoundGroup({
+	"hyena_01",
+	"hyena_02",
+	"hyena_03",
+})
+
 --- Jaguar sounds.
 --
 --  @sndgroup sounds.jaguar
