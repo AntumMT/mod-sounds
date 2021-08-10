@@ -62,6 +62,8 @@ for vinfo in $(git tag -l --sort=-v:refname | grep "^v[0-9]"); do
 
 	rm -f "${d_ldoc}/README.md"
 
+	cp "${d_root}/screenshot.png" "${d_export}"
+
 	if test -d "${d_root}/textures"; then
 		# copy textures to data directory
 		echo -e "\ncopying textures ..."
