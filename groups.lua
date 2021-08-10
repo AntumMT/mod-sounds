@@ -90,6 +90,14 @@ sounds.cow_moo = SoundGroup({
 	"cow_moo_02",
 })
 
+--- Coyote howl sounds.
+--
+--  @sndgroup sounds.coyote_howl
+--  @snd coyote_howl
+sounds.coyote_howl = SoundGroup({
+	"coyote_howl",
+)}
+
 --- Crow caw sounds.
 --
 --  @sndgroup sounds.crow_caw

@@ -11,6 +11,7 @@ next
 	- bumble_bee
 	- chicken
 	- clock_tick
+	- coyote_howl
 	- crow_caw
 	- duck_quack
 	- goat_bleat

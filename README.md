@@ -32,6 +32,7 @@ As of right now, only sounds from *default* mod have been added.
 | [clock_tick][]                    | AntumDeluge              | CC0          |                         |
 | [coin][]                          | greenvwbeetle            | CC0          |                         |
 | [cow_moo*][cow_moo]               | JosephSardin             | CC0          |                         |
+| [coyote_howl][]                   | rogerforeman             | CC BY 3.0    |                         |
 | [crow_caw][]                      | Morris Gevirtz           | CC BY 4.0    |                         |
 | [dog_bark][]                      | ivolipa                  | CC0          |                         |
 | [duck_quack][]                    | Jonathon Jongsma         | CC BY-SA 3.0 |                         |
@@ -177,6 +178,7 @@ sounds.horse_neigh(2, {gain=1.0})
 [clock_tick]: https://opengameart.org/node/16323
 [coin]: https://freesound.org/s/423332/
 [cow_moo]: https://freesound.org/s/177253/
+[coyote_howl]: https://freesound.org/s/68067/
 [crow_caw]: https://www.xeno-canto.org/617630
 [dig_choppy]: https://freesound.org/s/476113/
 [dig_cracky]: https://freesound.org/s/71823/
