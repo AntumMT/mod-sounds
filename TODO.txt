@@ -24,7 +24,6 @@ TODO:
 	- puppy
 	- squirrel
 	- toucan
-	- wolf
 	- coyote
 	- airplane
 	- car

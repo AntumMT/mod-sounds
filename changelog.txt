@@ -29,6 +29,7 @@ next
 	- vulture
 	- watch_tick
 	- whistle
+	- wolf
 	- yak
 	- zebra
 	- zipper

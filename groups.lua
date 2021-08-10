@@ -388,6 +388,14 @@ sounds.whistle = SoundGroup({
 	"whistle",
 })
 
+--- Wolf howl sounds.
+--
+--  @sndgroup sounds.wolf_howl
+--  @snd wolf_howl
+sounds.wolf_howl = SoundGroup({
+	"wolf_howl",
+})
+
 --- Yak sounds.
 --
 --  @sndgroup sounds.yak
