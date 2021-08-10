@@ -33,6 +33,8 @@ not_luadoc = true
 favicon = "https://www.minetest.net/media/icon.svg"
 readme = ".ldoc/README.md"
 
+local version = 1.3
+
 file = {
 	"api.lua",
 	"groups.lua",
@@ -104,6 +106,19 @@ local function sndgroup_handler(item)
 		for _, s in ipairs(item.tags.snd) do
 			item.description = item.description
 				.. "\n" .. s_count .. ". " .. format_string(s, {size="80%", color="darkgreen"})
+
+			-- add preview
+			local branch = "master"
+			if version then
+				branch = "v" .. version
+			end
+			local a_source = "https://github.com/AntumMT/mod-sounds/raw/" .. branch
+				.. "/sounds/sounds_" .. s .. ".ogg"
+			local preview = '<audio controls style="width:20em;height:1em;">\n  <source src="' .. a_source .. '" type="audio/ogg">'
+				.. '\n  Your browser does not support the audio element.'
+				.. '\n</audio>'
+
+			item.description = item.description .. preview
 			s_count = s_count + 1
 		end
 	end
