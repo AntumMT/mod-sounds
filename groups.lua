@@ -286,6 +286,14 @@ sounds.pencil_write = SoundGroup({
 --  @sndgroup sounds.pencil
 sounds.pencil = sounds.pencil_erase + sounds.pencil_write
 
+--- Piano sounds.
+--
+--  @sndgroup sounds.piano
+--  @snd piano
+sounds.piano = SoundGroup({
+	"piano",
+})
+
 --- Pigeon sounds.
 --
 --  @sndgroup sounds.pigeon

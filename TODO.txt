@@ -37,7 +37,6 @@ TODO:
 	- rain
 	- gorilla
 	- whale
-	- piano
 	- inflate
 	- pop
 	- gas motor / generator

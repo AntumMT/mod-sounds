@@ -21,6 +21,7 @@ next
 	- mouse
 	- owl
 	- peacock
+	- piano
 	- pigeon
 	- tiger_roar
 	- tiger_snarl
