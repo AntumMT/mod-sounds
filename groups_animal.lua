@@ -466,11 +466,27 @@ sounds.insect = sounds.bee | sounds.cricket + sounds.grasshopper
 --  @section primate
 
 
+--- @sndgroup sounds.gorilla_grunt
+--  @snd gorilla_grunt
+sounds.gorilla_grunt = SoundGroup({
+	"gorilla_grunt",
+})
+
 --- @sndgroup sounds.gorilla_roar
 --  @snd gorilla_roar
 sounds.gorilla_roar = SoundGroup({
 	"gorilla_roar",
 })
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.gorilla_grunt`
+--  - `sounds.gorilla_roar
+--
+--  @sndgroup sounds.gorilla
+sounds.gorilla = sounds.gorilla_grunt + sounds.gorilla_roar
 
 
 
