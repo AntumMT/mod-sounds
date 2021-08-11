@@ -10,6 +10,7 @@ local loadfile = import("loadfile")
 local type = import("type", env)
 local string = import("string", env)
 local tostring = import("tostring", env)
+local tonumber = import("tonumber", env)
 local table = import("table", env)
 local pairs = import("pairs", env)
 local ipairs = import("ipairs", env)
@@ -104,21 +105,64 @@ local function sndgroup_handler(item)
 		item.description = item.description .. "\n\n**Sounds:**\n"
 		local s_count = 1
 		for _, s in ipairs(item.tags.snd) do
+			local after
+			local idx = s:find(" ")
+			if idx then
+				after = s:sub(idx+1)
+				s = s:sub(1, idx-1)
+			end
+
+			local ran = false
+			if item.modifiers.snd then
+				for _, m in ipairs(item.modifiers.snd) do
+					if ran then break end
+
+					for k, v in pairs(m) do
+						if k:find("^r%d") then
+							ran = k:gsub("^r", "")
+							ran = tonumber(ran)
+							break
+						end
+					end
+				end
+			end
+
 			item.description = item.description
 				.. "\n" .. s_count .. ". " .. format_string(s, {size="80%", color="darkgreen"})
+
+			if ran then
+				item.description = item.description .. " *(random)*"
+			end
+			if after then
+				item.description = item.description .. " " .. after
+			end
 
 			-- add preview
 			local branch = "master"
 			if version then
 				branch = "v" .. version
 			end
-			local a_source = "https://github.com/AntumMT/mod-sounds/raw/" .. branch
-				.. "/sounds/sounds_" .. s .. ".ogg"
-			local preview = '<audio controls style="width:20em;height:1em;">\n  <source src="' .. a_source .. '" type="audio/ogg">'
-				.. '\n  Your browser does not support the audio element.'
-				.. '\n</audio>'
 
-			item.description = item.description .. preview
+			if ran then
+				for r = 1, ran do
+					local a_source = "https://github.com/AntumMT/mod-sounds/raw/" .. branch
+						.. "/sounds/sounds_" .. s .. "." .. r .. ".ogg"
+					local preview = '<br>\n<audio controls style="width:20em;height:1em;">\n  <source src="' .. a_source .. '" type="audio/ogg">'
+						.. '\n  Your browser does not support the audio element.'
+						.. '\n</audio>'
+
+					item.description = item.description .. preview
+				end
+			else
+				local a_source = "https://github.com/AntumMT/mod-sounds/raw/" .. branch
+					.. "/sounds/sounds_" .. s .. ".ogg"
+				local preview = '<br>\n<audio controls style="width:20em;height:1em;">\n  <source src="' .. a_source .. '" type="audio/ogg">'
+					.. '\n  Your browser does not support the audio element.'
+					.. '\n</audio>'
+
+				item.description = item.description .. preview
+			end
+
 			s_count = s_count + 1
 		end
 	end
