@@ -450,9 +450,11 @@ sounds.rooster = SoundGroup({
 --- @sndgroup sounds.seagull
 --  @snd seagull_01
 --  @snd seagull_02
+--  @snd seagulls
 sounds.seagull = SoundGroup({
 	"seagull_01",
 	"seagull_02",
+	"seagulls",
 })
 
 --- @sndgroup sounds.toucan
