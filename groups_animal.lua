@@ -561,8 +561,16 @@ sounds.gorilla_roar = SoundGroup({
 	"gorilla_roar",
 })
 
+--- @sndgroup sounds.gorilla_snarl
+--  @snd gorilla_snarl_01
+--  @snd gorilla_snarl_02
+--  @snd gorilla_snarl_03
+--  @snd gorilla_snarl_04
 sounds.gorilla_snarl = SoundGroup({
-	"gorilla_snarl",
+	"gorilla_snarl_01",
+	"gorilla_snarl_02",
+	"gorilla_snarl_03",
+	"gorilla_snarl_04",
 })
 
 --- <br>
