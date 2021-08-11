@@ -423,6 +423,12 @@ sounds.bee = SoundGroup({
 	"bees",
 })
 
+--- @sndgroup sounds.cricket
+--  @snd cricket
+sound.cricket = SoundGroup({
+	"cricket",
+})
+
 --- @sndgroup sounds.grasshopper
 --  @snd grasshopper
 sounds.grasshopper = SoundGroup({
@@ -434,10 +440,11 @@ sounds.grasshopper = SoundGroup({
 --  Includes:
 --
 --  - `sounds.bee`
+--  - `sounds.cricket`
 --  - `sounds.grasshopper`
 --
 --  @sndgroup sounds.insect
-sounds.insect = sounds.bee + sounds.grasshopper
+sounds.insect = sounds.bee | sounds.cricket + sounds.grasshopper
 
 
 
