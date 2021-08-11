@@ -41,12 +41,38 @@ for line in r_lines:
 		link = line.lstrip("[").split("]: ")
 		links[link[0]] = link[1]
 
+def escape_underscore(li, in_code=False):
+	if in_code:
+		return li
+
+	characters = []
+	for c in li:
+		if c == "`":
+			if not in_code:
+				in_code = True
+			else:
+				in_code = False
+
+		if c == "_" and not in_code:
+			c = "\\_"
+
+		characters.append(c)
+
+	return "".join(characters)
+
+
 mid = False
 post = False
 indent = False
+in_code = False
 for line in r_lines:
 	if line.startswith("###"):
 		line = line.rstrip(":")
+	elif line.startswith("```"):
+		if not in_code:
+			in_code = True
+		else:
+			in_code = False
 
 	'''
 	if line.count("_") > 1:
@@ -138,9 +164,9 @@ for line in r_lines:
 		continue
 
 	if post:
-		r_lines_post.append(line)
+		r_lines_post.append(escape_underscore(line, in_code))
 	elif not mid:
-		r_lines_pre.append(line)
+		r_lines_pre.append(escape_underscore(line, in_code))
 
 buffer = codecs.open(f_readme_tgt, "w", "utf-8")
 if not buffer:
