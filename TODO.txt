@@ -22,7 +22,6 @@ TODO:
 	- fire
 	- train
 	- rain
-	- whale
 	- inflate
 	- pop
 	- gas motor / generator

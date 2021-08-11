@@ -13,6 +13,7 @@ next
 	- seagulls
 	- snake_rattle
 	- squirrel
+	- whale
 - renamed sounds:
 	- sheep -> sheep_baa
 

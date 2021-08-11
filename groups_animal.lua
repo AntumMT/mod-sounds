@@ -251,6 +251,22 @@ sounds.dolphin_click = SoundGroup({
 --  @sndgroup sounds.dolphin
 sounds.dolphin = sounds.dolphin_chirp + sounds.dolphin_click
 
+--- @sndgroup sounds.whale
+--  @snd whale
+sounds.whale = SoundGroup({
+	"whale",
+})
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.dolphin`
+--  - `sounds.whale`
+--
+--  @sndgroup sounds.cetacean
+sounds.cetacean = sounds.dolphin + sounds.whale
+
 
 
 --- Elephant

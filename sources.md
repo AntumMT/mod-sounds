@@ -82,6 +82,7 @@
 | [undead_moan_*][undead_moan]      | AntumDeluge                  | CC0          |                         |
 | [vulture][]                       | AntumDeluge                  | CC0          | imitation               |
 | [watch_tick][]                    | Nicolas4677                  | CC0          |                         |
+| [whale][]                         | Ian Fairley                  | CC BY        |                         |
 | [whistle][]                       | pawsound                     | CC0          |                         |
 | [wolf_howl][]                     | killyourpepe                 | CC0          |                         |
 | [wolf_snarl][]                    | newagesoup                   | CC BY 3.0    |                         |
@@ -232,6 +233,7 @@
 [undead_moan]: https://opengameart.org/node/81246
 [vulture]: https://opengameart.org/node/16329
 [watch_tick]: https://freesound.org/s/446611/
+[whale]: https://www.youtube.com/watch?v=VIElj_SLxfc
 [whistle]: https://freesound.org/s/154873/
 [wolf_howl]: https://freesound.org/s/395192/
 [wolf_snarl]: https://freesound.org/s/338674/
