@@ -47,9 +47,9 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [horse_neigh_02][]                | foxen10                  | CC0          |                         |
 | [horse_snort_01][]                | madklown                 | CC0          |                         |
 | [horse_snort_02][]                | 0_ciz                    | CC0          |                         |
-| [hyena_01][]                      | [authors](#authors)      | CC BY 2.0    |                         |
-| [hyena_02][]                      | [authors](#authors)      | CC BY 2.0    |                         |
-| [hyena_03][]                      | [authors](#authors)      | CC BY 2.0    |                         |
+| [hyena_01][]                      | [↓](#authors)            | CC BY 2.0    |                         |
+| [hyena_02][]                      | [↓](#authors)            | CC BY 2.0    |                         |
+| [hyena_03][]                      | [↓](#authors)            | CC BY 2.0    |                         |
 | [jaguar_saw][]                    | About Zoos               | CC BY        |                         |
 | [lion_bellow][]                   | felix.blume              | CC0          |                         |
 | [mouse][]                         | AntumDeluge              | CC0          |                         |
@@ -58,7 +58,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [pencil_erase][]                  | damsur                   | CC0          |                         |
 | [pencil_write][]                  | NachtmahrTV              | CC0          |                         |
 | [penguin*][penguin]               | Bidone                   | CC0          |                         |
-| [piano][]                         | [authors](#authors)      | CC0          |                         |
+| [piano][]                         | [↓](#authors)            | CC0          |                         |
 | [pig][]                           | yottasounds              | CC BY 3.0    |                         |
 | [pigeon][]                        | JavierSerrat             | CC0          |                         |
 | [quail][]                         | PrincessGrace            | CC0          |                         |
@@ -77,11 +77,6 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [yak][]                           | AntumDeluge              | CC0          |                         |
 | [zebra][]                         | Peet J van Eeden         | CC BY        |                         |
 | [zipper][]                        | AntumDeluge              | CC0          |                         |
-
-###### Authors:
-
-- **hyena:** Mathevon N, Koralek A, Weldele M, Glickman S, & Theunissen F
-- **piano:** Scott Joplin & Tim Starling
 
 ##### Node Sounds:
 
@@ -108,15 +103,20 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [step_grass.*][default]           | Mito551                  | CC BY-SA 3.0 |                         |
 | [step_gravel][default]            | Mito551                  | CC BY-SA 3.0 |                         |
 | [step_hard.*][step_hard]          | Erdie                    | CC BY 3.0    |                         |
-| [step_ice.*][step_ice]                 | InspectorJ               | CC BY 3.0    |                         |
-| [step_metal.*][step_metal]             | mypantsfelldown          | CC0          |                         |
-| [step_sand.*][step_sand]               | worthahep88              | CC0          |                         |
-| [step_snow.*][step_snow]               | Ryding                   | CC0          |                         |
+| [step_ice.*][step_ice]            | InspectorJ               | CC BY 3.0    |                         |
+| [step_metal.*][step_metal]        | mypantsfelldown          | CC0          |                         |
+| [step_sand.*][step_sand]          | worthahep88              | CC0          |                         |
+| [step_snow.*][step_snow]          | Ryding                   | CC0          |                         |
 | [step_water.1][]                  | AGFX                     | CC BY 3.0    |                         |
 | [step_water.2][]                  | AGFX                     | CC BY 3.0    |                         |
 | [step_water.3][]                  | AGFX                     | CC BY 3.0    |                         |
 | step_water.4                      | AntumDeluge              | CC0          | generated with Audacity |
 | [step_wood.*][default]            | Mito551                  | CC BY-SA 3.0 |                         |
+
+<a name="authors">**Authors Continued:**</a>
+
+- **hyena:** Mathevon N, Koralek A, Weldele M, Glickman S, & Theunissen F
+- **piano:** Scott Joplin & Tim Starling
 
 ### Usage:
 
