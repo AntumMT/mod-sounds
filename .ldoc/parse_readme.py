@@ -83,4 +83,4 @@ if not buffer:
 buffer.write("{}\n\n{}\n\n{}".format("\n".join(r_lines_pre), "\n".join(table), "\n".join(r_lines_post)))
 buffer.close()
 
-print("\nExported README.md to {}".format(f_readme_tgt))
+print("Exported README.md to {}\n".format(f_readme_tgt))
