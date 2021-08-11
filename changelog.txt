@@ -1,5 +1,5 @@
 
-next
+v1.4
 ----
 - added sounds:
 	- bat
