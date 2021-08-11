@@ -213,10 +213,10 @@ sounds.caprine = sounds.goat_bleat + sounds.sheep
 --  @section elephant
 
 
---- @sndgroup sounds.elephant
---  @snd elephant
-sounds.elephant = SoundGroup({
-	"elephant",
+--- @sndgroup sounds.elephant_trumpet
+--  @snd elephant_trumpet
+sounds.elephant_trumpet = SoundGroup({
+	"elephant_trumpet",
 })
 
 

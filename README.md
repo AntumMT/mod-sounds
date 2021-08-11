@@ -39,7 +39,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [crow_caw][]                      | Morris Gevirtz               | CC BY 4.0    |                         |
 | [dog_bark][]                      | ivolipa                      | CC0          |                         |
 | [duck_quack][]                    | Jonathon Jongsma             | CC BY-SA 3.0 |                         |
-| [elephant][]                      | vataaa                       | CC0          |                         |
+| [elephant_trumpet][]              | vataaa                       | CC0          |                         |
 | [entity_hit][]                    | sonictechtonic               | CC BY 3.0    |                         |
 | [explosion][]                     | JuveriSetila                 | CC0          |                         |
 | [frog][]                          | kayceemixer                  | CC0          |                         |
@@ -283,7 +283,7 @@ end
 [dug_glass.3]: https://freesound.org/s/88808/
 [dug_ice]: https://freesound.org/s/49190/
 [dug_metal]: https://opengameart.org/node/18150
-[elephant]: https://freesound.org/s/148873/
+[elephant_trumpet]: https://freesound.org/s/148873/
 [entity_hit]: https://freesound.org/s/241872/
 [explosion]: https://freesound.org/s/514133/
 [frog]: https://freesound.org/s/251495/

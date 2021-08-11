@@ -22,6 +22,8 @@ next
 	- puppy_bark
 	- toucan
 	- turkey_gobble
+- renamed sounds:
+	- elephant -> elephant_trumpet
 
 
 v1.3
