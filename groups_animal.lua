@@ -18,6 +18,23 @@ sounds.frog = SoundGroup({
 
 
 
+--- Bat
+--
+--  @section bat
+
+
+--- @sndgroup sounds.bat
+--  @snd bat_01
+--  @snd bat_02
+--  @snd bat_03
+sounds.bat = SoundGroup({
+	"bat_01",
+	"bat_02",
+	"bat_03",
+})
+
+
+
 --- Bovine
 --
 --  @section bovine

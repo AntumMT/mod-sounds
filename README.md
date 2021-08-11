@@ -19,6 +19,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | Filename (sounds_) / Source       | Author                   | License      | Notes                   |
 | --------------------------------- | ------------------------ | ------------ | ----------------------- |
 | [apple_bite][]                    | sonicmariobrotha         | CC0          |                         |
+| [bat][]                           | polymorpheva             | CC0          |                         |
 | [bee][]                           | DrDufus                  | CC0          |                         |
 | [bees][]                          | tom_woysky               | CC0          |                         |
 | [bird*][bird]                     | Jc Guan                  | CC0          |                         |
@@ -244,6 +245,7 @@ end
 [default]: https://github.com/minetest/minetest_game/tree/master/mods/default
 
 [apple_bite]: https://freesound.org/s/333825/
+[bat]: https://freesound.org/s/104205/
 [bee]: https://freesound.org/s/462875/
 [bees]: https://freesound.org/s/243011/
 [bird]: https://soundbible.com/340-Bird-Song.html

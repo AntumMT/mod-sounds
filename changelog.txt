@@ -2,6 +2,7 @@
 next
 ----
 - added sounds:
+	- bat
 	- cricket
 	- giraffe_hum
 	- gorilla_grunt
