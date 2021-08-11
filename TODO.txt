@@ -37,7 +37,6 @@ TODO:
 	- door open
 	- door close
 	- door slam
-	- seagull
 - add sounds from:
 	- cmer
 	- slingshot

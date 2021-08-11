@@ -64,6 +64,7 @@
 | [puppy_bark][]                    | moffet                       | CC0          |                         |
 | [quail][]                         | PrincessGrace                | CC0          |                         |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
+| [seagull*][seagull]               | squashy555                   | CC0          |                         |
 | [sheep][]                         | mikewest                     | CC0          |                         |
 | [skeleton_bones][]                | AntumDeluge                  | CC0          |                         |
 | [snake_rattle][fws]               | U.S. Fish & Wildlife Service | CC0          |                         |
@@ -201,6 +202,7 @@
 [puppy_bark]: https://freesound.org/s/583142/
 [quail]: https://freesound.org/s/329371/
 [rooster]: https://freesound.org/s/269496/
+[seagull]: https://freesound.org/s/353416/
 [step_hard]: https://freesound.org/s/41579/
 [step_ice]: https://freesound.org/s/416967/
 [step_metal]: https://freesound.org/s/398937/

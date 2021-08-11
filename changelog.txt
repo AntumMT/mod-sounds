@@ -4,6 +4,7 @@ next
 - added sounds:
 	- cobra
 	- goose
+	- seagull
 	- snake_rattle
 
 
