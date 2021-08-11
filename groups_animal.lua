@@ -406,6 +406,19 @@ sounds.fowl = sounds.bird + sounds.chicken + sounds.crow_caw + sounds.duck_quack
 
 
 
+--- Giraffe
+--
+--  @section giraffe
+
+
+--- @sndgroup sounds.giraffe_hum
+--  @snd giraffe_hum
+sounds.giraffe_hum = SoundGroup({
+	"giraffe_hum",
+})
+
+
+
 --- Insect
 --
 --  @section insect
