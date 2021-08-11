@@ -636,6 +636,26 @@ sounds.mouse = SoundGroup({
 	"mouse",
 })
 
+--- @sndgroup sounds.squirrel
+--  @snd squirrel_01
+--  @snd squirrel_02
+--  @snd squirrel_03
+sounds.squirrel = SoundGroup({
+	"squirrel_01",
+	"squirrel_02",
+	"squirrel_03",
+})
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.mouse`
+--  - `sounds.squirrel`
+--
+--  @sndgroup sounds.rodent
+sounds.rodent = sounds.mouse + sounds.squirrel
+
 
 
 --- Snake

@@ -18,7 +18,6 @@ TODO:
 	- dolphin
 	- leopard
 	- lamb
-	- squirrel
 	- airplane
 	- car
 	- motorcycle
