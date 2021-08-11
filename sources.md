@@ -34,6 +34,7 @@
 | [gallop_02][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
 | [giraffe_hum][]                   | [↓](#authors)                | CC BY-SA 4.0 |                         |
 | [goat_bleat*][goat_bleat]         | Stephan                      | CC0          |                         |
+| [goose][]                         | Glaneur de sons              | CC BY 3.0    |                         |
 | [gorilla_grunt][]                 | [↓](#authors)                | CC0          |                         |
 | [gorilla_roar][]                  | J0ck0                        | CC0          |                         |
 | [gorilla_snarl*][gorilla_grunt]   | [↓](#authors)                | CC0          |                         |
@@ -170,6 +171,7 @@
 [gallop_02]: https://freesound.org/s/403025/
 [giraffe_hum]: https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-015-1394-3#Sec10
 [goat_bleat]: https://pdsounds.org/pdsounds_files/files/audio/ziegengatter.mp3
+[goose]: https://freesound.org/s/104959/
 [gorilla_grunt]: https://www.mediacollege.com/downloads/sound-effects/animals/primates/
 [gorilla_roar]: https://freesound.org/s/397054/
 [grasshopper]: https://freesound.org/s/401939/

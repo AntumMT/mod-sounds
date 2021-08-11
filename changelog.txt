@@ -3,6 +3,7 @@ next
 ----
 - added sounds:
 	- cobra
+	- goose
 	- snake_rattle
 
 
