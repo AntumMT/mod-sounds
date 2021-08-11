@@ -302,6 +302,14 @@ sounds.piano = SoundGroup({
 	"piano",
 })
 
+--- Pig sounds.
+--
+--  @sndgroup sounds.pig
+--  @snd pig
+sounds.pig = SoundGroup({
+	"pig",
+})
+
 --- Pigeon sounds.
 --
 --  @sndgroup sounds.pigeon

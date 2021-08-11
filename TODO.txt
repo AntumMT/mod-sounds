@@ -20,7 +20,6 @@ TODO:
 	- lamb
 	- parrot
 	- penguin
-	- pig
 	- puppy
 	- squirrel
 	- toucan

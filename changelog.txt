@@ -1,4 +1,10 @@
 
+next
+----
+- added sounds:
+	- pig
+
+
 v1.3
 ----
 - pencil sounds split into "pencil_erase" & "pencil_write" groups
