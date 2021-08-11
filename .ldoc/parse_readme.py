@@ -42,7 +42,7 @@ for line in r_lines:
 	'''
 
 	if "src=\"screenshot.png\"" in line:
-		line = line.replace("screenshot.png", "../screenshot.png")
+		line = line.replace("screenshot", "../screenshot")
 
 	if line.startswith("|"):
 		mid = True

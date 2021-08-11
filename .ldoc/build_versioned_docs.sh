@@ -65,6 +65,12 @@ for vinfo in $(git tag -l --sort=-v:refname | grep "^v[0-9]"); do
 		sed -i -e "s|^<h1>Sounds</h1>$|<h1>Sounds <span style=\"font-size:12pt;\">(${vinfo})</span></h1>|" "${html}"
 	done
 
+	# copy screenshot
+	screenshot="${d_root}/screenshot.png"
+	if test -f "${screenshot}"; then
+		cp "${d_root}/screenshot.png" "${d_temp}"
+	fi
+
 	rm -f "${d_ldoc}/README.md"
 
 	if test -d "${d_root}/textures"; then
@@ -102,11 +108,5 @@ cd "${d_root}"
 git checkout ${main_branch}
 
 echo -e "${html_out}" > "${d_export}/index.html"
-
-# copy screenshot
-screenshot="${d_root}/screenshot.png"
-if test -f "${screenshot}"; then
-	cp "${d_root}/screenshot.png" "${d_export}"
-fi
 
 echo -e "\nDone!"

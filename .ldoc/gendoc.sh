@@ -21,6 +21,12 @@ fi
 # create new files
 ldoc --UNSAFE_NO_SANDBOX -c "${f_config}" -d "${d_export}" "${d_root}"
 
+# copy screenshot
+screenshot="${d_root}/screenshot.png"
+if test -f "${screenshot}"; then
+	cp "${d_root}/screenshot.png" "${d_export}"
+fi
+
 # cleanup
 rm -f "${d_ldoc}/README.md"
 
