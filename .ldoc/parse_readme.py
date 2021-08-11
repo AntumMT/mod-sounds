@@ -7,6 +7,17 @@ f_script = os.path.realpath(__file__)
 d_ldoc = os.path.dirname(f_script)
 d_root = os.path.dirname(d_ldoc)
 
+vinfo = "master"
+f_modconf = os.path.join(d_root, "mod.conf")
+if os.path.isfile(f_modconf):
+	buffer = codecs.open(f_modconf, "r", "utf-8")
+	if buffer:
+		conf_lines = buffer.readlines()
+		buffer.close()
+		for li in conf_lines:
+			if li.startswith("version = "):
+				vinfo = li.replace("version = ", "v")
+
 f_readme_src = os.path.join(d_root, "README.md")
 f_readme_tgt = os.path.join(d_ldoc, "README.md")
 
@@ -51,8 +62,9 @@ for line in r_lines:
 
 	if "src=\"screenshot.png\"" in line:
 		line = line.replace("screenshot", "../screenshot")
-
-	if line.startswith("|"):
+	elif line == "See [sources.md](sources.md)":
+		line = "See <a href=\"https://github.com/AntumMT/mod-sounds/blob/{}/sources.md\">sources.md</a>".format(vinfo)
+	elif line.startswith("|"):
 		mid = True
 
 	if mid:
