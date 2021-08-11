@@ -315,6 +315,35 @@ sounds.owl = SoundGroup({
 	"owl_hoot",
 })
 
+--- @sndgroup sounds.parrot_chirp
+--  @snd parrot_chirp
+sounds.parrot_chirp = SoundGroup({
+	"parrot_chirp",
+})
+
+--- @sndgroup sounds.parrot_whistle
+--  @snd parrot_whistle
+sounds.parrot_whistle = SoundGroup({
+	"parrot_whistle",
+})
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.parrot_chirp`
+--  - `sounds.parrot_whistle`
+--
+--  @sndgroup sounds.parrot
+--  @snd parrot_01
+--  @snd parrot_02
+--  @snd parrot_03
+sounds.parrot = SoundGroup({
+	"parrot_01",
+	"parrot_02",
+	"parrot_03",
+}) + sounds.parrot_chirp + sounds.parrot_whistle
+
 --- @sndgroup sounds.peacock
 --  @snd peacock
 sounds.peacock = SoundGroup({
@@ -362,6 +391,7 @@ sounds.vulture = SoundGroup({
 --  - `sounds.crow_caw`
 --  - `sounds.duck_quack`
 --  - `sounds.owl`
+--  - `sounds.parrot`
 --  - `sounds.peacock`
 --  - `sounds.penguin`
 --  - `sounds.pigeon`
@@ -371,8 +401,8 @@ sounds.vulture = SoundGroup({
 --
 --  @sndgroup sounds.fowl
 sounds.fowl = sounds.bird + sounds.chicken + sounds.crow_caw + sounds.duck_quack
-	+ sounds.owl + sounds.peacock + sounds.penguin + sounds.pigeon + sounds.quail
-	+ sounds.rooster + sounds.vulture
+	+ sounds.owl + sounds.parrot + sounds.peacock + sounds.penguin + sounds.pigeon
+	+ sounds.quail + sounds.rooster + sounds.vulture
 
 
 

@@ -2,6 +2,9 @@
 next
 ----
 - added sounds:
+	- parrot
+	- parrot_chirp
+	- parrot_whistle
 	- penguin
 	- pig_snort
 	- pig_squeal

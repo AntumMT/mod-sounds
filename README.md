@@ -54,6 +54,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [lion_bellow][]                   | felix.blume              | CC0          |                         |
 | [mouse][]                         | AntumDeluge              | CC0          |                         |
 | [owl_hoot][]                      | Anthousai                | CC0          |                         |
+| [parrot*][]                       | Mings                    | CC BY 3.0    |                         |
 | [peacock][]                       | dobroide                 | CC BY 3.0    |                         |
 | [pencil_erase][]                  | damsur                   | CC0          |                         |
 | [pencil_write][]                  | NachtmahrTV              | CC0          |                         |
@@ -280,6 +281,7 @@ end
 [lion_bellow]: https://freesound.org/s/405211/
 [mouse]: https://opengameart.org/node/16331
 [owl_hoot]: https://freesound.org/s/398734/
+[parrot]: https://freesound.org/s/160381/
 [peacock]: https://freesound.org/s/59186/
 [pencil_erase]: https://freesound.org/s/443241/
 [pencil_write]: https://freesound.org/s/571800/
