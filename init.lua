@@ -23,7 +23,9 @@ local scripts = {
 	"override",
 	"api",
 	"groups",
-	"node_groups",
+	"groups_animal",
+	"groups_creature",
+	"groups_node",
 	"node",
 }
 

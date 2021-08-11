@@ -38,9 +38,11 @@ local version = 1.3
 
 file = {
 	"api.lua",
-	"groups.lua",
-	"node_groups.lua",
 	"node.lua",
+	"groups.lua",
+	"groups_animal.lua",
+	"groups_creature.lua",
+	"groups_node.lua",
 }
 
 new_type("chatcmd", "Chat Commands")
