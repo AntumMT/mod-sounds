@@ -5,7 +5,7 @@
 | --------------------------------- | ---------------------------- | ------------ | ----------------------- |
 | [apple_bite][]                    | sonicmariobrotha             | CC0          |                         |
 | [bat*][bat]                       | polymorpheva                 | CC0          |                         |
-| [bear*][bear]                     | U.S. Fish & Wildlife Service | CC0          |                         |
+| [bear*][fws]                      | U.S. Fish & Wildlife Service | CC0          |                         |
 | [bee][]                           | DrDufus                      | CC0          |                         |
 | [bees][]                          | tom_woysky                   | CC0          |                         |
 | [bird*][bird]                     | Jc Guan                      | CC0          |                         |
@@ -64,6 +64,7 @@
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
 | [sheep][]                         | mikewest                     | CC0          |                         |
 | [skeleton_bones][]                | AntumDeluge                  | CC0          |                         |
+| [snake_rattle][fws]               | U.S. Fish & Wildlife Service | CC0          |                         |
 | [tiger_roar_01][]                 | videog                       | CC BY 3.0    |                         |
 | [tiger_snarl_01][tiger_roar_01]   | videog                       | CC BY 3.0    |                         |
 | [tiger_snarl_0[2-4]][tiger_snarl] | schots                       | CC0          |                         |
@@ -125,10 +126,10 @@
 
 
 [default]: https://github.com/minetest/minetest_game/tree/master/mods/default
+[fws]: https://www.fws.gov/video/sound.htm
 
 [apple_bite]: https://freesound.org/s/333825/
 [bat]: https://freesound.org/s/104205/
-[bear]: https://www.fws.gov/video/sound.htm
 [bee]: https://freesound.org/s/462875/
 [bees]: https://freesound.org/s/243011/
 [bird]: https://soundbible.com/340-Bird-Song.html

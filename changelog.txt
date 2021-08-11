@@ -1,4 +1,10 @@
 
+next
+----
+- added sounds:
+	- snake_rattle
+
+
 v1.4
 ----
 - added sounds:

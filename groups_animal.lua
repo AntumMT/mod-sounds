@@ -620,6 +620,19 @@ sounds.mouse = SoundGroup({
 
 
 
+--- Snake
+--
+--  @section snake
+
+
+--- @sndgroup sounds.snake_rattle
+--  @snd snake_rattle
+sounds.snake_rattle = SoundGroup({
+	"snake_rattle",
+})
+
+
+
 --- Swine
 --
 --  @section swine
