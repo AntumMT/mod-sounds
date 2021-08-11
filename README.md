@@ -19,17 +19,18 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | Filename (sounds_) / Source       | Author                       | License      | Notes                   |
 | --------------------------------- | ---------------------------- | ------------ | ----------------------- |
 | [apple_bite][]                    | sonicmariobrotha             | CC0          |                         |
-| [bat][]                           | polymorpheva                 | CC0          |                         |
-| [bear][]                          | U.S. Fish & Wildlife Service | CC0          |                         |
+| [bat*][bat]                       | polymorpheva                 | CC0          |                         |
+| [bear*][bear]                     | U.S. Fish & Wildlife Service | CC0          |                         |
 | [bee][]                           | DrDufus                      | CC0          |                         |
 | [bees][]                          | tom_woysky                   | CC0          |                         |
 | [bird*][bird]                     | Jc Guan                      | CC0          |                         |
 | [boing][]                         | reelworldstudio              | CC0          |                         |
 | [bumble_bee_01][]                 | Iain McCurdy                 | CC BY 3.0    |                         |
 | [bumble_bee_02][]                 | CGEffex                      | CC BY 3.0    |                         |
-| [camel][]                         | craigsmith                   | CC0          |                         |
+| [camel*][camel]                   | craigsmith                   | CC0          |                         |
+| [canary*][canary]                 | MediaCollege.com             | CC0          |                         |
 | [cat_meow][]                      | blimp66                      | CC BY 3.0    |                         |
-| [chicken_*][chicken]              | www.bonson.ca                | CC BY 3.0    |                         |
+| [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                         |
 | [clock_tick][]                    | AntumDeluge                  | CC0          |                         |
 | [coin][]                          | greenvwbeetle                | CC0          |                         |
 | [cow_moo*][cow_moo]               | JosephSardin                 | CC0          |                         |
@@ -46,7 +47,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [gallop_01][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
 | [gallop_02][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
 | [giraffe_hum][]                   | [↓](#authors)                | CC BY-SA 4.0 |                         |
-| [goat_bleat_*][goat_bleat]        | Stephan                      | CC0          |                         |
+| [goat_bleat*][goat_bleat]         | Stephan                      | CC0          |                         |
 | [gorilla_grunt][]                 | [↓](#authors)                | CC0          |                         |
 | [gorilla_roar][]                  | J0ck0                        | CC0          |                         |
 | [gorilla_snarl*][gorilla_grunt]   | [↓](#authors)                | CC0          |                         |
@@ -60,17 +61,17 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [hyena_03][]                      | [↓](#authors)                | CC BY 2.0    |                         |
 | [jaguar_saw][]                    | About Zoos                   | CC BY        |                         |
 | [lion_bellow][]                   | felix.blume                  | CC0          |                         |
-| [monkey][]                        | AntumDeluge                  | CC0          | imitation               |
+| [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation               |
 | [mouse][]                         | AntumDeluge                  | CC0          | imitation               |
 | [owl_hoot][]                      | Anthousai                    | CC0          |                         |
-| [parrot*][]                       | Mings                        | CC BY 3.0    |                         |
+| [parrot*][parrot]                 | Mings                        | CC BY 3.0    |                         |
 | [peacock][]                       | dobroide                     | CC BY 3.0    |                         |
 | [pencil_erase][]                  | damsur                       | CC0          |                         |
 | [pencil_write][]                  | NachtmahrTV                  | CC0          |                         |
 | [penguin*][penguin]               | Bidone                       | CC0          |                         |
 | [piano][]                         | [↓](#authors)                | CC0          |                         |
 | [pig_snort][]                     | yottasounds                  | CC BY 3.0    |                         |
-| [pig_squeal][]                    | N/A                          | CC0          |                         |
+| [pig_squeal][]                    | MediaCollege.com             | CC0          |                         |
 | [pigeon][]                        | JavierSerrat                 | CC0          |                         |
 | [puppy_bark][]                    | moffet                       | CC0          |                         |
 | [quail][]                         | PrincessGrace                | CC0          |                         |
@@ -257,6 +258,7 @@ end
 [bumble_bee_01]: https://freesound.org/s/498412/
 [bumble_bee_02]: https://freesound.org/s/99955/
 [camel]: https://freesound.org/s/437937/
+[canary]: https://www.mediacollege.com/downloads/sound-effects/animals/bird/
 [cat_meow]: https://freesound.org/s/397661/
 [chicken]: https://freesound.org/s/24967/
 [clock_tick]: https://opengameart.org/node/16323

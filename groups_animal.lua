@@ -326,7 +326,23 @@ sounds.feline = sounds.cat_meow + sounds.jaguar + sounds.lion + sounds.tiger
 --  @section fowl
 
 
---- @sndgroup sounds.bird
+--- @sndgroup sounds.canary
+--  @snd canary_01
+--  @snd canary_02
+--  @snd canary_03
+sounds.canary = SoundGroup({
+	"canary_01",
+	"canary_02",
+	"canary_03",
+})
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.canary`
+--
+--  @sndgroup sounds.bird
 --  @snd bird_01
 --  @snd bird_02
 --  @snd bird_03
@@ -334,7 +350,7 @@ sounds.bird = SoundGroup({
 	"bird_01",
 	"bird_02",
 	"bird_03",
-})
+}) + sounds.canary
 
 --- @sndgroup sounds.chicken
 --  @snd chicken_01

@@ -5,6 +5,7 @@ next
 	- bat
 	- bear
 	- camel
+	- canary
 	- cricket
 	- giraffe_hum
 	- gorilla_grunt
