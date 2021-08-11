@@ -12,7 +12,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 - Icon/Screenshot: [CC0](https://openclipart.org/detail/260975)
 - Media: see following table
 
-#### Sound file sources & licensing:
+#### Sound file sources & licensing:<a name="sources" />
 
 ##### General Sounds:
 
