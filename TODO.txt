@@ -4,6 +4,7 @@ TODO:
 - rename sounds (e.g. "place_metal" to "metal_place"
 - normalize sound files
 - document node sound groups
+- add ambiance registration for biomes
 - add more sounds:
 	- hit/damage
 	- tool breaks
