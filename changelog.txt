@@ -3,8 +3,9 @@ next
 ----
 - added sounds:
 	- penguin
-	- pig
-	- puppy
+	- pig_snort
+	- pig_squeal
+	- puppy_bark
 
 
 v1.3

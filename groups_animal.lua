@@ -415,6 +415,7 @@ sounds.insect = sounds.bee + sounds.grasshopper
 --
 --  @section rodent
 
+
 --- @sndgroup sounds.mouse
 --  @snd mouse
 sounds.mouse = SoundGroup({
@@ -427,8 +428,25 @@ sounds.mouse = SoundGroup({
 --
 --  @section swine
 
+
 --- @sndgroup sounds.pig_snort
 --  @snd pig_snort
 sounds.pig_snort = SoundGroup({
 	"pig_snort",
 })
+
+--- @sndgroup sounds.pig_squeal
+--  @snd pig_squeal
+sounds.pig_squeal = SoundGroup({
+	"pig_squeal",
+})
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.pig_snort`
+--  - `sounds.pig_squeal`
+--
+--  @sndgroup sounds.pig
+sounds.pig = sounds.pig_snort + sounds.pig_squeal

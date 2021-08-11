@@ -60,6 +60,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [penguin*][penguin]               | Bidone                   | CC0          |                         |
 | [piano][]                         | [↓](#authors)            | CC0          |                         |
 | [pig_snort][]                     | yottasounds              | CC BY 3.0    |                         |
+| [pig_squeal][]                    | N/A                      | CC0          |                         |
 | [pigeon][]                        | JavierSerrat             | CC0          |                         |
 | [puppy_bark][]                    | moffet                   | CC0          |                         |
 | [quail][]                         | PrincessGrace            | CC0          |                         |
@@ -285,6 +286,7 @@ end
 [penguin]: https://freesound.org/s/66150/
 [piano]: https://commons.wikimedia.org/wiki/File:Maple_leaf_rag.ogg
 [pig_snort]: https://freesound.org/s/174615/
+[pig_squeal]: https://www.mediacollege.com/downloads/sound-effects/animals/pig/
 [pigeon]: https://freesound.org/s/524345/
 [place_metal]: https://opengameart.org/node/3511
 [puppy_bark]: https://freesound.org/s/583142/
