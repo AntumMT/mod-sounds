@@ -6,6 +6,7 @@ next
 	- giraffe_hum
 	- gorilla_grunt
 	- gorilla_roar
+	- gorilla_snarl
 	- parrot
 	- parrot_chirp
 	- parrot_whistle

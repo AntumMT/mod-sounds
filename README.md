@@ -46,6 +46,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [goat_bleat_*][goat_bleat]        | Stephan                  | CC0          |                         |
 | [gorilla_grunt][]                 | [↓](#authors)            | CC0          |                         |
 | [gorilla_roar][]                  | J0ck0                    | CC0          |                         |
+| [gorilla_snarl*][gorilla_grunt]   | [↓](#authors)            | CC0          |                         |
 | [grasshopper][]                   | straget                  | CC0          |                         |
 | [horse_neigh_01][]                | GoodListener             | CC BY 3.0    |                         |
 | [horse_neigh_02][]                | foxen10                  | CC0          |                         |
@@ -122,8 +123,10 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 
 <a name="authors">**Authors Continued:**</a>
 
-- **giraffe_hum:** Anton Baotic, Florian Sicks, & Angela S. Stoeger
-- **gorilla_grunt:** Anton Baotic, Florian Sicks, & Angela S. Stoeger
+- Anton Baotic, Florian Sicks, & Angela S. Stoeger:
+	- **giraffe_hum**
+	- **gorilla_grunt**
+	- **gorilla_snarl**
 - **hyena:** Mathevon N, Koralek A, Weldele M, Glickman S, & Theunissen F
 - **piano:** Scott Joplin & Tim Starling
 
