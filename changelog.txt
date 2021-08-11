@@ -2,6 +2,7 @@
 next
 ----
 - added sounds:
+	- cobra
 	- snake_rattle
 
 

@@ -17,6 +17,7 @@
 | [cat_meow][]                      | blimp66                      | CC BY 3.0    |                         |
 | [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                         |
 | [clock_tick][]                    | AntumDeluge                  | CC0          |                         |
+| [cobra*][cobra]                   | N/A                          | CC0          |                         |
 | [coin][]                          | greenvwbeetle                | CC0          |                         |
 | [cow_moo*][cow_moo]               | JosephSardin                 | CC0          |                         |
 | [coyote_howl][]                   | rogerforeman                 | CC BY 3.0    |                         |
@@ -141,6 +142,7 @@
 [cat_meow]: https://freesound.org/s/397661/
 [chicken]: https://freesound.org/s/24967/
 [clock_tick]: https://opengameart.org/node/16323
+[cobra]: https://archive.org/details/unknowncobracobrabitewmv
 [coin]: https://freesound.org/s/423332/
 [cow_moo]: https://freesound.org/s/177253/
 [coyote_howl]: https://freesound.org/s/68067/

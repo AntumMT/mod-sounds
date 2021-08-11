@@ -38,7 +38,6 @@ TODO:
 	- door close
 	- door slam
 	- swan / goose
-	- snake hiss
 	- seagull
 - add sounds from:
 	- cmer
