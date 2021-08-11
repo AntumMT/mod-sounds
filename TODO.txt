@@ -19,7 +19,6 @@ TODO:
 	- leopard
 	- lamb
 	- parrot
-	- puppy
 	- squirrel
 	- toucan
 	- airplane

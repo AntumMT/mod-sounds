@@ -61,6 +61,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [piano][]                         | [↓](#authors)            | CC0          |                         |
 | [pig][]                           | yottasounds              | CC BY 3.0    |                         |
 | [pigeon][]                        | JavierSerrat             | CC0          |                         |
+| [puppy_bark][]                    | moffet                   | CC0          |                         |
 | [quail][]                         | PrincessGrace            | CC0          |                         |
 | [rooster][]                       | poorenglishjuggler       | CC0          |                         |
 | [sheep][]                         | mikewest                 | CC0          |                         |
@@ -286,6 +287,7 @@ end
 [pig]: https://freesound.org/s/174615/
 [pigeon]: https://freesound.org/s/524345/
 [place_metal]: https://opengameart.org/node/3511
+[puppy_bark]: https://freesound.org/s/583142/
 [quail]: https://freesound.org/s/329371/
 [rooster]: https://freesound.org/s/269496/
 [step_hard]: https://freesound.org/s/41579/

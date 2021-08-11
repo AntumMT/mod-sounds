@@ -4,6 +4,7 @@ next
 - added sounds:
 	- penguin
 	- pig
+	- puppy
 
 
 v1.3
