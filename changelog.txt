@@ -3,6 +3,7 @@ next
 ----
 - added sounds:
 	- bat
+	- camel
 	- cricket
 	- giraffe_hum
 	- gorilla_grunt

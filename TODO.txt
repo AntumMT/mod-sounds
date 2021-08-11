@@ -15,7 +15,6 @@ TODO:
 	- wind
 	- tree
 	- leaves
-	- camel
 	- monkey / chimp
 	- dolphin
 	- bear

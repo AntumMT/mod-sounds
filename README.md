@@ -26,6 +26,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [boing][]                         | reelworldstudio          | CC0          |                         |
 | [bumble_bee_01][]                 | Iain McCurdy             | CC BY 3.0    |                         |
 | [bumble_bee_02][]                 | CGEffex                  | CC BY 3.0    |                         |
+| [camel][]                         | craigsmith               | CC0          |                         |
 | [cat_meow][]                      | blimp66                  | CC BY 3.0    |                         |
 | [chicken_*][chicken]              | www.bonson.ca            | CC BY 3.0    |                         |
 | [clock_tick][]                    | AntumDeluge              | CC0          |                         |
@@ -252,6 +253,7 @@ end
 [boing]: https://freesound.org/s/161122/
 [bumble_bee_01]: https://freesound.org/s/498412/
 [bumble_bee_02]: https://freesound.org/s/99955/
+[camel]: https://freesound.org/s/437937/
 [cat_meow]: https://freesound.org/s/397661/
 [chicken]: https://freesound.org/s/24967/
 [clock_tick]: https://opengameart.org/node/16323

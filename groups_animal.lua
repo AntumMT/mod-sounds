@@ -66,6 +66,21 @@ sounds.bovine = sounds.cow_moo + sounds.yak
 
 
 
+--- Camelid
+--
+--  @section camelid
+
+
+--- @sndgroup sounds.camel
+--  @snd camel_01
+--  @snd camel_02
+sounds.camel = SoundGroup({
+	"camel_01",
+	"camel_02",
+})
+
+
+
 --- Canine
 --
 --  @section canine
