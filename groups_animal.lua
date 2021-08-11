@@ -64,7 +64,7 @@ sounds.cow_moo = SoundGroup({
 })
 
 --- @sndgroup sounds.yak
---  @snd yak
+--  @snd yak (imitation)
 sounds.yak = SoundGroup({
 	"yak",
 })
@@ -474,7 +474,7 @@ sounds.turkey_gobble = SoundGroup({
 })
 
 --- @sndgroup sounds.vulture
---  @snd vulture
+--  @snd vulture (imitation)
 sounds.vulture = SoundGroup({
 	"vulture",
 })
@@ -604,9 +604,9 @@ sounds.gorilla_snarl = SoundGroup({
 sounds.gorilla = sounds.gorilla_grunt + sounds.gorilla_roar + sounds.gorilla_snarl
 
 --- @sndgroup sounds.monkey
---  @snd monkey_01
---  @snd monkey_02
---  @snd monkey_03
+--  @snd monkey_01 (imitation)
+--  @snd monkey_02 (imitation)
+--  @snd monkey_03 (imitation)
 sounds.monkey = SoundGroup({
 	"monkey_01",
 	"monkey_02",
@@ -631,7 +631,7 @@ sounds.primate = sounds.gorilla + sounds.monkey
 
 
 --- @sndgroup sounds.mouse
---  @snd mouse
+--  @snd mouse (imitation)
 sounds.mouse = SoundGroup({
 	"mouse",
 })
