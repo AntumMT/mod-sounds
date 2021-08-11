@@ -60,6 +60,11 @@ for vinfo in $(git tag -l --sort=-v:refname | grep "^v[0-9]"); do
 		continue
 	fi
 
+	# show version info
+	for html in $(find "${d_temp}" -type f -name "*.html"); do
+		sed -i -e "s|^<h1>Sounds</h1>$|<h1>Sounds <span style=\"font-size:12pt;\">(${vinfo})</span></h1>|" "${html}"
+	done
+
 	rm -f "${d_ldoc}/README.md"
 
 	cp "${d_root}/screenshot.png" "${d_export}"
