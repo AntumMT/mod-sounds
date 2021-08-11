@@ -20,8 +20,13 @@ fi
 
 vinfo="v$(grep "version = " "${d_root}/mod.conf" | sed -e 's/version = //')"
 
+# use temp config so sound previews can be linked to master branch
+f_config_tmp="${d_ldoc}/config_tmp.ld"
+cp "${f_config}" "${f_config_tmp}"
+sed -i -e 's/local version = .*$/local version = master/' "${f_config_tmp}"
+
 # create new files
-ldoc --UNSAFE_NO_SANDBOX -c "${f_config}" -d "${d_export}/${vinfo}" "${d_root}"
+ldoc --UNSAFE_NO_SANDBOX -c "${f_config_tmp}" -d "${d_export}/${vinfo}" "${d_root}"
 
 # show version info
 for html in $(find "${d_export}/${vinfo}" -type f -name "*.html"); do
@@ -35,4 +40,4 @@ if test -f "${screenshot}"; then
 fi
 
 # cleanup
-rm -f "${d_ldoc}/README.md"
+rm -f "${d_ldoc}/README.md" "${f_config_tmp}"
