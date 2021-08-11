@@ -47,7 +47,7 @@ for vinfo in $(git tag -l --sort=-v:refname | grep "^v[0-9]"); do
 			chmod +x "${parse_readme}"
 		fi
 
-		"${parse_readme}"
+		"${parse_readme}" "${vinfo}"
 	else
 		echo -e "\nparse_readme.py not found, skipping README.md parsing ..."
 	fi

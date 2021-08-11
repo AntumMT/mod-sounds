@@ -8,15 +8,8 @@ d_ldoc = os.path.dirname(f_script)
 d_root = os.path.dirname(d_ldoc)
 
 vinfo = "master"
-f_modconf = os.path.join(d_root, "mod.conf")
-if os.path.isfile(f_modconf):
-	buffer = codecs.open(f_modconf, "r", "utf-8")
-	if buffer:
-		conf_lines = buffer.readlines()
-		buffer.close()
-		for li in conf_lines:
-			if li.startswith("version = "):
-				vinfo = li.replace("version = ", "v")
+if len(sys.argv) > 1:
+	vinfo = sys.argv[1]
 
 f_readme_src = os.path.join(d_root, "README.md")
 f_readme_tgt = os.path.join(d_ldoc, "README.md")
