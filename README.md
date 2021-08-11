@@ -82,6 +82,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [tiger_roar_01][]                 | videog                       | CC BY 3.0    |                         |
 | [tiger_snarl_01][tiger_roar_01]   | videog                       | CC BY 3.0    |                         |
 | [tiger_snarl_0[2-4]][tiger_snarl] | schots                       | CC0          |                         |
+| [toucan][]                        | Niels Krabbe                 | CC BY-SA 4.0 |                         |
 | [undead_moan_*][undead_moan]      | AntumDeluge                  | CC0          |                         |
 | [vulture][]                       | AntumDeluge                  | CC0          | imitation               |
 | [watch_tick][]                    | Nicolas4677                  | CC0          |                         |
@@ -331,6 +332,7 @@ end
 [skeleton_bones]: https://opengameart.org/node/16324
 [tiger_roar_01]: https://freesound.org/s/149190/
 [tiger_snarl]: https://freesound.org/s/439280/
+[toucan]: https://www.xeno-canto.org/250531
 [undead_moan]: https://opengameart.org/node/81246
 [vulture]: https://opengameart.org/node/16329
 [watch_tick]: https://freesound.org/s/446611/

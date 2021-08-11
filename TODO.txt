@@ -19,7 +19,6 @@ TODO:
 	- leopard
 	- lamb
 	- squirrel
-	- toucan
 	- airplane
 	- car
 	- motorcycle

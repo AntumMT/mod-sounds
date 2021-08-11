@@ -441,6 +441,16 @@ sounds.rooster = SoundGroup({
 	"rooster",
 })
 
+--- @sndgroup sounds.toucan
+--  @snd toucan_01
+--  @snd toucan_02
+--  @snd toucan_03
+sounds.toucan = SoundGroup({
+	"toucan_01",
+	"toucan_02",
+	"toucan_03",
+})
+
 --- @sndgroup sounds.vulture
 --  @snd vulture
 sounds.vulture = SoundGroup({
@@ -462,12 +472,13 @@ sounds.vulture = SoundGroup({
 --  - `sounds.pigeon`
 --  - `sounds.quail`
 --  - `sounds.rooster`
+--  - `sounds.toucan`
 --  - `sounds.vulture`
 --
 --  @sndgroup sounds.fowl
 sounds.fowl = sounds.bird + sounds.chicken + sounds.crow_caw + sounds.duck_quack
 	+ sounds.owl + sounds.parrot + sounds.peacock + sounds.penguin + sounds.pigeon
-	+ sounds.quail + sounds.rooster + sounds.vulture
+	+ sounds.quail + sounds.rooster + sounds.toucan + sounds.vulture
 
 
 
