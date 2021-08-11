@@ -17,7 +17,6 @@ TODO:
 	- leaves
 	- dolphin
 	- leopard
-	- lamb
 	- airplane
 	- car
 	- motorcycle

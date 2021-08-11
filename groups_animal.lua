@@ -190,6 +190,12 @@ sounds.goat_bleat = SoundGroup({
 	"goat_bleat_03",
 })
 
+--- @sndgroup sounds.lamb
+--  @snd lamb
+sounds.lamb = SoundGroup({
+	"lamb",
+})
+
 --- @sndgroup sounds.sheep
 --  @snd sheep
 sounds.sheep = SoundGroup({

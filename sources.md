@@ -47,6 +47,7 @@
 | [hyena_02][]                      | [↓](#authors)                | CC BY 2.0    |                         |
 | [hyena_03][]                      | [↓](#authors)                | CC BY 2.0    |                         |
 | [jaguar_saw][]                    | About Zoos                   | CC BY        |                         |
+| [lamb][]                          | swiftoid                     | CC0          |                         |
 | [lion_bellow][]                   | felix.blume                  | CC0          |                         |
 | [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation               |
 | [mouse][]                         | AntumDeluge                  | CC0          | imitation               |
@@ -186,6 +187,7 @@
 [hyena_02]: https://commons.wikimedia.org/wiki/File:Giggling_call_of_a_spotted_hyena_(Crocuta_crocuta)_-_1472-6785-10-9-S3.oga
 [hyena_03]: https://commons.wikimedia.org/wiki/File:Giggling_call_of_a_spotted_hyena_(Crocuta_crocuta)_-_1472-6785-10-9-S5.oga
 [jaguar_saw]: https://www.youtube.com/watch?v=VJ0RCZXu0v4
+[lamb]: https://freesound.org/s/182509/
 [lion_bellow]: https://freesound.org/s/405211/
 [monkey]: https://opengameart.org/node/81240
 [mouse]: https://opengameart.org/node/16331
