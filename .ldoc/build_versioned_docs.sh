@@ -67,11 +67,6 @@ for vinfo in $(git tag -l --sort=-v:refname | grep "^v[0-9]"); do
 
 	rm -f "${d_ldoc}/README.md"
 
-	screenshot="${d_root}/screenshot.png"
-	if test -f "${screenshot}"; then
-		cp "${d_root}/screenshot.png" "${d_export}"
-	fi
-
 	if test -d "${d_root}/textures"; then
 		# copy textures to data directory
 		echo -e "\ncopying textures ..."
@@ -107,5 +102,11 @@ cd "${d_root}"
 git checkout ${main_branch}
 
 echo -e "${html_out}" > "${d_export}/index.html"
+
+# copy screenshot
+screenshot="${d_root}/screenshot.png"
+if test -f "${screenshot}"; then
+	cp "${d_root}/screenshot.png" "${d_export}"
+fi
 
 echo -e "\nDone!"
