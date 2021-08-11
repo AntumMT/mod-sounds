@@ -15,7 +15,6 @@ TODO:
 	- wind
 	- tree
 	- leaves
-	- dolphin
 	- airplane
 	- car
 	- motorcycle

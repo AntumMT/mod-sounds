@@ -224,6 +224,35 @@ sounds.caprine = sounds.goat_bleat + sounds.sheep
 
 
 
+--- Cetacean
+--
+--  @section cetacean
+
+
+--- @sndgroup sounds.dolphin_chirp
+--  @snd dolphin_chirp
+sounds.dolphin_chirp = SoundGroup({
+	"dolphin_chirp",
+})
+
+--- @sndgroup sounds.dolphin_click
+--  @snd dolphin_click
+sounds.dolphin_click = SoundGroup({
+	"dolphin_click",
+})
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.dolphin_chirp`
+--  - `sounds.dolphin_click`
+--
+--  @sndgroup sounds.dolphin
+sounds.dolphin = sounds.dolphin_chirp + sounds.dolphin_click
+
+
+
 --- Elephant
 --
 --  @section elephant

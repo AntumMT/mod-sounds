@@ -3,9 +3,11 @@ next
 ----
 - added sounds:
 	- cobra
+	- dolphin_chirp
+	- dolphin_click
 	- goose
 	- lamb
-	- leopard
+	- leopard (many)
 	- seagull
 	- seagulls
 	- snake_rattle
