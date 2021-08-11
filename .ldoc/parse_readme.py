@@ -30,8 +30,16 @@ r_lines_pre = []
 r_lines_post = []
 table = []
 
+links = {}
+
+for line in r_lines:
+	if line.startswith("[") and "]: " in line:
+		link = line.lstrip("[").split("]: ")
+		links[link[0]] = link[1]
+
 mid = False
 post = False
+indent = False
 for line in r_lines:
 	if line.startswith("###"):
 		line = line.rstrip(":")
@@ -52,16 +60,70 @@ for line in r_lines:
 			if line.startswith("| Filename"):
 				line = "{}\n".format(line.lstrip("| ").rstrip(" |")).replace("_", "\\_")
 			else:
-				line = "- {}".format(line.lstrip("|").rstrip(" |"))
+				#if line.replace("-", "").replace("|", "").strip() == "":
+				if line.strip(" -|") == "":
+					continue
+
+				#line = "- {}".format(line.lstrip("|").rstrip(" |"))
+
+				line = line.lstrip("| ").rstrip(" |")
+				cols = line.split("|")
+				for idx in range(len(cols)):
+					cols[idx] = cols[idx].strip()
+
+				url = None
+				sname = cols[0]
+				lname = None
+				author = cols[1]
+				lic = cols[2]
+				notes = None
+				if len(cols) > 3:
+					notes = cols[3]
+
+				if "][]" in sname:
+					sname = sname.strip("[]")
+					lname = sname
+				elif "][" in sname:
+					tmp = sname.split("][")
+					sname = tmp[0].strip("[]")
+					lname = tmp[1].strip("[]")
+
+				if lname and lname in links:
+					url = links[lname]
+
+				sname = sname.replace("_", "\_")
+				author = author.replace("_", "\_").replace("↓", "🡇")
+
+				line = "- "
+				if url:
+					line = '{} <a href="{}">'.format(line, url)
+				line = "{}{}".format(line, sname)
+				if url:
+					line = "{}</a>".format(line)
+				line = "{} by {} ({})".format(line, author, lic)
+				if notes:
+					line = "{} ({})".format(line, notes)
 
 			while "  " in line:
 				line = line.replace("  ", " ")
 
-			if line.replace("-", "").replace("|", "").strip() == "":
-				continue
-
 		if line.startswith("#####"):
 			line = "<br/>\n{}".format(line)
+
+		# authors cont.
+		if not indent and line.startswith("\t- "):
+			line = line.replace("\t- ", "<ul>\n<li>").replace("**", "<b>", 1).replace("**", "</b>", 1)
+			indent = True
+		elif indent:
+			if not line.startswith("\t- "):
+				indent = False
+				line = "</ul>\n{}".format(line)
+			else:
+				line = line.replace("\t- ", "<li>").replace("**", "<b>", 1).replace("**", "</b>", 1)
+			'''
+			line = "</ul>\n{}".format(line)
+			indent = False
+			'''
 
 		table.append(line)
 
