@@ -197,10 +197,20 @@ sounds.lamb = SoundGroup({
 })
 
 --- @sndgroup sounds.sheep
---  @snd sheep
-sounds.sheep = SoundGroup({
-	"sheep",
+--  @snd sheep_baa
+sounds.sheep_baa = SoundGroup({
+	"sheep_baa",
 })
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.lamb`
+--  - `sounds.sheep_baa`
+--
+--  @sndgroup sounds.sheep
+sounds.sheep = sounds.lamb + sounds.sheep_baa
 
 --- <br>
 --

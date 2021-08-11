@@ -9,6 +9,8 @@ next
 	- seagulls
 	- snake_rattle
 	- squirrel
+- renamed sounds:
+	- sheep -> sheep_baa
 
 
 v1.4

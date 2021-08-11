@@ -67,7 +67,7 @@
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
 | [seagull*][seagull]               | squashy555                   | CC0          |                         |
 | [seagulls][]                      | Soojay                       | CC0          |                         |
-| [sheep][]                         | mikewest                     | CC0          |                         |
+| [sheep_baa][]                     | mikewest                     | CC0          |                         |
 | [skeleton_bones][]                | AntumDeluge                  | CC0          |                         |
 | [snake_rattle][fws]               | U.S. Fish & Wildlife Service | CC0          |                         |
 | [squirrel*][squirrel]             | bmccoy2                      | CC BY 3.0    |                         |
@@ -217,7 +217,7 @@
 [step_water.1]: https://freesound.org/s/20432/
 [step_water.2]: https://freesound.org/s/20434/
 [step_water.3]: https://freesound.org/s/20437/
-[sheep]: https://freesound.org/s/414342/
+[sheep_baa]: https://freesound.org/s/414342/
 [skeleton_bones]: https://opengameart.org/node/16324
 [tiger_roar_01]: https://freesound.org/s/149190/
 [tiger_snarl]: https://freesound.org/s/439280/
