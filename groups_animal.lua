@@ -303,6 +303,68 @@ sounds.jaguar = SoundGroup({
 	"jaguar_saw",
 })
 
+--- @sndgroup sounds.leopard_growl
+--  @snd leopard_growl_01
+--  @snd leopard_growl_02
+--  @snd leopard_growl_03
+sounds.leopard_growl = SoundGroup({
+	"leopard_growl_01",
+	"leopard_growl_02",
+	"leopard_growl_03",
+})
+
+--- @sndgroup sounds.leopard_roar
+--  @snd leopard_roar_01
+--  @snd leopard_roar_02
+--  @snd leopard_roar_03
+--  @snd leopard_roar_04
+--  @snd leopard_roar_05
+sounds.leopard_roar = SoundGroup({
+	"leopard_roar_01",
+	"leopard_roar_02",
+	"leopard_roar_03",
+	"leopard_roar_04",
+	"leopard_roar_05",
+})
+
+--- @sndgroup sounds.leopard_saw
+--  @snd leopard_saw_01
+--  @snd leopard_saw_02
+--  @snd leopard_saw_03
+sounds.leopard_saw = SoundGroup({
+	"leopard_saw_01",
+	"leopard_saw_02",
+	"leopard_saw_03",
+})
+
+--- @sndgroup sounds.leopard_snarl
+--  @snd leopard_snarl_01
+--  @snd leopard_snarl_02
+sounds.leopard_snarl = SoundGroup({
+	"leopard_snarl_01",
+	"leopard_snarl_02",
+})
+
+--- @sndgroup sounds.leopard_
+--  @snd leopard_snort
+sounds.leopard_snort = SoundGroup({
+	"leopard_snort",
+})
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.leopard_growl`
+--  - `sounds.leopard_roar`
+--  - `sounds.leopard_saw`
+--  - `sounds.leopard_snarl`
+--  - `sounds.leopard_snort`
+--
+--  @sndgroup sounds.leopard
+sounds.leopard = sounds.leopard_growl + sounds.leopard_roar + sounds.leopard_saw
+	+ sounds.leopard_snarl + sounds.leopard_snort
+
 --- @sndgroup sounds.lion
 --  @snd lion_bellow
 sounds.lion = SoundGroup({
@@ -333,7 +395,8 @@ sounds.tiger = SoundGroup({
 --  - `sounds.tiger`
 --
 --  @sndgroup sounds.feline
-sounds.feline = sounds.cat_meow + sounds.jaguar + sounds.lion + sounds.tiger
+sounds.feline = sounds.cat_meow + sounds.jaguar + sounds.leopard + sounds.lion
+	+ sounds.tiger
 
 
 

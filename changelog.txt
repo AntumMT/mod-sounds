@@ -5,6 +5,7 @@ next
 	- cobra
 	- goose
 	- lamb
+	- leopard
 	- seagull
 	- seagulls
 	- snake_rattle
