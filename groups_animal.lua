@@ -35,6 +35,21 @@ sounds.bat = SoundGroup({
 
 
 
+--- Bear
+--
+--  @section bear
+
+
+--- @sndgroup sounds.bear
+--  @snd bear_01
+--  @snd bear_02
+sounds.bear = SoundGroup({
+	"bear_01",
+	"bear_02",
+})
+
+
+
 --- Bovine
 --
 --  @section bovine

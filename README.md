@@ -16,78 +16,79 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 
 ##### General Sounds:
 
-| Filename (sounds_) / Source       | Author                   | License      | Notes                   |
-| --------------------------------- | ------------------------ | ------------ | ----------------------- |
-| [apple_bite][]                    | sonicmariobrotha         | CC0          |                         |
-| [bat][]                           | polymorpheva             | CC0          |                         |
-| [bee][]                           | DrDufus                  | CC0          |                         |
-| [bees][]                          | tom_woysky               | CC0          |                         |
-| [bird*][bird]                     | Jc Guan                  | CC0          |                         |
-| [boing][]                         | reelworldstudio          | CC0          |                         |
-| [bumble_bee_01][]                 | Iain McCurdy             | CC BY 3.0    |                         |
-| [bumble_bee_02][]                 | CGEffex                  | CC BY 3.0    |                         |
-| [camel][]                         | craigsmith               | CC0          |                         |
-| [cat_meow][]                      | blimp66                  | CC BY 3.0    |                         |
-| [chicken_*][chicken]              | www.bonson.ca            | CC BY 3.0    |                         |
-| [clock_tick][]                    | AntumDeluge              | CC0          |                         |
-| [coin][]                          | greenvwbeetle            | CC0          |                         |
-| [cow_moo*][cow_moo]               | JosephSardin             | CC0          |                         |
-| [coyote_howl][]                   | rogerforeman             | CC BY 3.0    |                         |
-| [cricket][]                       | GB01                     | CC0          |                         |
-| [crow_caw][]                      | Morris Gevirtz           | CC BY 4.0    |                         |
-| [dog_bark][]                      | ivolipa                  | CC0          |                         |
-| [duck_quack][]                    | Jonathon Jongsma         | CC BY-SA 3.0 |                         |
-| [elephant][]                      | vataaa                   | CC0          |                         |
-| [entity_hit][]                    | sonictechtonic           | CC BY 3.0    |                         |
-| [explosion][]                     | JuveriSetila             | CC0          |                         |
-| [frog][]                          | kayceemixer              | CC0          |                         |
-| [fuse][]                          | Ned Bouhalassa           | CC0          |                         |
-| [gallop_01][]                     | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
-| [gallop_02][]                     | Alan McKinney (alanmcki) | CC BY 3.0    |                         |
-| [giraffe_hum][]                   | [↓](#authors)            | CC BY-SA 4.0 |                         |
-| [goat_bleat_*][goat_bleat]        | Stephan                  | CC0          |                         |
-| [gorilla_grunt][]                 | [↓](#authors)            | CC0          |                         |
-| [gorilla_roar][]                  | J0ck0                    | CC0          |                         |
-| [gorilla_snarl*][gorilla_grunt]   | [↓](#authors)            | CC0          |                         |
-| [grasshopper][]                   | straget                  | CC0          |                         |
-| [horse_neigh_01][]                | GoodListener             | CC BY 3.0    |                         |
-| [horse_neigh_02][]                | foxen10                  | CC0          |                         |
-| [horse_snort_01][]                | madklown                 | CC0          |                         |
-| [horse_snort_02][]                | 0_ciz                    | CC0          |                         |
-| [hyena_01][]                      | [↓](#authors)            | CC BY 2.0    |                         |
-| [hyena_02][]                      | [↓](#authors)            | CC BY 2.0    |                         |
-| [hyena_03][]                      | [↓](#authors)            | CC BY 2.0    |                         |
-| [jaguar_saw][]                    | About Zoos               | CC BY        |                         |
-| [lion_bellow][]                   | felix.blume              | CC0          |                         |
-| [monkey][]                        | AntumDeluge              | CC0          | imitation               |
-| [mouse][]                         | AntumDeluge              | CC0          | imitation               |
-| [owl_hoot][]                      | Anthousai                | CC0          |                         |
-| [parrot*][]                       | Mings                    | CC BY 3.0    |                         |
-| [peacock][]                       | dobroide                 | CC BY 3.0    |                         |
-| [pencil_erase][]                  | damsur                   | CC0          |                         |
-| [pencil_write][]                  | NachtmahrTV              | CC0          |                         |
-| [penguin*][penguin]               | Bidone                   | CC0          |                         |
-| [piano][]                         | [↓](#authors)            | CC0          |                         |
-| [pig_snort][]                     | yottasounds              | CC BY 3.0    |                         |
-| [pig_squeal][]                    | N/A                      | CC0          |                         |
-| [pigeon][]                        | JavierSerrat             | CC0          |                         |
-| [puppy_bark][]                    | moffet                   | CC0          |                         |
-| [quail][]                         | PrincessGrace            | CC0          |                         |
-| [rooster][]                       | poorenglishjuggler       | CC0          |                         |
-| [sheep][]                         | mikewest                 | CC0          |                         |
-| [skeleton_bones][]                | AntumDeluge              | CC0          |                         |
-| [tiger_roar_01][]                 | videog                   | CC BY 3.0    |                         |
-| [tiger_snarl_01][tiger_roar_01]   | videog                   | CC BY 3.0    |                         |
-| [tiger_snarl_0[2-4]][tiger_snarl] | schots                   | CC0          |                         |
-| [undead_moan_*][undead_moan]      | AntumDeluge              | CC0          |                         |
-| [vulture][]                       | AntumDeluge              | CC0          | imitation               |
-| [watch_tick][]                    | Nicolas4677              | CC0          |                         |
-| [whistle][]                       | pawsound                 | CC0          |                         |
-| [wolf_howl][]                     | killyourpepe             | CC0          |                         |
-| [wolf_snarl][]                    | newagesoup               | CC BY 3.0    |                         |
-| [yak][]                           | AntumDeluge              | CC0          | imitation               |
-| [zebra][]                         | Peet J van Eeden         | CC BY        |                         |
-| [zipper][]                        | AntumDeluge              | CC0          |                         |
+| Filename (sounds_) / Source       | Author                       | License      | Notes                   |
+| --------------------------------- | ---------------------------- | ------------ | ----------------------- |
+| [apple_bite][]                    | sonicmariobrotha             | CC0          |                         |
+| [bat][]                           | polymorpheva                 | CC0          |                         |
+| [bear][]                          | U.S. Fish & Wildlife Service | CC0          |                         |
+| [bee][]                           | DrDufus                      | CC0          |                         |
+| [bees][]                          | tom_woysky                   | CC0          |                         |
+| [bird*][bird]                     | Jc Guan                      | CC0          |                         |
+| [boing][]                         | reelworldstudio              | CC0          |                         |
+| [bumble_bee_01][]                 | Iain McCurdy                 | CC BY 3.0    |                         |
+| [bumble_bee_02][]                 | CGEffex                      | CC BY 3.0    |                         |
+| [camel][]                         | craigsmith                   | CC0          |                         |
+| [cat_meow][]                      | blimp66                      | CC BY 3.0    |                         |
+| [chicken_*][chicken]              | www.bonson.ca                | CC BY 3.0    |                         |
+| [clock_tick][]                    | AntumDeluge                  | CC0          |                         |
+| [coin][]                          | greenvwbeetle                | CC0          |                         |
+| [cow_moo*][cow_moo]               | JosephSardin                 | CC0          |                         |
+| [coyote_howl][]                   | rogerforeman                 | CC BY 3.0    |                         |
+| [cricket][]                       | GB01                         | CC0          |                         |
+| [crow_caw][]                      | Morris Gevirtz               | CC BY 4.0    |                         |
+| [dog_bark][]                      | ivolipa                      | CC0          |                         |
+| [duck_quack][]                    | Jonathon Jongsma             | CC BY-SA 3.0 |                         |
+| [elephant][]                      | vataaa                       | CC0          |                         |
+| [entity_hit][]                    | sonictechtonic               | CC BY 3.0    |                         |
+| [explosion][]                     | JuveriSetila                 | CC0          |                         |
+| [frog][]                          | kayceemixer                  | CC0          |                         |
+| [fuse][]                          | Ned Bouhalassa               | CC0          |                         |
+| [gallop_01][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
+| [gallop_02][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
+| [giraffe_hum][]                   | [↓](#authors)                | CC BY-SA 4.0 |                         |
+| [goat_bleat_*][goat_bleat]        | Stephan                      | CC0          |                         |
+| [gorilla_grunt][]                 | [↓](#authors)                | CC0          |                         |
+| [gorilla_roar][]                  | J0ck0                        | CC0          |                         |
+| [gorilla_snarl*][gorilla_grunt]   | [↓](#authors)                | CC0          |                         |
+| [grasshopper][]                   | straget                      | CC0          |                         |
+| [horse_neigh_01][]                | GoodListener                 | CC BY 3.0    |                         |
+| [horse_neigh_02][]                | foxen10                      | CC0          |                         |
+| [horse_snort_01][]                | madklown                     | CC0          |                         |
+| [horse_snort_02][]                | 0_ciz                        | CC0          |                         |
+| [hyena_01][]                      | [↓](#authors)                | CC BY 2.0    |                         |
+| [hyena_02][]                      | [↓](#authors)                | CC BY 2.0    |                         |
+| [hyena_03][]                      | [↓](#authors)                | CC BY 2.0    |                         |
+| [jaguar_saw][]                    | About Zoos                   | CC BY        |                         |
+| [lion_bellow][]                   | felix.blume                  | CC0          |                         |
+| [monkey][]                        | AntumDeluge                  | CC0          | imitation               |
+| [mouse][]                         | AntumDeluge                  | CC0          | imitation               |
+| [owl_hoot][]                      | Anthousai                    | CC0          |                         |
+| [parrot*][]                       | Mings                        | CC BY 3.0    |                         |
+| [peacock][]                       | dobroide                     | CC BY 3.0    |                         |
+| [pencil_erase][]                  | damsur                       | CC0          |                         |
+| [pencil_write][]                  | NachtmahrTV                  | CC0          |                         |
+| [penguin*][penguin]               | Bidone                       | CC0          |                         |
+| [piano][]                         | [↓](#authors)                | CC0          |                         |
+| [pig_snort][]                     | yottasounds                  | CC BY 3.0    |                         |
+| [pig_squeal][]                    | N/A                          | CC0          |                         |
+| [pigeon][]                        | JavierSerrat                 | CC0          |                         |
+| [puppy_bark][]                    | moffet                       | CC0          |                         |
+| [quail][]                         | PrincessGrace                | CC0          |                         |
+| [rooster][]                       | poorenglishjuggler           | CC0          |                         |
+| [sheep][]                         | mikewest                     | CC0          |                         |
+| [skeleton_bones][]                | AntumDeluge                  | CC0          |                         |
+| [tiger_roar_01][]                 | videog                       | CC BY 3.0    |                         |
+| [tiger_snarl_01][tiger_roar_01]   | videog                       | CC BY 3.0    |                         |
+| [tiger_snarl_0[2-4]][tiger_snarl] | schots                       | CC0          |                         |
+| [undead_moan_*][undead_moan]      | AntumDeluge                  | CC0          |                         |
+| [vulture][]                       | AntumDeluge                  | CC0          | imitation               |
+| [watch_tick][]                    | Nicolas4677                  | CC0          |                         |
+| [whistle][]                       | pawsound                     | CC0          |                         |
+| [wolf_howl][]                     | killyourpepe                 | CC0          |                         |
+| [wolf_snarl][]                    | newagesoup                   | CC BY 3.0    |                         |
+| [yak][]                           | AntumDeluge                  | CC0          | imitation               |
+| [zebra][]                         | Peet J van Eeden             | CC BY        |                         |
+| [zipper][]                        | AntumDeluge                  | CC0          |                         |
 
 ##### Node Sounds:
 
@@ -248,6 +249,7 @@ end
 
 [apple_bite]: https://freesound.org/s/333825/
 [bat]: https://freesound.org/s/104205/
+[bear]: https://www.fws.gov/video/sound.htm
 [bee]: https://freesound.org/s/462875/
 [bees]: https://freesound.org/s/243011/
 [bird]: https://soundbible.com/340-Bird-Song.html

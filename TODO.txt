@@ -16,7 +16,6 @@ TODO:
 	- tree
 	- leaves
 	- dolphin
-	- bear
 	- leopard
 	- lamb
 	- squirrel
