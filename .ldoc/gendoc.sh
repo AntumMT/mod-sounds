@@ -18,16 +18,21 @@ fi
 
 "${d_ldoc}/parse_readme.py"
 
+vinfo="v$(grep "version = " "${d_root}/mod.conf" | sed -e 's/version = //')"
+
 # create new files
-ldoc --UNSAFE_NO_SANDBOX -c "${f_config}" -d "${d_export}" "${d_root}"
+ldoc --UNSAFE_NO_SANDBOX -c "${f_config}" -d "${d_export}/${vinfo}" "${d_root}"
+
+# show version info
+for html in $(find "${d_export}/${vinfo}" -type f -name "*.html"); do
+	sed -i -e "s|^<h1>Sounds</h1>$|<h1>Sounds <span style=\"font-size:12pt;\">(${vinfo})</span></h1>|" "${html}"
+done
 
 # copy screenshot
 screenshot="${d_root}/screenshot.png"
 if test -f "${screenshot}"; then
-	cp "${d_root}/screenshot.png" "${d_export}"
+	cp "${d_root}/screenshot.png" "${d_export}/${vinfo}"
 fi
 
 # cleanup
 rm -f "${d_ldoc}/README.md"
-
-cp "${d_root}/screenshot.png" "${d_export}"
