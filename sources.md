@@ -66,6 +66,7 @@
 | [pigeon][]                        | JavierSerrat                 | CC0          |                         |
 | [puppy_bark][]                    | moffet                       | CC0          |                         |
 | [quail][]                         | PrincessGrace                | CC0          |                         |
+| [raccoon*][raccoon]               | jnargus                      | CC BY        |                         |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
 | [seagull*][seagull]               | squashy555                   | CC0          |                         |
 | [seagulls][]                      | Soojay                       | CC0          |                         |
@@ -209,6 +210,7 @@
 [place_metal]: https://opengameart.org/node/3511
 [puppy_bark]: https://freesound.org/s/583142/
 [quail]: https://freesound.org/s/329371/
+[raccoon]: https://www.youtube.com/watch?v=BGjFP1CP7E0
 [rooster]: https://freesound.org/s/269496/
 [seagull]: https://freesound.org/s/353416/
 [seagulls]: https://freesound.org/s/462462/

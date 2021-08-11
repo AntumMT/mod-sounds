@@ -8,6 +8,7 @@ next
 	- goose
 	- lamb
 	- leopard (many)
+	- raccoon_chatter
 	- seagull
 	- seagulls
 	- snake_rattle

@@ -20,7 +20,6 @@ TODO:
 	- motorcycle
 	- bicycle
 	- fire
-	- raccoon
 	- train
 	- rain
 	- whale

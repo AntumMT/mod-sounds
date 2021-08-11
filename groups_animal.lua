@@ -733,6 +733,22 @@ sounds.primate = sounds.gorilla + sounds.monkey
 
 
 
+--- Raccoon
+--
+--  @section raccoon
+
+
+--- @sndgroup sounds.raccoon
+--  @snd racoon_chatter
+--  @snd racoon_chatter_baby_01
+--  @snd racoon_chatter_baby_02
+sounds.raccoon = SoundGroup({
+	"raccoon_chatter",
+	"raccoon_chatter_baby_01",
+	"raccoon_chatter_baby_02",
+})
+
+
 --- Rodent
 --
 --  @section rodent
