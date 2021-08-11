@@ -15,6 +15,7 @@ next
 	- parrot
 	- parrot_chirp
 	- parrot_whistle
+	- peacock_02
 	- penguin
 	- pig_snort
 	- pig_squeal

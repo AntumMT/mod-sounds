@@ -65,7 +65,8 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [mouse][]                         | AntumDeluge                  | CC0          | imitation               |
 | [owl_hoot][]                      | Anthousai                    | CC0          |                         |
 | [parrot*][parrot]                 | Mings                        | CC BY 3.0    |                         |
-| [peacock][]                       | dobroide                     | CC BY 3.0    |                         |
+| [peacock_01][]                    | dobroide                     | CC BY 3.0    |                         |
+| [peacock_02][]                    | MediaCollege.com             | CC0          |                         |
 | [pencil_erase][]                  | damsur                       | CC0          |                         |
 | [pencil_write][]                  | NachtmahrTV                  | CC0          |                         |
 | [penguin*][penguin]               | Bidone                       | CC0          |                         |
@@ -305,7 +306,8 @@ end
 [mouse]: https://opengameart.org/node/16331
 [owl_hoot]: https://freesound.org/s/398734/
 [parrot]: https://freesound.org/s/160381/
-[peacock]: https://freesound.org/s/59186/
+[peacock_01]: https://freesound.org/s/59186/
+[peacock_02]: https://www.mediacollege.com/downloads/sound-effects/animals/bird/
 [pencil_erase]: https://freesound.org/s/443241/
 [pencil_write]: https://freesound.org/s/571800/
 [penguin]: https://freesound.org/s/66150/

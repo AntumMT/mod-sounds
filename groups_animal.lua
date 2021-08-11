@@ -408,9 +408,11 @@ sounds.parrot = SoundGroup({
 }) + sounds.parrot_chirp + sounds.parrot_whistle
 
 --- @sndgroup sounds.peacock
---  @snd peacock
+--  @snd peacock_01
+--  @snd peacock_02
 sounds.peacock = SoundGroup({
-	"peacock",
+	"peacock_01",
+	"peacock_02",
 })
 
 --- @sndgroup sounds.penguin
