@@ -57,6 +57,7 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [peacock][]                       | dobroide                 | CC BY 3.0    |                         |
 | [pencil_erase][]                  | damsur                   | CC0          |                         |
 | [pencil_write][]                  | NachtmahrTV              | CC0          |                         |
+| [penguin*][penguin]               | Bidone                   | CC0          |                         |
 | [piano][]                         | [authors](#authors)      | CC0          |                         |
 | [pig][]                           | yottasounds              | CC BY 3.0    |                         |
 | [pigeon][]                        | JavierSerrat             | CC0          |                         |
@@ -280,6 +281,7 @@ end
 [peacock]: https://freesound.org/s/59186/
 [pencil_erase]: https://freesound.org/s/443241/
 [pencil_write]: https://freesound.org/s/571800/
+[penguin]: https://freesound.org/s/66150/
 [piano]: https://commons.wikimedia.org/wiki/File:Maple_leaf_rag.ogg
 [pig]: https://freesound.org/s/174615/
 [pigeon]: https://freesound.org/s/524345/
