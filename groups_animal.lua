@@ -427,8 +427,8 @@ sounds.mouse = SoundGroup({
 --
 --  @section swine
 
---- @sndgroup sounds.pig
---  @snd pig
-sounds.pig = SoundGroup({
-	"pig",
+--- @sndgroup sounds.pig_snort
+--  @snd pig_snort
+sounds.pig_snort = SoundGroup({
+	"pig_snort",
 })
