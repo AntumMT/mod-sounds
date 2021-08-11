@@ -37,9 +37,9 @@ sounds.yak = SoundGroup({
 	"yak",
 })
 
---- Bovine Sounds
+--- <br>
 --
---  Includes sounds from:
+--  Includes:
 --
 --  - `sounds.cow_moo`
 --  - `sounds.yak`
@@ -72,9 +72,9 @@ sounds.puppy_bark = SoundGroup({
 	"puppy_bark",
 })
 
---- Dog sounds.
+--- <br>
 --
--- Includes sounds from:
+-- Includes:
 --
 --  - `sounds.dog_bark`
 --  - `sounds.puppy_bark`
@@ -104,7 +104,7 @@ sounds.wolf_snarl = SoundGroup({
 	"wolf_snarl",
 })
 
---- Wolf sounds.
+--- <br>
 --
 --  Includes:
 --
@@ -114,7 +114,7 @@ sounds.wolf_snarl = SoundGroup({
 --  @sndgroup sounds.wolf
 sounds.wolf = sounds.wolf_howl + sounds.wolf_snarl
 
---- Canine sounds.
+--- <br>
 --
 --  Includes:
 --
@@ -149,7 +149,7 @@ sounds.sheep = SoundGroup({
 	"sheep",
 })
 
---- Caprine Sounds
+--- <br>
 --
 --  Includes:
 --
@@ -166,9 +166,7 @@ sounds.caprine = sounds.goat_bleat + sounds.sheep
 --  @section elephant
 
 
---- Elephant Sounds
---
---  @sndgroup sounds.elephant
+--- @sndgroup sounds.elephant
 --  @snd elephant
 sounds.elephant = SoundGroup({
 	"elephant",
@@ -197,9 +195,9 @@ sounds.horse_snort = SoundGroup({
 	"horse_snort_02",
 })
 
---- Horse sounds.
+--- <br>
 --
---  Includes sounds from:
+--  Includes:
 --
 --  - `sounds.horse_neigh`
 --  - `sounds.horse_snort`
@@ -213,9 +211,9 @@ sounds.zebra = SoundGroup({
 	"zebra",
 })
 
---- Equine Sounds
+--- <br>
 --
---  Includes sounds from:
+--  Includes:
 --
 --  - `sounds.horse`
 --  - `sounds.zebra`
@@ -262,7 +260,7 @@ sounds.tiger = SoundGroup({
 	"tiger_snarl_04",
 })
 
---- Feline Sounds
+--- <br>
 --
 --  Includes:
 --
@@ -317,7 +315,7 @@ sounds.owl = SoundGroup({
 	"owl_hoot",
 })
 
---- @sndgroup sound.peacock
+--- @sndgroup sounds.peacock
 --  @snd peacock
 sounds.peacock = SoundGroup({
 	"peacock",
@@ -331,25 +329,19 @@ sounds.penguin = SoundGroup({
 	"penguin_02",
 })
 
---- Pigeon sounds.
---
---  @sndgroup sounds.pigeon
+--- @sndgroup sounds.pigeon
 --  @snd pigeon
 sounds.pigeon = SoundGroup({
 	"pigeon",
 })
 
---- Quail sounds.
---
---  @sndgroup sounds.quail
+--- @sndgroup sounds.quail
 --  @snd quail
 sounds.quail = SoundGroup({
 	"quail",
 })
 
---- Rooster sounds.
---
---  @sndgroup sounds.rooster
+--- @sndgroup sounds.rooster
 --  @snd rooster
 sounds.rooster = SoundGroup({
 	"rooster",
@@ -361,9 +353,9 @@ sounds.vulture = SoundGroup({
 	"vulture",
 })
 
---- Fowl Sounds
+--- <br>
 --
---  Includes sounds from:
+--  Includes:
 --
 --  - `sounds.bird`
 --  - `sounds.chicken`
@@ -407,7 +399,7 @@ sounds.grasshopper = SoundGroup({
 	"grasshopper",
 })
 
---- Insect Sounds
+--- <br>
 --
 --  Includes:
 --
