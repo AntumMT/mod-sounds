@@ -479,6 +479,7 @@ sounds.vulture = SoundGroup({
 --  - `sounds.quail`
 --  - `sounds.rooster`
 --  - `sounds.toucan`
+--  - `sounds.turkey_gobble`
 --  - `sounds.vulture`
 --
 --  @sndgroup sounds.fowl
