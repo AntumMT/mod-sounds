@@ -31,7 +31,6 @@ TODO:
 	- raccoon
 	- train
 	- rain
-	- gorilla
 	- whale
 	- inflate
 	- pop

@@ -3,6 +3,7 @@ next
 ----
 - added sounds:
 	- cricket
+	- gorilla_roar
 	- parrot
 	- parrot_chirp
 	- parrot_whistle
