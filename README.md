@@ -208,6 +208,8 @@ sounds.horse_neigh(2, {gain=1.0})
 sounds.horse_neigh:play(2, {gain=1.0})
 ```
 
+#### Node Sounds:
+
 `SoundGroup` objects can also be used in node registration:
 ```lua
 minetest.register_node("foo:bar", {
