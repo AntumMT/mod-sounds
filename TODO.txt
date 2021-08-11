@@ -37,10 +37,10 @@ TODO:
 	- door open
 	- door close
 	- door slam
-	- turkey
 	- swan / goose
 	- snake hiss
 	- snake rattle
+	- seagull
 - add sounds from:
 	- cmer
 	- slingshot
