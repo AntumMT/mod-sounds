@@ -213,3 +213,13 @@ end)
 custom_see_handler("^(SoundParams)$", function(name, section)
 	return format_custom_see(name, section)
 end)
+
+-- reference items from separate modules
+custom_see_handler("^(.*) (.*)$", function(name, section)
+	return section, name .. ".html#" .. section
+end)
+
+-- reference external pages
+custom_see_handler("^(.*) (http.*)$", function(name, section)
+	return name, section
+end)
