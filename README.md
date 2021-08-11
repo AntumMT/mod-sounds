@@ -59,7 +59,8 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [hyena_03][]                      | [↓](#authors)            | CC BY 2.0    |                         |
 | [jaguar_saw][]                    | About Zoos               | CC BY        |                         |
 | [lion_bellow][]                   | felix.blume              | CC0          |                         |
-| [mouse][]                         | AntumDeluge              | CC0          |                         |
+| [monkey][]                        | AntumDeluge              | CC0          | imitation               |
+| [mouse][]                         | AntumDeluge              | CC0          | imitation               |
 | [owl_hoot][]                      | Anthousai                | CC0          |                         |
 | [parrot*][]                       | Mings                    | CC BY 3.0    |                         |
 | [peacock][]                       | dobroide                 | CC BY 3.0    |                         |
@@ -79,12 +80,12 @@ A [Minetest][] mod that provides a set of free sounds & methods. It is intended 
 | [tiger_snarl_01][tiger_roar_01]   | videog                   | CC BY 3.0    |                         |
 | [tiger_snarl_0[2-4]][tiger_snarl] | schots                   | CC0          |                         |
 | [undead_moan_*][undead_moan]      | AntumDeluge              | CC0          |                         |
-| [vulture][]                       | AntumDeluge              | CC0          |                         |
+| [vulture][]                       | AntumDeluge              | CC0          | imitation               |
 | [watch_tick][]                    | Nicolas4677              | CC0          |                         |
 | [whistle][]                       | pawsound                 | CC0          |                         |
 | [wolf_howl][]                     | killyourpepe             | CC0          |                         |
 | [wolf_snarl][]                    | newagesoup               | CC BY 3.0    |                         |
-| [yak][]                           | AntumDeluge              | CC0          |                         |
+| [yak][]                           | AntumDeluge              | CC0          | imitation               |
 | [zebra][]                         | Peet J van Eeden         | CC BY        |                         |
 | [zipper][]                        | AntumDeluge              | CC0          |                         |
 
@@ -296,6 +297,7 @@ end
 [hyena_03]: https://commons.wikimedia.org/wiki/File:Giggling_call_of_a_spotted_hyena_(Crocuta_crocuta)_-_1472-6785-10-9-S5.oga
 [jaguar_saw]: https://www.youtube.com/watch?v=VJ0RCZXu0v4
 [lion_bellow]: https://freesound.org/s/405211/
+[monkey]: https://opengameart.org/node/81240
 [mouse]: https://opengameart.org/node/16331
 [owl_hoot]: https://freesound.org/s/398734/
 [parrot]: https://freesound.org/s/160381/

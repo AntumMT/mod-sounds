@@ -525,6 +525,26 @@ sounds.gorilla_snarl = SoundGroup({
 --  @sndgroup sounds.gorilla
 sounds.gorilla = sounds.gorilla_grunt + sounds.gorilla_roar + sounds.gorilla_snarl
 
+--- @sndgroup sounds.monkey
+--  @snd monkey_01
+--  @snd monkey_02
+--  @snd monkey_03
+sounds.monkey = SoundGroup({
+	"monkey_01",
+	"monkey_02",
+	"monkey_03",
+})
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.gorilla`
+--  - `sounds.monkey`
+--
+--  @sndgroup sounds.primate
+sounds.primate = sounds.gorilla + sounds.monkey
+
 
 
 --- Rodent

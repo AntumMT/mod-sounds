@@ -9,6 +9,7 @@ next
 	- gorilla_grunt
 	- gorilla_roar
 	- gorilla_snarl
+	- monkey
 	- parrot
 	- parrot_chirp
 	- parrot_whistle
