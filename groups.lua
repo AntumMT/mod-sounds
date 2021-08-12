@@ -133,6 +133,14 @@ sounds.lava_cool = SoundGroup({
 	"lava_cool",
 })
 
+--- @sndgroup sounds.leaves
+--  @snd leaves_01
+--  @snd leaves_02
+sounds.leaves = SoundGroup({
+	"leaves_01",
+	"leaves_02",
+})
+
 --- @sndgroup sounds.pencil_erase
 --  @snd pencil_erase
 sounds.pencil_erase = SoundGroup({

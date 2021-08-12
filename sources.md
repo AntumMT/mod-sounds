@@ -59,6 +59,7 @@
 | [laugh_evil_01][]                 | AntumDeluge                  | CC0          |                         |
 | [laugh_evil_02][]                 | AntumDeluge                  | CC0          |                         |
 | [lava_cool][default]              | Perttu Ahola (celeron55)     | CC BY-SA 3.0 | 3 random sounds         |
+| [leaves*][leaves]                 | DSOADigital                  | CC0          |                         |
 | [leopard*][leopard]               | Ian Fairley                  | CC BY        |                         |
 | [lion_bellow][]                   | felix.blume                  | CC0          |                         |
 | [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation               |
@@ -224,6 +225,7 @@
 [lamb]: https://freesound.org/s/182509/
 [laugh_evil_01]: https://opengameart.org/node/81237
 [laugh_evil_02]: https://opengameart.org/node/129475
+[leaves]: https://freesound.org/s/362253/
 [leopard]: https://www.youtube.com/watch?v=VFsHjBbrebk
 [lion_bellow]: https://freesound.org/s/405211/
 [monkey]: https://opengameart.org/node/81240
