@@ -156,8 +156,10 @@ sounds.piano = SoundGroup({
 })
 
 --- @sndgroup sounds.rain
+--  @snd rain_light (loopable)
 --  @snd rain_medium (loopable)
 sounds.rain = SoundGroup({
+	"rain_light",
 	"rain_medium",
 })
 

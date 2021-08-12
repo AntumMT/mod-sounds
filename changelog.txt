@@ -16,6 +16,7 @@ next
 	- lamb
 	- leopard (many)
 	- raccoon_chatter
+	- rain_light
 	- rain_medium
 	- sea_lion
 	- seagull
