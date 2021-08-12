@@ -30,7 +30,8 @@
 | [crow_caw][]                      | Morris Gevirtz               | CC BY 4.0    |                         |
 | [dog_bark][]                      | ivolipa                      | CC0          |                         |
 | [dolphin*][dolphin]               | Nagaty Studio                | CC BY        |                         |
-| [door_close][]                    | LampEight                    | CC0          |                         |
+| [door_close_01][]                 | LampEight                    | CC0          |                         |
+| [door_close_02][]                 | InspectorJ                   | CC BY 3.0    |                         |
 | [door_creak][]                    | InspectorJ                   | CC BY 3.0    |                         |
 | [door_knock_01][]                 | LPHypeR                      | CC BY 3.0    |                         |
 | [door_knock_02][]                 | Patrick Hunt                 | CC0          |                         |
@@ -203,7 +204,8 @@
 [dig_snappy]: https://freesound.org/s/251660/
 [dog_bark]: https://freesound.org/s/328730/
 [dolphin]: https://www.youtube.com/watch?v=AZuzadlAGL0
-[door_close]: https://freesound.org/s/402465/
+[door_close_01]: https://freesound.org/s/402465/
+[door_close_02]: https://freesound.org/s/411791/
 [door_creak]: https://freesound.org/s/346212/
 [door_knock_01]: https://freesound.org/s/500994/
 [door_knock_02]: https://freesound.org/s/256513/

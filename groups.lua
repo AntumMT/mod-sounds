@@ -80,9 +80,11 @@ sounds.coin = SoundGroup({
 })
 
 --- @sndgroup sounds.door_close
---  @snd door_close
+--  @snd door_close_01
+--  @snd door_close_02
 sounds.door_close = SoundGroup({
-	"door_close",
+	"door_close_01",
+	"door_close_02",
 })
 
 --- @sndgroup sounds.door_creak
