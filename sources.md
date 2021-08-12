@@ -69,6 +69,7 @@
 | [leaves*][leaves]                 | DSOADigital                  | CC0          |                         |
 | [leopard*][leopard]               | Ian Fairley                  | CC BY        |                         |
 | [lion_bellow][]                   | felix.blume                  | CC0          |                         |
+| [match_ignite][]                  | InspectorJ                   | CC BY 3.0    |                         |
 | [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation               |
 | [mouse][]                         | AntumDeluge                  | CC0          | imitation               |
 | [owl_hoot][]                      | Anthousai                    | CC0          |                         |
@@ -244,6 +245,7 @@
 [leaves]: https://freesound.org/s/362253/
 [leopard]: https://www.youtube.com/watch?v=VFsHjBbrebk
 [lion_bellow]: https://freesound.org/s/405211/
+[match_ignite]: https://freesound.org/s/484266/
 [monkey]: https://opengameart.org/node/81240
 [mouse]: https://opengameart.org/node/16331
 [owl_hoot]: https://freesound.org/s/398734/

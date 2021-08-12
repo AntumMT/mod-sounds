@@ -175,6 +175,12 @@ sounds.leaves = SoundGroup({
 	"leaves_02",
 })
 
+--- @sndgroup sounds.match
+--  @snd match_ignite
+sound.match = SoundGroup({
+	"match_ignite",
+})
+
 --- @sndgroup sounds.pencil_erase
 --  @snd pencil_erase
 sounds.pencil_erase = SoundGroup({
