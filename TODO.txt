@@ -24,7 +24,6 @@ TODO:
 	- horn
 	- door open
 	- door slam
-	- heavy rain
 	- thunder
 - add sounds from:
 	- cmer
