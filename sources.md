@@ -57,6 +57,7 @@
 | [jaguar_saw][]                    | About Zoos                   | CC BY        |                         |
 | [lamb][]                          | swiftoid                     | CC0          |                         |
 | [laugh_evil_01][]                 | AntumDeluge                  | CC0          |                         |
+| [laugh_evil_02][]                 | AntumDeluge                  | CC0          |                         |
 | [leopard*][leopard]               | Ian Fairley                  | CC BY        |                         |
 | [lion_bellow][]                   | felix.blume                  | CC0          |                         |
 | [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation               |
@@ -213,6 +214,7 @@
 [jaguar_saw]: https://www.youtube.com/watch?v=VJ0RCZXu0v4
 [lamb]: https://freesound.org/s/182509/
 [laugh_evil_01]: https://opengameart.org/node/81237
+[laugh_evil_02]: https://opengameart.org/node/129475
 [leopard]: https://www.youtube.com/watch?v=VFsHjBbrebk
 [lion_bellow]: https://freesound.org/s/405211/
 [monkey]: https://opengameart.org/node/81240

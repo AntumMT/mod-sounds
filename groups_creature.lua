@@ -47,6 +47,8 @@ sounds.undead = sounds.skeleton + sounds.undead_moan
 
 --- @sndgroup sounds.laugh_evil
 --  @snd laugh_evil_01
+--  @snd laugh_evil_02
 sounds.laugh_evil = SoundGroup({
 	"laugh_evil_01",
+	"laugh_evil_02",
 })
