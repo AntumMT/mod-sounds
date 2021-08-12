@@ -72,6 +72,7 @@
 | [quail][]                         | PrincessGrace                | CC0          |                         |
 | [raccoon*][raccoon]               | jnargus                      | CC BY        |                         |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
+| [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                         |
 | [seagull*][seagull]               | squashy555                   | CC0          |                         |
 | [seagulls][]                      | Soojay                       | CC0          |                         |
 | [sheep_baa][]                     | mikewest                     | CC0          |                         |
@@ -221,6 +222,7 @@
 [quail]: https://freesound.org/s/329371/
 [raccoon]: https://www.youtube.com/watch?v=BGjFP1CP7E0
 [rooster]: https://freesound.org/s/269496/
+[sea_lion]: https://freesound.org/s/499564/
 [seagull]: https://freesound.org/s/353416/
 [seagulls]: https://freesound.org/s/462462/
 [squirrel]: https://freesound.org/s/342105/

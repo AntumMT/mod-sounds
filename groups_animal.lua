@@ -687,6 +687,23 @@ sounds.insect = sounds.bee + sounds.cricket + sounds.grasshopper
 
 
 
+--- Pinniped
+--
+--  @section pinniped
+
+
+--- @sndgroup sounds.sea_lion
+--  @snd sea_lion_01
+--  @snd sea_lion_02
+--  @snd sea_lion_03
+sounds.sea_lion = SoundGroup({
+	"sea_lion_01",
+	"sea_lion_02",
+	"sea_lion_03",
+})
+
+
+
 --- Primate
 --
 --  @section primate

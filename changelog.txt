@@ -13,6 +13,7 @@ next
 	- lamb
 	- leopard (many)
 	- raccoon_chatter
+	- sea_lion
 	- seagull
 	- seagulls
 	- snake_rattle
