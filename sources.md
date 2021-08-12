@@ -106,6 +106,7 @@
 | [wolf_howl][]                     | killyourpepe                 | CC0          |                         |
 | [wolf_snarl][]                    | newagesoup                   | CC BY 3.0    |                         |
 | [woosh_01][]                      | denao270                     | CC0          |                         |
+| [woosh_02][]                      | mrickey13                    | CC0          |                         |
 | [yak][]                           | AntumDeluge                  | CC0          | imitation               |
 | [zebra][]                         | Peet J van Eeden             | CC BY        |                         |
 | [zipper][]                        | AntumDeluge                  | CC0          |                         |
@@ -274,6 +275,7 @@
 [wolf_howl]: https://freesound.org/s/395192/
 [wolf_snarl]: https://freesound.org/s/338674/
 [woosh_01]: https://freesound.org/s/346373/
+[woosh_02]: https://freesound.org/s/515625/
 [yak]: https://opengameart.org/node/98682
 [zebra]: https://www.youtube.com/watch?v=xjGJ_XMVTRE
 [zipper]: https://opengameart.org/node/16332
