@@ -14,6 +14,7 @@ next
 	- door_creak
 	- goose
 	- lamb
+	- laugh_evil
 	- leopard (many)
 	- raccoon_chatter
 	- rain_heavy
