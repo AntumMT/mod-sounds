@@ -32,9 +32,11 @@ sounds.rain = SoundGroup({
 --- @sndgroup sounds.thunder
 --  @snd thunder_01
 --  @snd thunder_02
+--  @snd thunder_03
 sounds.thunder = SoundGroup({
 	"thunder_01",
 	"thunder_02",
+	"thunder_03",
 })
 
 
