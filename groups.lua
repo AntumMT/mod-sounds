@@ -176,9 +176,11 @@ sounds.whistle = SoundGroup({
 --- @sndgroup sounds.woosh
 --  @snd woosh_01
 --  @snd woosh_02
+--  @snd woosh_03
 sounds.woosh = SoundGroup({
 	"woosh_01",
 	"woosh_02",
+	"woosh_03",
 })
 
 --- @sndgroup sounds.zipper
