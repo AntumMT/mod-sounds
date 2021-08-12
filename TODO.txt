@@ -17,6 +17,5 @@ TODO:
 	- gas motor / generator
 	- chalk
 	- horn
-	- door slam
 - add sounds from:
 	- cmer

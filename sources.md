@@ -32,6 +32,7 @@
 | [dolphin*][dolphin]               | Nagaty Studio                | CC BY        |                         |
 | [door_close_01][]                 | LampEight                    | CC0          |                         |
 | [door_close_02][]                 | InspectorJ                   | CC BY 3.0    |                         |
+| [door_close_03][]                 | bennstir                     | CC BY 3.0    |                         |
 | [door_creak][]                    | InspectorJ                   | CC BY 3.0    |                         |
 | [door_knock_01][]                 | LPHypeR                      | CC BY 3.0    |                         |
 | [door_knock_02][]                 | Patrick Hunt                 | CC0          |                         |
@@ -206,6 +207,7 @@
 [dolphin]: https://www.youtube.com/watch?v=AZuzadlAGL0
 [door_close_01]: https://freesound.org/s/402465/
 [door_close_02]: https://freesound.org/s/411791/
+[door_close_03]: https://freesound.org/s/80928/
 [door_creak]: https://freesound.org/s/346212/
 [door_knock_01]: https://freesound.org/s/500994/
 [door_knock_02]: https://freesound.org/s/256513/

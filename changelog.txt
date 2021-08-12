@@ -3,6 +3,7 @@ next
 ----
 - added sounds:
 	- door_close_02
+	- door_close_03
 	- door_knock
 	- door_open
 	- doorbell
