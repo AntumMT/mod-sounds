@@ -74,7 +74,8 @@
 | [puppy_bark][]                    | moffet                       | CC0          |                         |
 | [quail][]                         | PrincessGrace                | CC0          |                         |
 | [raccoon*][raccoon]               | jnargus                      | CC BY        |                         |
-| [rain_heavy][]                    | Inu Etc                      | CC0          | loopable                |
+| [rain_heavy_01][]                 | Inu Etc                      | CC0          | loopable                |
+| [rain_heavy_02][]                 | TRP                          | CC0          | loopable                |
 | [rain_light][]                    | Zepp2010                     | CC0          | loopable                |
 | [rain_medium][]                   | klangfabrik                  | CC0          | loopable                |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
@@ -229,7 +230,8 @@
 [puppy_bark]: https://freesound.org/s/583142/
 [quail]: https://freesound.org/s/329371/
 [raccoon]: https://www.youtube.com/watch?v=BGjFP1CP7E0
-[rain_heavy]: https://freesound.org/s/507902/
+[rain_heavy_01]: https://freesound.org/s/507902/
+[rain_heavy_02]: https://freesound.org/s/573622/
 [rain_light]: https://freesound.org/s/163264/
 [rain_medium]: https://freesound.org/s/157149/
 [rooster]: https://freesound.org/s/269496/
