@@ -108,9 +108,11 @@ sounds.door_open = SoundGroup({
 --- @sndgroup sounds.doorbell
 --  @snd doorbell_01
 --  @snd doorbell_02
+--  @snd doorbell_03
 sounds.doorbell = SoundGroup({
 	"doorbell_01",
 	"doorbell_02",
+	"doorbell_03",
 })
 
 --- <br>
