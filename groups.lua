@@ -339,6 +339,19 @@ sounds.tool_break = SoundGroup({
 
 
 
+--- Vehicle
+--
+--  @section vehicle
+
+
+--- @sndgroup sounds.vehicle
+--  @snd vehicle_motor_idle (loopable)
+sounds.vehicle = SoundGroup({
+	"vehicle_motor_idle",
+})
+
+
+
 --- Vomit
 --
 --  @section vomit

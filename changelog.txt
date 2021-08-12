@@ -11,6 +11,7 @@ next
 	- leaves
 	- match_ignite
 	- tool_break
+	- vehicle_motor_idle
 	- vomit
 	- woodpecker_peck
 	- woosh

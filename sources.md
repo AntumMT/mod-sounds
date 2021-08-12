@@ -110,6 +110,7 @@
 | [toucan][]                        | Niels Krabbe                 | CC BY-SA 4.0 |                         |
 | [turkey_gobble][]                 | JarredGibb                   | CC0          |                         |
 | [undead_moan_*][undead_moan]      | AntumDeluge                  | CC0          |                         |
+| [vehicle_motor_idle][]            | 238310                       | CC0          | loopable                |
 | [vomit*][vomit]                   | Anko6                        | CC0          |                         |
 | [vulture][]                       | AntumDeluge                  | CC0          | imitation               |
 | [watch_tick][]                    | Nicolas4677                  | CC0          |                         |
@@ -295,6 +296,7 @@
 [toucan]: https://www.xeno-canto.org/250531
 [turkey_gobble]: https://freesound.org/s/233125/
 [undead_moan]: https://opengameart.org/node/81246
+[vehicle_motor_idle]: https://freesound.org/s/370189/
 [vomit]: https://freesound.org/s/388525/
 [vulture]: https://opengameart.org/node/16329
 [watch_tick]: https://freesound.org/s/446611/
