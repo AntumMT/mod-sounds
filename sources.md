@@ -113,6 +113,7 @@
 | [wind][]                          | InspectorJ                   | CC BY 3.0    | loopable                |
 | [wolf_howl][]                     | killyourpepe                 | CC0          |                         |
 | [wolf_snarl][]                    | newagesoup                   | CC BY 3.0    |                         |
+| [woodpecker_peck][]               | Benboncan                    | CC BY 3.0    |                         |
 | [woosh_01][]                      | denao270                     | CC0          |                         |
 | [woosh_02][]                      | mrickey13                    | CC0          |                         |
 | [woosh_03][]                      | BranndyBottle                | CC0          |                         |
@@ -292,6 +293,7 @@
 [wind]: https://opengameart.org/node/101110
 [wolf_howl]: https://freesound.org/s/395192/
 [wolf_snarl]: https://freesound.org/s/338674/
+[woodpecker_peck]: https://freesound.org/s/66955/
 [woosh_01]: https://freesound.org/s/346373/
 [woosh_02]: https://freesound.org/s/515625/
 [woosh_03]: https://freesound.org/s/464697/

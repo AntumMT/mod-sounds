@@ -603,6 +603,12 @@ sounds.vulture = SoundGroup({
 	"vulture",
 })
 
+--- @sndgroup sound.woodpecker
+--  @snd woodpecker_peck
+sounds.woodpecker = SoundGroup({
+	"woodpecker_peck",
+})
+
 --- <br>
 --
 --  Includes:
@@ -623,12 +629,13 @@ sounds.vulture = SoundGroup({
 --  - `sounds.toucan`
 --  - `sounds.turkey_gobble`
 --  - `sounds.vulture`
+--  - `sounds.woodpecker`
 --
 --  @sndgroup sounds.fowl
 sounds.fowl = sounds.bird + sounds.chicken + sounds.crow_caw + sounds.duck_quack
 	+ sounds.goose + sounds.owl + sounds.parrot + sounds.peacock + sounds.penguin
 	+ sounds.pigeon + sounds.quail + sounds.rooster + sounds.seagull + sounds.toucan
-	+ sounds.turkey_gobble + sounds.vulture
+	+ sounds.turkey_gobble + sounds.vulture + sounds.woodpecker
 
 
 
