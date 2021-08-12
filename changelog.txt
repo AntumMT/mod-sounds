@@ -7,6 +7,7 @@ next
 	- cobra
 	- dolphin_chirp
 	- dolphin_click
+	- door_close
 	- door_creak
 	- goose
 	- lamb

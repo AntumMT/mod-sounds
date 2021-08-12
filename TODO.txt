@@ -26,7 +26,6 @@ TODO:
 	- chalk
 	- horn
 	- door open
-	- door close
 	- door slam
 	- seal / sea lion ( https://www.youtube.com/watch?v=vZ0pvQ9u3Qs )
 - add sounds from:

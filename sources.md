@@ -27,6 +27,7 @@
 | [crow_caw][]                      | Morris Gevirtz               | CC BY 4.0    |                         |
 | [dog_bark][]                      | ivolipa                      | CC0          |                         |
 | [dolphin*][dolphin]               | Nagaty Studio                | CC BY        |                         |
+| [door_close][]                    | LampEight                    | CC0          |                         |
 | [door_creak][]                    | InspectorJ                   | CC BY 3.0    |                         |
 | [duck_quack][]                    | Jonathon Jongsma             | CC BY-SA 3.0 |                         |
 | [elephant_trumpet][]              | vataaa                       | CC0          |                         |
@@ -170,6 +171,7 @@
 [dig_snappy]: https://freesound.org/s/251660/
 [dog_bark]: https://freesound.org/s/328730/
 [dolphin]: https://www.youtube.com/watch?v=AZuzadlAGL0
+[door_close]: https://freesound.org/s/402465/
 [door_creak]: https://freesound.org/s/346212/
 [duck_quack]: https://www.xeno-canto.org/62258
 [dug_glass.1]: https://freesound.org/s/71947/
