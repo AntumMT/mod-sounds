@@ -93,8 +93,10 @@ sounds.door_creak = SoundGroup({
 
 --- @sndgroup sounds.door_knock
 --  @snd door_knock_01
+--  @snd door_knock_02
 sounds.door_knock = SoundGroup({
 	"door_knock_01",
+	"door_knock_02",
 })
 
 --- @sndgroup sounds.door_open
