@@ -155,14 +155,6 @@ sounds.piano = SoundGroup({
 	"piano",
 })
 
---- @sndgroup sounds.rain
---  @snd rain_light (loopable)
---  @snd rain_medium (loopable)
-sounds.rain = SoundGroup({
-	"rain_light",
-	"rain_medium",
-})
-
 --- @sndgroup sounds.watch
 --  @snd watch_tick
 sounds.watch = SoundGroup({
@@ -173,12 +165,6 @@ sounds.watch = SoundGroup({
 --  @snd whistle
 sounds.whistle = SoundGroup({
 	"whistle",
-})
-
---- @sndgroup sounds.wind
---  @snd wind (loopable)
-sounds.wind = SoundGroup({
-	"wind",
 })
 
 --- @sndgroup sounds.zipper

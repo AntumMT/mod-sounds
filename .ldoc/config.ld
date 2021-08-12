@@ -43,6 +43,7 @@ file = {
 	"groups_animal.lua",
 	"groups_creature.lua",
 	"groups_node.lua",
+	"groups_weather.lua",
 }
 
 new_type("chatcmd", "Chat Commands")

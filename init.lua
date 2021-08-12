@@ -26,6 +26,7 @@ local scripts = {
 	"groups_animal",
 	"groups_creature",
 	"groups_node",
+	"groups_weather",
 	"node",
 }
 
