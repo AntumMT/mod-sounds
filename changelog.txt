@@ -4,6 +4,9 @@ next
 - added sounds:
 	- balloon_inflate
 	- balloon_pop
+	- bicycle_bell
+	- bicycle_horn
+	- bicycle_spokes
 	- cobra
 	- dolphin_chirp
 	- dolphin_click

@@ -10,6 +10,9 @@
 | [bear*][fws]                      | U.S. Fish & Wildlife Service | CC0          |                         |
 | [bee][]                           | DrDufus                      | CC0          |                         |
 | [bees][]                          | tom_woysky                   | CC0          |                         |
+| [bicycle_bell][bicycle]           | AntumDeluge                  | CC0          |                         |
+| [bicycle_horn][bicycle]           | AntumDeluge                  | CC0          |                         |
+| [bicycle_spokes][bicycle]         | AntumDeluge                  | CC0          |                         |
 | [bird*][bird]                     | Jc Guan                      | CC0          |                         |
 | [boing][]                         | reelworldstudio              | CC0          |                         |
 | [bumble_bee_01][]                 | Iain McCurdy                 | CC BY 3.0    |                         |
@@ -149,6 +152,7 @@
 [bat]: https://freesound.org/s/104205/
 [bee]: https://freesound.org/s/462875/
 [bees]: https://freesound.org/s/243011/
+[bicycle]: https://opengameart.org/node/16321
 [bird]: https://soundbible.com/340-Bird-Song.html
 [boing]: https://freesound.org/s/161122/
 [bumble_bee_01]: https://freesound.org/s/498412/

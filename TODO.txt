@@ -18,7 +18,6 @@ TODO:
 	- airplane
 	- car
 	- motorcycle
-	- bicycle
 	- fire
 	- train
 	- rain
