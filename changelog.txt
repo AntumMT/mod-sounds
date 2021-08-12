@@ -1,4 +1,10 @@
 
+next
+----
+- added sounds:
+	- woosh
+
+
 v1.5
 ----
 - added sounds:
