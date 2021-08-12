@@ -22,4 +22,3 @@ TODO:
 	- door slam
 - add sounds from:
 	- cmer
-	- slingshot
