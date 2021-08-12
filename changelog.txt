@@ -5,6 +5,7 @@ next
 	- door_knock
 	- door_open
 	- doorbell
+	- fire_crackle
 	- leaves
 	- tool_break
 	- vomit

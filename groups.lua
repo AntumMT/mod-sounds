@@ -141,6 +141,12 @@ sounds.explosion = SoundGroup({
 	"explosion",
 })
 
+--- @sndgroup sounds.fire
+--  @snd fire_crackle (loopable)
+sounds.fire = SoundGroup({
+	"fire_crackle",
+})
+
 --- @sndgroup sounds.fuse
 --  @snd fuse
 sounds.fuse = SoundGroup({
