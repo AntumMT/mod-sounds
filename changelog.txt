@@ -22,6 +22,7 @@ next
 	- snake_rattle
 	- squirrel
 	- whale
+	- wind
 - renamed sounds:
 	- sheep -> sheep_baa
 

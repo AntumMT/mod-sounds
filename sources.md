@@ -92,6 +92,7 @@
 | [watch_tick][]                    | Nicolas4677                  | CC0          |                         |
 | [whale][]                         | Ian Fairley                  | CC BY        |                         |
 | [whistle][]                       | pawsound                     | CC0          |                         |
+| [wind][]                          | InspectorJ                   | CC BY 3.0    | loopable                |
 | [wolf_howl][]                     | killyourpepe                 | CC0          |                         |
 | [wolf_snarl][]                    | newagesoup                   | CC BY 3.0    |                         |
 | [yak][]                           | AntumDeluge                  | CC0          | imitation               |
@@ -249,6 +250,7 @@
 [watch_tick]: https://freesound.org/s/446611/
 [whale]: https://www.youtube.com/watch?v=VIElj_SLxfc
 [whistle]: https://freesound.org/s/154873/
+[wind]: https://opengameart.org/node/101110
 [wolf_howl]: https://freesound.org/s/395192/
 [wolf_snarl]: https://freesound.org/s/338674/
 [yak]: https://opengameart.org/node/98682

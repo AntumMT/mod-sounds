@@ -167,6 +167,12 @@ sounds.whistle = SoundGroup({
 	"whistle",
 })
 
+--- @sndgroup sounds.wind
+--  @snd wind (loopable)
+sounds.wind = SoundGroup({
+	"wind",
+})
+
 --- @sndgroup sounds.zipper
 --  @snd zipper
 sounds.zipper = SoundGroup({
