@@ -15,6 +15,7 @@ next
 	- goose
 	- lamb
 	- laugh_evil
+	- lava_cool
 	- leopard (many)
 	- raccoon_chatter
 	- rain_heavy

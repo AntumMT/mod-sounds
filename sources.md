@@ -58,6 +58,7 @@
 | [lamb][]                          | swiftoid                     | CC0          |                         |
 | [laugh_evil_01][]                 | AntumDeluge                  | CC0          |                         |
 | [laugh_evil_02][]                 | AntumDeluge                  | CC0          |                         |
+| [lava_cool][default]              | Perttu Ahola (celeron55)     | CC BY-SA 3.0 | 3 random sounds         |
 | [leopard*][leopard]               | Ian Fairley                  | CC BY        |                         |
 | [lion_bellow][]                   | felix.blume                  | CC0          |                         |
 | [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation               |

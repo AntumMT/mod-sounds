@@ -127,6 +127,12 @@ sounds.gallop = SoundGroup({
 	"gallop_02",
 })
 
+--- @sndgroup sounds.lava_cool
+--  @snd[r3] lava_cool
+sounds.lava_cool = SoundGroup({
+	"lava_cool",
+})
+
 --- @sndgroup sounds.pencil_erase
 --  @snd pencil_erase
 sounds.pencil_erase = SoundGroup({

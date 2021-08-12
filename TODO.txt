@@ -11,7 +11,6 @@ TODO:
 - add more sounds:
 	- hit/damage
 	- tool breaks
-	- lava cool
 	- tree
 	- leaves
 	- airplane
