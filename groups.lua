@@ -4,6 +4,12 @@
 --  @topic groups
 
 
+
+--- Balloon
+--
+--  @section balloon
+
+
 --- @sndgroup sounds.balloon_inflate
 --  @snd balloon_inflate
 sounds.balloon_inflate = SoundGroup({
@@ -25,6 +31,13 @@ sounds.balloon_pop = SoundGroup({
 --
 --  @sndgroup sounds.balloon
 sounds.balloon = sounds.balloon_inflate + sounds.balloon_pop
+
+
+
+--- Bicycle
+--
+--  @section bicycle
+
 
 --- @sndgroup sounds.bicycle_bell
 --  @snd bicycle_bell
@@ -61,11 +74,25 @@ sounds.bite = SoundGroup({
 	"apple_bite",
 })
 
+
+
+--- Bounce
+--
+--  @section bounce
+
+
 --- @sndgroup sounds.bounce
 --  @snd boing
 sounds.bounce = SoundGroup({
 	"boing",
 })
+
+
+
+--- Clock
+--
+--  @section clock
+
 
 --- @sndgroup sounds.clock
 --  @snd clock_tick
@@ -73,11 +100,25 @@ sounds.clock = SoundGroup({
 	"clock_tick",
 })
 
+
+
+--- Coin
+--
+--  @section coin
+
+
 --- @sndgroup sounds.coin
 --  @snd coin
 sounds.coin = SoundGroup({
 	"coin",
 })
+
+
+
+--- Door
+--
+--  @section door
+
 
 --- @sndgroup sounds.door_close
 --  @snd door_close_01
@@ -133,11 +174,25 @@ sounds.doorbell = SoundGroup({
 sounds.door = sounds.door_close + sounds.door_creak + sounds.door_knock + sounds.door_open
 	+ sounds.doorbell
 
+
+
+--- Entity
+--
+--  @section entity
+
+
 --- @sndgroup sounds.entity_hit
 --  @snd entity_hit
 sounds.entity_hit = SoundGroup({
 	"entity_hit",
 })
+
+
+
+--- Explosion
+--
+--  @section explosion
+
 
 --- @sndgroup sounds.explosion
 --  @snd explosion
@@ -145,17 +200,38 @@ sounds.explosion = SoundGroup({
 	"explosion",
 })
 
+
+
+--- Fire
+--
+--  @section fire
+
+
 --- @sndgroup sounds.fire
 --  @snd fire_crackle (loopable)
 sounds.fire = SoundGroup({
 	"fire_crackle",
 })
 
+
+
+--- Fuse
+--
+--  @section fuse
+
+
 --- @sndgroup sounds.fuse
 --  @snd fuse
 sounds.fuse = SoundGroup({
 	"fuse",
 })
+
+
+
+--- Gallop
+--
+--  @section gallop
+
 
 --- @sndgroup sounds.gallop
 --  @snd gallop_01
@@ -165,11 +241,25 @@ sounds.gallop = SoundGroup({
 	"gallop_02",
 })
 
+
+
+--- Lava
+--
+--  @section laval
+
+
 --- @sndgroup sounds.lava_cool
 --  @snd[r3] lava_cool
 sounds.lava_cool = SoundGroup({
 	"lava_cool",
 })
+
+
+
+--- Leaves
+--
+--  @section leaves
+
 
 --- @sndgroup sounds.leaves
 --  @snd leaves_01
@@ -179,11 +269,25 @@ sounds.leaves = SoundGroup({
 	"leaves_02",
 })
 
+
+
+--- Match
+--
+--  @section match
+
+
 --- @sndgroup sounds.match
 --  @snd match_ignite
 sound.match = SoundGroup({
 	"match_ignite",
 })
+
+
+
+--- Pencil
+--
+--  @section pencil
+
 
 --- @sndgroup sounds.pencil_erase
 --  @snd pencil_erase
@@ -207,17 +311,38 @@ sounds.pencil_write = SoundGroup({
 --  @sndgroup sounds.pencil
 sounds.pencil = sounds.pencil_erase + sounds.pencil_write
 
+
+
+--- Piano
+--
+--  @section piano
+
+
 --- @sndgroup sounds.piano
 --  @snd piano
 sounds.piano = SoundGroup({
 	"piano",
 })
 
+
+
+--- Tool
+--
+--  @section tool
+
+
 --- @sndgroup sounds.tool_break
 --  @snd[r3] tool_break
 sounds.tool_break = SoundGroup({
 	"tool_break",
 })
+
+
+
+--- Vomit
+--
+--  @section vomit
+
 
 --- @sndgroup sounds.vomit
 --  @snd vomit_01
@@ -233,17 +358,38 @@ sounds.vomit = SoundGroup({
 	"vomit_05",
 })
 
+
+
+--- Watch
+--
+--  @section watch
+
+
 --- @sndgroup sounds.watch
 --  @snd watch_tick
 sounds.watch = SoundGroup({
 	"watch_tick",
 })
 
+
+
+--- Whistle
+--
+--  @section whistle
+
+
 --- @sndgroup sounds.whistle
 --  @snd whistle
 sounds.whistle = SoundGroup({
 	"whistle",
 })
+
+
+
+--- Woosh
+--
+--  @section woosh
+
 
 --- @sndgroup sounds.woosh
 --  @snd woosh_01
@@ -256,6 +402,13 @@ sounds.woosh = SoundGroup({
 	"woosh_03",
 	"woosh_04",
 })
+
+
+
+--- Zipper
+--
+--  @section zipper
+
 
 --- @sndgroup sounds.zipper
 --  @snd zipper
