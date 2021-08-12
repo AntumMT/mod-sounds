@@ -234,8 +234,8 @@ sounds.fuse = SoundGroup({
 
 
 --- @sndgroup sounds.gallop
---  @snd gallop_01
---  @snd gallop_02
+--  @snd gallop_01 (loopable)
+--  @snd gallop_02 (loopable)
 sounds.gallop = SoundGroup({
 	"gallop_01",
 	"gallop_02",
