@@ -25,6 +25,7 @@ TODO:
 	- door open
 	- door slam
 	- heavy rain
+	- thunder
 - add sounds from:
 	- cmer
 	- slingshot
