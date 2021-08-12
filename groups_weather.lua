@@ -24,6 +24,19 @@ sounds.rain = SoundGroup({
 
 
 
+--- Thunder
+--
+--  @section thunder
+
+
+--- @sndgroup sounds.thunder
+--  @snd thunder_01
+sounds.thunder = SoundGroup({
+	"thunder_01",
+})
+
+
+
 --- Wind
 --
 --  @section wind

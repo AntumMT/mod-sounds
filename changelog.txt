@@ -26,6 +26,7 @@ next
 	- seagulls
 	- snake_rattle
 	- squirrel
+	- thunder
 	- whale
 	- wind
 - renamed sounds:

@@ -23,7 +23,6 @@ TODO:
 	- horn
 	- door open
 	- door slam
-	- thunder
 - add sounds from:
 	- cmer
 	- slingshot

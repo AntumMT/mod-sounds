@@ -89,6 +89,7 @@
 | [skeleton_bones][]                | AntumDeluge                  | CC0          |                         |
 | [snake_rattle][fws]               | U.S. Fish & Wildlife Service | CC0          |                         |
 | [squirrel*][squirrel]             | bmccoy2                      | CC BY 3.0    |                         |
+| [thunder_01][]                    | bajko                        | CC0          |                         |
 | [tiger_roar_01][]                 | videog                       | CC BY 3.0    |                         |
 | [tiger_snarl_01][tiger_roar_01]   | videog                       | CC BY 3.0    |                         |
 | [tiger_snarl_0[2-4]][tiger_snarl] | schots                       | CC0          |                         |
@@ -254,6 +255,7 @@
 [step_water.3]: https://freesound.org/s/20437/
 [sheep_baa]: https://freesound.org/s/414342/
 [skeleton_bones]: https://opengameart.org/node/16324
+[thunder_01]: https://freesound.org/s/399656/
 [tiger_roar_01]: https://freesound.org/s/149190/
 [tiger_snarl]: https://freesound.org/s/439280/
 [toucan]: https://www.xeno-canto.org/250531
