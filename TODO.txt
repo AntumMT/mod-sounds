@@ -19,7 +19,6 @@ TODO:
 	- motorcycle
 	- fire
 	- train
-	- rain
 	- gas motor / generator
 	- chalk
 	- horn

@@ -74,6 +74,7 @@
 | [puppy_bark][]                    | moffet                       | CC0          |                         |
 | [quail][]                         | PrincessGrace                | CC0          |                         |
 | [raccoon*][raccoon]               | jnargus                      | CC BY        |                         |
+| [rain_medium][]                   | klangfabrik                  | CC0          | loopable                |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
 | [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                         |
 | [seagull*][seagull]               | squashy555                   | CC0          |                         |
@@ -226,6 +227,7 @@
 [puppy_bark]: https://freesound.org/s/583142/
 [quail]: https://freesound.org/s/329371/
 [raccoon]: https://www.youtube.com/watch?v=BGjFP1CP7E0
+[rain_medium]: https://freesound.org/s/157149/
 [rooster]: https://freesound.org/s/269496/
 [sea_lion]: https://freesound.org/s/499564/
 [seagull]: https://freesound.org/s/353416/

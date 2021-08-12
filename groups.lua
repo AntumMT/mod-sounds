@@ -155,6 +155,12 @@ sounds.piano = SoundGroup({
 	"piano",
 })
 
+--- @sndgroup sounds.rain
+--  @snd rain_medium (loopable)
+sounds.rain = SoundGroup({
+	"rain_medium",
+})
+
 --- @sndgroup sounds.watch
 --  @snd watch_tick
 sounds.watch = SoundGroup({
