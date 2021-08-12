@@ -1,5 +1,5 @@
 
-next
+v1.6
 ----
 - added sounds:
 	- door_close_02
