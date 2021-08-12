@@ -161,6 +161,20 @@ sounds.piano = SoundGroup({
 	"piano",
 })
 
+--- @sndgroup sounds.vomit
+--  @snd vomit_01
+--  @snd vomit_02
+--  @snd vomit_03
+--  @snd vomit_04
+--  @snd vomit_05
+sounds.vomit = SoundGroup({
+	"vomit_01",
+	"vomit_02",
+	"vomit_03",
+	"vomit_04",
+	"vomit_05",
+})
+
 --- @sndgroup sounds.watch
 --  @snd watch_tick
 sounds.watch = SoundGroup({
