@@ -4,6 +4,7 @@
 | Filename (sounds_) / Source       | Author                       | License      | Notes                   |
 | --------------------------------- | ---------------------------- | ------------ | ----------------------- |
 | [apple_bite][]                    | sonicmariobrotha             | CC0          |                         |
+| [balloon_inflate][]               | d.n.audio.uk                 | CC0          |                         |
 | [balloon_pop][]                   | Gniffelbaf                   | CC0          |                         |
 | [bat*][bat]                       | polymorpheva                 | CC0          |                         |
 | [bear*][fws]                      | U.S. Fish & Wildlife Service | CC0          |                         |
@@ -141,6 +142,7 @@
 [fws]: https://www.fws.gov/video/sound.htm
 
 [apple_bite]: https://freesound.org/s/333825/
+[balloon_inflate]: https://freesound.org/s/263809/
 [balloon_pop]: https://freesound.org/s/82119/
 [bat]: https://freesound.org/s/104205/
 [bee]: https://freesound.org/s/462875/

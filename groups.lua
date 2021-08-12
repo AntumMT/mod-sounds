@@ -4,11 +4,27 @@
 --  @topic groups
 
 
+--- @sndgroup sounds.balloon_inflate
+--  @snd balloon_inflate
+sounds.balloon_inflate = SoundGroup({
+	"balloon_inflate",
+})
+
 --- @sndgroup sounds.balloon_pop
 --  @snd balloon_pop
 sounds.balloon_pop = SoundGroup({
 	"balloon_pop",
 })
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.balloon_inflate`
+--  - `sounds.balloon_pop`
+--
+-- @sndgroup sounds.balloon
+sounds.balloon = sounds.balloon_inflate + sounds.balloon_pop
 
 --- @sndgroup sounds.bite
 --  @snd apple_bite

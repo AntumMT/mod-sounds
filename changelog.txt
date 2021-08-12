@@ -2,6 +2,7 @@
 next
 ----
 - added sounds:
+	- balloon_inflate
 	- balloon_pop
 	- cobra
 	- dolphin_chirp
