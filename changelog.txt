@@ -2,6 +2,7 @@
 next
 ----
 - added sounds:
+	- door_knock
 	- door_open
 	- leaves
 	- vomit

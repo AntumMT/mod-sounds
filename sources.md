@@ -32,6 +32,7 @@
 | [dolphin*][dolphin]               | Nagaty Studio                | CC BY        |                         |
 | [door_close][]                    | LampEight                    | CC0          |                         |
 | [door_creak][]                    | InspectorJ                   | CC BY 3.0    |                         |
+| [door_knock_01][]                 | LPHypeR                      | CC BY 3.0    |                         |
 | [door_open][]                     | skyumori                     | CC0          |                         |
 | [duck_quack][]                    | Jonathon Jongsma             | CC BY-SA 3.0 |                         |
 | [elephant_trumpet][]              | vataaa                       | CC0          |                         |
@@ -196,6 +197,7 @@
 [dolphin]: https://www.youtube.com/watch?v=AZuzadlAGL0
 [door_close]: https://freesound.org/s/402465/
 [door_creak]: https://freesound.org/s/346212/
+[door_knock_01]: https://freesound.org/s/500994/
 [door_open]: https://freesound.org/s/104533/
 [duck_quack]: https://www.xeno-canto.org/62258
 [dug_glass.1]: https://freesound.org/s/71947/
