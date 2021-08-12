@@ -4,7 +4,7 @@
 	"title": "Sounds",
 	"short_description": "A set of free sounds & API.",
 	"license": "MIT",
-	"media_license": "CC-BY-SA-3.0",
+	"media_license": "CC-BY-SA-4.0",
 	"tags": ["environment", "library"],
 	"repo": "https://github.com/AntumMT/mod-sounds",
 	"issue_tracker": "https://github.com/AntumMT/mod-sounds/issues",
