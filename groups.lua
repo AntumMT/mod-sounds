@@ -91,15 +91,22 @@ sounds.door_creak = SoundGroup({
 	"door_creak",
 })
 
+--- @sndgroup sounds.door_open
+--  @snd door_open
+sounds.door_open = SoundGroup({
+	"door_open",
+})
+
 --- <br>
 --
 --  Includes:
 --
 --  - `sounds.door_close`
 --  - `sounds.door_creak`
+--  - `sounds.door_open`
 --
 --  @sndgroup sounds.door
-sounds.door = sounds.door_close + sounds.door_creak
+sounds.door = sounds.door_close + sounds.door_creak + sounds.door_open
 
 --- @sndgroup sounds.entity_hit
 --  @snd entity_hit
