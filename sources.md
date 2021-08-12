@@ -102,6 +102,7 @@
 | [tiger_roar_01][]                 | videog                       | CC BY 3.0    |                         |
 | [tiger_snarl_01][tiger_roar_01]   | videog                       | CC BY 3.0    |                         |
 | [tiger_snarl_0[2-4]][tiger_snarl] | schots                       | CC0          |                         |
+| [tool_break*][tool_break]         | HerbertBoland                | CC BY 3.0    |                         |
 | [toucan][]                        | Niels Krabbe                 | CC BY-SA 4.0 |                         |
 | [turkey_gobble][]                 | JarredGibb                   | CC0          |                         |
 | [undead_moan_*][undead_moan]      | AntumDeluge                  | CC0          |                         |
@@ -282,6 +283,7 @@
 [thunder_03]: https://freesound.org/s/101948/
 [tiger_roar_01]: https://freesound.org/s/149190/
 [tiger_snarl]: https://freesound.org/s/439280/
+[tool_break]: https://freesound.org/s/33206/
 [toucan]: https://www.xeno-canto.org/250531
 [turkey_gobble]: https://freesound.org/s/233125/
 [undead_moan]: https://opengameart.org/node/81246

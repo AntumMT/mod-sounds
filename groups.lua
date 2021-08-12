@@ -197,6 +197,12 @@ sounds.piano = SoundGroup({
 	"piano",
 })
 
+--- @sndgroup sounds.tool_break
+--  @snd[r3] tool_break
+sounds.tool_break = SoundGroup({
+	"tool_break",
+})
+
 --- @sndgroup sounds.vomit
 --  @snd vomit_01
 --  @snd vomit_02

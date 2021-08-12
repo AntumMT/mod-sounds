@@ -6,6 +6,7 @@ next
 	- door_open
 	- doorbell
 	- leaves
+	- tool_break
 	- vomit
 	- woodpecker_peck
 	- woosh
