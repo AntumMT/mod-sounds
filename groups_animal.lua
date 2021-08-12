@@ -196,7 +196,7 @@ sounds.lamb = SoundGroup({
 	"lamb",
 })
 
---- @sndgroup sounds.sheep
+--- @sndgroup sounds.sheep_baa
 --  @snd sheep_baa
 sounds.sheep_baa = SoundGroup({
 	"sheep_baa",
@@ -390,7 +390,7 @@ sounds.leopard_snarl = SoundGroup({
 	"leopard_snarl_02",
 })
 
---- @sndgroup sounds.leopard_
+--- @sndgroup sounds.leopard_snort
 --  @snd leopard_snort
 sounds.leopard_snort = SoundGroup({
 	"leopard_snort",
@@ -772,9 +772,9 @@ sounds.primate = sounds.gorilla + sounds.monkey
 
 
 --- @sndgroup sounds.raccoon
---  @snd racoon_chatter
---  @snd racoon_chatter_baby_01
---  @snd racoon_chatter_baby_02
+--  @snd raccoon_chatter
+--  @snd raccoon_chatter_baby_01
+--  @snd raccoon_chatter_baby_02
 sounds.raccoon = SoundGroup({
 	"raccoon_chatter",
 	"raccoon_chatter_baby_01",
