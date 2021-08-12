@@ -278,7 +278,7 @@ sounds.leaves = SoundGroup({
 
 --- @sndgroup sounds.match
 --  @snd match_ignite
-sound.match = SoundGroup({
+sounds.match = SoundGroup({
 	"match_ignite",
 })
 

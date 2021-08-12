@@ -603,7 +603,7 @@ sounds.vulture = SoundGroup({
 	"vulture",
 })
 
---- @sndgroup sound.woodpecker
+--- @sndgroup sounds.woodpecker
 --  @snd woodpecker_peck
 sounds.woodpecker = SoundGroup({
 	"woodpecker_peck",
