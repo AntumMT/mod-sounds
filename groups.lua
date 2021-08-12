@@ -28,6 +28,12 @@ sounds.coin = SoundGroup({
 	"coin",
 })
 
+--- @sndgroup sounds.door_creak
+--  @snd door_creak
+sounds.door_creak = SoundGroup({
+	"door_creak",
+})
+
 --- @sndgroup sounds.entity_hit
 --  @snd entity_hit
 sounds.entity_hit = SoundGroup({

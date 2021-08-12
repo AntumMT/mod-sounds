@@ -5,6 +5,7 @@ next
 	- cobra
 	- dolphin_chirp
 	- dolphin_click
+	- door_creak
 	- goose
 	- lamb
 	- leopard (many)

@@ -27,7 +27,6 @@ TODO:
 	- gas motor / generator
 	- chalk
 	- horn
-	- creak
 	- door open
 	- door close
 	- door slam
