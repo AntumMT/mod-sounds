@@ -127,6 +127,7 @@
 | [yak][]                           | AntumDeluge                  | CC0          | imitation               |
 | [zebra][]                         | Peet J van Eeden             | CC BY        |                         |
 | [zipper][]                        | AntumDeluge                  | CC0          |                         |
+| [zombie_death][]                  | Under7dude                   | CC0          | from cmer zombie mod    |
 
 #### Node Sounds:
 
@@ -313,3 +314,4 @@
 [yak]: https://opengameart.org/node/98682
 [zebra]: https://www.youtube.com/watch?v=xjGJ_XMVTRE
 [zipper]: https://opengameart.org/node/16332
+[zombie_death]: https://freesound.org/s/163442/

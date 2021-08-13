@@ -19,3 +19,4 @@ TODO:
 	- horn
 - add sounds from:
 	- cmer
+	- cmer_zombie

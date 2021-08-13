@@ -1,4 +1,10 @@
 
+next
+----
+- added sounds:
+	- zombie_death
+
+
 v1.6
 ----
 - added sounds:

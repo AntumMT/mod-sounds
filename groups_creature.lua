@@ -28,15 +28,22 @@ sounds.undead_moan = SoundGroup({
 	"undead_moan_04",
 })
 
+--- @sndgroup sounds.zombie_death
+--  @snd zombie_death
+sounds.zombie_death = SoundGroup({
+	"zombie_death",
+})
+
 --- <br>
 --
 --  Includes:
 --
 --  - `sounds.skeleton`
 --  - `sounds.undead_moan`
+--  - `sounds.zombie_death`
 --
 --  @sndgroup sounds.undead
-sounds.undead = sounds.skeleton + sounds.undead_moan
+sounds.undead = sounds.skeleton + sounds.undead_moan + sounds.zombie_death
 
 
 
