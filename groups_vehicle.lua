@@ -12,8 +12,10 @@
 
 --- @sndgroup sounds.jet
 --  @snd jet_ambience (loopable)
+--  @snd jet_land
 sounds.jet = SoundGroup({
 	"jet_ambience",
+	"jet_land",
 })
 
 

@@ -65,6 +65,7 @@
 | [hyena_03][]                      | [↓](#authors)                | CC BY 2.0    |                         |
 | [jaguar_saw][]                    | About Zoos                   | CC BY        |                         |
 | [jet_ambience][]                  | habbis92                     | CC0          | loopable                |
+| [jet_land][]                      | bigpickle51                  | CC0          |                         |
 | [lamb][]                          | swiftoid                     | CC0          |                         |
 | [laugh_evil_01][]                 | AntumDeluge                  | CC0          |                         |
 | [laugh_evil_02][]                 | AntumDeluge                  | CC0          |                         |
@@ -247,6 +248,7 @@
 [hyena_03]: https://commons.wikimedia.org/wiki/File:Giggling_call_of_a_spotted_hyena_(Crocuta_crocuta)_-_1472-6785-10-9-S5.oga
 [jaguar_saw]: https://www.youtube.com/watch?v=VJ0RCZXu0v4
 [jet_ambience]: https://freesound.org/s/204510/
+[jet_land]: https://freesound.org/s/262755/
 [lamb]: https://freesound.org/s/182509/
 [laugh_evil_01]: https://opengameart.org/node/81237
 [laugh_evil_02]: https://opengameart.org/node/129475
