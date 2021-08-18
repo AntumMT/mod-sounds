@@ -10,7 +10,6 @@ TODO:
 - add more sounds:
 	- hit/damage
 	- tree
-	- airplane
 	- car
 	- motorcycle
 	- train
