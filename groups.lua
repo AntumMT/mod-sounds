@@ -32,42 +32,6 @@ sounds.balloon_pop = SoundGroup({
 --  @sndgroup sounds.balloon
 sounds.balloon = sounds.balloon_inflate + sounds.balloon_pop
 
-
-
---- Bicycle
---
---  @section bicycle
-
-
---- @sndgroup sounds.bicycle_bell
---  @snd bicycle_bell
-sounds.bicycle_bell = SoundGroup({
-	"bicycle_bell",
-})
-
---- @sndgroup sounds.bicycle_horn
---  @snd bicycle_horn
-sounds.bicycle_horn = SoundGroup({
-	"bicycle_horn",
-})
-
---- @sndgroup sounds.bicycle_spokes
---  @snd bicycle_spokes
-sounds.bicycle_spokes = SoundGroup({
-	"bicycle_spokes",
-})
-
---- <br>
---
---  Includes:
---
---  - `sounds.bicycle_bell`
---  - `sounds.bicycle_horn`
---  - `sounds.bicycle_spokes`
---
---  @sndgroup sounds.bicycle
-sounds.bicycle = sounds.bicycle_bell + sounds.bicycle_horn + sounds.bicycle_spokes
-
 --- @sndgroup sounds.bite
 --  @snd apple_bite
 sounds.bite = SoundGroup({
@@ -335,19 +299,6 @@ sounds.piano = SoundGroup({
 --  @snd[r3] tool_break
 sounds.tool_break = SoundGroup({
 	"tool_break",
-})
-
-
-
---- Vehicle
---
---  @section vehicle
-
-
---- @sndgroup sounds.vehicle
---  @snd vehicle_motor_idle (loopable)
-sounds.vehicle = SoundGroup({
-	"vehicle_motor_idle",
 })
 
 
