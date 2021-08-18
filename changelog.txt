@@ -2,6 +2,7 @@
 next
 ----
 - added sounds:
+	- airplane_prop
 	- jet_ambience
 	- jet_flyby
 	- jet_land

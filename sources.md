@@ -3,6 +3,7 @@
 
 | Filename (sounds_) / Source       | Author                       | License      | Notes                   |
 | --------------------------------- | ---------------------------- | ------------ | ----------------------- |
+| [airplane_prop][]                 | jakobthiesen                 | CC BY 3.0    | loopable                |
 | [apple_bite][]                    | sonicmariobrotha             | CC0          |                         |
 | [balloon_inflate][]               | d.n.audio.uk                 | CC0          |                         |
 | [balloon_pop][]                   | Gniffelbaf                   | CC0          |                         |
@@ -180,6 +181,7 @@
 [default]: https://github.com/minetest/minetest_game/tree/master/mods/default
 [fws]: https://www.fws.gov/video/sound.htm
 
+[airplane_prop]: https://freesound.org/s/188423/
 [apple_bite]: https://freesound.org/s/333825/
 [balloon_inflate]: https://freesound.org/s/263809/
 [balloon_pop]: https://freesound.org/s/82119/

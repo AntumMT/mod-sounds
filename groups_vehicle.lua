@@ -10,6 +10,12 @@
 --  @section airplane
 
 
+--- @sndgroup sounds.airplane
+--  @snd airplane_prop (loopable)
+sounds.airplane = SoundGroup({
+	"airplane_prop",
+})
+
 --- @sndgroup sounds.jet
 --  @snd jet_ambience (loopable)
 --  @snd jet_flyby
