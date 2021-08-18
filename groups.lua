@@ -330,7 +330,7 @@ sounds.vomit = SoundGroup({
 
 
 --- @sndgroup sounds.watch
---  @snd watch_tick
+--  @snd watch_tick (loopable)
 sounds.watch = SoundGroup({
 	"watch_tick",
 })

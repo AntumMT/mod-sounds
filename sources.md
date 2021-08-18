@@ -119,7 +119,7 @@
 | [vehicle_motor_idle][]            | 238310                       | CC0          | loopable                |
 | [vomit*][vomit]                   | Anko6                        | CC0          |                         |
 | [vulture][]                       | AntumDeluge                  | CC0          | imitation               |
-| [watch_tick][]                    | Nicolas4677                  | CC0          |                         |
+| [watch_tick][]                    | Nicolas4677                  | CC0          | loopable                |
 | [whale][]                         | Ian Fairley                  | CC BY        |                         |
 | [whistle][]                       | pawsound                     | CC0          |                         |
 | [wind][]                          | InspectorJ                   | CC BY 3.0    | loopable                |
