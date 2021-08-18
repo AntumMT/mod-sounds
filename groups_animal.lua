@@ -416,19 +416,33 @@ sounds.lion = SoundGroup({
 	"lion_bellow",
 })
 
---- @sndgroup sounds.tiger
+--- @sndgroup sounds.tiger_roar
 --  @snd tiger_roar_01
+sounds.tiger_roar = SoundGroup({
+	"tiger_roar_01",
+})
+
+--- @sndgroup sounds.tiger_snarl
 --  @snd tiger_snarl_01
 --  @snd tiger_snarl_02
 --  @snd tiger_snarl_03
 --  @snd tiger_snarl_04
-sounds.tiger = SoundGroup({
-	"tiger_roar_01",
+sounds.tiger_snarl = SoundGroup({
 	"tiger_snarl_01",
 	"tiger_snarl_02",
 	"tiger_snarl_03",
 	"tiger_snarl_04",
 })
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.tiger_roar`
+--  - `sounds.tiger_snarl`
+--
+--  @sndgroup sounds.tiger
+sounds.tiger = sounds.tiger_roar + sounds.tiger_snarl
 
 --- <br>
 --
