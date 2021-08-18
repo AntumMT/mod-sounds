@@ -64,6 +64,19 @@ sounds.bicycle = sounds.bicycle_bell + sounds.bicycle_horn + sounds.bicycle_spok
 
 
 
+--- Train
+--
+--  @section train
+
+
+--- @sndgroup sounds.train_whistle
+--  @snd train_whistle
+sounds.train_whistle = SoundGroup({
+	"train_whistle",
+})
+
+
+
 --- Vehicle
 --
 --  @section vehicle

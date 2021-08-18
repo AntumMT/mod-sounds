@@ -12,7 +12,6 @@ TODO:
 	- tree
 	- car
 	- motorcycle
-	- train
 	- chalk
 	- generator
 	- horn
