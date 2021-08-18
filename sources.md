@@ -23,7 +23,7 @@
 | [car_motor][]                     | jackthemurray                | CC0          | loopable                |
 | [cat_meow][]                      | blimp66                      | CC BY 3.0    |                         |
 | [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                         |
-| [clock_tick][]                    | AntumDeluge                  | CC0          |                         |
+| [clock_tick][]                    | AntumDeluge                  | CC0          | loopable                |
 | [cobra*][cobra]                   | N/A                          | CC0          |                         |
 | [coin][]                          | greenvwbeetle                | CC0          |                         |
 | [cow_moo*][cow_moo]               | JosephSardin                 | CC0          |                         |

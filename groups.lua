@@ -59,7 +59,7 @@ sounds.bounce = SoundGroup({
 
 
 --- @sndgroup sounds.clock
---  @snd clock_tick
+--  @snd clock_tick (loopable)
 sounds.clock = SoundGroup({
 	"clock_tick",
 })
