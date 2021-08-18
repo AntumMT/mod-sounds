@@ -20,6 +20,7 @@
 | [bumble_bee_02][]                 | CGEffex                      | CC BY 3.0    |                         |
 | [camel*][camel]                   | craigsmith                   | CC0          |                         |
 | [canary*][canary]                 | MediaCollege.com             | CC0          |                         |
+| [car_motor][]                     | jackthemurray                | CC0          | loopable                |
 | [cat_meow][]                      | blimp66                      | CC BY 3.0    |                         |
 | [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                         |
 | [clock_tick][]                    | AntumDeluge                  | CC0          |                         |
@@ -196,6 +197,7 @@
 [bumble_bee_02]: https://freesound.org/s/99955/
 [camel]: https://freesound.org/s/437937/
 [canary]: https://www.mediacollege.com/downloads/sound-effects/animals/bird/
+[car_motor]: https://freesound.org/s/433584/
 [cat_meow]: https://freesound.org/s/397661/
 [chicken]: https://freesound.org/s/24967/
 [clock_tick]: https://opengameart.org/node/16323
