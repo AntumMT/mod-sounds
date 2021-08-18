@@ -3,6 +3,7 @@ next
 ----
 - added sounds:
 	- jet_ambience
+	- jet_flyby
 	- jet_land
 	- zombie_death
 
