@@ -1,5 +1,5 @@
 
-next
+v1.7
 ----
 - added sounds:
 	- airplane_prop
