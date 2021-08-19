@@ -2,7 +2,15 @@
 
 ### Description:
 
-A [Minetest][] mod that provides a set of free sounds & methods. It is intended as a more universal method for adding sounds to games rather than depending on [MTG & default][default] for sounds only.
+A [Minetest][] mod that provides a set of free sounds & methods.
+
+What is the purpose of this mod? There are three ideas behind `sounds`:
+
+1. It is intended as a more universal method for adding sounds to games rather than depending on [MTG & default][default] for sounds only. It is completely compatible with default sounds. The same methods called in `default` to set node sounds, like `default.node_sound_stone_defaults`, are implemented & it can be installed in parallel. *Section: [Replacement for default](#replacement-for-default)*
+2. It is simply a well of sounds. Many sound files are provided & can be used with [minetest.sound_play](https://minetest.gitlab.io/minetest/minetest-namespace-reference/#sounds) just as normal. There is also a wrapper function, `sounds.play`, that does its best to verify that a sound played successfully. If so, it will return a sound handle ID. Otherwise it will return `nil`. It also caches all loaded mod sounds after server startup in `sounds.cache` table. So sound files can easily be checked for existence. *Section: [Checking for Existing Sounds](#checking-for-existing-sounds)*
+3. It adds callable sound groups that can be used to play specified individual sounds, or a random sound in the group. The benefit to this is that the file naming convention is irrelivent. The only thing that matters is that the sound file is registered with the group. *Section: [Playing Sounds Manually](#playing-sounds-manually)*
+
+
 
 <img src="screenshot.png" alt="icon" width="200" />
 
@@ -42,7 +50,8 @@ Example of setting node sounds:
 ```lua
 minetest.register_node("foo:bar", {
 	description = "Foo Node",
-	sounds = default.node_sound_stone_defaults() -- this is the same as calling `sounds.node_stone()`
+	-- this is the same as calling `sounds.node_stone()`
+	sounds = default.node_sound_stone_defaults()
 	...
 })
 ```
@@ -59,7 +68,8 @@ local s_group2 = SoundGroup({"sound3", "sound4", "sound5"})
 -- SoundGroup objects can be concatenated with the arithmetic operator
 local s_group3 = s_group1 + s_group2
 
--- to prevent sound file names from being prefixed with "sounds_" when played, the `no_prepend` field must be set to `true`
+-- to prevent sound file names from being prefixed with "sounds_" when played,
+-- the `no_prepend` field must be set to `true`
 s_group1(2) -- plays "sounds_sound2"
 
 s_group1.no_prepend = true
@@ -93,7 +103,8 @@ sounds.horse_neigh:play(2, {gain=1.0})
 minetest.register_node("foo:bar", {
 	description = "Foo Node",
 	sounds = {
-		dig = sounds.cow_moo, -- a random sound from the `sounds.cow_moo` group will be played when digging this node
+		-- a random sound from the `sounds.cow_moo` group will be played when digging this node
+		dig = sounds.cow_moo,
 	},
 	...
 ```
@@ -115,6 +126,16 @@ The built-in `type` function can be used to check for a `SoundGroup` instance:
 ```lua
 if type(s_group1) == "SoundGroup" then
 	s_group1()
+end
+```
+
+#### Checking for Existing Sounds:
+
+All mod sound files are stored in the global table `sounds.cache` after server startup. Checking if a file exists for playing is simple:
+
+```lua
+if sounds.cache["default_dig_crumbly"] then
+	core.sound_play("default_dig_crumbly")
 end
 ```
 
