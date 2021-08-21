@@ -33,6 +33,7 @@ boilerplate = false
 not_luadoc = true
 favicon = "https://www.minetest.net/media/icon.svg"
 readme = ".ldoc/README.md"
+style = true
 
 local version = 1.9
 
