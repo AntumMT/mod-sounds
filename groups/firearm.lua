@@ -25,6 +25,16 @@ sounds.firearm_cock = SoundGroup({
 	"firearm_cock_02",
 })
 
+--- @sndgroup sounds.pistol_cock
+--  @snd pistol_cock_01
+--  @snd pistol_cock_02
+--  @snd pistol_cock_03
+sounds.pistol_cock = SoundGroup({
+	"pistol_cock_01",
+	"pistol_cock_02",
+	"pistol_cock_03",
+})
+
 --- @sndgroup sounds.pistol_fire
 --  @snd pistol_fire_01
 --  @snd pistol_fire_02
@@ -43,11 +53,12 @@ sounds.pistol_reload = SoundGroup({
 --
 --  Includes:
 --
+--  - `sounds.pistol_cock`
 --  - `sounds.pistol_fire`
 --  - `sounds.pistol_reload`
 --
 -- @sndgroup sounds.pistol
-sounds.pistol = sounds.pistol_fire + sounds.pistol_reload
+sounds.pistol = sounds.pistol_cock + sounds.pistol_fire + sounds.pistol_reload
 
 --- @sndgroup sounds.shotgun_fire
 --  @snd shotgun_fire_pump

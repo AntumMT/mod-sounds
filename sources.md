@@ -110,6 +110,7 @@
 | [pig_snort][]                     | yottasounds                  | CC BY 3.0    |                         |
 | [pig_squeal][]                    | MediaCollege.com             | CC0          |                         |
 | [pigeon][]                        | JavierSerrat                 | CC0          |                         |
+| [pistol_cock*][pistol_cock]       | J.Anthracite                 | CC0          |                         |
 | [pistol_fire_01][]                | DrinkingWindGames            | CC BY 3.0    |                         |
 | [pistol_fire_02][]                | magnuswaker                  | CC0          |                         |
 | [pistol_reload][]                 | Bunny_Clark                  | CC BY 3.0    |                         |
@@ -324,6 +325,7 @@
 [pig_snort]: https://freesound.org/s/174615/
 [pig_squeal]: https://www.mediacollege.com/downloads/sound-effects/animals/pig/
 [pigeon]: https://freesound.org/s/524345/
+[pistol_cock]: https://freesound.org/s/465488/
 [pistol_fire_01]: https://freesound.org/s/476240/
 [pistol_fire_02]: https://freesound.org/s/522085/
 [pistol_reload]: https://freesound.org/s/377549/

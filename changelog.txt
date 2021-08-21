@@ -10,6 +10,7 @@ next
 	- firearm_cock
 	- fireball
 	- laser
+	- pistol_cock
 	- pistol_fire
 	- pistol_reload
 	- shotgun_fire_pump
