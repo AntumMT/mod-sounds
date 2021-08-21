@@ -16,3 +16,9 @@ sounds.firearm_cock = SoundGroup({
 sounds.handgun_fire = SoundGroup({
 	"handgun_fire",
 })
+
+--- @sndgroup sounds.shotgun_pump
+--  @snd shotgun_pump
+sounds.shotgun_pump = SoundGroup({
+	"shotgun_pump",
+})

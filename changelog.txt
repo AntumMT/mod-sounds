@@ -10,6 +10,7 @@ next
 	- fireball
 	- handgun_fire
 	- laser
+	- shotgun_pump
 
 
 v1.8

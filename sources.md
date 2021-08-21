@@ -124,6 +124,7 @@
 | [skeleton_bones][]                | AntumDeluge                  | CC0          |                         |
 | [snake_rattle][fws]               | U.S. Fish & Wildlife Service | CC0          |                         |
 | [squirrel*][squirrel]             | bmccoy2                      | CC BY 3.0    |                         |
+| [shotgun_pump][]                  | dasBUTCHER84                 | CC0          |                         |
 | [thunder_01][]                    | bajko                        | CC0          |                         |
 | [thunder_02][]                    | Josh74000MC                  | CC0          |                         |
 | [thunder_03][]                    | juskiddink                   | CC BY 3.0    |                         |
@@ -329,6 +330,7 @@
 [sea_lion]: https://freesound.org/s/499564/
 [seagull]: https://freesound.org/s/353416/
 [seagulls]: https://freesound.org/s/462462/
+[shotgun_pump]: https://freesound.org/s/449613/
 [squirrel]: https://freesound.org/s/342105/
 [step_hard]: https://freesound.org/s/41579/
 [step_ice]: https://freesound.org/s/416967/
