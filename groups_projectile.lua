@@ -1,7 +1,7 @@
 
---- Pre-defined Arms Sound Groups
+--- Pre-defined Projectile Sound Groups
 --
---  @topic arms_groups
+--  @topic projectile_groups
 
 
 
