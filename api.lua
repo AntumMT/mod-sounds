@@ -17,7 +17,7 @@ local rand = PcgRandom(os.time())
 --  @function sounds:play
 --  @tparam string name Sound file without .ogg suffix.
 --  @tparam[opt] SoundParams sp Sound parameters.
---  @treturn int Sound handle or `nil`.
+--  @treturn list (`int`) Sound handle or `nil` and (`string`) sound file name.
 --  @usage
 --  local handle = sounds:play("sound1", {gain=1.0})
 --  if handle then
@@ -44,7 +44,7 @@ sounds.play = function(self, name, sp)
 	-- TODO: register check to see if sound is still playing & remove from "playing" list
 	--playing[s_handle] = name
 
-	return s_handle
+	return s_handle, name
 end
 
 

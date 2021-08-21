@@ -1,4 +1,9 @@
 
+next
+----
+- "sounds:play" now returns handle & sound file name string
+
+
 v1.8
 ----
 - strings can be added to SoundGroup via arithmetic operator
