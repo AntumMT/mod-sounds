@@ -37,6 +37,7 @@ readme = ".ldoc/README.md"
 local version = 1.8
 
 file = {
+	"settings.lua",
 	"api.lua",
 	"node.lua",
 	"groups.lua",
@@ -45,6 +46,7 @@ file = {
 	"groups_node.lua",
 	"groups_vehicle.lua",
 	"groups_weather.lua",
+	"tests.lua",
 }
 
 new_type("chatcmd", "Chat Commands")
@@ -103,6 +105,55 @@ local function format_string(value, flags)
 	return st .. '">' .. value:gsub("_", "\\_") .. '</span>'
 end
 
+local format_setting_tag = function(desc, value)
+	return "\n- " .. format_string("`" .. desc .. ":`", {size="80%"}) .. " " .. value
+end
+
+
+local setting_handler = function(item)
+	local tags = {
+		{"settype", "type"},
+		{"default"},
+		{"min", "minimum value"},
+		{"max", "maximum value"},
+	}
+
+	local def = {
+		["settype"] = format_setting_tag("type", "string"),
+	}
+
+	for _, t in ipairs(tags) do
+		local name = t[1]
+		local desc = t[2]
+		if not desc then desc = name end
+
+		local value = item.tags[name]
+		if type(value) == "table" then
+			if #value > 1 then
+				local msg = item.file.filename .. " (line " .. item.lineno
+					.. "): multiple instances of tag \"" .. name .. "\" found"
+				if error then
+					error(msg)
+				elseif print then
+					print("WARNING: " .. msg)
+				end
+			end
+
+			if value[1] then
+				def[name] = format_setting_tag(desc, value[1])
+			end
+		end
+	end
+
+	item.description = item.description .. "\n\n**Definition:**\n" .. def.settype
+	for _, t in ipairs({def.default, def.min, def.max}) do
+		if t then
+			item.description = item.description .. t
+		end
+	end
+
+	return item
+end
 
 local function sndgroup_handler(item)
 	if item.tags.snd then
@@ -174,10 +225,26 @@ local function sndgroup_handler(item)
 	return item
 end
 
+local chatcmd_handler = function(item)
+	for _, p in ipairs(item.params) do
+		if item.modifiers.param[p].opt then
+			item.name = item.name .. " [" .. p .. "]"
+		else
+			item.name = item.name .. " &lt;" .. p .. "&gt;"
+		end
+	end
+
+	return item
+end
+
 function custom_display_name_handler(item, default_handler)
 	if not is_registered(item) then
-		if item.type == "sndgroup" then
+		if item.type == "setting" then
+			item = setting_handler(item)
+		elseif item.type == "sndgroup" then
 			item = sndgroup_handler(item)
+		elseif item.type == "chatcmd" then
+			item = chatcmd_handler(item)
 		end
 
 		local parse_tags = {"priv", "note"}
