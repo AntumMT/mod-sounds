@@ -84,8 +84,10 @@ sounds.train_whistle = SoundGroup({
 
 --- @sndgroup sound.vehicle_horn
 --  @snd vehicle_horn_01
+--  @snd vehicle_horn_02
 sounds.vehicle_horn = SoundGroup({
 	"vehicle_horn_01",
+	"vehicle_horn_02",
 })
 
 --- @sndgroup sounds.vehicle_motor
