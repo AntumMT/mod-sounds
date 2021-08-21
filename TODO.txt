@@ -7,7 +7,6 @@ TODO:
 - fix "node_dug_meta" & "node_place_metal" are the same
 - tests:
 	- allow playing individual sounds from groups
-	- sort groups alphabetically in list
 	- add option to loop play
 	- add sounds.node groups
 - add more sounds:

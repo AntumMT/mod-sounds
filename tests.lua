@@ -43,6 +43,7 @@ local get_tests_fs = function(pname, play_state)
 					table.insert(groups_list, k)
 				end
 			end
+			table.sort(groups_list)
 		end
 
 		local g = ""
