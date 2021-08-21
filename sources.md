@@ -31,6 +31,7 @@
 | [cobra*][cobra]                   | N/A                          | CC0          |                         |
 | [coin][]                          | greenvwbeetle                | CC0          |                         |
 | [compressor_motor_01][]           | ivolipa                      | CC0          | loopable                |
+| [compressor_motor_02][]           | Cell31 Sound Productions     | CC BY 3.0    | loopable                |
 | [cow_moo*][cow_moo]               | JosephSardin                 | CC0          |                         |
 | [coyote_howl][]                   | rogerforeman                 | CC BY 3.0    |                         |
 | [cricket][]                       | GB01                         | CC0          |                         |
@@ -215,6 +216,7 @@
 [cobra]: https://archive.org/details/unknowncobracobrabitewmv
 [coin]: https://freesound.org/s/423332/
 [compressor_motor_01]: https://freesound.org/s/337447/
+[compressor_motor_02]: https://freesound.org/s/376927/
 [cow_moo]: https://freesound.org/s/177253/
 [coyote_howl]: https://freesound.org/s/68067/
 [cricket]: https://freesound.org/s/530477/

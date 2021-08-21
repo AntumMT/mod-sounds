@@ -123,8 +123,10 @@ sounds.coin = SoundGroup({
 
 --- @sndgroup sounds.compressor
 --  @snd compressor_motor_01 (loopable)
+--  @snd compressor_motor_02 (loopable)
 sounds.compressor = SoundGroup({
 	"compressor_motor_01",
+	"compressor_motor_02",
 })
 
 
