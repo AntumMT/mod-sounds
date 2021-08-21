@@ -72,6 +72,7 @@ local get_tests_fs = function(pname)
 
 	fs = fs .. "]"
 		.. "button[" .. fs_w-1.75 .. ",4;1.5,0.5;btn_play_grp;Play]"
+		.. "button[" .. fs_w-1.75 .. ",4.75;1.5,0.5;btn_stop;Stop]"
 
 	return fs
 end
@@ -109,6 +110,11 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 			end
 
 			player_cache[pname] = nil
+		elseif fields.btn_stop then
+			if s_handle then
+				sounds:stop(s_handle)
+				s_handle = nil
+			end
 		elseif fields.btn_play_man then
 			if s_handle then
 				sounds:stop(s_handle)
