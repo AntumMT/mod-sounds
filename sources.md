@@ -22,6 +22,7 @@
 | [canary*][canary]                 | MediaCollege.com             | CC0          |                         |
 | [car_motor][]                     | jackthemurray                | CC0          | loopable                |
 | [cat_meow][]                      | blimp66                      | CC BY 3.0    |                         |
+| [chalk_write*][chalk_write]       | thavis360                    | CC0          |                         |
 | [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                         |
 | [clock_tick][]                    | AntumDeluge                  | CC0          | loopable                |
 | [cobra*][cobra]                   | N/A                          | CC0          |                         |
@@ -199,6 +200,7 @@
 [canary]: https://www.mediacollege.com/downloads/sound-effects/animals/bird/
 [car_motor]: https://freesound.org/s/433584/
 [cat_meow]: https://freesound.org/s/397661/
+[chalk_write]: https://freesound.org/s/178433/
 [chicken]: https://freesound.org/s/24967/
 [clock_tick]: https://opengameart.org/node/16323
 [cobra]: https://archive.org/details/unknowncobracobrabitewmv

@@ -1,4 +1,10 @@
 
+next
+----
+- added sounds:
+	- chalk_write
+
+
 v1.7
 ----
 - added sounds:

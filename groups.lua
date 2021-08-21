@@ -53,6 +53,23 @@ sounds.bounce = SoundGroup({
 
 
 
+--- Chalk
+--
+--  @section chalk
+
+
+--- @sndgroup sounds.chalk
+--  @snd chalk_write_01
+--  @snd chalk_write_02
+--  @snd chalk_write_03
+sounds.chalk = SoundGroup({
+	"chalk_write_01",
+	"chalk_write_02",
+	"chalk_write_03",
+})
+
+
+
 --- Clock
 --
 --  @section clock
