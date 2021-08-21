@@ -126,6 +126,7 @@
 | [rifle_fire_01][]                 | bananplyte                   | CC0          |                         |
 | [rifle_fire_02][]                 | [↓](#authors)                | CC BY 3.0    |                         |
 | [rifle_fire_03][]                 | Rob Marion                   | CC0          |                         |
+| [rifle_fire_04][]                 | Morgan Purkis                | CC0          |                         |
 | [rifle_fire_cock][]               | EFlexMusic                   | CC BY 3.0    |                         |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
 | [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                         |
@@ -349,6 +350,7 @@
 [rifle_fire_01]: https://freesound.org/s/452154/
 [rifle_fire_02]: https://freesound.org/s/410262/
 [rifle_fire_03]: https://freesound.org/s/542046/
+[rifle_fire_04]: https://freesound.org/s/391725/
 [rifle_fire_cock]: https://freesound.org/s/398348/
 [rooster]: https://freesound.org/s/269496/
 [sea_lion]: https://freesound.org/s/499564/
