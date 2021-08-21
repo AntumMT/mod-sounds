@@ -47,6 +47,14 @@ sounds.play = function(self, name, sp)
 	return s_handle, name
 end
 
+--- Wrapper for core.sound_stop.
+--
+--  function sounds:stop
+--  @tparam int handle
+sounds.stop = function(self, handle)
+	core.sound_stop(handle)
+end
+
 
 --- Objects
 --
