@@ -64,6 +64,19 @@ sounds.bicycle = sounds.bicycle_bell + sounds.bicycle_horn + sounds.bicycle_spok
 
 
 
+--- Motorbike
+--
+--  @section motorbike
+
+
+--- @sndgroup sounds.motorbike
+--  @snd motorbike_idle (loopable)
+sounds.motorbike = SoundGroup({
+	"motorbike_idle",
+})
+
+
+
 --- Train
 --
 --  @section train

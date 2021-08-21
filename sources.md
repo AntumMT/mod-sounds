@@ -84,6 +84,7 @@
 | [lion_bellow][]                   | felix.blume                  | CC0          |                         |
 | [match_ignite][]                  | InspectorJ                   | CC BY 3.0    |                         |
 | [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation               |
+| [motorbike_idle][]                | m1rk0                        | CC BY 3.0    | loopable                |
 | [mouse][]                         | AntumDeluge                  | CC0          | imitation               |
 | [owl_hoot][]                      | Anthousai                    | CC0          |                         |
 | [parrot*][parrot]                 | Mings                        | CC BY 3.0    |                         |
@@ -278,6 +279,7 @@
 [lion_bellow]: https://freesound.org/s/405211/
 [match_ignite]: https://freesound.org/s/484266/
 [monkey]: https://opengameart.org/node/81240
+[motorbike_idle]: https://freesound.org/s/23212/
 [mouse]: https://opengameart.org/node/16331
 [owl_hoot]: https://freesound.org/s/398734/
 [parrot]: https://freesound.org/s/160381/
