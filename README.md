@@ -68,6 +68,9 @@ local s_group2 = SoundGroup({"sound3", "sound4", "sound5"})
 -- SoundGroup objects can be concatenated with the arithmetic operator
 local s_group3 = s_group1 + s_group2
 
+-- strings can also be concatenated to group with arithmetic operator
+s_group3 = s_group3 + "sound6"
+
 -- to prevent sound file names from being prefixed with "sounds_" when played,
 -- the `no_prepend` field must be set to `true`
 s_group1(2) -- plays "sounds_sound2"

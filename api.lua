@@ -105,8 +105,12 @@ SoundGroup = {
 					for _, snd in ipairs(self) do
 						table.insert(new_group, snd)
 					end
-					for _, snd in ipairs(g1) do
-						table.insert(new_group, snd)
+					if type(g1) == "string" then
+						table.insert(new_group, g1)
+					else
+						for _, snd in ipairs(g1) do
+							table.insert(new_group, snd)
+						end
 					end
 
 					return SoundGroup(new_group)

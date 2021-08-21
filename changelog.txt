@@ -1,6 +1,7 @@
 
 next
 ----
+- strings can be added to SoundGroup via arithmetic operator
 - added sounds:
 	- chalk_screech
 	- chalk_write
