@@ -4,6 +4,7 @@ next
 - added sounds:
 	- chalk_screech
 	- chalk_write
+	- compressor_motor
 	- vehicle_horn
 
 

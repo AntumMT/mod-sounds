@@ -30,6 +30,7 @@
 | [clock_tick][]                    | AntumDeluge                  | CC0          | loopable                |
 | [cobra*][cobra]                   | N/A                          | CC0          |                         |
 | [coin][]                          | greenvwbeetle                | CC0          |                         |
+| [compressor_motor_01][]           | ivolipa                      | CC0          | loopable                |
 | [cow_moo*][cow_moo]               | JosephSardin                 | CC0          |                         |
 | [coyote_howl][]                   | rogerforeman                 | CC BY 3.0    |                         |
 | [cricket][]                       | GB01                         | CC0          |                         |
@@ -213,6 +214,7 @@
 [clock_tick]: https://opengameart.org/node/16323
 [cobra]: https://archive.org/details/unknowncobracobrabitewmv
 [coin]: https://freesound.org/s/423332/
+[compressor_motor_01]: https://freesound.org/s/337447/
 [cow_moo]: https://freesound.org/s/177253/
 [coyote_howl]: https://freesound.org/s/68067/
 [cricket]: https://freesound.org/s/530477/

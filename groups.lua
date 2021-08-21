@@ -116,6 +116,19 @@ sounds.coin = SoundGroup({
 
 
 
+--- Compressor
+--
+--  @section compressor
+
+
+--- @sndgroup sounds.compressor
+--  @snd compressor_motor_01 (loopable)
+sounds.compressor = SoundGroup({
+	"compressor_motor_01",
+})
+
+
+
 --- Door
 --
 --  @section door
