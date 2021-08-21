@@ -8,8 +8,8 @@ next
 - added sounds:
 	- firearm_cock
 	- fireball
-	- handgun_fire
 	- laser
+	- pistol_fire
 	- shotgun_fire_pump
 	- shotgun_pump
 

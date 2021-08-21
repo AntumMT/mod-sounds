@@ -13,10 +13,10 @@ sounds.firearm_cock = SoundGroup({
 	"firearm_cock_02",
 })
 
---- @sndgroup sounds.handgun_fire
---  @snd handgun_fire
-sounds.handgun_fire = SoundGroup({
-	"handgun_fire",
+--- @sndgroup sounds.pistol_fire
+--  @snd pistol_fire
+sounds.pistol_fire = SoundGroup({
+	"pistol_fire",
 })
 
 --- @sndgroup sounds.shotgun_fire
