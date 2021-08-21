@@ -6,6 +6,7 @@ next
 - added setting "sounds.enable_tests"
 - added sounds testing formspec shown with "/sounds_tests" chat command
 - added localization support for sounds testing formspec
+- added Spanish translation for sounds testing formspec
 - added sounds:
 	- ar_fire
 	- fireball
