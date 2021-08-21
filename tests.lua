@@ -73,6 +73,8 @@ local get_tests_fs = function(pname)
 	fs = fs .. "]"
 		.. "button[" .. fs_w-1.75 .. ",4;1.5,0.5;btn_play_grp;Play]"
 		.. "button[" .. fs_w-1.75 .. ",4.75;1.5,0.5;btn_stop;Stop]"
+		.. "checkbox[" .. fs_w-1.75 .. ",5.75;chk_loop;Loop;"
+			.. tostring(p_cache.loop or "false") .. "]"
 
 	return fs
 end
@@ -103,6 +105,10 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 		player_cache[pname] = player_cache[pname] or {}
 		local p_cache = player_cache[pname]
 
+		if fields.chk_loop ~= nil then
+			p_cache.loop = fields.chk_loop == "true"
+		end
+
 		if fields.quit then
 			if s_handle then
 				sounds:stop(s_handle)
@@ -129,7 +135,7 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 					p_cache.cached = "yes"
 				end
 
-				s_handle = sounds:play(s_name, {to_player=pname})
+				s_handle = sounds:play(s_name, {to_player=pname, loop=p_cache.loop})
 
 				p_cache.played = "no"
 				if s_handle then
@@ -165,7 +171,7 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 						p_cache.selected_sound = s_idx
 
 						local s_name
-						s_handle, s_name = sound_group(s_idx, {to_player=pname})
+						s_handle, s_name = sound_group(s_idx, {to_player=pname, loop=p_cache.loop})
 						p_cache.name = s_name
 
 						p_cache.cached = "no"

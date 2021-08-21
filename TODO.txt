@@ -7,7 +7,6 @@ TODO:
 - fix "node_dug_meta" & "node_place_metal" are the same
 - add localization support
 - tests:
-	- add option to loop play
 	- add sounds.node groups
 - add more sounds:
 	- hit/damage
