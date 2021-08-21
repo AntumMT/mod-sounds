@@ -10,17 +10,27 @@
 --  @section ar
 
 
---- @sndgroup sounds.ar_fire
+--- @sndgroup sounds.ar_burst
+--  @snd ar_burst_01
+--  @snd ar_burst_02
+sounds.ar_burst = SoundGroup({
+	"ar_burst_01",
+	"ar_burst_02",
+})
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.ar_burst`
+--
+--  @sndgroup sounds.ar_fire
 --  @snd ar_fire_01
 --  @snd ar_fire_02
---  @snd ar_fire_03
---  @snd ar_fire_04
 sounds.ar_fire = SoundGroup({
 	"ar_fire_01",
 	"ar_fire_02",
-	"ar_fire_03",
-	"ar_fire_04",
-})
+}) + sounds.ar_burst
 
 
 

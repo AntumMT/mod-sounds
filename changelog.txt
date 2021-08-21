@@ -1,4 +1,10 @@
 
+next
+----
+- renamed sounds:
+	- some "ar_fire sounds" to "ar_burst"
+
+
 v1.9
 ----
 - "sounds:play" now returns handle & sound file name string

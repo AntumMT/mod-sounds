@@ -5,6 +5,7 @@
 | --------------------------------- | ---------------------------- | ------------ | ----------------------- |
 | [airplane_prop][]                 | jakobthiesen                 | CC BY 3.0    | loopable                |
 | [apple_bite][]                    | sonicmariobrotha             | CC0          |                         |
+| [ar_burst*][ar_fire]              | Wyatt Dilley (dwightsabeast) | CC BY 3.0    |                         |
 | [ar_fire*][ar_fire]               | Wyatt Dilley (dwightsabeast) | CC BY 3.0    |                         |
 | [balloon_inflate][]               | d.n.audio.uk                 | CC0          |                         |
 | [balloon_pop][]                   | Gniffelbaf                   | CC0          |                         |
