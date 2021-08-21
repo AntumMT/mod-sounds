@@ -5,6 +5,18 @@
 
 
 
+--- @sndgroup sounds.ar_fire
+--  @snd ar_fire_01
+--  @snd ar_fire_02
+--  @snd ar_fire_03
+--  @snd ar_fire_04
+sounds.ar_fire = SoundGroup({
+	"ar_fire_01",
+	"ar_fire_02",
+	"ar_fire_03",
+	"ar_fire_04",
+})
+
 --- @sndgroup sounds.firearm_cock
 --  @snd firearm_cock_01
 --  @snd firearm_cock_02

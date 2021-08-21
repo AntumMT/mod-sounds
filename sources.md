@@ -5,6 +5,7 @@
 | --------------------------------- | ---------------------------- | ------------ | ----------------------- |
 | [airplane_prop][]                 | jakobthiesen                 | CC BY 3.0    | loopable                |
 | [apple_bite][]                    | sonicmariobrotha             | CC0          |                         |
+| [ar_fire*][ar_fire]               | Wyatt Dilley (dwightsabeast) | CC BY 3.0    |                         |
 | [balloon_inflate][]               | d.n.audio.uk                 | CC0          |                         |
 | [balloon_pop][]                   | Gniffelbaf                   | CC0          |                         |
 | [bat*][bat]                       | polymorpheva                 | CC0          |                         |
@@ -212,6 +213,7 @@
 
 [airplane_prop]: https://freesound.org/s/188423/
 [apple_bite]: https://freesound.org/s/333825/
+[ar_fire]: https://freesound.org/s/553848/
 [balloon_inflate]: https://freesound.org/s/263809/
 [balloon_pop]: https://freesound.org/s/82119/
 [bat]: https://freesound.org/s/104205/
