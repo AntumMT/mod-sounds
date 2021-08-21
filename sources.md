@@ -119,6 +119,7 @@
 | [rain_heavy_02][]                 | TRP                          | CC0          | loopable                |
 | [rain_light][]                    | Zepp2010                     | CC0          | loopable                |
 | [rain_medium][]                   | klangfabrik                  | CC0          | loopable                |
+| [ricochet][]                      | Benboncan                    | CC BY 3.0    |                         |
 | [rifle_cock_01][]                 | freemusicpromo               | CC0          |                         |
 | [rifle_cock_02][]                 | Bunny_Clark                  | CC BY 3.0    |                         |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
@@ -335,6 +336,7 @@
 [rain_heavy_02]: https://freesound.org/s/573622/
 [rain_light]: https://freesound.org/s/163264/
 [rain_medium]: https://freesound.org/s/157149/
+[ricochet]: https://freesound.org/s/78091/
 [rifle_cock_01]: https://freesound.org/s/513746/
 [rifle_cock_02]: https://freesound.org/s/377550/
 [rooster]: https://freesound.org/s/269496/

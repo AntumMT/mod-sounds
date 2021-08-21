@@ -66,6 +66,19 @@ sounds.pistol = sounds.pistol_cock + sounds.pistol_fire + sounds.pistol_reload
 
 
 
+--- Ricochet
+--
+--  @section ricochet
+
+
+--- @sndgroup = sounds.ricochet
+--  @snd ricochet
+sounds.ricochet = SoundGroup({
+	"ricochet",
+})
+
+
+
 --- Rifle
 --
 --  @section rifle

@@ -12,6 +12,7 @@ next
 	- pistol_cock
 	- pistol_fire
 	- pistol_reload
+	- ricochet
 	- rifle_cock
 	- shotgun_fire_pump
 	- shotgun_pump
