@@ -14,9 +14,11 @@ sounds.firearm_cock = SoundGroup({
 })
 
 --- @sndgroup sounds.pistol_fire
---  @snd pistol_fire
+--  @snd pistol_fire_01
+--  @snd pistol_fire_02
 sounds.pistol_fire = SoundGroup({
-	"pistol_fire",
+	"pistol_fire_01",
+	"pistol_fire_02",
 })
 
 --- @sndgroup sounds.pistol_reload
