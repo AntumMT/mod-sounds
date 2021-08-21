@@ -20,6 +20,7 @@ end
 
 
 local scripts = {
+	"settings",
 	"override",
 	"api",
 	"groups",

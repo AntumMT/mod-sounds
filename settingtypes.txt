@@ -1,0 +1,3 @@
+
+# Enables sounds testing with /sounds_test chat command.
+sounds.enable_tests (Sounds tests) bool false
