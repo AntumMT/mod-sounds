@@ -7,12 +7,12 @@ next
 - added sounds testing formspec shown with "/sounds_tests" chat command
 - added sounds:
 	- ar_fire
-	- firearm_cock
 	- fireball
 	- laser
 	- pistol_cock
 	- pistol_fire
 	- pistol_reload
+	- rifle_cock
 	- shotgun_fire_pump
 	- shotgun_pump
 

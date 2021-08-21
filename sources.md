@@ -55,8 +55,6 @@
 | [explosion][]                     | JuveriSetila                 | CC0          |                         |
 | [frog][]                          | kayceemixer                  | CC0          |                         |
 | [fire_crackle][]                  | 16FThumaF                    | CC0          | loopable                |
-| [firearm_cock_01][]               | freemusicpromo               | CC0          |                         |
-| [firearm_cock_02][]               | Bunny_Clark                  | CC BY 3.0    |                         |
 | [fireball_01][]                   | Julien Matthey               | CC0          |                         |
 | [fireball_02][]                   | Julien Matthey               | CC0          |                         |
 | [fireball_03][]                   | Julien Matthey               | CC0          |                         |
@@ -121,6 +119,8 @@
 | [rain_heavy_02][]                 | TRP                          | CC0          | loopable                |
 | [rain_light][]                    | Zepp2010                     | CC0          | loopable                |
 | [rain_medium][]                   | klangfabrik                  | CC0          | loopable                |
+| [rifle_cock_01][]                 | freemusicpromo               | CC0          |                         |
+| [rifle_cock_02][]                 | Bunny_Clark                  | CC BY 3.0    |                         |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
 | [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                         |
 | [seagull*][seagull]               | squashy555                   | CC0          |                         |
@@ -271,8 +271,6 @@
 [entity_hit]: https://freesound.org/s/241872/
 [explosion]: https://freesound.org/s/514133/
 [fire_crackle]: https://freesound.org/s/499032/
-[firearm_cock_01]: https://freesound.org/s/513746/
-[firearm_cock_02]: https://freesound.org/s/377550/
 [fireball_01]: https://freesound.org/s/105016/
 [fireball_02]: https://freesound.org/s/346917/
 [fireball_03]: https://freesound.org/s/346916/
@@ -337,6 +335,8 @@
 [rain_heavy_02]: https://freesound.org/s/573622/
 [rain_light]: https://freesound.org/s/163264/
 [rain_medium]: https://freesound.org/s/157149/
+[rifle_cock_01]: https://freesound.org/s/513746/
+[rifle_cock_02]: https://freesound.org/s/377550/
 [rooster]: https://freesound.org/s/269496/
 [sea_lion]: https://freesound.org/s/499564/
 [seagull]: https://freesound.org/s/353416/

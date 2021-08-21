@@ -5,6 +5,11 @@
 
 
 
+--- Assualt Rifle
+--
+--  @section ar
+
+
 --- @sndgroup sounds.ar_fire
 --  @snd ar_fire_01
 --  @snd ar_fire_02
@@ -17,13 +22,12 @@ sounds.ar_fire = SoundGroup({
 	"ar_fire_04",
 })
 
---- @sndgroup sounds.firearm_cock
---  @snd firearm_cock_01
---  @snd firearm_cock_02
-sounds.firearm_cock = SoundGroup({
-	"firearm_cock_01",
-	"firearm_cock_02",
-})
+
+
+--- Pistol
+--
+--  @section pistol
+
 
 --- @sndgroup sounds.pistol_cock
 --  @snd pistol_cock_01
@@ -59,6 +63,28 @@ sounds.pistol_reload = SoundGroup({
 --
 -- @sndgroup sounds.pistol
 sounds.pistol = sounds.pistol_cock + sounds.pistol_fire + sounds.pistol_reload
+
+
+
+--- Rifle
+--
+--  @section rifle
+
+
+--- @sndgroup sounds.rifle_cock
+--  @snd rifle_cock_01
+--  @snd rifle_cock_02
+sounds.rifle_cock = SoundGroup({
+	"rifle_cock_01",
+	"rifle_cock_02",
+})
+
+
+
+--- Shotgun
+--
+--  @section shotgun
+
 
 --- @sndgroup sounds.shotgun_fire
 --  @snd shotgun_fire_pump
