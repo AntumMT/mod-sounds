@@ -9,6 +9,7 @@ TODO:
 	- allow playing individual sounds from groups
 	- sort groups alphabetically in list
 	- add option to loop play
+	- add sounds.node groups
 - add more sounds:
 	- hit/damage
 - add sounds from:
