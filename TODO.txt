@@ -5,8 +5,8 @@ TODO:
 - add option to get sound by string name in "SoundGroup:get" using string.match
 - create SoundGroup instances for all cached mod sounds
 - fix "node_dug_meta" & "node_place_metal" are the same
+- add localization support
 - tests:
-	- allow playing individual sounds from groups
 	- add option to loop play
 	- add sounds.node groups
 - add more sounds:
