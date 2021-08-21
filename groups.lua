@@ -58,15 +58,35 @@ sounds.bounce = SoundGroup({
 --  @section chalk
 
 
---- @sndgroup sounds.chalk
+--- @sndgroup sounds.chalk_screech
+--  @snd chalk_screech_01
+--  @snd chalk_screech_02
+--  @snd chalk_screech_03
+sounds.chalk_screech = SoundGroup({
+	"chalk_screech_01",
+	"chalk_screech_02",
+	"chalk_screech_03",
+})
+
+--- @sndgroup sounds.chalk_write
 --  @snd chalk_write_01
 --  @snd chalk_write_02
 --  @snd chalk_write_03
-sounds.chalk = SoundGroup({
+sounds.chalk_write = SoundGroup({
 	"chalk_write_01",
 	"chalk_write_02",
 	"chalk_write_03",
 })
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.chalk_screech`
+--  - `sounds.chalk_write`
+--
+--  @sndgroup sounds.chalk
+sounds.chalk = sounds.chalk_screech + sounds.chalk_write
 
 
 

@@ -22,6 +22,9 @@
 | [canary*][canary]                 | MediaCollege.com             | CC0          |                         |
 | [car_motor][]                     | jackthemurray                | CC0          | loopable                |
 | [cat_meow][]                      | blimp66                      | CC BY 3.0    |                         |
+| [chalk_screech_01][]              | Sirderf                      | CC BY 3.0    |                         |
+| [chalk_screech_02][]              | Sirderf                      | CC BY 3.0    |                         |
+| [chalk_screech_03][]              | Sirderf                      | CC BY 3.0    |                         |
 | [chalk_write*][chalk_write]       | thavis360                    | CC0          |                         |
 | [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                         |
 | [clock_tick][]                    | AntumDeluge                  | CC0          | loopable                |
@@ -200,6 +203,9 @@
 [canary]: https://www.mediacollege.com/downloads/sound-effects/animals/bird/
 [car_motor]: https://freesound.org/s/433584/
 [cat_meow]: https://freesound.org/s/397661/
+[chalk_screech_01]: https://freesound.org/s/332290/
+[chalk_screech_02]: https://freesound.org/s/332289/
+[chalk_screech_03]: https://freesound.org/s/332288/
 [chalk_write]: https://freesound.org/s/178433/
 [chicken]: https://freesound.org/s/24967/
 [clock_tick]: https://opengameart.org/node/16323
