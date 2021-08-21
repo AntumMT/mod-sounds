@@ -92,6 +92,22 @@ sounds.rifle_cock = SoundGroup({
 	"rifle_cock_02",
 })
 
+--- @sndgroup sounds.rifle_fire
+--  @snd rifle_fire_cock
+sounds.rifle_fire = SoundGroup({
+	"rifle_fire_cock",
+})
+
+--- <br>
+--
+--  Includes:
+--
+--  - `sounds.rifle_cock`
+--  - `sounds.rifle_fire`
+--
+--  @sndgroup sounds.rifle
+sounds.rifle = sounds.rifle_cock + sounds.rifle_fire
+
 
 
 --- Shotgun

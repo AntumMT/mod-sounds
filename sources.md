@@ -122,6 +122,7 @@
 | [ricochet][]                      | Benboncan                    | CC BY 3.0    |                         |
 | [rifle_cock_01][]                 | freemusicpromo               | CC0          |                         |
 | [rifle_cock_02][]                 | Bunny_Clark                  | CC BY 3.0    |                         |
+| [rifle_fire_cock][]               | EFlexMusic                   | CC BY 3.0    |                         |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
 | [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                         |
 | [seagull*][seagull]               | squashy555                   | CC0          |                         |
@@ -339,6 +340,7 @@
 [ricochet]: https://freesound.org/s/78091/
 [rifle_cock_01]: https://freesound.org/s/513746/
 [rifle_cock_02]: https://freesound.org/s/377550/
+[rifle_fire_cock]: https://freesound.org/s/398348/
 [rooster]: https://freesound.org/s/269496/
 [sea_lion]: https://freesound.org/s/499564/
 [seagull]: https://freesound.org/s/353416/
