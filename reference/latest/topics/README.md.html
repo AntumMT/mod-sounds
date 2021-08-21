@@ -25,7 +25,7 @@
 
 <div id="navigation">
 <br/>
-<h1>Sounds <span style="font-size:12pt;">(v1.7)</span></h1>
+<h1>Sounds <span style="font-size:12pt;">(v1.8)</span></h1>
 
 
 <ul>
@@ -64,7 +64,17 @@
 <p><a name="Description"></a></p>
 <h3>Description</h3>
 
-<p>A <a href="http://minetest.net/">Minetest</a> mod that provides a set of free sounds &amp; methods. It is intended as a more universal method for adding sounds to games rather than depending on <a href="https://github.com/minetest/minetest\_game/tree/master/mods/default">MTG &amp; default</a> for sounds only.</p>
+<p>A <a href="http://minetest.net/">Minetest</a> mod that provides a set of free sounds &amp; methods.</p>
+
+<p>What is the purpose of this mod? There are three ideas behind <code>sounds</code>:</p>
+
+<ol>
+    <li>It is intended as a more universal method for adding sounds to games rather than depending on <a href="https://github.com/minetest/minetest\_game/tree/master/mods/default">MTG &amp; default</a> for sounds only. It is completely compatible with default sounds. The same methods called in <code>default</code> to set node sounds, like <code>default.node_sound_stone_defaults</code>, are implemented &amp; it can be installed in parallel. <em>Section: <a href="#replacement-for-default">Replacement for default</a></em></li>
+    <li>It is simply a well of sounds. Many sound files are provided &amp; can be used with <a href="https://minetest.gitlab.io/minetest/minetest-namespace-reference/#sounds">minetest.sound_play</a> just as normal. There is also a wrapper function, <code>sounds.play</code>, that does its best to verify that a sound played successfully. If so, it will return a sound handle ID. Otherwise it will return <code>nil</code>. It also caches all loaded mod sounds after server startup in <code>sounds.cache</code> table. So sound files can easily be checked for existence. <em>Section: <a href="#checking-for-existing-sounds">Checking for Existing Sounds</a></em></li>
+    <li>It adds callable sound groups that can be used to play specified individual sounds, or a random sound in the group. The benefit to this is that the file naming convention is irrelivent. The only thing that matters is that the sound file is registered with the group. <em>Section: <a href="#playing-sounds-manually">Playing Sounds Manually</a></em></li>
+</ol>
+
+
 
 <p><img src="../screenshot.png" alt="icon" width="200" /></p>
 
@@ -79,7 +89,7 @@
 
 <h4>Sound file sources &amp; licensing:<a name="sources" /></h4>
 
-<p>See <a href="https://github.com/AntumMT/mod-sounds/blob/v1.7/sources.md">sources.md</a></p>
+<p>See <a href="https://github.com/AntumMT/mod-sounds/blob/v1.8/sources.md">sources.md</a></p>
 
 <p><a name="Usage"></a></p>
 <h3>Usage</h3>
@@ -111,8 +121,9 @@ default.node_sound_dirt_defaults = sounds.node_dirt
 <pre>
 minetest.register_node(<span class="string">"foo:bar"</span>, {
     description = <span class="string">"Foo Node"</span>,
-    sounds = default.node_sound_stone_defaults() <span class="comment">-- this is the same as calling <code>sounds.node_stone()</code>
-</span> ...
+    <span class="comment">-- this is the same as calling <code>sounds.node_stone()</code>
+</span> sounds = default.node_sound_stone_defaults()
+    ...
 })
 </pre>
 
@@ -130,7 +141,11 @@ minetest.register_node(<span class="string">"foo:bar"</span>, {
 <span class="comment">-- SoundGroup objects can be concatenated with the arithmetic operator
 </span><span class="keyword">local</span> s_group3 = s_group1 + s_group2
 
-<span class="comment">-- to prevent sound file names from being prefixed with "sounds_" when played, the <code>no_prepend</code> field must be set to <code>true</code>
+<span class="comment">-- strings can also be concatenated to group with arithmetic operator
+</span>s_group3 = s_group3 + <span class="string">"sound6"</span>
+
+<span class="comment">-- to prevent sound file names from being prefixed with "sounds_" when played,
+</span><span class="comment">-- the <code>no_prepend</code> field must be set to <code>true</code>
 </span>s_group1(<span class="number">2</span>) <span class="comment">-- plays "sounds_sound2"
 </span>
 s_group1.no_prepend = <span class="keyword">true</span>
@@ -168,8 +183,9 @@ s_group1(<span class="number">2</span>) <span class="comment">-- plays "sound2"<
 minetest.register_node(<span class="string">"foo:bar"</span>, {
     description = <span class="string">"Foo Node"</span>,
     sounds = {
-        dig = sounds.cow_moo, <span class="comment">-- a random sound from the <code>sounds.cow_moo</code> group will be played when digging this node
-</span> },
+        <span class="comment">-- a random sound from the <code>sounds.cow_moo</code> group will be played when digging this node
+</span>     dig = sounds.cow_moo,
+    },
     ...
 </pre>
 
@@ -198,6 +214,18 @@ minetest.register_node(<span class="string">"foo:bar"</span>, {
 </pre>
 
 
+<h4>Checking for Existing Sounds</h4>
+
+<p>All mod sound files are stored in the global table <code>sounds.cache</code> after server startup. Checking if a file exists for playing is simple:</p>
+
+
+<pre>
+<span class="keyword">if</span> sounds.cache[<span class="string">"default_dig_crumbly"</span>] <span class="keyword">then</span>
+    core.sound_play(<span class="string">"default_dig_crumbly"</span>)
+<span class="keyword">end</span>
+</pre>
+
+
 <p><a name="Links"></a></p>
 <h3>Links</h3>
 
@@ -221,7 +249,7 @@ minetest.register_node(<span class="string">"foo:bar"</span>, {
 </div> <!-- id="main" -->
 <div id="about">
 <i>generated by <a href="http://github.com/AntumDeluge/LDoc/tree/custom">LDoc 1.4.6-antum-dev</a></i>
-<i style="float:right;">Last updated 2021-08-18 21:59:41 </i>
+<i style="float:right;">Last updated 2021-08-21 09:41:33 </i>
 </div> <!-- id="about" -->
 </div> <!-- id="container" -->
 </body>
