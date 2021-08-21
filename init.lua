@@ -53,12 +53,17 @@ core.register_on_mods_loaded(function()
 		for _, ogg in ipairs(core.get_dir_list(s_dir, false)) do
 			if ogg:find("%.ogg$") then
 				local basename = ogg:gsub("%.ogg$", "")
+				local cache_value = true
+
 				-- files for playing randomly by core must have suffix trimmed
 				if basename:find("%.[0-9]$") then
+					cache_value = basename:gsub("^.*%.(.*)$", "%1")
+					cache_value = tonumber(cache_value)
+
 					basename = basename:gsub("%.[0-9]$", "")
 				end
 
-				sounds.cache[basename] = true
+				sounds.cache[basename] = cache_value
 			end
 		end
 	end

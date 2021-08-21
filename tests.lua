@@ -68,7 +68,6 @@ local get_tests_fs = function(pname)
 		.. "textlist[8.75,4;" .. fs_w-(5.5*2) .. "," .. fs_h-4.25 .. ";gsounds;"
 
 	if p_cache.selected_group then
-		--local s_group = sounds[groups_list[player_cache[pname].selected_group]]
 		local group_name = groups_list[p_cache.selected_group]
 		local s_group
 		if string.find(group_name, ".") then
@@ -83,10 +82,15 @@ local get_tests_fs = function(pname)
 		local s = ""
 		local s_added = 0
 		for _, s_name in ipairs(s_group) do
+			local r_count = sounds.cache[s_name] or sounds.cache["sounds_" .. s_name]
 			if s_added > 0 then
 				s = s .. ","
 			end
 			s = s .. s_name
+			if type(r_count) == "number" then
+				s = s .. " (" .. r_count .. " sounds)"
+			end
+
 			s_added = s_added + 1
 		end
 
