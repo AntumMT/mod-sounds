@@ -1,5 +1,5 @@
 
-next
+v1.9
 ----
 - "sounds:play" now returns handle & sound file name string
 - added "sounds:stop" wrapper function for "core:sound_stop"
