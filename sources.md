@@ -111,6 +111,7 @@
 | [pistol_cock*][pistol_cock]       | J.Anthracite                 | CC0          |                         |
 | [pistol_fire_01][]                | DrinkingWindGames            | CC BY 3.0    |                         |
 | [pistol_fire_02][]                | magnuswaker                  | CC0          |                         |
+| [pistol_fire_03][]                | Morgan Purkis                | CC0          |                         |
 | [pistol_fire_dry][]               | Sophia Caldwell              | CC BY 3.0    |                         |
 | [pistol_reload][]                 | Bunny_Clark                  | CC BY 3.0    |                         |
 | [puppy_bark][]                    | moffet                       | CC0          |                         |
@@ -337,6 +338,7 @@
 [pistol_cock]: https://freesound.org/s/465488/
 [pistol_fire_01]: https://freesound.org/s/476240/
 [pistol_fire_02]: https://freesound.org/s/522085/
+[pistol_fire_03]: https://freesound.org/s/385812/
 [pistol_fire_dry]: https://freesound.org/s/467183/
 [pistol_reload]: https://freesound.org/s/377549/
 [place_metal]: https://opengameart.org/node/3511
