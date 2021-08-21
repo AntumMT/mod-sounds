@@ -672,10 +672,10 @@ sounds.giraffe_hum = SoundGroup({
 
 
 --- @sndgroup sounds.bee
---  @snd bee
---  @snd bumble_bee_01
+--  @snd bee (loopable)
+--  @snd bumble_bee_01 (loopable)
 --  @snd bumble_bee_02
---  @snd bees
+--  @snd bees (loopable)
 sounds.bee = SoundGroup({
 	"bee",
 	"bumble_bee_01",
@@ -684,7 +684,7 @@ sounds.bee = SoundGroup({
 })
 
 --- @sndgroup sounds.cricket
---  @snd cricket
+--  @snd cricket (loopable)
 sounds.cricket = SoundGroup({
 	"cricket",
 })

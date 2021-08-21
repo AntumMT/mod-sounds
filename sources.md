@@ -9,14 +9,14 @@
 | [balloon_pop][]                   | Gniffelbaf                   | CC0          |                         |
 | [bat*][bat]                       | polymorpheva                 | CC0          |                         |
 | [bear*][fws]                      | U.S. Fish & Wildlife Service | CC0          |                         |
-| [bee][]                           | DrDufus                      | CC0          |                         |
-| [bees][]                          | tom_woysky                   | CC0          |                         |
+| [bee][]                           | DrDufus                      | CC0          | loopable                |
+| [bees][]                          | tom_woysky                   | CC0          | loopable                |
 | [bicycle_bell][bicycle]           | AntumDeluge                  | CC0          |                         |
 | [bicycle_horn][bicycle]           | AntumDeluge                  | CC0          |                         |
 | [bicycle_spokes][bicycle]         | AntumDeluge                  | CC0          |                         |
 | [bird*][bird]                     | Jc Guan                      | CC0          |                         |
 | [boing][]                         | reelworldstudio              | CC0          |                         |
-| [bumble_bee_01][]                 | Iain McCurdy                 | CC BY 3.0    |                         |
+| [bumble_bee_01][]                 | Iain McCurdy                 | CC BY 3.0    | loopable                |
 | [bumble_bee_02][]                 | CGEffex                      | CC BY 3.0    |                         |
 | [camel*][camel]                   | craigsmith                   | CC0          |                         |
 | [canary*][canary]                 | MediaCollege.com             | CC0          |                         |
@@ -34,7 +34,7 @@
 | [compressor_motor_02][]           | Cell31 Sound Productions     | CC BY 3.0    | loopable                |
 | [cow_moo*][cow_moo]               | JosephSardin                 | CC0          |                         |
 | [coyote_howl][]                   | rogerforeman                 | CC BY 3.0    |                         |
-| [cricket][]                       | GB01                         | CC0          |                         |
+| [cricket][]                       | GB01                         | CC0          | loopable                |
 | [crow_caw][]                      | Morris Gevirtz               | CC BY 4.0    |                         |
 | [dog_bark][]                      | ivolipa                      | CC0          |                         |
 | [dolphin*][dolphin]               | Nagaty Studio                | CC BY        |                         |
