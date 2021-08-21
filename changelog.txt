@@ -1,5 +1,5 @@
 
-next
+v1.8
 ----
 - strings can be added to SoundGroup via arithmetic operator
 - added sounds:

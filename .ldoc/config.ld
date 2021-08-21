@@ -34,7 +34,7 @@ not_luadoc = true
 favicon = "https://www.minetest.net/media/icon.svg"
 readme = ".ldoc/README.md"
 
-local version = 1.7
+local version = 1.8
 
 file = {
 	"api.lua",
