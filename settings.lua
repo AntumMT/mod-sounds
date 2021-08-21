@@ -3,7 +3,7 @@
 --
 --  @topic settings
 
---- Enables sounds testing with /sounds_test chat command.
+--- Enables sounds testing with [sounds_test](tests.html#sounds_tests) chat command.
 --
 --  @setting sounds.enable_tests
 --  @settype bool
