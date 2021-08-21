@@ -4,6 +4,7 @@ next
 - "sounds:play" now returns handle & sound file name string
 - added "sounds:stop" wrapper function for "core:sound_stop"
 - added setting "sounds.enable_tests"
+- added sounds testing formspec shown with "/sounds_tests" chat command
 
 
 v1.8

@@ -36,6 +36,10 @@ for _, s in ipairs(scripts) do
 	dofile(sounds.modpath .. "/" .. s .. ".lua")
 end
 
+if sounds.enable_tests then
+	dofile(sounds.modpath .. "/tests.lua")
+end
+
 
 -- cache available sound files
 sounds.cache = {}
