@@ -3,6 +3,8 @@ next
 ----
 - renamed sounds:
 	- some "ar_fire sounds" to "ar_burst"
+- added sounds:
+	- ar_burst
 
 
 v1.9

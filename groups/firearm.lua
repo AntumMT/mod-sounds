@@ -13,9 +13,11 @@
 --- @sndgroup sounds.ar_burst
 --  @snd ar_burst_01
 --  @snd ar_burst_02
+--  @snd ar_burst_03
 sounds.ar_burst = SoundGroup({
 	"ar_burst_01",
 	"ar_burst_02",
+	"ar_burst_03",
 })
 
 --- <br>
