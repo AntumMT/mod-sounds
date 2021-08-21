@@ -123,7 +123,8 @@
 | [rifle_cock_01][]                 | freemusicpromo               | CC0          |                         |
 | [rifle_cock_02][]                 | Bunny_Clark                  | CC BY 3.0    |                         |
 | [rifle_cock_03][]                 | SpliceSound                  | CC0          |                         |
-| [rifle_fire][]                    | bananplyte                   | CC0          |                         |
+| [rifle_fire_01][]                 | bananplyte                   | CC0          |                         |
+| [rifle_fire_02][]                 | [↓](#authors)                | CC BY 3.0    |                         |
 | [rifle_fire_cock][]               | EFlexMusic                   | CC BY 3.0    |                         |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
 | [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                         |
@@ -211,6 +212,7 @@
 	- **gorilla_snarl**
 - **hyena:** Mathevon N, Koralek A, Weldele M, Glickman S, & Theunissen F
 - **piano:** Scott Joplin & Tim Starling
+- **rifle_fire_02:** Cameron DeDore (DrinkingWindGames)
 
 
 [default]: https://github.com/minetest/minetest_game/tree/master/mods/default
@@ -343,7 +345,8 @@
 [rifle_cock_01]: https://freesound.org/s/513746/
 [rifle_cock_02]: https://freesound.org/s/377550/
 [rifle_cock_03]: https://freesound.org/s/153560/
-[rifle_fire]: https://freesound.org/s/452154/
+[rifle_fire_01]: https://freesound.org/s/452154/
+[rifle_fire_02]: https://freesound.org/s/410262/
 [rifle_fire_cock]: https://freesound.org/s/398348/
 [rooster]: https://freesound.org/s/269496/
 [sea_lion]: https://freesound.org/s/499564/
