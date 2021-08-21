@@ -49,7 +49,7 @@ end
 
 --- Wrapper for core.sound_stop.
 --
---  function sounds:stop
+--  @function sounds:stop
 --  @tparam int handle
 sounds.stop = function(self, handle)
 	core.sound_stop(handle)

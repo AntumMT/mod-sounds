@@ -65,6 +65,7 @@ end
 --
 --  @local
 --  @tparam string pname Player name to whom formspec is shown.
+--  @tparam table play_state
 local show_tests = function(pname, play_state)
 	core.show_formspec(pname, "sounds_tests", get_tests_fs(pname, play_state))
 end
