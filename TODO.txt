@@ -6,6 +6,7 @@ TODO:
 - create SoundGroup instances for all cached mod sounds
 - fix "node_dug_meta" & "node_place_metal" are the same
 - create sounds.glass group
+- shorten length of rain_light, rain_medium, & wind
 - tests:
 	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)
 - add more sounds:
