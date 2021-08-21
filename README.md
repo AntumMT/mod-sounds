@@ -142,6 +142,16 @@ if sounds.cache["default_dig_crumbly"] then
 end
 ```
 
+#### Testing Sounds:
+
+If setting `sounds.enable_tests` is enabled, the chat command `/sounds_tests` can be used to show a formspec for playing & testing sounds.
+
+To test *any* sound, input the sound name in the "Manual play" field & press the corresponding "Play" button. If the sound file exists, it will play & some info will be filled in the "Last played" field.
+
+To test sounds cached in sound groups, select a group in the left column of the "Group play" field. Then select a sound in the right column & press the corresponding "Play" button.
+
+Sounds can be looped by checking the "Loop" box.
+
 ### Links:
 
 - [![ContentDB](https://content.minetest.net/packages/AntumDeluge/sounds/shields/title/)](https://content.minetest.net/packages/AntumDeluge/sounds/)
