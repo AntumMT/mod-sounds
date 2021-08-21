@@ -355,6 +355,19 @@ sounds.tool_break = SoundGroup({
 
 
 
+--- Tree
+--
+--  @section tree
+
+
+--- @sndgroup sounds.tree
+--  @snd tree_creak
+sounds.tree = SoundGroup({
+	"tree_creak",
+})
+
+
+
 --- Vomit
 --
 --  @section vomit

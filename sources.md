@@ -121,6 +121,7 @@
 | [tool_break*][tool_break]         | HerbertBoland                | CC BY 3.0    |                         |
 | [toucan][]                        | Niels Krabbe                 | CC BY-SA 4.0 |                         |
 | [train_whistle][]                 | Daniel Simion                | CC BY 3.0    |                         |
+| [tree_creak][]                    | Department64                 | CC0          |                         |
 | [turkey_gobble][]                 | JarredGibb                   | CC0          |                         |
 | [undead_moan_*][undead_moan]      | AntumDeluge                  | CC0          |                         |
 | [vehicle_horn_01][]               | dj997                        | CC BY 3.0    |                         |
@@ -323,6 +324,7 @@
 [tool_break]: https://freesound.org/s/33206/
 [toucan]: https://www.xeno-canto.org/250531
 [train_whistle]: https://soundbible.com/2177-Steam-Train-Whistle.html
+[tree_creak]: https://freesound.org/s/95262/
 [turkey_gobble]: https://freesound.org/s/233125/
 [undead_moan]: https://opengameart.org/node/81246
 [vehicle_horn_01]: https://freesound.org/s/493751/

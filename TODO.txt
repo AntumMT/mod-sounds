@@ -9,7 +9,6 @@ TODO:
 - fix "node_dug_meta" & "node_place_metal" are the same
 - add more sounds:
 	- hit/damage
-	- tree
 - add sounds from:
 	- cmer
 	- cmer_zombie
