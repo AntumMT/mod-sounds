@@ -6,8 +6,11 @@ TODO:
 - create SoundGroup instances for all cached mod sounds
 - fix "node_dug_meta" & "node_place_metal" are the same
 - add localization support
+- create sounds.glass group
 - tests:
 	- add sounds.node groups
+	- note number of sounds for random sounds
+	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)
 - add more sounds:
 	- hit/damage
 - add sounds from:

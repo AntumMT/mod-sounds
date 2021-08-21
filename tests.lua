@@ -39,6 +39,18 @@ local get_tests_fs = function(pname)
 				table.insert(groups_list, k)
 			end
 		end
+
+		for nk in pairs(sounds.node) do
+			if type(sounds.node[nk]) == "SoundGroup" then
+				table.insert(groups_list, "node." .. nk)
+			end
+			for nnk in pairs(sounds.node[nk]) do
+				if type(sounds.node[nk][nnk]) == "SoundGroup" then
+					table.insert(groups_list, "node." .. nk .. "." .. nnk)
+				end
+			end
+		end
+
 		table.sort(groups_list)
 	end
 
@@ -55,8 +67,19 @@ local get_tests_fs = function(pname)
 	fs = fs .. g .. "]"
 		.. "textlist[8.75,4;" .. fs_w-(5.5*2) .. "," .. fs_h-4.25 .. ";gsounds;"
 
-	if player_cache[pname] and player_cache[pname].selected_group then
-		local s_group = sounds[groups_list[player_cache[pname].selected_group]]
+	if p_cache.selected_group then
+		--local s_group = sounds[groups_list[player_cache[pname].selected_group]]
+		local group_name = groups_list[p_cache.selected_group]
+		local s_group
+		if string.find(group_name, ".") then
+			s_group = sounds
+			for _, subgroup in ipairs(group_name:split(".")) do
+				s_group = s_group[subgroup]
+			end
+		else
+			s_group = sounds[group_name]
+		end
+
 		local s = ""
 		local s_added = 0
 		for _, s_name in ipairs(s_group) do
@@ -161,7 +184,17 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 			if p_cache then
 				local selected_group = p_cache.selected_group
 				if selected_group then
-					local sound_group = sounds[groups_list[selected_group]]
+					local group_name = groups_list[selected_group]
+					local sound_group
+					if string.find(group_name, ".") then
+						sound_group = sounds
+						for _, subgroup in ipairs(group_name:split(".")) do
+							sound_group = sound_group[subgroup]
+						end
+					else
+						sound_group = sounds[sound_group]
+					end
+
 					if type(sound_group) == "SoundGroup" then
 						local s_idx = p_cache.selected_sound or 1
 						local s_count = sound_group:count()
