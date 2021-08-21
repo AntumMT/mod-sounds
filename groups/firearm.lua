@@ -87,9 +87,11 @@ sounds.ricochet = SoundGroup({
 --- @sndgroup sounds.rifle_cock
 --  @snd rifle_cock_01
 --  @snd rifle_cock_02
+--  @snd rifle_cock_03
 sounds.rifle_cock = SoundGroup({
 	"rifle_cock_01",
 	"rifle_cock_02",
+	"rifle_cock_03",
 })
 
 --- @sndgroup sounds.rifle_fire
