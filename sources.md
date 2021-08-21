@@ -76,6 +76,13 @@
 | [jet_flyby][]                     | Zerono1                      | CC0          |                         |
 | [jet_land][]                      | bigpickle51                  | CC0          |                         |
 | [lamb][]                          | swiftoid                     | CC0          |                         |
+| [laser_01][]                      | Julien Matthey               | CC0          |                         |
+| [laser_02][]                      | Julien Matthey               | CC0          |                         |
+| [laser_03][]                      | Julien Matthey               | CC0          |                         |
+| [laser_04][]                      | Julien Matthey               | CC0          |                         |
+| [laser_05][]                      | Julien Matthey               | CC0          |                         |
+| [laser_06][]                      | Julien Matthey               | CC0          |                         |
+| [laser_07][]                      | Julien Matthey               | CC0          |                         |
 | [laugh_evil_01][]                 | AntumDeluge                  | CC0          |                         |
 | [laugh_evil_02][]                 | AntumDeluge                  | CC0          |                         |
 | [lava_cool][default]              | Perttu Ahola (celeron55)     | CC BY-SA 3.0 | 3 random sounds         |
@@ -273,6 +280,13 @@
 [jet_flyby]: https://freesound.org/s/568128/
 [jet_land]: https://freesound.org/s/262755/
 [lamb]: https://freesound.org/s/182509/
+[laser_01]: https://freesound.org/s/268344/
+[laser_02]: https://freesound.org/s/268343/
+[laser_03]: https://freesound.org/s/346919/
+[laser_04]: https://freesound.org/s/346918/
+[laser_05]: https://freesound.org/s/470934/
+[laser_06]: https://freesound.org/s/470933/
+[laser_07]: https://freesound.org/s/470932/
 [laugh_evil_01]: https://opengameart.org/node/81237
 [laugh_evil_02]: https://opengameart.org/node/129475
 [leaves]: https://freesound.org/s/362253/

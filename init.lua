@@ -25,6 +25,7 @@ local scripts = {
 	"api",
 	"groups",
 	"groups_animal",
+	"groups_arms",
 	"groups_creature",
 	"groups_node",
 	"groups_vehicle",
