@@ -12,7 +12,6 @@ TODO:
 	- tree
 	- motorcycle
 	- generator
-	- horn
 - add sounds from:
 	- cmer
 	- cmer_zombie

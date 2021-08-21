@@ -4,6 +4,7 @@ next
 - added sounds:
 	- chalk_screech
 	- chalk_write
+	- vehicle_horn
 
 
 v1.7

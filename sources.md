@@ -120,6 +120,7 @@
 | [train_whistle][]                 | Daniel Simion                | CC BY 3.0    |                         |
 | [turkey_gobble][]                 | JarredGibb                   | CC0          |                         |
 | [undead_moan_*][undead_moan]      | AntumDeluge                  | CC0          |                         |
+| [vehicle_horn_01][]               | dj997                        | CC BY 3.0    |                         |
 | [vehicle_motor_idle][]            | 238310                       | CC0          | loopable                |
 | [vomit*][vomit]                   | Anko6                        | CC0          |                         |
 | [vulture][]                       | AntumDeluge                  | CC0          | imitation               |
@@ -317,6 +318,7 @@
 [train_whistle]: https://soundbible.com/2177-Steam-Train-Whistle.html
 [turkey_gobble]: https://freesound.org/s/233125/
 [undead_moan]: https://opengameart.org/node/81246
+[vehicle_horn_01]: https://freesound.org/s/493751/
 [vehicle_motor_idle]: https://freesound.org/s/370189/
 [vomit]: https://freesound.org/s/388525/
 [vulture]: https://opengameart.org/node/16329
