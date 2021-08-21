@@ -18,7 +18,7 @@ fi
 
 "${d_ldoc}/parse_readme.py"
 
-vinfo="v$(grep "version = " "${d_root}/mod.conf" | sed -e 's/version = //')"
+vinfo="v$(grep "^version = " "${d_root}/mod.conf" | sed -e 's/^version = //')"
 
 # use temp config so sound previews can be linked to master branch
 f_config_tmp="${d_ldoc}/config_tmp.ld"
