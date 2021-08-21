@@ -26,6 +26,7 @@ local scripts = {
 	"groups/main",
 	"groups/animal",
 	"groups/creature",
+	"groups/firearm",
 	"groups/node",
 	"groups/projectile",
 	"groups/vehicle",

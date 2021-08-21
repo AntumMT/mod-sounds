@@ -43,6 +43,7 @@ file = {
 	"groups/main.lua",
 	"groups/animal.lua",
 	"groups/creature.lua",
+	"groups/firearm.lua",
 	"groups/node.lua",
 	"groups/projectile.lua",
 	"groups/vehicle.lua",

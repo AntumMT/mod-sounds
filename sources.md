@@ -54,6 +54,7 @@
 | [explosion][]                     | JuveriSetila                 | CC0          |                         |
 | [frog][]                          | kayceemixer                  | CC0          |                         |
 | [fire_crackle][]                  | 16FThumaF                    | CC0          | loopable                |
+| [firearm_cock][]                  | freemusicpromo               | CC0          |                         |
 | [fireball_01][]                   | Julien Matthey               | CC0          |                         |
 | [fireball_02][]                   | Julien Matthey               | CC0          |                         |
 | [fireball_03][]                   | Julien Matthey               | CC0          |                         |
@@ -261,6 +262,7 @@
 [entity_hit]: https://freesound.org/s/241872/
 [explosion]: https://freesound.org/s/514133/
 [fire_crackle]: https://freesound.org/s/499032/
+[firearm_cock]: https://freesound.org/s/513746/
 [fireball_01]: https://freesound.org/s/105016/
 [fireball_02]: https://freesound.org/s/346917/
 [fireball_03]: https://freesound.org/s/346916/

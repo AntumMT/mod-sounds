@@ -6,6 +6,7 @@ next
 - added setting "sounds.enable_tests"
 - added sounds testing formspec shown with "/sounds_tests" chat command
 - added sounds:
+	- firearm_cock
 	- fireball
 	- laser
 
