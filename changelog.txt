@@ -11,6 +11,7 @@ next
 	- laser
 	- pistol_cock
 	- pistol_fire
+	- pistol_fire_dry
 	- pistol_reload
 	- ricochet
 	- rifle_cock
