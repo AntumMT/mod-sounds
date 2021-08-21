@@ -5,6 +5,23 @@
 
 
 
+--- Fireball
+--
+--  @section fireball
+
+
+--- @sndgroup sounds.fireball
+--  @snd fireball_01
+--  @snd fireball_02
+--  @snd fireball_03
+sounds.fireball = SoundGroup({
+	"fireball_01",
+	"fireball_02",
+	"fireball_03",
+})
+
+
+
 --- Laser
 --
 --  @section laser
