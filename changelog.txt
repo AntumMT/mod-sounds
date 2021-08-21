@@ -17,6 +17,7 @@ next
 	- rifle_cock
 	- rifle_fire
 	- rifle_fire_cock
+	- rifle_fire_dry
 	- rifle_small_fire
 	- shotgun_fire_pump
 	- shotgun_pump
