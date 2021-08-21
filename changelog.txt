@@ -10,6 +10,7 @@ next
 	- fireball
 	- laser
 	- pistol_fire
+	- pistol_reload
 	- shotgun_fire_pump
 	- shotgun_pump
 
