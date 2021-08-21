@@ -5,7 +5,6 @@ TODO:
 - add option to get sound by string name in "SoundGroup:get" using string.match
 - create SoundGroup instances for all cached mod sounds
 - fix "node_dug_meta" & "node_place_metal" are the same
-- add localization support
 - create sounds.glass group
 - tests:
 	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)

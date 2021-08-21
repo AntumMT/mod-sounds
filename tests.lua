@@ -6,6 +6,8 @@
 --  @topic tests
 
 
+local S = core.get_translator(sounds.modname)
+
 local player_cache = {}
 local groups_list = {}
 local s_handle
@@ -18,19 +20,19 @@ local get_tests_fs = function(pname)
 
 	local fs = "formspec_version[2]"
 		.. "size[" .. fs_w .. "," .. fs_h .. "]"
-		.. "label[0.25,0.5;Sounds Tests]"
+		.. "label[0.25,0.5;" .. S("Sounds Tests") .. "]"
 		.. "button_exit[" .. fs_w-0.75 .. ",0.25;0.5,0.5;btn_close;X]"
 		.. "label[0.25,1.75;Last played:]"
 		.. "textlist[3.25,1.5;" .. fs_w-5.5 .. ",1.5;played_status;"
-			.. "Name: " .. (p_cache.name or "")
-			.. ",Cached: " .. (p_cache.cached or "")
-			.. ",Played: " .. (p_cache.played or "")
+			.. S("Name: @1", (p_cache.name or ""))
+			.. "," .. S("Cached: @1", (p_cache.cached or ""))
+			.. "," .. S("Played: @1", (p_cache.played or ""))
 		.. "]"
-		.. "label[0.25,3.5;Manual play:]"
+		.. "label[0.25,3.5;" .. S("Manual play:") .. "]"
 		.. "field[3.25,3.25;" .. fs_w-5.5 .. ",0.5;input_name;;" .. (p_cache.manual_play or "") .. "]"
 			.. "field_close_on_enter[input_name;false]"
-		.. "button[" .. fs_w-1.75 .. ",3.25;1.5,0.5;btn_play_man;Play]"
-		.. "label[0.25,4.25;Group play:]"
+		.. "button[" .. fs_w-1.75 .. ",3.25;1.5,0.5;btn_play_man;" .. S("Play") .. "]"
+		.. "label[0.25,4.25;" .. S("Group play:") .. "]"
 		.. "textlist[3.25,4;" .. fs_w-(5.5*2) .. "," .. fs_h-4.25 .. ";groups;"
 
 	if #groups_list == 0 then -- cache groups
@@ -98,9 +100,9 @@ local get_tests_fs = function(pname)
 	end
 
 	fs = fs .. "]"
-		.. "button[" .. fs_w-1.75 .. ",4;1.5,0.5;btn_play_grp;Play]"
-		.. "button[" .. fs_w-1.75 .. ",4.75;1.5,0.5;btn_stop;Stop]"
-		.. "checkbox[" .. fs_w-1.75 .. ",5.75;chk_loop;Loop;"
+		.. "button[" .. fs_w-1.75 .. ",4;1.5,0.5;btn_play_grp;" .. S("Play") .. "]"
+		.. "button[" .. fs_w-1.75 .. ",4.75;1.5,0.5;btn_stop;" .. S("Stop") .. "]"
+		.. "checkbox[" .. fs_w-1.75 .. ",5.75;chk_loop;" .. S("Loop") .. ";"
 			.. tostring(p_cache.loop or "false") .. "]"
 
 	return fs
@@ -118,7 +120,7 @@ end
 --
 --  @chatcmd sounds_tests
 core.register_chatcommand("sounds_tests", {
-	description = "Displays sounds tests formspec.",
+	description = S("Displays sounds tests formspec."),
 	func = function(pname, param)
 		show_tests(pname)
 		return true
@@ -157,16 +159,16 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 			local s_name = tostring(fields.input_name):trim()
 			if s_name ~= "" then
 				p_cache.name = s_name
-				p_cache.cached = "no"
+				p_cache.cached = S("no")
 				if sounds.cache[s_name] then
-					p_cache.cached = "yes"
+					p_cache.cached = S("yes")
 				end
 
 				s_handle = sounds:play(s_name, {to_player=pname, loop=p_cache.loop})
 
-				p_cache.played = "no"
+				p_cache.played = S("no")
 				if s_handle then
-					p_cache.played = "yes"
+					p_cache.played = S("yes")
 				end
 
 				p_cache.manual_play = s_name
@@ -211,13 +213,13 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 						s_handle, s_name = sound_group(s_idx, {to_player=pname, loop=p_cache.loop})
 						p_cache.name = s_name
 
-						p_cache.cached = "no"
+						p_cache.cached = S("no")
 						if sounds.cache[s_name] then
-							p_cache.cached = "yes"
+							p_cache.cached = S("yes")
 						end
-						p_cache.played = "no"
+						p_cache.played = S("no")
 						if s_handle then
-							p_cache.played = "yes"
+							p_cache.played = S("yes")
 						end
 
 						show_tests(pname)
