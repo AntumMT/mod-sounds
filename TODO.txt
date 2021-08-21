@@ -5,6 +5,7 @@ TODO:
 - add option to get sound by string name in "SoundGroup:get" using string.match
 - create SoundGroup instances for all cached mod sounds
 - fix "node_dug_meta" & "node_place_metal" are the same
+- add a formspec for testing sounds
 - add more sounds:
 	- hit/damage
 - add sounds from:
