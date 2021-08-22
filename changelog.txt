@@ -16,6 +16,7 @@ next
 	- explosion_scifi
 	- fireworks
 	- fireworks_pop
+	- fuse_short
 	- helicopter
 	- melee_hit
 	- plasma_shot

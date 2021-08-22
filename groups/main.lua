@@ -317,8 +317,10 @@ sounds.fireworks_pop = iSoundGroup({
 
 --- @sndgroup sounds.fuse
 --  @snd fuse
+--  @snd fuse_short
 sounds.fuse = iSoundGroup({
 	"fuse",
+	"fuse_short",
 })
 
 

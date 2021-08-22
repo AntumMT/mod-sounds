@@ -76,6 +76,7 @@
 | [fireworks_02][]                  | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                          |
 | [fireworks_pop][]*                | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                          |
 | [fuse][]                          | Ned Bouhalassa               | CC0          |                          |
+| [fuse_short][fuse]                | Ned Bouhalassa               | CC0          |                          |
 | [gallop_01][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                          |
 | [gallop_02][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                          |
 | [giraffe_hum][]                   | [↓](#authors)                | CC BY-SA 4.0 |                          |
