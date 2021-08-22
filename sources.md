@@ -70,6 +70,7 @@
 | [fireball_01][]                   | Julien Matthey               | CC0          |                         |
 | [fireball_02][]                   | Julien Matthey               | CC0          |                         |
 | [fireball_03][]                   | Julien Matthey               | CC0          |                         |
+| [fireworks][]                     | Florian Reichelt             | CC0          |                         |
 | [fuse][]                          | Ned Bouhalassa               | CC0          |                         |
 | [gallop_01][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
 | [gallop_02][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
@@ -310,6 +311,7 @@
 [fireball_01]: https://freesound.org/s/105016/
 [fireball_02]: https://freesound.org/s/346917/
 [fireball_03]: https://freesound.org/s/346916/
+[fireworks]: https://freesound.org/s/459973/
 [frog]: https://freesound.org/s/251495/
 [fuse]: https://freesound.org/s/8320/
 [gallop_01]: https://freesound.org/s/403026/

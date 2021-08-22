@@ -10,6 +10,7 @@ next
 	- cicada
 	- explosion
 	- explosion_distant
+	- fireworks
 	- scrape
 
 

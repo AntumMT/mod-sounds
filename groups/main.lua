@@ -245,6 +245,19 @@ sounds.fire = SoundGroup({
 
 
 
+--- Fireworks
+--
+--  @section fireworks
+
+
+--- @sndgroup sounds.fireworks
+--  @snd fireworks
+sounds.fireworks = SoundGroup({
+	"fireworks",
+})
+
+
+
 --- Fuse
 --
 --  @section fuse
