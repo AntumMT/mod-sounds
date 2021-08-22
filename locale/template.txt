@@ -13,5 +13,6 @@ Group play:=
 Play=
 Stop=
 Loop=
+Random=
 yes=
 no=

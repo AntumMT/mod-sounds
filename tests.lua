@@ -101,8 +101,9 @@ local get_tests_fs = function(pname)
 
 	fs = fs .. "]"
 		.. "button[" .. fs_w-1.75 .. ",4;1.5,0.5;btn_play_grp;" .. S("Play") .. "]"
-		.. "button[" .. fs_w-1.75 .. ",4.75;1.5,0.5;btn_stop;" .. S("Stop") .. "]"
-		.. "checkbox[" .. fs_w-1.75 .. ",5.75;chk_loop;" .. S("Loop") .. ";"
+		.. "button[" .. fs_w-1.75 .. ",4.75;1.5,0.5;btn_rand;" .. S("Random") .. "]"
+		.. "button[" .. fs_w-1.75 .. ",5.5;1.5,0.5;btn_stop;" .. S("Stop") .. "]"
+		.. "checkbox[" .. fs_w-1.75 .. ",6.5;chk_loop;" .. S("Loop") .. ";"
 			.. tostring(p_cache.loop or "false") .. "]"
 
 	return fs
@@ -211,6 +212,44 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 
 						local s_name
 						s_handle, s_name = sound_group(s_idx, {to_player=pname, loop=p_cache.loop})
+						p_cache.name = s_name
+
+						p_cache.cached = S("no")
+						if sounds.cache[s_name] then
+							p_cache.cached = S("yes")
+						end
+						p_cache.played = S("no")
+						if s_handle then
+							p_cache.played = S("yes")
+						end
+
+						show_tests(pname)
+					end
+				end
+			end
+		elseif fields.btn_rand then
+			if s_handle then
+				sounds:stop(s_handle)
+				s_handle = nil
+			end
+
+			if p_cache then
+				local selected_group = p_cache.selected_group
+				if selected_group then
+					local group_name = groups_list[selected_group]
+					local sound_group
+					if string.find(group_name, ".") then
+						sound_group = sounds
+						for _, subgroup in ipairs(group_name:split(".")) do
+							sound_group = sound_group[subgroup]
+						end
+					else
+						sound_group = sounds[sound_group]
+					end
+
+					if type(sound_group) == "SoundGroup" then
+						local s_name
+						s_handle, s_name = sound_group({to_player=pname, loop=p_cache.loop})
 						p_cache.name = s_name
 
 						p_cache.cached = S("no")

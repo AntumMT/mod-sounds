@@ -2,6 +2,7 @@
 next
 ----
 - added method "sounds:play_random"
+- added "random" play button to tests
 - renamed sounds:
 	- some "ar_fire sounds" to "ar_burst"
 - added sounds:

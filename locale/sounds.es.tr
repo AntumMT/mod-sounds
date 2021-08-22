@@ -13,5 +13,6 @@ Group play:=Reproducir grupo:
 Play=Reproducir
 Stop=Parar
 Loop=Bucle
+Random=Al azar
 yes=sí
 no=
