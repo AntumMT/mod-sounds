@@ -266,6 +266,16 @@ sounds.fireworks = SoundGroup({
 	"fireworks_02",
 })
 
+--- @sndgroup sounds.fireworks_pop
+--  @snd fireworks_pop_01
+--  @snd fireworks_pop_02
+--  @snd fireworks_pop_03
+sounds.fireworks_pop = SoundGroup({
+	"fireworks_pop_01",
+	"fireworks_pop_02",
+	"fireworks_pop_03",
+})
+
 
 
 --- Fuse

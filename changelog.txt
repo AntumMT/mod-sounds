@@ -12,6 +12,7 @@ next
 	- explosion_distant
 	- explosion_scifi
 	- fireworks
+	- fireworks_pop
 	- scrape
 
 
