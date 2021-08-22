@@ -1,7 +1,7 @@
 
 --- Pre-defined Sci-Fi Sound Groups
 --
---  @topic scifi
+--  @topic scifi_groups
 
 
 
