@@ -342,6 +342,33 @@ sounds.piano = SoundGroup({
 
 
 
+--- Scrape
+--
+--  @section scrape
+
+
+--- @sndgroup sounds.scrape
+--  @snd scrape_01
+--  @snd scrape_02
+--  @snd scrape_03
+--  @snd scrape_04
+--  @snd scrape_05
+--  @snd scrape_06
+--  @snd scrape_07
+--  @snd scrape_08
+sounds.scrape = SoundGroup({
+	"scrape_01",
+	"scrape_02",
+	"scrape_03",
+	"scrape_04",
+	"scrape_05",
+	"scrape_06",
+	"scrape_07",
+	"scrape_08",
+})
+
+
+
 --- Tool
 --
 --  @section tool

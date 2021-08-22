@@ -15,7 +15,6 @@ TODO:
 	- cicada
 	- more explosions
 	- short fuse
-	- scrape
 - add sounds from:
 	- cmer
 	- cmer_zombie

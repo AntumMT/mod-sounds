@@ -135,6 +135,7 @@
 | [rifle_fire_dry][]                | michorvath                   | CC0          |                         |
 | [rifle_small_fire][]              | Tito Lahaye                  | CC0          |                         |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                         |
+| [scrape*][scrape]                 | AntumDeluge                  | CC0          |                         |
 | [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                         |
 | [seagull*][seagull]               | squashy555                   | CC0          |                         |
 | [seagulls][]                      | Soojay                       | CC0          |                         |
@@ -364,6 +365,7 @@
 [rifle_fire_dry]: https://freesound.org/s/427603/
 [rifle_small_fire]: https://freesound.org/s/319400/
 [rooster]: https://freesound.org/s/269496/
+[scrape]: https://opengameart.org/node/81247
 [sea_lion]: https://freesound.org/s/499564/
 [seagull]: https://freesound.org/s/353416/
 [seagulls]: https://freesound.org/s/462462/
