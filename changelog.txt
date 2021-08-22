@@ -1,4 +1,10 @@
 
+next
+----
+- deleted sounds:
+	- melee_hit_12 (similar to melee_hit_16)
+
+
 v1.10
 -----
 - added method "sounds:play_random"
