@@ -32,6 +32,7 @@
 | [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                         |
 | [cicada_01][]                     | InspectorJ                   | CC BY 3.0    | loopable                |
 | [cicada_02][]                     | Exomène                      | CC BY 3.0    | loopable                |
+| [cicada_03][]                     | beau_rl                      | CC0          | loopable                |
 | [clock_tick][]                    | AntumDeluge                  | CC0          | loopable                |
 | [cobra*][cobra]                   | N/A                          | CC0          |                         |
 | [coin][]                          | greenvwbeetle                | CC0          |                         |
@@ -255,6 +256,7 @@
 [chicken]: https://freesound.org/s/24967/
 [cicada_01]: https://freesound.org/s/400331/
 [cicada_02]: https://freesound.org/s/317472/
+[cicada_03]: https://freesound.org/s/554120/
 [clock_tick]: https://opengameart.org/node/16323
 [cobra]: https://archive.org/details/unknowncobracobrabitewmv
 [coin]: https://freesound.org/s/423332/

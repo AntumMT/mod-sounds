@@ -686,9 +686,11 @@ sounds.bee = SoundGroup({
 --- @sndgroup sounds.cicada
 --  @snd cicada_01 (loopable)
 --  @snd cicada_02 (loopable)
+--  @snd cicada_03 (loopable)
 sounds.cicada = SoundGroup({
 	"cicada_01",
 	"cicada_02",
+	"cicada_03",
 })
 
 --- @sndgroup sounds.cricket
