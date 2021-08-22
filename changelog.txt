@@ -15,6 +15,7 @@ next
 - renamed sounds:
 	- melee_hit_05 to melee_hit_04
 	- melee_hit_06 to melee_hit_05
+	- melee_hit_15 to melee_hit_06
 
 
 v1.10
