@@ -196,6 +196,9 @@
 | [zebra][]                         | Peet J van Eeden             | CC BY        |                          |
 | [zipper][]                        | AntumDeluge                  | CC0          |                          |
 | [zombie_death][]                  | Under7dude                   | CC0          | from cmer zombie mod     |
+| [zombie_growl_01][]               | Under7dude                   | CC0          |                          |
+| [zombie_growl_02][]               | Under7dude                   | CC0          |                          |
+| [zombie_growl_03][]               | Under7dude                   | CC0          |                          |
 
 #### Node Sounds:
 
@@ -449,3 +452,6 @@
 [zebra]: https://www.youtube.com/watch?v=xjGJ_XMVTRE
 [zipper]: https://opengameart.org/node/16332
 [zombie_death]: https://freesound.org/s/163442/
+[zombie_growl_01]: https://freesound.org/s/163440/
+[zombie_growl_02]: https://freesound.org/s/163444/
+[zombie_growl_03]: https://freesound.org/s/163445/
