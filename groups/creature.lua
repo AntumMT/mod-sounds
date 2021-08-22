@@ -12,7 +12,7 @@
 
 --- @sndgroup sounds.skeleton
 --  @snd skeleton_bones
-sounds.skeleton = SoundGroup({
+sounds.skeleton = iSoundGroup({
 	"skeleton_bones",
 })
 
@@ -21,7 +21,7 @@ sounds.skeleton = SoundGroup({
 --  @snd undead_moan_02
 --  @snd undead_moan_03
 --  @snd undead_moan_04
-sounds.undead_moan = SoundGroup({
+sounds.undead_moan = iSoundGroup({
 	"undead_moan_01",
 	"undead_moan_02",
 	"undead_moan_03",
@@ -30,7 +30,7 @@ sounds.undead_moan = SoundGroup({
 
 --- @sndgroup sounds.zombie_death
 --  @snd zombie_death
-sounds.zombie_death = SoundGroup({
+sounds.zombie_death = iSoundGroup({
 	"zombie_death",
 })
 
@@ -55,7 +55,7 @@ sounds.undead = sounds.skeleton + sounds.undead_moan + sounds.zombie_death
 --- @sndgroup sounds.laugh_evil
 --  @snd laugh_evil_01
 --  @snd laugh_evil_02
-sounds.laugh_evil = SoundGroup({
+sounds.laugh_evil = iSoundGroup({
 	"laugh_evil_01",
 	"laugh_evil_02",
 })

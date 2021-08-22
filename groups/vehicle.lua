@@ -12,7 +12,7 @@
 
 --- @sndgroup sounds.airplane
 --  @snd airplane_prop (loopable)
-sounds.airplane = SoundGroup({
+sounds.airplane = iSoundGroup({
 	"airplane_prop",
 })
 
@@ -20,7 +20,7 @@ sounds.airplane = SoundGroup({
 --  @snd jet_ambience (loopable)
 --  @snd jet_flyby
 --  @snd jet_land
-sounds.jet = SoundGroup({
+sounds.jet = iSoundGroup({
 	"jet_ambience",
 	"jet_flyby",
 	"jet_land",
@@ -35,19 +35,19 @@ sounds.jet = SoundGroup({
 
 --- @sndgroup sounds.bicycle_bell
 --  @snd bicycle_bell
-sounds.bicycle_bell = SoundGroup({
+sounds.bicycle_bell = iSoundGroup({
 	"bicycle_bell",
 })
 
 --- @sndgroup sounds.bicycle_horn
 --  @snd bicycle_horn
-sounds.bicycle_horn = SoundGroup({
+sounds.bicycle_horn = iSoundGroup({
 	"bicycle_horn",
 })
 
 --- @sndgroup sounds.bicycle_spokes
 --  @snd bicycle_spokes
-sounds.bicycle_spokes = SoundGroup({
+sounds.bicycle_spokes = iSoundGroup({
 	"bicycle_spokes",
 })
 
@@ -71,7 +71,7 @@ sounds.bicycle = sounds.bicycle_bell + sounds.bicycle_horn + sounds.bicycle_spok
 
 --- @sndgroup sounds.helicopter
 --  @snd helicopter (loopable)
-sounds.helicopter = SoundGroup({
+sounds.helicopter = iSoundGroup({
 	"helicopter",
 })
 
@@ -84,7 +84,7 @@ sounds.helicopter = SoundGroup({
 
 --- @sndgroup sounds.motorbike
 --  @snd motorbike_idle (loopable)
-sounds.motorbike = SoundGroup({
+sounds.motorbike = iSoundGroup({
 	"motorbike_idle",
 })
 
@@ -97,7 +97,7 @@ sounds.motorbike = SoundGroup({
 
 --- @sndgroup sounds.train_whistle
 --  @snd train_whistle
-sounds.train_whistle = SoundGroup({
+sounds.train_whistle = iSoundGroup({
 	"train_whistle",
 })
 
@@ -111,7 +111,7 @@ sounds.train_whistle = SoundGroup({
 --- @sndgroup sound.vehicle_horn
 --  @snd vehicle_horn_01
 --  @snd vehicle_horn_02
-sounds.vehicle_horn = SoundGroup({
+sounds.vehicle_horn = iSoundGroup({
 	"vehicle_horn_01",
 	"vehicle_horn_02",
 })
@@ -119,7 +119,7 @@ sounds.vehicle_horn = SoundGroup({
 --- @sndgroup sounds.vehicle_motor
 --  @snd car_motor (loopable)
 --  @snd vehicle_motor_idle (loopable)
-sounds.vehicle_motor = SoundGroup({
+sounds.vehicle_motor = iSoundGroup({
 	"car_motor",
 	"vehicle_motor_idle",
 })

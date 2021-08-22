@@ -12,7 +12,7 @@
 
 --- @sndgroup sounds.frog
 --  @snd frog
-sounds.frog = SoundGroup({
+sounds.frog = iSoundGroup({
 	"frog",
 })
 
@@ -27,7 +27,7 @@ sounds.frog = SoundGroup({
 --  @snd bat_01
 --  @snd bat_02
 --  @snd bat_03
-sounds.bat = SoundGroup({
+sounds.bat = iSoundGroup({
 	"bat_01",
 	"bat_02",
 	"bat_03",
@@ -43,7 +43,7 @@ sounds.bat = SoundGroup({
 --- @sndgroup sounds.bear
 --  @snd bear_01
 --  @snd bear_02
-sounds.bear = SoundGroup({
+sounds.bear = iSoundGroup({
 	"bear_01",
 	"bear_02",
 })
@@ -58,14 +58,14 @@ sounds.bear = SoundGroup({
 --- @sndgroup sounds.cow_moo
 --  @snd cow_moo_01
 --  @snd cow_moo_02
-sounds.cow_moo = SoundGroup({
+sounds.cow_moo = iSoundGroup({
 	"cow_moo_01",
 	"cow_moo_02",
 })
 
 --- @sndgroup sounds.yak
 --  @snd yak (imitation)
-sounds.yak = SoundGroup({
+sounds.yak = iSoundGroup({
 	"yak",
 })
 
@@ -89,7 +89,7 @@ sounds.bovine = sounds.cow_moo + sounds.yak
 --- @sndgroup sounds.camel
 --  @snd camel_01
 --  @snd camel_02
-sounds.camel = SoundGroup({
+sounds.camel = iSoundGroup({
 	"camel_01",
 	"camel_02",
 })
@@ -103,19 +103,19 @@ sounds.camel = SoundGroup({
 
 --- @sndgroup sounds.coyote_howl
 --  @snd coyote_howl
-sounds.coyote_howl = SoundGroup({
+sounds.coyote_howl = iSoundGroup({
 	"coyote_howl",
 })
 
 --- @sndgroup sounds.dog_bark
 --  @snd dog_bark
-sounds.dog_bark = SoundGroup({
+sounds.dog_bark = iSoundGroup({
 	"dog_bark",
 })
 
 --- @sndgroup sounds.puppy_bark
 --  @snd puppy_bark
-sounds.puppy_bark = SoundGroup({
+sounds.puppy_bark = iSoundGroup({
 	"puppy_bark",
 })
 
@@ -133,7 +133,7 @@ sounds.dog = sounds.dog_bark + sounds.puppy_bark
 --  @snd hyena_01
 --  @snd hyena_02
 --  @snd hyena_03
-sounds.hyena = SoundGroup({
+sounds.hyena = iSoundGroup({
 	"hyena_01",
 	"hyena_02",
 	"hyena_03",
@@ -141,13 +141,13 @@ sounds.hyena = SoundGroup({
 
 --- @sndgroup sounds.wolf_howl
 --  @snd wolf_howl
-sounds.wolf_howl = SoundGroup({
+sounds.wolf_howl = iSoundGroup({
 	"wolf_howl",
 })
 
 --- @sndgroup sounds.wolf_snarl
 --  @snd wolf_snarl
-sounds.wolf_snarl = SoundGroup({
+sounds.wolf_snarl = iSoundGroup({
 	"wolf_snarl",
 })
 
@@ -184,7 +184,7 @@ sounds.canine = sounds.coyote_howl + sounds.dog + sounds.hyena + sounds.wolf
 --  @snd goat_bleat_01
 --  @snd goat_bleat_02
 --  @snd goat_bleat_03
-sounds.goat_bleat = SoundGroup({
+sounds.goat_bleat = iSoundGroup({
 	"goat_bleat_01",
 	"goat_bleat_02",
 	"goat_bleat_03",
@@ -192,13 +192,13 @@ sounds.goat_bleat = SoundGroup({
 
 --- @sndgroup sounds.lamb
 --  @snd lamb
-sounds.lamb = SoundGroup({
+sounds.lamb = iSoundGroup({
 	"lamb",
 })
 
 --- @sndgroup sounds.sheep_baa
 --  @snd sheep_baa
-sounds.sheep_baa = SoundGroup({
+sounds.sheep_baa = iSoundGroup({
 	"sheep_baa",
 })
 
@@ -231,13 +231,13 @@ sounds.caprine = sounds.goat_bleat + sounds.sheep
 
 --- @sndgroup sounds.dolphin_chirp
 --  @snd dolphin_chirp
-sounds.dolphin_chirp = SoundGroup({
+sounds.dolphin_chirp = iSoundGroup({
 	"dolphin_chirp",
 })
 
 --- @sndgroup sounds.dolphin_click
 --  @snd dolphin_click
-sounds.dolphin_click = SoundGroup({
+sounds.dolphin_click = iSoundGroup({
 	"dolphin_click",
 })
 
@@ -253,7 +253,7 @@ sounds.dolphin = sounds.dolphin_chirp + sounds.dolphin_click
 
 --- @sndgroup sounds.whale
 --  @snd whale
-sounds.whale = SoundGroup({
+sounds.whale = iSoundGroup({
 	"whale",
 })
 
@@ -276,7 +276,7 @@ sounds.cetacean = sounds.dolphin + sounds.whale
 
 --- @sndgroup sounds.elephant_trumpet
 --  @snd elephant_trumpet
-sounds.elephant_trumpet = SoundGroup({
+sounds.elephant_trumpet = iSoundGroup({
 	"elephant_trumpet",
 })
 
@@ -290,7 +290,7 @@ sounds.elephant_trumpet = SoundGroup({
 --- @sndgroup sounds.horse_neigh
 --  @snd horse_neigh_01
 --  @snd horse_neigh_02
-sounds.horse_neigh = SoundGroup({
+sounds.horse_neigh = iSoundGroup({
 	"horse_neigh_01",
 	"horse_neigh_02",
 })
@@ -298,7 +298,7 @@ sounds.horse_neigh = SoundGroup({
 --- @sndgroup sounds.horse_snort
 --  @snd horse_snort_01
 --  @snd horse_snort_02
-sounds.horse_snort = SoundGroup({
+sounds.horse_snort = iSoundGroup({
 	"horse_snort_01",
 	"horse_snort_02",
 })
@@ -315,7 +315,7 @@ sounds.horse = sounds.horse_neigh + sounds.horse_snort
 
 --- @sndgroup sounds.zebra
 --  @snd zebra
-sounds.zebra = SoundGroup({
+sounds.zebra = iSoundGroup({
 	"zebra",
 })
 
@@ -338,13 +338,13 @@ sounds.equine = sounds.horse + sounds.zebra
 
 --- @sndgroup sounds.cat_meow
 --  @snd cat_meow
-sounds.cat_meow = SoundGroup({
+sounds.cat_meow = iSoundGroup({
 	"cat_meow",
 })
 
 --- @sndgroup sounds.jaguar
 --  @snd jaguar_saw
-sounds.jaguar = SoundGroup({
+sounds.jaguar = iSoundGroup({
 	"jaguar_saw",
 })
 
@@ -352,7 +352,7 @@ sounds.jaguar = SoundGroup({
 --  @snd leopard_growl_01
 --  @snd leopard_growl_02
 --  @snd leopard_growl_03
-sounds.leopard_growl = SoundGroup({
+sounds.leopard_growl = iSoundGroup({
 	"leopard_growl_01",
 	"leopard_growl_02",
 	"leopard_growl_03",
@@ -364,7 +364,7 @@ sounds.leopard_growl = SoundGroup({
 --  @snd leopard_roar_03
 --  @snd leopard_roar_04
 --  @snd leopard_roar_05
-sounds.leopard_roar = SoundGroup({
+sounds.leopard_roar = iSoundGroup({
 	"leopard_roar_01",
 	"leopard_roar_02",
 	"leopard_roar_03",
@@ -376,7 +376,7 @@ sounds.leopard_roar = SoundGroup({
 --  @snd leopard_saw_01
 --  @snd leopard_saw_02
 --  @snd leopard_saw_03
-sounds.leopard_saw = SoundGroup({
+sounds.leopard_saw = iSoundGroup({
 	"leopard_saw_01",
 	"leopard_saw_02",
 	"leopard_saw_03",
@@ -385,14 +385,14 @@ sounds.leopard_saw = SoundGroup({
 --- @sndgroup sounds.leopard_snarl
 --  @snd leopard_snarl_01
 --  @snd leopard_snarl_02
-sounds.leopard_snarl = SoundGroup({
+sounds.leopard_snarl = iSoundGroup({
 	"leopard_snarl_01",
 	"leopard_snarl_02",
 })
 
 --- @sndgroup sounds.leopard_snort
 --  @snd leopard_snort
-sounds.leopard_snort = SoundGroup({
+sounds.leopard_snort = iSoundGroup({
 	"leopard_snort",
 })
 
@@ -412,13 +412,13 @@ sounds.leopard = sounds.leopard_growl + sounds.leopard_roar + sounds.leopard_saw
 
 --- @sndgroup sounds.lion
 --  @snd lion_bellow
-sounds.lion = SoundGroup({
+sounds.lion = iSoundGroup({
 	"lion_bellow",
 })
 
 --- @sndgroup sounds.tiger_roar
 --  @snd tiger_roar_01
-sounds.tiger_roar = SoundGroup({
+sounds.tiger_roar = iSoundGroup({
 	"tiger_roar_01",
 })
 
@@ -427,7 +427,7 @@ sounds.tiger_roar = SoundGroup({
 --  @snd tiger_snarl_02
 --  @snd tiger_snarl_03
 --  @snd tiger_snarl_04
-sounds.tiger_snarl = SoundGroup({
+sounds.tiger_snarl = iSoundGroup({
 	"tiger_snarl_01",
 	"tiger_snarl_02",
 	"tiger_snarl_03",
@@ -468,7 +468,7 @@ sounds.feline = sounds.cat_meow + sounds.jaguar + sounds.leopard + sounds.lion
 --  @snd canary_01
 --  @snd canary_02
 --  @snd canary_03
-sounds.canary = SoundGroup({
+sounds.canary = iSoundGroup({
 	"canary_01",
 	"canary_02",
 	"canary_03",
@@ -484,7 +484,7 @@ sounds.canary = SoundGroup({
 --  @snd bird_01
 --  @snd bird_02
 --  @snd bird_03
-sounds.bird = SoundGroup({
+sounds.bird = iSoundGroup({
 	"bird_01",
 	"bird_02",
 	"bird_03",
@@ -493,44 +493,44 @@ sounds.bird = SoundGroup({
 --- @sndgroup sounds.chicken
 --  @snd chicken_01
 --  @snd chicken_02
-sounds.chicken = SoundGroup({
+sounds.chicken = iSoundGroup({
 	"chicken_01",
 	"chicken_02",
 })
 
 --- @sndgroup sounds.crow_caw
 --  @snd crow_caw
-sounds.crow_caw = SoundGroup({
+sounds.crow_caw = iSoundGroup({
 	"crow_caw",
 })
 
 --- @sndgroup sounds.duck_quack
 --  @snd duck_quack
-sounds.duck_quack = SoundGroup({
+sounds.duck_quack = iSoundGroup({
 	"duck_quack",
 })
 
 --- @sndgroup sounds.goose
 --  @snd goose
-sounds.goose = SoundGroup({
+sounds.goose = iSoundGroup({
 	"goose",
 })
 
 --- @sndgroup sounds.owl
 --  @snd owl_hoot
-sounds.owl = SoundGroup({
+sounds.owl = iSoundGroup({
 	"owl_hoot",
 })
 
 --- @sndgroup sounds.parrot_chirp
 --  @snd parrot_chirp
-sounds.parrot_chirp = SoundGroup({
+sounds.parrot_chirp = iSoundGroup({
 	"parrot_chirp",
 })
 
 --- @sndgroup sounds.parrot_whistle
 --  @snd parrot_whistle
-sounds.parrot_whistle = SoundGroup({
+sounds.parrot_whistle = iSoundGroup({
 	"parrot_whistle",
 })
 
@@ -545,7 +545,7 @@ sounds.parrot_whistle = SoundGroup({
 --  @snd parrot_01
 --  @snd parrot_02
 --  @snd parrot_03
-sounds.parrot = SoundGroup({
+sounds.parrot = iSoundGroup({
 	"parrot_01",
 	"parrot_02",
 	"parrot_03",
@@ -554,7 +554,7 @@ sounds.parrot = SoundGroup({
 --- @sndgroup sounds.peacock
 --  @snd peacock_01
 --  @snd peacock_02
-sounds.peacock = SoundGroup({
+sounds.peacock = iSoundGroup({
 	"peacock_01",
 	"peacock_02",
 })
@@ -562,26 +562,26 @@ sounds.peacock = SoundGroup({
 --- @sndgroup sounds.penguin
 --  @snd penguin_01
 --  @snd penguin_02
-sounds.penguin = SoundGroup({
+sounds.penguin = iSoundGroup({
 	"penguin_01",
 	"penguin_02",
 })
 
 --- @sndgroup sounds.pigeon
 --  @snd pigeon
-sounds.pigeon = SoundGroup({
+sounds.pigeon = iSoundGroup({
 	"pigeon",
 })
 
 --- @sndgroup sounds.quail
 --  @snd quail
-sounds.quail = SoundGroup({
+sounds.quail = iSoundGroup({
 	"quail",
 })
 
 --- @sndgroup sounds.rooster
 --  @snd rooster
-sounds.rooster = SoundGroup({
+sounds.rooster = iSoundGroup({
 	"rooster",
 })
 
@@ -589,7 +589,7 @@ sounds.rooster = SoundGroup({
 --  @snd seagull_01
 --  @snd seagull_02
 --  @snd seagulls
-sounds.seagull = SoundGroup({
+sounds.seagull = iSoundGroup({
 	"seagull_01",
 	"seagull_02",
 	"seagulls",
@@ -599,7 +599,7 @@ sounds.seagull = SoundGroup({
 --  @snd toucan_01
 --  @snd toucan_02
 --  @snd toucan_03
-sounds.toucan = SoundGroup({
+sounds.toucan = iSoundGroup({
 	"toucan_01",
 	"toucan_02",
 	"toucan_03",
@@ -607,19 +607,19 @@ sounds.toucan = SoundGroup({
 
 --- @sndgroup sounds.turkey_gobble
 --  @snd turkey_gobble
-sounds.turkey_gobble = SoundGroup({
+sounds.turkey_gobble = iSoundGroup({
 	"turkey_gobble",
 })
 
 --- @sndgroup sounds.vulture
 --  @snd vulture (imitation)
-sounds.vulture = SoundGroup({
+sounds.vulture = iSoundGroup({
 	"vulture",
 })
 
 --- @sndgroup sounds.woodpecker
 --  @snd woodpecker_peck
-sounds.woodpecker = SoundGroup({
+sounds.woodpecker = iSoundGroup({
 	"woodpecker_peck",
 })
 
@@ -660,7 +660,7 @@ sounds.fowl = sounds.bird + sounds.chicken + sounds.crow_caw + sounds.duck_quack
 
 --- @sndgroup sounds.giraffe_hum
 --  @snd giraffe_hum
-sounds.giraffe_hum = SoundGroup({
+sounds.giraffe_hum = iSoundGroup({
 	"giraffe_hum",
 })
 
@@ -676,7 +676,7 @@ sounds.giraffe_hum = SoundGroup({
 --  @snd bumble_bee_01 (loopable)
 --  @snd bumble_bee_02
 --  @snd bees (loopable)
-sounds.bee = SoundGroup({
+sounds.bee = iSoundGroup({
 	"bee",
 	"bumble_bee_01",
 	"bumble_bee_02",
@@ -692,7 +692,7 @@ sounds.bee = SoundGroup({
 --  @snd cicada_06 (loopable)
 --  @snd cicada_07 (loopable)
 --  @snd cicada_08 (loopable)
-sounds.cicada = SoundGroup({
+sounds.cicada = iSoundGroup({
 	"cicada_01",
 	"cicada_02",
 	"cicada_03",
@@ -705,13 +705,13 @@ sounds.cicada = SoundGroup({
 
 --- @sndgroup sounds.cricket
 --  @snd cricket (loopable)
-sounds.cricket = SoundGroup({
+sounds.cricket = iSoundGroup({
 	"cricket",
 })
 
 --- @sndgroup sounds.grasshopper
 --  @snd grasshopper
-sounds.grasshopper = SoundGroup({
+sounds.grasshopper = iSoundGroup({
 	"grasshopper",
 })
 
@@ -738,7 +738,7 @@ sounds.insect = sounds.bee + sounds.cicada + sounds.cricket + sounds.grasshopper
 --  @snd sea_lion_01
 --  @snd sea_lion_02
 --  @snd sea_lion_03
-sounds.sea_lion = SoundGroup({
+sounds.sea_lion = iSoundGroup({
 	"sea_lion_01",
 	"sea_lion_02",
 	"sea_lion_03",
@@ -753,13 +753,13 @@ sounds.sea_lion = SoundGroup({
 
 --- @sndgroup sounds.gorilla_grunt
 --  @snd gorilla_grunt
-sounds.gorilla_grunt = SoundGroup({
+sounds.gorilla_grunt = iSoundGroup({
 	"gorilla_grunt",
 })
 
 --- @sndgroup sounds.gorilla_roar
 --  @snd gorilla_roar
-sounds.gorilla_roar = SoundGroup({
+sounds.gorilla_roar = iSoundGroup({
 	"gorilla_roar",
 })
 
@@ -768,7 +768,7 @@ sounds.gorilla_roar = SoundGroup({
 --  @snd gorilla_snarl_02
 --  @snd gorilla_snarl_03
 --  @snd gorilla_snarl_04
-sounds.gorilla_snarl = SoundGroup({
+sounds.gorilla_snarl = iSoundGroup({
 	"gorilla_snarl_01",
 	"gorilla_snarl_02",
 	"gorilla_snarl_03",
@@ -790,7 +790,7 @@ sounds.gorilla = sounds.gorilla_grunt + sounds.gorilla_roar + sounds.gorilla_sna
 --  @snd monkey_01 (imitation)
 --  @snd monkey_02 (imitation)
 --  @snd monkey_03 (imitation)
-sounds.monkey = SoundGroup({
+sounds.monkey = iSoundGroup({
 	"monkey_01",
 	"monkey_02",
 	"monkey_03",
@@ -817,7 +817,7 @@ sounds.primate = sounds.gorilla + sounds.monkey
 --  @snd raccoon_chatter
 --  @snd raccoon_chatter_baby_01
 --  @snd raccoon_chatter_baby_02
-sounds.raccoon = SoundGroup({
+sounds.raccoon = iSoundGroup({
 	"raccoon_chatter",
 	"raccoon_chatter_baby_01",
 	"raccoon_chatter_baby_02",
@@ -831,7 +831,7 @@ sounds.raccoon = SoundGroup({
 
 --- @sndgroup sounds.mouse
 --  @snd mouse (imitation)
-sounds.mouse = SoundGroup({
+sounds.mouse = iSoundGroup({
 	"mouse",
 })
 
@@ -839,7 +839,7 @@ sounds.mouse = SoundGroup({
 --  @snd squirrel_01
 --  @snd squirrel_02
 --  @snd squirrel_03
-sounds.squirrel = SoundGroup({
+sounds.squirrel = iSoundGroup({
 	"squirrel_01",
 	"squirrel_02",
 	"squirrel_03",
@@ -865,14 +865,14 @@ sounds.rodent = sounds.mouse + sounds.squirrel
 --- @sndgroup sounds.cobra
 --  @snd cobra_01
 --  @snd cobra_02
-sounds.cobra = SoundGroup({
+sounds.cobra = iSoundGroup({
 	"cobra_01",
 	"cobra_02",
 })
 
 --- @sndgroup sounds.snake_rattle
 --  @snd snake_rattle
-sounds.snake_rattle = SoundGroup({
+sounds.snake_rattle = iSoundGroup({
 	"snake_rattle",
 })
 
@@ -895,13 +895,13 @@ sounds.snake = sounds.cobra + sounds.snake_rattle
 
 --- @sndgroup sounds.pig_snort
 --  @snd pig_snort
-sounds.pig_snort = SoundGroup({
+sounds.pig_snort = iSoundGroup({
 	"pig_snort",
 })
 
 --- @sndgroup sounds.pig_squeal
 --  @snd pig_squeal
-sounds.pig_squeal = SoundGroup({
+sounds.pig_squeal = iSoundGroup({
 	"pig_squeal",
 })
 

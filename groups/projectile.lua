@@ -14,7 +14,7 @@
 --  @snd fireball_01
 --  @snd fireball_02
 --  @snd fireball_03
-sounds.fireball = SoundGroup({
+sounds.fireball = iSoundGroup({
 	"fireball_01",
 	"fireball_02",
 	"fireball_03",
@@ -35,7 +35,7 @@ sounds.fireball = SoundGroup({
 --  @snd laser_05
 --  @snd laser_06
 --  @snd laser_07
-sounds.laser = SoundGroup({
+sounds.laser = iSoundGroup({
 	"laser_01",
 	"laser_02",
 	"laser_03",

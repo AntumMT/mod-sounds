@@ -284,3 +284,14 @@ SoundGroup = {
 	end,
 }
 setmetatable(SoundGroup, SoundGroup.__init)
+
+
+--- Internal Sound Group.
+--
+--  Same as `SoundGroup` but with "prepend" set to "true" by default. Meant for
+--  use with sound files prefixed with "sounds_" only.
+--
+--  @table iSoundGroup
+iSoundGroup = table.copy(SoundGroup)
+setmetatable(iSoundGroup, SoundGroup.__init)
+iSoundGroup.prepend = true

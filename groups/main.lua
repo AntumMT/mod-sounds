@@ -12,13 +12,13 @@
 
 --- @sndgroup sounds.balloon_inflate
 --  @snd balloon_inflate
-sounds.balloon_inflate = SoundGroup({
+sounds.balloon_inflate = iSoundGroup({
 	"balloon_inflate",
 })
 
 --- @sndgroup sounds.balloon_pop
 --  @snd balloon_pop
-sounds.balloon_pop = SoundGroup({
+sounds.balloon_pop = iSoundGroup({
 	"balloon_pop",
 })
 
@@ -34,7 +34,7 @@ sounds.balloon = sounds.balloon_inflate + sounds.balloon_pop
 
 --- @sndgroup sounds.bite
 --  @snd apple_bite
-sounds.bite = SoundGroup({
+sounds.bite = iSoundGroup({
 	"apple_bite",
 })
 
@@ -47,7 +47,7 @@ sounds.bite = SoundGroup({
 
 --- @sndgroup sounds.bounce
 --  @snd boing
-sounds.bounce = SoundGroup({
+sounds.bounce = iSoundGroup({
 	"boing",
 })
 
@@ -62,7 +62,7 @@ sounds.bounce = SoundGroup({
 --  @snd chalk_screech_01
 --  @snd chalk_screech_02
 --  @snd chalk_screech_03
-sounds.chalk_screech = SoundGroup({
+sounds.chalk_screech = iSoundGroup({
 	"chalk_screech_01",
 	"chalk_screech_02",
 	"chalk_screech_03",
@@ -72,7 +72,7 @@ sounds.chalk_screech = SoundGroup({
 --  @snd chalk_write_01
 --  @snd chalk_write_02
 --  @snd chalk_write_03
-sounds.chalk_write = SoundGroup({
+sounds.chalk_write = iSoundGroup({
 	"chalk_write_01",
 	"chalk_write_02",
 	"chalk_write_03",
@@ -97,7 +97,7 @@ sounds.chalk = sounds.chalk_screech + sounds.chalk_write
 
 --- @sndgroup sounds.clock
 --  @snd clock_tick (loopable)
-sounds.clock = SoundGroup({
+sounds.clock = iSoundGroup({
 	"clock_tick",
 })
 
@@ -110,7 +110,7 @@ sounds.clock = SoundGroup({
 
 --- @sndgroup sounds.coin
 --  @snd coin
-sounds.coin = SoundGroup({
+sounds.coin = iSoundGroup({
 	"coin",
 })
 
@@ -124,7 +124,7 @@ sounds.coin = SoundGroup({
 --- @sndgroup sounds.compressor
 --  @snd compressor_motor_01 (loopable)
 --  @snd compressor_motor_02 (loopable)
-sounds.compressor = SoundGroup({
+sounds.compressor = iSoundGroup({
 	"compressor_motor_01",
 	"compressor_motor_02",
 })
@@ -140,7 +140,7 @@ sounds.compressor = SoundGroup({
 --  @snd door_close_01
 --  @snd door_close_02
 --  @snd door_close_03
-sounds.door_close = SoundGroup({
+sounds.door_close = iSoundGroup({
 	"door_close_01",
 	"door_close_02",
 	"door_close_03",
@@ -148,21 +148,21 @@ sounds.door_close = SoundGroup({
 
 --- @sndgroup sounds.door_creak
 --  @snd door_creak
-sounds.door_creak = SoundGroup({
+sounds.door_creak = iSoundGroup({
 	"door_creak",
 })
 
 --- @sndgroup sounds.door_knock
 --  @snd door_knock_01
 --  @snd door_knock_02
-sounds.door_knock = SoundGroup({
+sounds.door_knock = iSoundGroup({
 	"door_knock_01",
 	"door_knock_02",
 })
 
 --- @sndgroup sounds.door_open
 --  @snd door_open
-sounds.door_open = SoundGroup({
+sounds.door_open = iSoundGroup({
 	"door_open",
 })
 
@@ -170,7 +170,7 @@ sounds.door_open = SoundGroup({
 --  @snd doorbell_01
 --  @snd doorbell_02
 --  @snd doorbell_03
-sounds.doorbell = SoundGroup({
+sounds.doorbell = iSoundGroup({
 	"doorbell_01",
 	"doorbell_02",
 	"doorbell_03",
@@ -199,7 +199,7 @@ sounds.door = sounds.door_close + sounds.door_creak + sounds.door_knock + sounds
 
 --- @sndgroup sounds.entity_hit
 --  @snd entity_hit
-sounds.entity_hit = SoundGroup({
+sounds.entity_hit = iSoundGroup({
 	"entity_hit",
 })
 
@@ -214,7 +214,7 @@ sounds.entity_hit = SoundGroup({
 --  @snd explosion_01
 --  @snd explosion_02
 --  @snd explosion_03
-sounds.explosion = SoundGroup({
+sounds.explosion = iSoundGroup({
 	"explosion_01",
 	"explosion_02",
 	"explosion_03",
@@ -225,7 +225,7 @@ sounds.explosion = SoundGroup({
 --  @snd explosion_distant_02
 --  @snd explosion_distant_03
 --  @snd explosion_distant_04
-sounds.explosion_distant = SoundGroup({
+sounds.explosion_distant = iSoundGroup({
 	"explosion_distant_01",
 	"explosion_distant_02",
 	"explosion_distant_03",
@@ -241,7 +241,7 @@ sounds.explosion_distant = SoundGroup({
 
 --- @sndgroup sounds.fire
 --  @snd fire_crackle (loopable)
-sounds.fire = SoundGroup({
+sounds.fire = iSoundGroup({
 	"fire_crackle",
 })
 
@@ -255,7 +255,7 @@ sounds.fire = SoundGroup({
 --- @sndgroup sounds.fireworks
 --  @snd fireworks_01
 --  @snd fireworks_02
-sounds.fireworks = SoundGroup({
+sounds.fireworks = iSoundGroup({
 	"fireworks_01",
 	"fireworks_02",
 })
@@ -264,7 +264,7 @@ sounds.fireworks = SoundGroup({
 --  @snd fireworks_pop_01
 --  @snd fireworks_pop_02
 --  @snd fireworks_pop_03
-sounds.fireworks_pop = SoundGroup({
+sounds.fireworks_pop = iSoundGroup({
 	"fireworks_pop_01",
 	"fireworks_pop_02",
 	"fireworks_pop_03",
@@ -279,7 +279,7 @@ sounds.fireworks_pop = SoundGroup({
 
 --- @sndgroup sounds.fuse
 --  @snd fuse
-sounds.fuse = SoundGroup({
+sounds.fuse = iSoundGroup({
 	"fuse",
 })
 
@@ -293,7 +293,7 @@ sounds.fuse = SoundGroup({
 --- @sndgroup sounds.gallop
 --  @snd gallop_01 (loopable)
 --  @snd gallop_02 (loopable)
-sounds.gallop = SoundGroup({
+sounds.gallop = iSoundGroup({
 	"gallop_01",
 	"gallop_02",
 })
@@ -307,7 +307,7 @@ sounds.gallop = SoundGroup({
 
 --- @sndgroup sounds.lava_cool
 --  @snd[r3] lava_cool
-sounds.lava_cool = SoundGroup({
+sounds.lava_cool = iSoundGroup({
 	"lava_cool",
 })
 
@@ -321,7 +321,7 @@ sounds.lava_cool = SoundGroup({
 --- @sndgroup sounds.leaves
 --  @snd leaves_01
 --  @snd leaves_02
-sounds.leaves = SoundGroup({
+sounds.leaves = iSoundGroup({
 	"leaves_01",
 	"leaves_02",
 })
@@ -335,7 +335,7 @@ sounds.leaves = SoundGroup({
 
 --- @sndgroup sounds.match
 --  @snd match_ignite
-sounds.match = SoundGroup({
+sounds.match = iSoundGroup({
 	"match_ignite",
 })
 
@@ -348,13 +348,13 @@ sounds.match = SoundGroup({
 
 --- @sndgroup sounds.pencil_erase
 --  @snd pencil_erase
-sounds.pencil_erase = SoundGroup({
+sounds.pencil_erase = iSoundGroup({
  "pencil_erase",
 })
 
 --- @sndgroup sounds.pencil_write
 --  @snd pencil_write
-sounds.pencil_write = SoundGroup({
+sounds.pencil_write = iSoundGroup({
 	"pencil_write",
 })
 
@@ -377,7 +377,7 @@ sounds.pencil = sounds.pencil_erase + sounds.pencil_write
 
 --- @sndgroup sounds.piano
 --  @snd piano
-sounds.piano = SoundGroup({
+sounds.piano = iSoundGroup({
 	"piano",
 })
 
@@ -397,7 +397,7 @@ sounds.piano = SoundGroup({
 --  @snd scrape_06
 --  @snd scrape_07
 --  @snd scrape_08
-sounds.scrape = SoundGroup({
+sounds.scrape = iSoundGroup({
 	"scrape_01",
 	"scrape_02",
 	"scrape_03",
@@ -417,7 +417,7 @@ sounds.scrape = SoundGroup({
 
 --- @sndgroup sounds.tool_break
 --  @snd[r3] tool_break
-sounds.tool_break = SoundGroup({
+sounds.tool_break = iSoundGroup({
 	"tool_break",
 })
 
@@ -430,7 +430,7 @@ sounds.tool_break = SoundGroup({
 
 --- @sndgroup sounds.tree
 --  @snd tree_creak
-sounds.tree = SoundGroup({
+sounds.tree = iSoundGroup({
 	"tree_creak",
 })
 
@@ -447,7 +447,7 @@ sounds.tree = SoundGroup({
 --  @snd vomit_03
 --  @snd vomit_04
 --  @snd vomit_05
-sounds.vomit = SoundGroup({
+sounds.vomit = iSoundGroup({
 	"vomit_01",
 	"vomit_02",
 	"vomit_03",
@@ -464,7 +464,7 @@ sounds.vomit = SoundGroup({
 
 --- @sndgroup sounds.watch
 --  @snd watch_tick (loopable)
-sounds.watch = SoundGroup({
+sounds.watch = iSoundGroup({
 	"watch_tick",
 })
 
@@ -477,7 +477,7 @@ sounds.watch = SoundGroup({
 
 --- @sndgroup sounds.whistle
 --  @snd whistle
-sounds.whistle = SoundGroup({
+sounds.whistle = iSoundGroup({
 	"whistle",
 })
 
@@ -493,7 +493,7 @@ sounds.whistle = SoundGroup({
 --  @snd woosh_02
 --  @snd woosh_03
 --  @snd woosh_04
-sounds.woosh = SoundGroup({
+sounds.woosh = iSoundGroup({
 	"woosh_01",
 	"woosh_02",
 	"woosh_03",
@@ -509,6 +509,6 @@ sounds.woosh = SoundGroup({
 
 --- @sndgroup sounds.zipper
 --  @snd zipper
-sounds.zipper = SoundGroup({
+sounds.zipper = iSoundGroup({
 	"zipper",
 })

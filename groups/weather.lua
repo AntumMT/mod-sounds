@@ -15,7 +15,7 @@
 --  @snd rain_medium (loopable)
 --  @snd rain_heavy_01 (loopable)
 --  @snd rain_heavy_02 (loopable)
-sounds.rain = SoundGroup({
+sounds.rain = iSoundGroup({
 	"rain_light",
 	"rain_medium",
 	"rain_heavy_01",
@@ -33,7 +33,7 @@ sounds.rain = SoundGroup({
 --  @snd thunder_01
 --  @snd thunder_02
 --  @snd thunder_03
-sounds.thunder = SoundGroup({
+sounds.thunder = iSoundGroup({
 	"thunder_01",
 	"thunder_02",
 	"thunder_03",
@@ -48,6 +48,6 @@ sounds.thunder = SoundGroup({
 
 --- @sndgroup sounds.wind
 --  @snd wind (loopable)
-sounds.wind = SoundGroup({
+sounds.wind = iSoundGroup({
 	"wind",
 })
