@@ -9,6 +9,7 @@ next
 	- ar_burst
 	- cicada
 	- explosion
+	- explosion_distant
 	- scrape
 
 

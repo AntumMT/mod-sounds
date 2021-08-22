@@ -218,6 +218,18 @@ sounds.explosion = SoundGroup({
 	"explosion_02",
 })
 
+--- @sndgroup sounds.explosion_distant
+--  @snd explosion_distant_01
+--  @snd explosion_distant_02
+--  @snd explosion_distant_03
+--  @snd explosion_distant_04
+sounds.explosion_distant = SoundGroup({
+	"explosion_distant_01",
+	"explosion_distant_02",
+	"explosion_distant_03",
+	"explosion_distant_04",
+})
+
 
 
 --- Fire
