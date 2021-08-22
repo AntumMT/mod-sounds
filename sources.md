@@ -1,199 +1,200 @@
 
 #### General Sounds:
 
-| Filename (sounds_) / Source       | Author                       | License      | Notes                   |
-| --------------------------------- | ---------------------------- | ------------ | ----------------------- |
-| [airplane_prop][]                 | jakobthiesen                 | CC BY 3.0    | loopable                |
-| [apple_bite][]                    | sonicmariobrotha             | CC0          |                         |
-| [ar_burst_0[1-2]][ar_fire]        | Wyatt Dilley (dwightsabeast) | CC BY 3.0    |                         |
-| [ar_burst_03][]                   | qubodup                      | CC0          |                         |
-| [ar_fire*][ar_fire]               | Wyatt Dilley (dwightsabeast) | CC BY 3.0    |                         |
-| [balloon_inflate][]               | d.n.audio.uk                 | CC0          |                         |
-| [balloon_pop][]                   | Gniffelbaf                   | CC0          |                         |
-| [bat*][bat]                       | polymorpheva                 | CC0          |                         |
-| [bear*][fws]                      | U.S. Fish & Wildlife Service | CC0          |                         |
-| [bee][]                           | DrDufus                      | CC0          | loopable                |
-| [bees][]                          | tom_woysky                   | CC0          | loopable                |
-| [bicycle_bell][bicycle]           | AntumDeluge                  | CC0          |                         |
-| [bicycle_horn][bicycle]           | AntumDeluge                  | CC0          |                         |
-| [bicycle_spokes][bicycle]         | AntumDeluge                  | CC0          |                         |
-| [bird*][bird]                     | Jc Guan                      | CC0          |                         |
-| [boing][]                         | reelworldstudio              | CC0          |                         |
-| [bumble_bee_01][]                 | Iain McCurdy                 | CC BY 3.0    | loopable                |
-| [bumble_bee_02][]                 | CGEffex                      | CC BY 3.0    |                         |
-| [camel*][camel]                   | craigsmith                   | CC0          |                         |
-| [canary*][canary]                 | MediaCollege.com             | CC0          |                         |
-| [car_motor][]                     | jackthemurray                | CC0          | loopable                |
-| [cat_meow][]                      | blimp66                      | CC BY 3.0    |                         |
-| [chalk_screech_01][]              | Sirderf                      | CC BY 3.0    |                         |
-| [chalk_screech_02][]              | Sirderf                      | CC BY 3.0    |                         |
-| [chalk_screech_03][]              | Sirderf                      | CC BY 3.0    |                         |
-| [chalk_write*][chalk_write]       | thavis360                    | CC0          |                         |
-| [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                         |
-| [cicada_01][]                     | Jonathan Shaw (InspectorJ)   | CC BY 3.0    | loopable                |
-| [cicada_02][]                     | Exomène                      | CC BY 3.0    | loopable                |
-| [cicada_03][]                     | beau_rl                      | CC0          | loopable                |
-| [cicada_04][]                     | macdaddyno1                  | CC0          | loopable                |
-| [cicada_05][]                     | sinewave1kHz                 | CC0          | loopable                |
-| [cicada_06][]                     | Ian Davies                   | CC0          | loopable                |
-| [cicada_07][]                     | Jedo                         | CC0          | loopable                |
-| [cicada_08][]                     | OroborosNZ                   | CC BY 3.0    | loopable                |
-| [clock_tick][]                    | AntumDeluge                  | CC0          | loopable                |
-| [cobra*][cobra]                   | N/A                          | CC0          |                         |
-| [coin][]                          | greenvwbeetle                | CC0          |                         |
-| [compressor_motor_01][]           | ivolipa                      | CC0          | loopable                |
-| [compressor_motor_02][]           | Cell31 Sound Productions     | CC BY 3.0    | loopable                |
-| [cow_moo*][cow_moo]               | JosephSardin                 | CC0          |                         |
-| [coyote_howl][]                   | rogerforeman                 | CC BY 3.0    |                         |
-| [cricket][]                       | GB01                         | CC0          | loopable                |
-| [crow_caw][]                      | Morris Gevirtz               | CC BY 4.0    |                         |
-| [dog_bark][]                      | ivolipa                      | CC0          |                         |
-| [dolphin*][dolphin]               | Nagaty Studio                | CC BY        |                         |
-| [door_close_01][]                 | LampEight                    | CC0          |                         |
-| [door_close_02][]                 | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                         |
-| [door_close_03][]                 | bennstir                     | CC BY 3.0    |                         |
-| [door_creak][]                    | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                         |
-| [door_knock_01][]                 | LPHypeR                      | CC BY 3.0    |                         |
-| [door_knock_02][]                 | Patrick Hunt                 | CC0          |                         |
-| [door_open][]                     | skyumori                     | CC0          |                         |
-| [doorbell_01][]                   | kwahmah_02                   | CC BY 3.0    |                         |
-| [doorbell_02][]                   | bennstir                     | CC BY 3.0    |                         |
-| [doorbell_03][]                   | jorickhoofd                  | CC BY 3.0    |                         |
-| [duck_quack][]                    | Jonathon Jongsma             | CC BY-SA 3.0 |                         |
-| [elephant_trumpet][]              | vataaa                       | CC0          |                         |
-| [entity_hit][]                    | sonictechtonic               | CC BY 3.0    |                         |
-| [explosion_01][]                  | JuveriSetila                 | CC0          |                         |
-| [explosion_02][]                  | studiomandragore             | CC0          |                         |
-| [explosion_03][]                  | FlashTrauma                  | CC0          |                         |
-| [explosion_distant][]*            | Tobiasz 'unfa' Karoń         | CC0          |                         |
-| [explosion_scifi][]               | Anomaex                      | CC0          |                         |
-| [frog][]                          | kayceemixer                  | CC0          |                         |
-| [fire_crackle][]                  | 16FThumaF                    | CC0          | loopable                |
-| [fireball_01][]                   | Julien Matthey               | CC0          |                         |
-| [fireball_02][]                   | Julien Matthey               | CC0          |                         |
-| [fireball_03][]                   | Julien Matthey               | CC0          |                         |
-| [fireworks_01][]                  | Florian Reichelt             | CC0          |                         |
-| [fireworks_02][]                  | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                         |
-| [fireworks_pop][]*                | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                         |
-| [fuse][]                          | Ned Bouhalassa               | CC0          |                         |
-| [gallop_01][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
-| [gallop_02][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
-| [giraffe_hum][]                   | [↓](#authors)                | CC BY-SA 4.0 |                         |
-| [goat_bleat*][goat_bleat]         | Stephan                      | CC0          |                         |
-| [goose][]                         | Glaneur de sons              | CC BY 3.0    |                         |
-| [gorilla_grunt][]                 | [↓](#authors)                | CC0          |                         |
-| [gorilla_roar][]                  | J0ck0                        | CC0          |                         |
-| [gorilla_snarl*][gorilla_grunt]   | [↓](#authors)                | CC0          |                         |
-| [grasshopper][]                   | straget                      | CC0          |                         |
-| [helicopter][]                    | Thomas Ryder Payne           | CC0          | loopable                |
-| [horse_neigh_01][]                | GoodListener                 | CC BY 3.0    |                         |
-| [horse_neigh_02][]                | foxen10                      | CC0          |                         |
-| [horse_snort_01][]                | madklown                     | CC0          |                         |
-| [horse_snort_02][]                | 0_ciz                        | CC0          |                         |
-| [hyena_01][]                      | [↓](#authors)                | CC BY 2.0    |                         |
-| [hyena_02][]                      | [↓](#authors)                | CC BY 2.0    |                         |
-| [hyena_03][]                      | [↓](#authors)                | CC BY 2.0    |                         |
-| [jaguar_saw][]                    | About Zoos                   | CC BY        |                         |
-| [jet_ambience][]                  | habbis92                     | CC0          | loopable                |
-| [jet_flyby][]                     | Zerono1                      | CC0          |                         |
-| [jet_land][]                      | bigpickle51                  | CC0          |                         |
-| [lamb][]                          | swiftoid                     | CC0          |                         |
-| [laser_01][]                      | Julien Matthey               | CC0          |                         |
-| [laser_02][]                      | Julien Matthey               | CC0          |                         |
-| [laser_03][]                      | Julien Matthey               | CC0          |                         |
-| [laser_04][]                      | Julien Matthey               | CC0          |                         |
-| [laser_05][]                      | Julien Matthey               | CC0          |                         |
-| [laser_06][]                      | Julien Matthey               | CC0          |                         |
-| [laser_07][]                      | Julien Matthey               | CC0          |                         |
-| [laugh_evil_01][]                 | AntumDeluge                  | CC0          |                         |
-| [laugh_evil_02][]                 | AntumDeluge                  | CC0          |                         |
-| [lava_cool][default]              | Perttu Ahola (celeron55)     | CC BY-SA 3.0 | 3 random sounds         |
-| [leaves*][leaves]                 | DSOADigital                  | CC0          |                         |
-| [leopard*][leopard]               | Ian Fairley                  | CC BY        |                         |
-| [lion_bellow][]                   | felix.blume                  | CC0          |                         |
-| [match_ignite][]                  | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                         |
-| [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation               |
-| [motorbike_idle][]                | m1rk0                        | CC BY 3.0    | loopable                |
-| [mouse][]                         | AntumDeluge                  | CC0          | imitation               |
-| [owl_hoot][]                      | Anthousai                    | CC0          |                         |
-| [parrot*][parrot]                 | Mings                        | CC BY 3.0    |                         |
-| [peacock_01][]                    | dobroide                     | CC BY 3.0    |                         |
-| [peacock_02][]                    | MediaCollege.com             | CC0          |                         |
-| [pencil_erase][]                  | damsur                       | CC0          |                         |
-| [pencil_write][]                  | NachtmahrTV                  | CC0          |                         |
-| [penguin*][penguin]               | Bidone                       | CC0          |                         |
-| [piano][]                         | [↓](#authors)                | CC0          |                         |
-| [pig_snort][]                     | yottasounds                  | CC BY 3.0    |                         |
-| [pig_squeal][]                    | MediaCollege.com             | CC0          |                         |
-| [pigeon][]                        | JavierSerrat                 | CC0          |                         |
-| [pistol_cock*][pistol_cock]       | J.Anthracite                 | CC0          |                         |
-| [pistol_fire_01][]                | DrinkingWindGames            | CC BY 3.0    |                         |
-| [pistol_fire_02][]                | magnuswaker                  | CC0          |                         |
-| [pistol_fire_03][]                | Morgan Purkis                | CC0          |                         |
-| [pistol_fire_dry][]               | Sophia Caldwell              | CC BY 3.0    |                         |
-| [pistol_reload][]                 | Bunny_Clark                  | CC BY 3.0    |                         |
-| [plasma_shot][]                   | Tobiasz 'unfa' Karoń         | CC0          |                         |
-| [puppy_bark][]                    | moffet                       | CC0          |                         |
-| [quail][]                         | PrincessGrace                | CC0          |                         |
-| [raccoon*][raccoon]               | jnargus                      | CC BY        |                         |
-| [rain_heavy_01][]                 | Inu Etc                      | CC0          | loopable                |
-| [rain_heavy_02][]                 | TRP                          | CC0          | loopable                |
-| [rain_light][]                    | Zepp2010                     | CC0          | loopable                |
-| [rain_medium][]                   | klangfabrik                  | CC0          | loopable                |
-| [ricochet][]                      | Benboncan                    | CC BY 3.0    |                         |
-| [rifle_cock_01][]                 | freemusicpromo               | CC0          |                         |
-| [rifle_cock_02][]                 | Bunny_Clark                  | CC BY 3.0    |                         |
-| [rifle_cock_03][]                 | SpliceSound                  | CC0          |                         |
-| [rifle_fire_01][]                 | bananplyte                   | CC0          |                         |
-| [rifle_fire_02][]                 | [↓](#authors)                | CC BY 3.0    |                         |
-| [rifle_fire_03][]                 | Rob Marion                   | CC0          |                         |
-| [rifle_fire_04][]                 | Morgan Purkis                | CC0          |                         |
-| [rifle_fire_cock][]               | EFlexMusic                   | CC BY 3.0    |                         |
-| [rifle_fire_dry][]                | michorvath                   | CC0          |                         |
-| [rifle_small_fire][]              | Tito Lahaye                  | CC0          |                         |
-| [rooster][]                       | poorenglishjuggler           | CC0          |                         |
-| [scrape*][scrape]                 | AntumDeluge                  | CC0          |                         |
-| [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                         |
-| [seagull*][seagull]               | squashy555                   | CC0          |                         |
-| [seagulls][]                      | Soojay                       | CC0          |                         |
-| [sheep_baa][]                     | mikewest                     | CC0          |                         |
-| [skeleton_bones][]                | AntumDeluge                  | CC0          |                         |
-| [snake_rattle][fws]               | U.S. Fish & Wildlife Service | CC0          |                         |
-| [squirrel*][squirrel]             | bmccoy2                      | CC BY 3.0    |                         |
-| [shotgun_fire_pump][]             | Deganoth                     | CC BY 3.0    |                         |
-| [shotgun_pump][]                  | dasBUTCHER84                 | CC0          |                         |
-| [thunder_01][]                    | bajko                        | CC0          |                         |
-| [thunder_02][]                    | Josh74000MC                  | CC0          |                         |
-| [thunder_03][]                    | juskiddink                   | CC BY 3.0    |                         |
-| [tiger_roar_01][]                 | videog                       | CC BY 3.0    |                         |
-| [tiger_snarl_01][tiger_roar_01]   | videog                       | CC BY 3.0    |                         |
-| [tiger_snarl_0[2-4]][tiger_snarl] | schots                       | CC0          |                         |
-| [tool_break*][tool_break]         | HerbertBoland                | CC BY 3.0    |                         |
-| [toucan][]                        | Niels Krabbe                 | CC BY-SA 4.0 |                         |
-| [train_whistle][]                 | Daniel Simion                | CC BY 3.0    |                         |
-| [tree_creak][]                    | Department64                 | CC0          |                         |
-| [turkey_gobble][]                 | JarredGibb                   | CC0          |                         |
-| [undead_moan_*][undead_moan]      | AntumDeluge                  | CC0          |                         |
-| [vehicle_horn_01][]               | dj997                        | CC BY 3.0    |                         |
-| [vehicle_horn_02][]               | 15HPanska_Ruttner_Jan        | CC0          |                         |
-| [vehicle_motor_idle][]            | 238310                       | CC0          | loopable                |
-| [vomit*][vomit]                   | Anko6                        | CC0          |                         |
-| [vulture][]                       | AntumDeluge                  | CC0          | imitation               |
-| [watch_tick][]                    | Nicolas4677                  | CC0          | loopable                |
-| [whale][]                         | Ian Fairley                  | CC BY        |                         |
-| [whistle][]                       | pawsound                     | CC0          |                         |
-| [wind][]                          | Jonathan Shaw (InspectorJ)   | CC BY 3.0    | loopable                |
-| [wolf_howl][]                     | killyourpepe                 | CC0          |                         |
-| [wolf_snarl][]                    | newagesoup                   | CC BY 3.0    |                         |
-| [woodpecker_peck][]               | Benboncan                    | CC BY 3.0    |                         |
-| [woosh_01][]                      | denao270                     | CC0          |                         |
-| [woosh_02][]                      | mrickey13                    | CC0          |                         |
-| [woosh_03][]                      | BranndyBottle                | CC0          |                         |
-| [woosh_04][]                      | JuanD20                      | CC0          |                         |
-| [yak][]                           | AntumDeluge                  | CC0          | imitation               |
-| [zebra][]                         | Peet J van Eeden             | CC BY        |                         |
-| [zipper][]                        | AntumDeluge                  | CC0          |                         |
-| [zombie_death][]                  | Under7dude                   | CC0          | from cmer zombie mod    |
+| Filename (sounds_) / Source       | Author                       | License      | Notes                    |
+| --------------------------------- | ---------------------------- | ------------ | ------------------------ |
+| [airplane_prop][]                 | jakobthiesen                 | CC BY 3.0    | loopable                 |
+| [apple_bite][]                    | sonicmariobrotha             | CC0          |                          |
+| [ar_burst_0[1-2]][ar_fire]        | Wyatt Dilley (dwightsabeast) | CC BY 3.0    |                          |
+| [ar_burst_03][]                   | qubodup                      | CC0          |                          |
+| [ar_fire*][ar_fire]               | Wyatt Dilley (dwightsabeast) | CC BY 3.0    |                          |
+| [balloon_inflate][]               | d.n.audio.uk                 | CC0          |                          |
+| [balloon_pop][]                   | Gniffelbaf                   | CC0          |                          |
+| [bat*][bat]                       | polymorpheva                 | CC0          |                          |
+| [bear*][fws]                      | U.S. Fish & Wildlife Service | CC0          |                          |
+| [bee][]                           | DrDufus                      | CC0          | loopable                 |
+| [bees][]                          | tom_woysky                   | CC0          | loopable                 |
+| [bicycle_bell][bicycle]           | AntumDeluge                  | CC0          |                          |
+| [bicycle_horn][bicycle]           | AntumDeluge                  | CC0          |                          |
+| [bicycle_spokes][bicycle]         | AntumDeluge                  | CC0          |                          |
+| [bird*][bird]                     | Jc Guan                      | CC0          |                          |
+| [boing][]                         | reelworldstudio              | CC0          |                          |
+| [bumble_bee_01][]                 | Iain McCurdy                 | CC BY 3.0    | loopable                 |
+| [bumble_bee_02][]                 | CGEffex                      | CC BY 3.0    |                          |
+| [camel*][camel]                   | craigsmith                   | CC0          |                          |
+| [canary*][canary]                 | MediaCollege.com             | CC0          |                          |
+| [car_motor][]                     | jackthemurray                | CC0          | loopable                 |
+| [cat_meow][]                      | blimp66                      | CC BY 3.0    |                          |
+| [chalk_screech_01][]              | Sirderf                      | CC BY 3.0    |                          |
+| [chalk_screech_02][]              | Sirderf                      | CC BY 3.0    |                          |
+| [chalk_screech_03][]              | Sirderf                      | CC BY 3.0    |                          |
+| [chalk_write*][chalk_write]       | thavis360                    | CC0          |                          |
+| [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                          |
+| [cicada_01][]                     | Jonathan Shaw (InspectorJ)   | CC BY 3.0    | loopable                 |
+| [cicada_02][]                     | Exomène                      | CC BY 3.0    | loopable                 |
+| [cicada_03][]                     | beau_rl                      | CC0          | loopable                 |
+| [cicada_04][]                     | macdaddyno1                  | CC0          | loopable                 |
+| [cicada_05][]                     | sinewave1kHz                 | CC0          | loopable                 |
+| [cicada_06][]                     | Ian Davies                   | CC0          | loopable                 |
+| [cicada_07][]                     | Jedo                         | CC0          | loopable                 |
+| [cicada_08][]                     | OroborosNZ                   | CC BY 3.0    | loopable                 |
+| [clock_tick][]                    | AntumDeluge                  | CC0          | loopable                 |
+| [cobra*][cobra]                   | N/A                          | CC0          |                          |
+| [coin][]                          | greenvwbeetle                | CC0          |                          |
+| [compressor_motor_01][]           | ivolipa                      | CC0          | loopable                 |
+| [compressor_motor_02][]           | Cell31 Sound Productions     | CC BY 3.0    | loopable                 |
+| [cow_moo*][cow_moo]               | JosephSardin                 | CC0          |                          |
+| [coyote_howl][]                   | rogerforeman                 | CC BY 3.0    |                          |
+| [cricket][]                       | GB01                         | CC0          | loopable                 |
+| [crow_caw][]                      | Morris Gevirtz               | CC BY 4.0    |                          |
+| [dog_bark][]                      | ivolipa                      | CC0          |                          |
+| [dolphin*][dolphin]               | Nagaty Studio                | CC BY        |                          |
+| [door_close_01][]                 | LampEight                    | CC0          |                          |
+| [door_close_02][]                 | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                          |
+| [door_close_03][]                 | bennstir                     | CC BY 3.0    |                          |
+| [door_creak][]                    | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                          |
+| [door_knock_01][]                 | LPHypeR                      | CC BY 3.0    |                          |
+| [door_knock_02][]                 | Patrick Hunt                 | CC0          |                          |
+| [door_open][]                     | skyumori                     | CC0          |                          |
+| [doorbell_01][]                   | kwahmah_02                   | CC BY 3.0    |                          |
+| [doorbell_02][]                   | bennstir                     | CC BY 3.0    |                          |
+| [doorbell_03][]                   | jorickhoofd                  | CC BY 3.0    |                          |
+| [duck_quack][]                    | Jonathon Jongsma             | CC BY-SA 3.0 |                          |
+| [elephant_trumpet][]              | vataaa                       | CC0          |                          |
+| [entity_hit][]                    | sonictechtonic               | CC BY 3.0    |                          |
+| [explosion_01][]                  | JuveriSetila                 | CC0          |                          |
+| [explosion_02][]                  | studiomandragore             | CC0          |                          |
+| [explosion_03][]                  | FlashTrauma                  | CC0          |                          |
+| [explosion_distant][]*            | Tobiasz 'unfa' Karoń         | CC0          |                          |
+| [explosion_scifi][]               | Anomaex                      | CC0          |                          |
+| [frog][]                          | kayceemixer                  | CC0          |                          |
+| [fire_crackle][]                  | 16FThumaF                    | CC0          | loopable                 |
+| [fireball_01][]                   | Julien Matthey               | CC0          |                          |
+| [fireball_02][]                   | Julien Matthey               | CC0          |                          |
+| [fireball_03][]                   | Julien Matthey               | CC0          |                          |
+| [fireworks_01][]                  | Florian Reichelt             | CC0          |                          |
+| [fireworks_02][]                  | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                          |
+| [fireworks_pop][]*                | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                          |
+| [fuse][]                          | Ned Bouhalassa               | CC0          |                          |
+| [gallop_01][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                          |
+| [gallop_02][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                          |
+| [giraffe_hum][]                   | [↓](#authors)                | CC BY-SA 4.0 |                          |
+| [goat_bleat*][goat_bleat]         | Stephan                      | CC0          |                          |
+| [goose][]                         | Glaneur de sons              | CC BY 3.0    |                          |
+| [gorilla_grunt][]                 | [↓](#authors)                | CC0          |                          |
+| [gorilla_roar][]                  | J0ck0                        | CC0          |                          |
+| [gorilla_snarl*][gorilla_grunt]   | [↓](#authors)                | CC0          |                          |
+| [grasshopper][]                   | straget                      | CC0          |                          |
+| [helicopter][]                    | Thomas Ryder Payne           | CC0          | loopable                 |
+| [horse_neigh_01][]                | GoodListener                 | CC BY 3.0    |                          |
+| [horse_neigh_02][]                | foxen10                      | CC0          |                          |
+| [horse_snort_01][]                | madklown                     | CC0          |                          |
+| [horse_snort_02][]                | 0_ciz                        | CC0          |                          |
+| [hyena_01][]                      | [↓](#authors)                | CC BY 2.0    |                          |
+| [hyena_02][]                      | [↓](#authors)                | CC BY 2.0    |                          |
+| [hyena_03][]                      | [↓](#authors)                | CC BY 2.0    |                          |
+| [jaguar_saw][]                    | About Zoos                   | CC BY        |                          |
+| [jet_ambience][]                  | habbis92                     | CC0          | loopable                 |
+| [jet_flyby][]                     | Zerono1                      | CC0          |                          |
+| [jet_land][]                      | bigpickle51                  | CC0          |                          |
+| [lamb][]                          | swiftoid                     | CC0          |                          |
+| [laser_01][]                      | Julien Matthey               | CC0          |                          |
+| [laser_02][]                      | Julien Matthey               | CC0          |                          |
+| [laser_03][]                      | Julien Matthey               | CC0          |                          |
+| [laser_04][]                      | Julien Matthey               | CC0          |                          |
+| [laser_05][]                      | Julien Matthey               | CC0          |                          |
+| [laser_06][]                      | Julien Matthey               | CC0          |                          |
+| [laser_07][]                      | Julien Matthey               | CC0          |                          |
+| [laugh_evil_01][]                 | AntumDeluge                  | CC0          |                          |
+| [laugh_evil_02][]                 | AntumDeluge                  | CC0          |                          |
+| [lava_cool][default]              | Perttu Ahola (celeron55)     | CC BY-SA 3.0 | 3 random sounds          |
+| [leaves*][leaves]                 | DSOADigital                  | CC0          |                          |
+| [leopard*][leopard]               | Ian Fairley                  | CC BY        |                          |
+| [lion_bellow][]                   | felix.blume                  | CC0          |                          |
+| [match_ignite][]                  | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                          |
+| [melee_hit][]*                    | CGEffex                      | CC BY 3.0    | [OpenGameArt][oga.29445] |
+| [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation                |
+| [motorbike_idle][]                | m1rk0                        | CC BY 3.0    | loopable                 |
+| [mouse][]                         | AntumDeluge                  | CC0          | imitation                |
+| [owl_hoot][]                      | Anthousai                    | CC0          |                          |
+| [parrot*][parrot]                 | Mings                        | CC BY 3.0    |                          |
+| [peacock_01][]                    | dobroide                     | CC BY 3.0    |                          |
+| [peacock_02][]                    | MediaCollege.com             | CC0          |                          |
+| [pencil_erase][]                  | damsur                       | CC0          |                          |
+| [pencil_write][]                  | NachtmahrTV                  | CC0          |                          |
+| [penguin*][penguin]               | Bidone                       | CC0          |                          |
+| [piano][]                         | [↓](#authors)                | CC0          |                          |
+| [pig_snort][]                     | yottasounds                  | CC BY 3.0    |                          |
+| [pig_squeal][]                    | MediaCollege.com             | CC0          |                          |
+| [pigeon][]                        | JavierSerrat                 | CC0          |                          |
+| [pistol_cock*][pistol_cock]       | J.Anthracite                 | CC0          |                          |
+| [pistol_fire_01][]                | DrinkingWindGames            | CC BY 3.0    |                          |
+| [pistol_fire_02][]                | magnuswaker                  | CC0          |                          |
+| [pistol_fire_03][]                | Morgan Purkis                | CC0          |                          |
+| [pistol_fire_dry][]               | Sophia Caldwell              | CC BY 3.0    |                          |
+| [pistol_reload][]                 | Bunny_Clark                  | CC BY 3.0    |                          |
+| [plasma_shot][]                   | Tobiasz 'unfa' Karoń         | CC0          |                          |
+| [puppy_bark][]                    | moffet                       | CC0          |                          |
+| [quail][]                         | PrincessGrace                | CC0          |                          |
+| [raccoon*][raccoon]               | jnargus                      | CC BY        |                          |
+| [rain_heavy_01][]                 | Inu Etc                      | CC0          | loopable                 |
+| [rain_heavy_02][]                 | TRP                          | CC0          | loopable                 |
+| [rain_light][]                    | Zepp2010                     | CC0          | loopable                 |
+| [rain_medium][]                   | klangfabrik                  | CC0          | loopable                 |
+| [ricochet][]                      | Benboncan                    | CC BY 3.0    |                          |
+| [rifle_cock_01][]                 | freemusicpromo               | CC0          |                          |
+| [rifle_cock_02][]                 | Bunny_Clark                  | CC BY 3.0    |                          |
+| [rifle_cock_03][]                 | SpliceSound                  | CC0          |                          |
+| [rifle_fire_01][]                 | bananplyte                   | CC0          |                          |
+| [rifle_fire_02][]                 | [↓](#authors)                | CC BY 3.0    |                          |
+| [rifle_fire_03][]                 | Rob Marion                   | CC0          |                          |
+| [rifle_fire_04][]                 | Morgan Purkis                | CC0          |                          |
+| [rifle_fire_cock][]               | EFlexMusic                   | CC BY 3.0    |                          |
+| [rifle_fire_dry][]                | michorvath                   | CC0          |                          |
+| [rifle_small_fire][]              | Tito Lahaye                  | CC0          |                          |
+| [rooster][]                       | poorenglishjuggler           | CC0          |                          |
+| [scrape*][scrape]                 | AntumDeluge                  | CC0          |                          |
+| [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                          |
+| [seagull*][seagull]               | squashy555                   | CC0          |                          |
+| [seagulls][]                      | Soojay                       | CC0          |                          |
+| [sheep_baa][]                     | mikewest                     | CC0          |                          |
+| [skeleton_bones][]                | AntumDeluge                  | CC0          |                          |
+| [snake_rattle][fws]               | U.S. Fish & Wildlife Service | CC0          |                          |
+| [squirrel*][squirrel]             | bmccoy2                      | CC BY 3.0    |                          |
+| [shotgun_fire_pump][]             | Deganoth                     | CC BY 3.0    |                          |
+| [shotgun_pump][]                  | dasBUTCHER84                 | CC0          |                          |
+| [thunder_01][]                    | bajko                        | CC0          |                          |
+| [thunder_02][]                    | Josh74000MC                  | CC0          |                          |
+| [thunder_03][]                    | juskiddink                   | CC BY 3.0    |                          |
+| [tiger_roar_01][]                 | videog                       | CC BY 3.0    |                          |
+| [tiger_snarl_01][tiger_roar_01]   | videog                       | CC BY 3.0    |                          |
+| [tiger_snarl_0[2-4]][tiger_snarl] | schots                       | CC0          |                          |
+| [tool_break*][tool_break]         | HerbertBoland                | CC BY 3.0    |                          |
+| [toucan][]                        | Niels Krabbe                 | CC BY-SA 4.0 |                          |
+| [train_whistle][]                 | Daniel Simion                | CC BY 3.0    |                          |
+| [tree_creak][]                    | Department64                 | CC0          |                          |
+| [turkey_gobble][]                 | JarredGibb                   | CC0          |                          |
+| [undead_moan_*][undead_moan]      | AntumDeluge                  | CC0          |                          |
+| [vehicle_horn_01][]               | dj997                        | CC BY 3.0    |                          |
+| [vehicle_horn_02][]               | 15HPanska_Ruttner_Jan        | CC0          |                          |
+| [vehicle_motor_idle][]            | 238310                       | CC0          | loopable                 |
+| [vomit*][vomit]                   | Anko6                        | CC0          |                          |
+| [vulture][]                       | AntumDeluge                  | CC0          | imitation                |
+| [watch_tick][]                    | Nicolas4677                  | CC0          | loopable                 |
+| [whale][]                         | Ian Fairley                  | CC BY        |                          |
+| [whistle][]                       | pawsound                     | CC0          |                          |
+| [wind][]                          | Jonathan Shaw (InspectorJ)   | CC BY 3.0    | loopable                 |
+| [wolf_howl][]                     | killyourpepe                 | CC0          |                          |
+| [wolf_snarl][]                    | newagesoup                   | CC BY 3.0    |                          |
+| [woodpecker_peck][]               | Benboncan                    | CC BY 3.0    |                          |
+| [woosh_01][]                      | denao270                     | CC0          |                          |
+| [woosh_02][]                      | mrickey13                    | CC0          |                          |
+| [woosh_03][]                      | BranndyBottle                | CC0          |                          |
+| [woosh_04][]                      | JuanD20                      | CC0          |                          |
+| [yak][]                           | AntumDeluge                  | CC0          | imitation                |
+| [zebra][]                         | Peet J van Eeden             | CC BY        |                          |
+| [zipper][]                        | AntumDeluge                  | CC0          |                          |
+| [zombie_death][]                  | Under7dude                   | CC0          | from cmer zombie mod     |
 
 #### Node Sounds:
 
@@ -243,6 +244,7 @@
 
 [default]: https://github.com/minetest/minetest_game/tree/master/mods/default
 [fws]: https://www.fws.gov/video/sound.htm
+[oga.29445]: https://opengameart.org/node/29445
 
 [airplane_prop]: https://freesound.org/s/188423/
 [apple_bite]: https://freesound.org/s/333825/
@@ -358,6 +360,7 @@
 [leopard]: https://www.youtube.com/watch?v=VFsHjBbrebk
 [lion_bellow]: https://freesound.org/s/405211/
 [match_ignite]: https://freesound.org/s/484266/
+[melee_hit]: https://freesound.org/s/98341/
 [monkey]: https://opengameart.org/node/81240
 [motorbike_idle]: https://freesound.org/s/23212/
 [mouse]: https://opengameart.org/node/16331

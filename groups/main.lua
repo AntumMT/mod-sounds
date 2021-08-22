@@ -116,6 +116,57 @@ sounds.coin = iSoundGroup({
 
 
 
+--- Combat
+--
+--  @section combat
+
+
+--- @sndgroup sounds.entity_hit
+--  @snd entity_hit
+sounds.entity_hit = iSoundGroup({
+	"entity_hit",
+})
+
+--- @sndgroup sounds.melee_hit
+--  @snd melee_hit_01
+--  @snd melee_hit_02
+--  @snd melee_hit_03
+--  @snd melee_hit_04
+--  @snd melee_hit_05
+--  @snd melee_hit_06
+--  @snd melee_hit_07
+--  @snd melee_hit_08
+--  @snd melee_hit_09
+--  @snd melee_hit_10
+--  @snd melee_hit_11
+--  @snd melee_hit_12
+--  @snd melee_hit_13
+--  @snd melee_hit_14
+--  @snd melee_hit_15
+--  @snd melee_hit_16
+--  @snd melee_hit_17
+sounds.melee_hit = iSoundGroup({
+	"melee_hit_01",
+	"melee_hit_02",
+	"melee_hit_03",
+	"melee_hit_04",
+	"melee_hit_05",
+	"melee_hit_06",
+	"melee_hit_07",
+	"melee_hit_08",
+	"melee_hit_09",
+	"melee_hit_10",
+	"melee_hit_11",
+	"melee_hit_12",
+	"melee_hit_13",
+	"melee_hit_14",
+	"melee_hit_15",
+	"melee_hit_16",
+	"melee_hit_17",
+})
+
+
+
 --- Compressor
 --
 --  @section compressor
@@ -189,19 +240,6 @@ sounds.doorbell = iSoundGroup({
 --  @sndgroup sounds.door
 sounds.door = sounds.door_close + sounds.door_creak + sounds.door_knock + sounds.door_open
 	+ sounds.doorbell
-
-
-
---- Entity
---
---  @section entity
-
-
---- @sndgroup sounds.entity_hit
---  @snd entity_hit
-sounds.entity_hit = iSoundGroup({
-	"entity_hit",
-})
 
 
 

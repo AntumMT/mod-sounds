@@ -17,6 +17,7 @@ next
 	- fireworks
 	- fireworks_pop
 	- helicopter
+	- melee_hit
 	- plasma_shot
 	- scrape
 
