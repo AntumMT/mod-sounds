@@ -1,6 +1,6 @@
 
-next
-----
+v1.10
+-----
 - added method "sounds:play_random"
 - added "random" play button to tests
 - changed to require "prepend" to prefix sound files with "sounds_"
