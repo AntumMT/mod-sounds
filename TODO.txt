@@ -6,6 +6,7 @@ TODO:
 - create sounds.glass group
 - shorten length of rain_light, rain_medium, & wind
 - fix clock_tick loop
+- change using "no_prepend" to "prepend" so "sounds_" isn't prepended with explicit setting
 - tests:
 	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)
 - add more sounds:
