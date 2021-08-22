@@ -158,6 +158,7 @@
 | [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                          |
 | [seagull*][seagull]               | squashy555                   | CC0          |                          |
 | [seagulls][]                      | Soojay                       | CC0          |                          |
+| [shears][]*                       | SmartWentCody                | CC BY 3.0    |                          |
 | [sheep_baa][]                     | mikewest                     | CC0          |                          |
 | [skeleton_bones][]                | AntumDeluge                  | CC0          |                          |
 | [snake_rattle][fws]               | U.S. Fish & Wildlife Service | CC0          |                          |
@@ -409,6 +410,7 @@
 [sea_lion]: https://freesound.org/s/499564/
 [seagull]: https://freesound.org/s/353416/
 [seagulls]: https://freesound.org/s/462462/
+[shears]: https://freesound.org/s/179015/
 [shotgun_fire_pump]: https://freesound.org/s/348671/
 [shotgun_pump]: https://freesound.org/s/449613/
 [squirrel]: https://freesound.org/s/342105/

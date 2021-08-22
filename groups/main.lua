@@ -448,6 +448,21 @@ sounds.scrape = iSoundGroup({
 
 
 
+--- Shears
+--
+--  @section shears
+
+
+--- @sndgroup sounds.shears
+--  @snd shears_01
+--  @snd shears_02
+sounds.shears = iSoundGroup({
+	"shears_01",
+	"shears_02",
+})
+
+
+
 --- Tool
 --
 --  @section tool
