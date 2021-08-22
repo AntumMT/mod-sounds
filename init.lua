@@ -29,6 +29,7 @@ local scripts = {
 	"groups/firearm",
 	"groups/node",
 	"groups/projectile",
+	"groups/scifi",
 	"groups/vehicle",
 	"groups/weather",
 	"node",

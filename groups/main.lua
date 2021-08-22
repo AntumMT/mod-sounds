@@ -232,12 +232,6 @@ sounds.explosion_distant = SoundGroup({
 	"explosion_distant_04",
 })
 
---- @sndgroup sounds.explosion_scifi
---  @snd explosion_scifi
-sounds.explosion_scifi = SoundGroup({
-	"explosion_scifi",
-})
-
 
 
 --- Fire

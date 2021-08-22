@@ -132,6 +132,7 @@
 | [pistol_fire_03][]                | Morgan Purkis                | CC0          |                         |
 | [pistol_fire_dry][]               | Sophia Caldwell              | CC BY 3.0    |                         |
 | [pistol_reload][]                 | Bunny_Clark                  | CC BY 3.0    |                         |
+| [plasma_shot][]                   | Tobiasz 'unfa' Karoń         | CC0          |                         |
 | [puppy_bark][]                    | moffet                       | CC0          |                         |
 | [quail][]                         | PrincessGrace                | CC0          |                         |
 | [raccoon*][raccoon]               | jnargus                      | CC BY        |                         |
@@ -378,6 +379,7 @@
 [pistol_fire_dry]: https://freesound.org/s/467183/
 [pistol_reload]: https://freesound.org/s/377549/
 [place_metal]: https://opengameart.org/node/3511
+[plasma_shot]: https://freesound.org/s/584198/
 [puppy_bark]: https://freesound.org/s/583142/
 [quail]: https://freesound.org/s/329371/
 [raccoon]: https://www.youtube.com/watch?v=BGjFP1CP7E0

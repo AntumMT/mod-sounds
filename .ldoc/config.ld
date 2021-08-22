@@ -47,6 +47,7 @@ file = {
 	"groups/firearm.lua",
 	"groups/node.lua",
 	"groups/projectile.lua",
+	"groups/scifi.lua",
 	"groups/vehicle.lua",
 	"groups/weather.lua",
 	"tests.lua",

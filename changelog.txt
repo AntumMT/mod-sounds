@@ -14,6 +14,7 @@ next
 	- fireworks
 	- fireworks_pop
 	- helicopter
+	- plasma_shot
 	- scrape
 
 
