@@ -143,7 +143,6 @@ sounds.entity_hit = iSoundGroup({
 --  @snd melee_hit_13
 --  @snd melee_hit_14
 --  @snd melee_hit_15
---  @snd melee_hit_16
 --  @snd melee_hit_17
 sounds.melee_hit = iSoundGroup({
 	"melee_hit_01",
@@ -161,7 +160,6 @@ sounds.melee_hit = iSoundGroup({
 	"melee_hit_13",
 	"melee_hit_14",
 	"melee_hit_15",
-	"melee_hit_16",
 	"melee_hit_17",
 })
 
