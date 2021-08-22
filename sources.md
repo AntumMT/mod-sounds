@@ -195,6 +195,7 @@
 | [yak][]                           | AntumDeluge                  | CC0          | imitation                |
 | [zebra][]                         | Peet J van Eeden             | CC BY        |                          |
 | [zipper][]                        | AntumDeluge                  | CC0          |                          |
+| [zombie_damage][]                 | Under7dude                   | CC0          |                          |
 | [zombie_death][]                  | Under7dude                   | CC0          | from cmer zombie mod     |
 | [zombie_growl_01][]               | Under7dude                   | CC0          |                          |
 | [zombie_growl_02][]               | Under7dude                   | CC0          |                          |
@@ -451,6 +452,7 @@
 [yak]: https://opengameart.org/node/98682
 [zebra]: https://www.youtube.com/watch?v=xjGJ_XMVTRE
 [zipper]: https://opengameart.org/node/16332
+[zombie_damage]: https://freesound.org/s/163447/
 [zombie_death]: https://freesound.org/s/163442/
 [zombie_growl_01]: https://freesound.org/s/163440/
 [zombie_growl_02]: https://freesound.org/s/163444/

@@ -23,6 +23,7 @@ next
 	- melee_hit
 	- plasma_shot
 	- scrape
+	- zombie_damage
 	- zombie_growl
 
 

@@ -28,6 +28,12 @@ sounds.undead_moan = iSoundGroup({
 	"undead_moan_04",
 })
 
+--- @sndgroup sounds.zombie_damage
+--  @snd zombie_damage
+sounds.zombie_damage = iSoundGroup({
+	"zombie_damage",
+})
+
 --- @sndgroup sounds.zombie_death
 --  @snd zombie_death
 sounds.zombie_death = iSoundGroup({
@@ -50,10 +56,13 @@ sounds.zombie_growl = iSoundGroup({
 --
 --  - `sounds.skeleton`
 --  - `sounds.undead_moan`
+--  - `sounds.zombie_damage`
 --  - `sounds.zombie_death`
+--  - `sounds.zombie_growl`
 --
 --  @sndgroup sounds.undead
-sounds.undead = sounds.skeleton + sounds.undead_moan + sounds.zombie_death + sounds.zombie_growl
+sounds.undead = sounds.skeleton + sounds.undead_moan + sounds.zombie_damage
+	+ sounds.zombie_death + sounds.zombie_growl
 
 
 
