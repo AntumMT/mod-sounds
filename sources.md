@@ -37,6 +37,7 @@
 | [cicada_05][]                     | sinewave1kHz                 | CC0          | loopable                |
 | [cicada_06][]                     | Ian Davies                   | CC0          | loopable                |
 | [cicada_07][]                     | Jedo                         | CC0          | loopable                |
+| [cicada_08][]                     | OroborosNZ                   | CC BY 3.0    | loopable                |
 | [clock_tick][]                    | AntumDeluge                  | CC0          | loopable                |
 | [cobra*][cobra]                   | N/A                          | CC0          |                         |
 | [coin][]                          | greenvwbeetle                | CC0          |                         |
@@ -265,6 +266,7 @@
 [cicada_05]: https://freesound.org/s/207374/
 [cicada_06]: https://freesound.org/s/434330/
 [cicada_07]: https://freesound.org/s/396809/
+[cicada_08]: https://freesound.org/s/179565/
 [clock_tick]: https://opengameart.org/node/16323
 [cobra]: https://archive.org/details/unknowncobracobrabitewmv
 [coin]: https://freesound.org/s/423332/
