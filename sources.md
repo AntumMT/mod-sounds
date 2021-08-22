@@ -214,9 +214,8 @@
 | [dug_glass.3][]                   | lsprice                    | CC BY 3.0    |                         |
 | [dug_gravel.*][dig_gravel]        | lolamadeus                 | CC0          |                         |
 | [dug_ice][]                       | Angel_Perez_Grandi         | CC BY 3.0    |                         |
-| [dug_metal.*][dug_metal]          | qubodup                    | CC0          |                         |
+| [dug_metal][]*                    | qubodup                    | CC0          |                         |
 | [place*][default]                 | Mito551                    | CC BY-SA 3.0 |                         |
-| [place_metal.*][place_metal]      | Ogrebane                   | CC0          |                         |
 | [step_dirt.*][default]            | Mito551                    | CC BY-SA 3.0 |                         |
 | [step_glass][default]             | Mito551                    | CC BY-SA 3.0 |                         |
 | [step_grass.*][default]           | Mito551                    | CC BY-SA 3.0 |                         |
@@ -382,7 +381,6 @@
 [pistol_fire_03]: https://freesound.org/s/385812/
 [pistol_fire_dry]: https://freesound.org/s/467183/
 [pistol_reload]: https://freesound.org/s/377549/
-[place_metal]: https://opengameart.org/node/3511
 [plasma_shot]: https://freesound.org/s/584198/
 [puppy_bark]: https://freesound.org/s/583142/
 [quail]: https://freesound.org/s/329371/

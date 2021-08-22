@@ -2,7 +2,6 @@
 TODO:
 - add ambiance registration for biomes
 - add option to get sound by string name in "SoundGroup:get" using string.match
-- fix "node_dug_meta" & "node_place_metal" are the same
 - create sounds.glass group
 - shorten length of rain_light, rain_medium, & wind
 - tests:

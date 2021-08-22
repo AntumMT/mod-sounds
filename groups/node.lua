@@ -60,9 +60,9 @@ sounds.node = {
 	--  @see node sounds.node
 	place = iSoundGroup({"node_place",
 		--- @sndgroup sounds.node.place.metal
-		--  @snd[r2] node_place_metal
+		--  @snd[r2] node_dug_metal
 		--  @see node sounds.node_metal
-		metal = iSoundGroup({"node_place_metal"}),
+		metal = iSoundGroup({"node_dug_metal"}),
 		--- @sndgroup sounds.node.place.soft
 		--  @snd[r3] node_place_soft
 		soft = iSoundGroup({"node_place_soft"}),

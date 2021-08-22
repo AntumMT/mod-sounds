@@ -7,6 +7,7 @@ next
 - fixed inheriting "prepend" attribute when concatenating SoundGroup instances with arithmetic operator
 - added iSoundGroup object meant for use with sounds prefixed with "sounds_" only
 - fixed length of clock_tick so loops
+- deleted "node_place_metal" sounds duplicates of "node_dug_metal"
 - renamed sounds:
 	- some "ar_fire sounds" to "ar_burst"
 - added sounds:
