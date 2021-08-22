@@ -30,7 +30,7 @@
 | [chalk_screech_03][]              | Sirderf                      | CC BY 3.0    |                         |
 | [chalk_write*][chalk_write]       | thavis360                    | CC0          |                         |
 | [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                         |
-| [cicada_01][]                     | InspectorJ                   | CC BY 3.0    | loopable                |
+| [cicada_01][]                     | Jonathan Shaw (InspectorJ)   | CC BY 3.0    | loopable                |
 | [cicada_02][]                     | Exomène                      | CC BY 3.0    | loopable                |
 | [cicada_03][]                     | beau_rl                      | CC0          | loopable                |
 | [cicada_04][]                     | macdaddyno1                  | CC0          | loopable                |
@@ -50,9 +50,9 @@
 | [dog_bark][]                      | ivolipa                      | CC0          |                         |
 | [dolphin*][dolphin]               | Nagaty Studio                | CC BY        |                         |
 | [door_close_01][]                 | LampEight                    | CC0          |                         |
-| [door_close_02][]                 | InspectorJ                   | CC BY 3.0    |                         |
+| [door_close_02][]                 | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                         |
 | [door_close_03][]                 | bennstir                     | CC BY 3.0    |                         |
-| [door_creak][]                    | InspectorJ                   | CC BY 3.0    |                         |
+| [door_creak][]                    | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                         |
 | [door_knock_01][]                 | LPHypeR                      | CC BY 3.0    |                         |
 | [door_knock_02][]                 | Patrick Hunt                 | CC0          |                         |
 | [door_open][]                     | skyumori                     | CC0          |                         |
@@ -72,7 +72,8 @@
 | [fireball_01][]                   | Julien Matthey               | CC0          |                         |
 | [fireball_02][]                   | Julien Matthey               | CC0          |                         |
 | [fireball_03][]                   | Julien Matthey               | CC0          |                         |
-| [fireworks][]                     | Florian Reichelt             | CC0          |                         |
+| [fireworks_01][]                  | Florian Reichelt             | CC0          |                         |
+| [fireworks_02][]                  | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                         |
 | [fuse][]                          | Ned Bouhalassa               | CC0          |                         |
 | [gallop_01][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
 | [gallop_02][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                         |
@@ -108,7 +109,7 @@
 | [leaves*][leaves]                 | DSOADigital                  | CC0          |                         |
 | [leopard*][leopard]               | Ian Fairley                  | CC BY        |                         |
 | [lion_bellow][]                   | felix.blume                  | CC0          |                         |
-| [match_ignite][]                  | InspectorJ                   | CC BY 3.0    |                         |
+| [match_ignite][]                  | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                         |
 | [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation               |
 | [motorbike_idle][]                | m1rk0                        | CC BY 3.0    | loopable                |
 | [mouse][]                         | AntumDeluge                  | CC0          | imitation               |
@@ -178,7 +179,7 @@
 | [watch_tick][]                    | Nicolas4677                  | CC0          | loopable                |
 | [whale][]                         | Ian Fairley                  | CC BY        |                         |
 | [whistle][]                       | pawsound                     | CC0          |                         |
-| [wind][]                          | InspectorJ                   | CC BY 3.0    | loopable                |
+| [wind][]                          | Jonathan Shaw (InspectorJ)   | CC BY 3.0    | loopable                |
 | [wolf_howl][]                     | killyourpepe                 | CC0          |                         |
 | [wolf_snarl][]                    | newagesoup                   | CC BY 3.0    |                         |
 | [woodpecker_peck][]               | Benboncan                    | CC BY 3.0    |                         |
@@ -193,38 +194,38 @@
 
 #### Node Sounds:
 
-| Filename (sounds_node_) / Source  | Author                   | License      | Notes                   |
-| --------------------------------- | ------------------------ | ------------ | ----------------------- |
-| [dig_choppy.*][dig_choppy]        | Sheyvan                  | CC0          |                         |
-| [dig_cracky.*][dig_cracky]        | Benboncan                | CC BY 3.0    |                         |
-| [dig_crumbly][default]            | Mito551                  | CC BY-SA 3.0 |                         |
-| [dig_gravel.*][dig_gravel]        | lolamadeus               | CC0          |                         |
-| [dig_ice.*][dig_ice]              | dheming                  | CC BY 3.0    |                         |
-| [dig_metal][]                     | yadronoff                | CC BY 3.0    |                         |
-| [dig_snappy][]                    | blukotek                 | CC0          |                         |
-| [dug.*][default]                  | Mito551                  | CC BY-SA 3.0 |                         |
-| [dug_glass.1][]                   | cmusounddesign           | CC BY 3.0    |                         |
-| [dug_glass.2][]                   | Tomlija                  | CC BY 3.0    |                         |
-| [dug_glass.3][]                   | lsprice                  | CC BY 3.0    |                         |
-| [dug_gravel.*][dig_gravel]        | lolamadeus               | CC0          |                         |
-| [dug_ice][]                       | Angel_Perez_Grandi       | CC BY 3.0    |                         |
-| [dug_metal.*][dug_metal]          | qubodup                  | CC0          |                         |
-| [place*][default]                 | Mito551                  | CC BY-SA 3.0 |                         |
-| [place_metal.*][place_metal]      | Ogrebane                 | CC0          |                         |
-| [step_dirt.*][default]            | Mito551                  | CC BY-SA 3.0 |                         |
-| [step_glass][default]             | Mito551                  | CC BY-SA 3.0 |                         |
-| [step_grass.*][default]           | Mito551                  | CC BY-SA 3.0 |                         |
-| [step_gravel][default]            | Mito551                  | CC BY-SA 3.0 |                         |
-| [step_hard.*][step_hard]          | Erdie                    | CC BY 3.0    |                         |
-| [step_ice.*][step_ice]            | InspectorJ               | CC BY 3.0    |                         |
-| [step_metal.*][step_metal]        | mypantsfelldown          | CC0          |                         |
-| [step_sand.*][step_sand]          | worthahep88              | CC0          |                         |
-| [step_snow.*][step_snow]          | Ryding                   | CC0          |                         |
-| [step_water.1][]                  | AGFX                     | CC BY 3.0    |                         |
-| [step_water.2][]                  | AGFX                     | CC BY 3.0    |                         |
-| [step_water.3][]                  | AGFX                     | CC BY 3.0    |                         |
-| step_water.4                      | AntumDeluge              | CC0          | generated with Audacity |
-| [step_wood.*][default]            | Mito551                  | CC BY-SA 3.0 |                         |
+| Filename (sounds_node_) / Source  | Author                     | License      | Notes                   |
+| --------------------------------- | -------------------------- | ------------ | ----------------------- |
+| [dig_choppy.*][dig_choppy]        | Sheyvan                    | CC0          |                         |
+| [dig_cracky.*][dig_cracky]        | Benboncan                  | CC BY 3.0    |                         |
+| [dig_crumbly][default]            | Mito551                    | CC BY-SA 3.0 |                         |
+| [dig_gravel.*][dig_gravel]        | lolamadeus                 | CC0          |                         |
+| [dig_ice.*][dig_ice]              | dheming                    | CC BY 3.0    |                         |
+| [dig_metal][]                     | yadronoff                  | CC BY 3.0    |                         |
+| [dig_snappy][]                    | blukotek                   | CC0          |                         |
+| [dug.*][default]                  | Mito551                    | CC BY-SA 3.0 |                         |
+| [dug_glass.1][]                   | cmusounddesign             | CC BY 3.0    |                         |
+| [dug_glass.2][]                   | Tomlija                    | CC BY 3.0    |                         |
+| [dug_glass.3][]                   | lsprice                    | CC BY 3.0    |                         |
+| [dug_gravel.*][dig_gravel]        | lolamadeus                 | CC0          |                         |
+| [dug_ice][]                       | Angel_Perez_Grandi         | CC BY 3.0    |                         |
+| [dug_metal.*][dug_metal]          | qubodup                    | CC0          |                         |
+| [place*][default]                 | Mito551                    | CC BY-SA 3.0 |                         |
+| [place_metal.*][place_metal]      | Ogrebane                   | CC0          |                         |
+| [step_dirt.*][default]            | Mito551                    | CC BY-SA 3.0 |                         |
+| [step_glass][default]             | Mito551                    | CC BY-SA 3.0 |                         |
+| [step_grass.*][default]           | Mito551                    | CC BY-SA 3.0 |                         |
+| [step_gravel][default]            | Mito551                    | CC BY-SA 3.0 |                         |
+| [step_hard.*][step_hard]          | Erdie                      | CC BY 3.0    |                         |
+| [step_ice.*][step_ice]            | Jonathan Shaw (InspectorJ) | CC BY 3.0    |                         |
+| [step_metal.*][step_metal]        | mypantsfelldown            | CC0          |                         |
+| [step_sand.*][step_sand]          | worthahep88                | CC0          |                         |
+| [step_snow.*][step_snow]          | Ryding                     | CC0          |                         |
+| [step_water.1][]                  | AGFX                       | CC BY 3.0    |                         |
+| [step_water.2][]                  | AGFX                       | CC BY 3.0    |                         |
+| [step_water.3][]                  | AGFX                       | CC BY 3.0    |                         |
+| step_water.4                      | AntumDeluge                | CC0          | generated with Audacity |
+| [step_wood.*][default]            | Mito551                    | CC BY-SA 3.0 |                         |
 
 <a name="authors">**Authors Continued:**</a>
 
@@ -315,7 +316,8 @@
 [fireball_01]: https://freesound.org/s/105016/
 [fireball_02]: https://freesound.org/s/346917/
 [fireball_03]: https://freesound.org/s/346916/
-[fireworks]: https://freesound.org/s/459973/
+[fireworks_01]: https://freesound.org/s/459973/
+[fireworks_02]: https://freesound.org/s/328861/
 [frog]: https://freesound.org/s/251495/
 [fuse]: https://freesound.org/s/8320/
 [gallop_01]: https://freesound.org/s/403026/

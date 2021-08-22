@@ -259,9 +259,11 @@ sounds.fire = SoundGroup({
 
 
 --- @sndgroup sounds.fireworks
---  @snd fireworks
+--  @snd fireworks_01
+--  @snd fireworks_02
 sounds.fireworks = SoundGroup({
-	"fireworks",
+	"fireworks_01",
+	"fireworks_02",
 })
 
 
