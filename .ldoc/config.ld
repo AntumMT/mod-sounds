@@ -35,7 +35,7 @@ favicon = "https://www.minetest.net/media/icon.svg"
 readme = ".ldoc/README.md"
 style = true
 
-local version = 1.10
+local version = "1.10"
 
 file = {
 	"settings.lua",
