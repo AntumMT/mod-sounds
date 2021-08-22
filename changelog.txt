@@ -8,6 +8,7 @@ next
 - added iSoundGroup object meant for use with sounds prefixed with "sounds_" only
 - fixed length of clock_tick so loops
 - deleted "node_place_metal" sounds duplicates of "node_dug_metal"
+- deleted some of the less useful compound groups
 - renamed sounds:
 	- some "ar_fire sounds" to "ar_burst"
 - added sounds:

@@ -69,16 +69,6 @@ sounds.yak = iSoundGroup({
 	"yak",
 })
 
---- <br>
---
---  Includes:
---
---  - `sounds.cow_moo`
---  - `sounds.yak`
---
---  @sndgroup sounds.bovine
-sounds.bovine = sounds.cow_moo + sounds.yak
-
 
 
 --- Camelid
@@ -151,28 +141,6 @@ sounds.wolf_snarl = iSoundGroup({
 	"wolf_snarl",
 })
 
---- <br>
---
---  Includes:
---
---  - `sounds.wolf_howl`
---  - `sounds.wolf_snarl`
---
---  @sndgroup sounds.wolf
-sounds.wolf = sounds.wolf_howl + sounds.wolf_snarl
-
---- <br>
---
---  Includes:
---
---  - `sounds.coyote_howl`
---  - `sounds.dog`
---  - `sounds.hyena`
---  - `sounds.wolf`
---
---  @sndgroup sounds.canine
-sounds.canine = sounds.coyote_howl + sounds.dog + sounds.hyena + sounds.wolf
-
 
 
 --- Caprine
@@ -212,16 +180,6 @@ sounds.sheep_baa = iSoundGroup({
 --  @sndgroup sounds.sheep
 sounds.sheep = sounds.lamb + sounds.sheep_baa
 
---- <br>
---
---  Includes:
---
---  - `sounds.goat_bleat`
---  - `sounds.sheep`
---
---  @sndgroup sounds.caprine
-sounds.caprine = sounds.goat_bleat + sounds.sheep
-
 
 
 --- Cetacean
@@ -256,16 +214,6 @@ sounds.dolphin = sounds.dolphin_chirp + sounds.dolphin_click
 sounds.whale = iSoundGroup({
 	"whale",
 })
-
---- <br>
---
---  Includes:
---
---  - `sounds.dolphin`
---  - `sounds.whale`
---
---  @sndgroup sounds.cetacean
-sounds.cetacean = sounds.dolphin + sounds.whale
 
 
 
@@ -318,16 +266,6 @@ sounds.horse = sounds.horse_neigh + sounds.horse_snort
 sounds.zebra = iSoundGroup({
 	"zebra",
 })
-
---- <br>
---
---  Includes:
---
---  - `sounds.horse`
---  - `sounds.zebra`
---
---  @sndgroup sounds.equine
-sounds.equine = sounds.horse + sounds.zebra
 
 
 
@@ -443,19 +381,6 @@ sounds.tiger_snarl = iSoundGroup({
 --
 --  @sndgroup sounds.tiger
 sounds.tiger = sounds.tiger_roar + sounds.tiger_snarl
-
---- <br>
---
---  Includes:
---
---  - `sounds.cat_meow`
---  - `sounds.jaguar`
---  - `sounds.lion`
---  - `sounds.tiger`
---
---  @sndgroup sounds.feline
-sounds.feline = sounds.cat_meow + sounds.jaguar + sounds.leopard + sounds.lion
-	+ sounds.tiger
 
 
 
@@ -623,34 +548,6 @@ sounds.woodpecker = iSoundGroup({
 	"woodpecker_peck",
 })
 
---- <br>
---
---  Includes:
---
---  - `sounds.bird`
---  - `sounds.chicken`
---  - `sounds.crow_caw`
---  - `sounds.duck_quack`
---  - `sounds.goose`
---  - `sounds.owl`
---  - `sounds.parrot`
---  - `sounds.peacock`
---  - `sounds.penguin`
---  - `sounds.pigeon`
---  - `sounds.quail`
---  - `sounds.rooster`
---  - `sounds.seagull`
---  - `sounds.toucan`
---  - `sounds.turkey_gobble`
---  - `sounds.vulture`
---  - `sounds.woodpecker`
---
---  @sndgroup sounds.fowl
-sounds.fowl = sounds.bird + sounds.chicken + sounds.crow_caw + sounds.duck_quack
-	+ sounds.goose + sounds.owl + sounds.parrot + sounds.peacock + sounds.penguin
-	+ sounds.pigeon + sounds.quail + sounds.rooster + sounds.seagull + sounds.toucan
-	+ sounds.turkey_gobble + sounds.vulture + sounds.woodpecker
-
 
 
 --- Giraffe
@@ -714,18 +611,6 @@ sounds.cricket = iSoundGroup({
 sounds.grasshopper = iSoundGroup({
 	"grasshopper",
 })
-
---- <br>
---
---  Includes:
---
---  - `sounds.bee`
---  - `sounds.cicada`
---  - `sounds.cricket`
---  - `sounds.grasshopper`
---
---  @sndgroup sounds.insect
-sounds.insect = sounds.bee + sounds.cicada + sounds.cricket + sounds.grasshopper
 
 
 
@@ -796,16 +681,6 @@ sounds.monkey = iSoundGroup({
 	"monkey_03",
 })
 
---- <br>
---
---  Includes:
---
---  - `sounds.gorilla`
---  - `sounds.monkey`
---
---  @sndgroup sounds.primate
-sounds.primate = sounds.gorilla + sounds.monkey
-
 
 
 --- Raccoon
@@ -844,16 +719,6 @@ sounds.squirrel = iSoundGroup({
 	"squirrel_02",
 	"squirrel_03",
 })
-
---- <br>
---
---  Includes:
---
---  - `sounds.mouse`
---  - `sounds.squirrel`
---
---  @sndgroup sounds.rodent
-sounds.rodent = sounds.mouse + sounds.squirrel
 
 
 

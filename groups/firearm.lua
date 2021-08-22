@@ -73,18 +73,6 @@ sounds.pistol_reload = iSoundGroup({
 	"pistol_reload",
 })
 
---- <br>
---
---  Includes:
---
---  - `sounds.pistol_cock`
---  - `sounds.pistol_fire`
---  - `sounds.pistol_fire_dry`
---  - `sounds.pistol_reload`
---
--- @sndgroup sounds.pistol
-sounds.pistol = sounds.pistol_cock + sounds.pistol_fire + sounds.pistol_fire_dry + sounds.pistol_reload
-
 
 
 --- Ricochet
@@ -143,18 +131,6 @@ sounds.rifle_small_fire = iSoundGroup({
 	"rifle_small_fire_02",
 })
 
---- <br>
---
---  Includes:
---
---  - `sounds.rifle_cock`
---  - `sounds.rifle_fire`
---  - `sounds.rifle_fire_dry`
---  - `sounds.rifle_small_fire`
---
---  @sndgroup sounds.rifle
-sounds.rifle = sounds.rifle_cock + sounds.rifle_fire + sounds.rifle_fire_dry + sounds.rifle_small_fire
-
 
 
 --- Shotgun
@@ -173,13 +149,3 @@ sounds.shotgun_fire = iSoundGroup({
 sounds.shotgun_pump = iSoundGroup({
 	"shotgun_pump",
 })
-
---- <br>
---
---  Includes:
---
---  - `sounds.shotgun_fire`
---  - `sounds.shotgun_pump`
---
---  @sndgroup sounds.shotgun
-sounds.shotgun = sounds.shotgun_fire + sounds.shotgun_pump

@@ -51,17 +51,6 @@ sounds.bicycle_spokes = iSoundGroup({
 	"bicycle_spokes",
 })
 
---- <br>
---
---  Includes:
---
---  - `sounds.bicycle_bell`
---  - `sounds.bicycle_horn`
---  - `sounds.bicycle_spokes`
---
---  @sndgroup sounds.bicycle
-sounds.bicycle = sounds.bicycle_bell + sounds.bicycle_horn + sounds.bicycle_spokes
-
 
 
 --- Helicopter
@@ -123,13 +112,3 @@ sounds.vehicle_motor = iSoundGroup({
 	"car_motor",
 	"vehicle_motor_idle",
 })
-
---- <br>
---
---  Includes:
---
---  - `sounds.vehicle_horn`
---  - `sounds.vehicle_motor`
---
---  @sndgroup sounds.vehicle
-sounds.vehicle = sounds.vehicle_horn + sounds.vehicle_motor

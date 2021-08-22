@@ -77,20 +77,6 @@ sounds.zombie_growl = iSoundGroup({
 	"zombie_growl_03",
 })
 
---- <br>
---
---  Includes:
---
---  - `sounds.skeleton`
---  - `sounds.undead_moan`
---  - `sounds.zombie_damage`
---  - `sounds.zombie_death`
---  - `sounds.zombie_growl`
---
---  @sndgroup sounds.undead
-sounds.undead = sounds.skeleton + sounds.undead_moan + sounds.zombie_damage
-	+ sounds.zombie_death + sounds.zombie_growl
-
 
 
 --- Misc.

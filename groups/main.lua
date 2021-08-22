@@ -22,15 +22,12 @@ sounds.balloon_pop = iSoundGroup({
 	"balloon_pop",
 })
 
---- <br>
+
+
+--- Bite
 --
---  Includes:
---
---  - `sounds.balloon_inflate`
---  - `sounds.balloon_pop`
---
---  @sndgroup sounds.balloon
-sounds.balloon = sounds.balloon_inflate + sounds.balloon_pop
+--  @section bite
+
 
 --- @sndgroup sounds.bite
 --  @snd apple_bite
@@ -77,16 +74,6 @@ sounds.chalk_write = iSoundGroup({
 	"chalk_write_02",
 	"chalk_write_03",
 })
-
---- <br>
---
---  Includes:
---
---  - `sounds.chalk_screech`
---  - `sounds.chalk_write`
---
---  @sndgroup sounds.chalk
-sounds.chalk = sounds.chalk_screech + sounds.chalk_write
 
 
 
@@ -224,20 +211,6 @@ sounds.doorbell = iSoundGroup({
 	"doorbell_02",
 	"doorbell_03",
 })
-
---- <br>
---
---  Includes:
---
---  - `sounds.door_close`
---  - `sounds.door_creak`
---  - `sounds.door_knock`
---  - `sounds.door_open`
---  - `sounds.doorbell`
---
---  @sndgroup sounds.door
-sounds.door = sounds.door_close + sounds.door_creak + sounds.door_knock + sounds.door_open
-	+ sounds.doorbell
 
 
 
@@ -395,16 +368,6 @@ sounds.pencil_erase = iSoundGroup({
 sounds.pencil_write = iSoundGroup({
 	"pencil_write",
 })
-
---- <br>
---
---  Includes:
---
---  - `sounds.pencil_erase`
---  - `sounds.pencil_write`.
---
---  @sndgroup sounds.pencil
-sounds.pencil = sounds.pencil_erase + sounds.pencil_write
 
 
 
