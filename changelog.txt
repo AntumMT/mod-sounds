@@ -3,7 +3,8 @@ next
 ----
 - added method "sounds:play_random"
 - added "random" play button to tests
-- fixed inheriting "no_prepend" attribute when concatenating SoundGroup instances with arithmetic operator
+- changed to require "prepend" to prefix sound files with "sounds_"
+- fixed inheriting "prepend" attribute when concatenating SoundGroup instances with arithmetic operator
 - renamed sounds:
 	- some "ar_fire sounds" to "ar_burst"
 - added sounds:

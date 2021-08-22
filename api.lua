@@ -58,7 +58,7 @@ sounds.play_random = function(self, snds, sp)
 	end
 
 	local play_group = table.copy(snds)
-	if type(snds) == "SoundGroup" and snds.no_prepend ~= true then
+	if type(snds) == "SoundGroup" and snds.prepend == true then
 		for idx, snd in ipairs(play_group) do
 			play_group[idx] = "sounds_" .. snd
 		end
@@ -85,7 +85,7 @@ end
 --  @table SoundGroup
 --  @tfield SoundGroup:count count Retrieves number of available sounds.
 --  @tfield SoundGroup:play play Plays indexed or random sound.
---  @tfield bool no_prepend If set to `true`, omits prepending "sounds_" to sound filenames when played.
+--  @tfield bool prepend If set to `true`, prepends "sounds_" to sound filenames when played or accessed.
 SoundGroup = {
 	--- Constructor.
 	--
@@ -94,8 +94,8 @@ SoundGroup = {
 	--  @treturn SoundGroup Sound group definition table.
 	--  @usage
 	--  -- create new sound groups
-	--  local s_group1 = SoundGroup({"sound1", "sound2"})
-	--  local s_group2 = SoundGroup({"modname_sound1", "modname_sound2", no_prepend=true})
+	--  local s_group1 = SoundGroup({"sound1", "sound2", prepend=true})
+	--  local s_group2 = SoundGroup({"modname_sound1", "modname_sound2"})
 	--
 	--  -- play sound at index
 	--  s_group1:play(2)
@@ -141,7 +141,7 @@ SoundGroup = {
 						end
 					end
 
-					new_group.no_prepend = self.no_prepend
+					new_group.prepend = self.prepend
 					return SoundGroup(new_group)
 				end,
 			}
@@ -214,7 +214,7 @@ SoundGroup = {
 		end
 
 		local selected = self[idx]
-		if type(selected) == "string" and self.no_prepend ~= true then
+		if type(selected) == "string" and self.prepend == true then
 			selected = "sounds_" .. selected
 		end
 
@@ -235,7 +235,7 @@ SoundGroup = {
 				name = self[rand:next(1, s_count)]
 			end
 
-			if self.no_prepend ~= true then
+			if self.prepend == true then
 				name = "sounds_" .. name
 			end
 		end
@@ -269,7 +269,7 @@ SoundGroup = {
 			end
 		end
 
-		if self.no_prepend ~= true then
+		if self.prepend == true then
 			local rtype = type(retval)
 			if rtype == "string" then
 				retval = "sounds_" .. retval

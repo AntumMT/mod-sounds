@@ -72,12 +72,12 @@ local s_group3 = s_group1 + s_group2
 -- strings can also be concatenated to group with arithmetic operator
 s_group3 = s_group3 + "sound6"
 
--- to prevent sound file names from being prefixed with "sounds_" when played,
--- the `no_prepend` field must be set to `true`
-s_group1(2) -- plays "sounds_sound2"
-
-s_group1.no_prepend = true
+-- by setting the `prepend` attribute `true`, sound file names will be prepended
+-- with "sounds_" when played or accessed
 s_group1(2) -- plays "sound2"
+
+s_group1.prepend = true
+s_group1(2) -- plays "sounds_sound2"
 ```
 
 There are many [pre-defined sound groups](https://antummt.github.io/mod-sounds/reference/latest/topics/groups.html).
@@ -115,14 +115,14 @@ minetest.register_node("foo:bar", {
 
 Currently using `SoundGroup` for node sounds only works for "dig", "dug", & "place".
 
-`SoundGroup` objects are tables & are indexed by integer. But using the `get` method is more reliable as it will return the string name with "sounds_" prefix if `no_prepend` isn't set:
+`SoundGroup` objects are tables & are indexed by integer. But using the `get` method is more reliable as it will return the string name with "sounds_" prefix if `prepend` is set:
 ```lua
 local s_group1 = SoundGroup({"sound1", "sound2"})
-local s1 = s_group1:get(1) -- returns "sounds_sound1"
+local s1 = s_group1:get(1) -- returns "sound1"
 local s2 = s_group1[2] -- returns "sound2"
 
-local s_group2 = SoundGroup({"sound3", "sound4", no_prepend=true})
-local s3 = s_group2:get(1) -- returns "sound3"
+local s_group2 = SoundGroup({"sound3", "sound4", prepend=true})
+local s3 = s_group2:get(1) -- returns "sounds_sound3"
 local s4 = s_group2[2] -- returns "sound4"
 ```
 
