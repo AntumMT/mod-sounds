@@ -108,7 +108,7 @@ sounds.train_whistle = iSoundGroup({
 --  @section vehicle
 
 
---- @sndgroup sound.vehicle_horn
+--- @sndgroup sounds.vehicle_horn
 --  @snd vehicle_horn_01
 --  @snd vehicle_horn_02
 sounds.vehicle_horn = iSoundGroup({
