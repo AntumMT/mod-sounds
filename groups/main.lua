@@ -213,9 +213,11 @@ sounds.entity_hit = SoundGroup({
 --- @sndgroup sounds.explosion
 --  @snd explosion_01
 --  @snd explosion_02
+--  @snd explosion_03
 sounds.explosion = SoundGroup({
 	"explosion_01",
 	"explosion_02",
+	"explosion_03",
 })
 
 --- @sndgroup sounds.explosion_distant
