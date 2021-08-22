@@ -19,6 +19,9 @@ next
 	- fireworks
 	- fireworks_pop
 	- fuse_short
+	- ghost
+	- ghost_damage
+	- ghost_death
 	- helicopter
 	- melee_hit
 	- plasma_shot

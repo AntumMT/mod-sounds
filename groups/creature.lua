@@ -5,6 +5,33 @@
 
 
 
+--- Ghost
+--
+--  @section ghost
+
+
+--- @sndgroup sounds.ghost
+--  @snd ghost_01
+--  @snd ghost_02
+sounds.ghost = iSoundGroup({
+	"ghost_01",
+	"ghost_02",
+})
+
+--- @sndgroup sounds.ghost_damage
+--  @snd ghost_damage
+sounds.ghost_damage = iSoundGroup({
+	"ghost_damage",
+})
+
+--- @sndgroup sounds.ghost
+--  @snd ghost_death
+sounds.ghost_death = iSoundGroup({
+	"ghost_death",
+})
+
+
+
 --- Undead
 --
 --  @section undead

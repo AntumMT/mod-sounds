@@ -79,6 +79,7 @@
 | [fuse_short][fuse]                | Ned Bouhalassa               | CC0          |                          |
 | [gallop_01][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                          |
 | [gallop_02][]                     | Alan McKinney (alanmcki)     | CC BY 3.0    |                          |
+| [ghost][]*                        | BlockMen                     | CC BY-SA 3.0 |                          |
 | [giraffe_hum][]                   | [↓](#authors)                | CC BY-SA 4.0 |                          |
 | [goat_bleat*][goat_bleat]         | Stephan                      | CC0          |                          |
 | [goose][]                         | Glaneur de sons              | CC BY 3.0    |                          |
@@ -333,6 +334,7 @@
 [fuse]: https://freesound.org/s/8320/
 [gallop_01]: https://freesound.org/s/403026/
 [gallop_02]: https://freesound.org/s/403025/
+[ghost]: https://github.com/BlockMen/cme
 [giraffe_hum]: https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-015-1394-3#Sec10
 [goat_bleat]: https://pdsounds.org/pdsounds_files/files/audio/ziegengatter.mp3
 [goose]: https://freesound.org/s/104959/
