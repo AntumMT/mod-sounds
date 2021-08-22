@@ -64,6 +64,19 @@ sounds.bicycle = sounds.bicycle_bell + sounds.bicycle_horn + sounds.bicycle_spok
 
 
 
+--- Helicopter
+--
+--  @section helicopter
+
+
+--- @sndgroup sounds.helicopter
+--  @snd helicopter (loopable)
+sounds.helicopter = SoundGroup({
+	"helicopter",
+})
+
+
+
 --- Motorbike
 --
 --  @section motorbike

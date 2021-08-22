@@ -85,6 +85,7 @@
 | [gorilla_roar][]                  | J0ck0                        | CC0          |                         |
 | [gorilla_snarl*][gorilla_grunt]   | [↓](#authors)                | CC0          |                         |
 | [grasshopper][]                   | straget                      | CC0          |                         |
+| [helicopter][]                    | Thomas Ryder Payne           | CC0          | loopable                |
 | [horse_neigh_01][]                | GoodListener                 | CC BY 3.0    |                         |
 | [horse_neigh_02][]                | foxen10                      | CC0          |                         |
 | [horse_snort_01][]                | madklown                     | CC0          |                         |
@@ -330,6 +331,7 @@
 [gorilla_grunt]: https://www.mediacollege.com/downloads/sound-effects/animals/primates/
 [gorilla_roar]: https://freesound.org/s/397054/
 [grasshopper]: https://freesound.org/s/401939/
+[helicopter]: https://freesound.org/s/573170/
 [horse_neigh_01]: https://freesound.org/s/322443/
 [horse_neigh_02]: https://freesound.org/s/149024/
 [horse_snort_01]: https://freesound.org/s/184503/
