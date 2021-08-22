@@ -1,6 +1,7 @@
 
 next
 ----
+- added method "sounds:play_random"
 - renamed sounds:
 	- some "ar_fire sounds" to "ar_burst"
 - added sounds:

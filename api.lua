@@ -47,6 +47,26 @@ sounds.play = function(self, name, sp)
 	return s_handle, name
 end
 
+--- Plays a random sound from a list.
+--
+--  @function sounds:play_random
+--  @tparam table snds List of sound names.
+--  @tparam[opt] SoundParams sp Sound parameters.
+sounds.play_random = function(self, snds, sp)
+	if #snds == 0 then
+		return
+	end
+
+	local play_group = table.copy(snds)
+	if type(snds) == "SoundGroup" and snds.no_prepend ~= true then
+		for idx, snd in ipairs(play_group) do
+			play_group[idx] = "sounds_" .. snd
+		end
+	end
+
+	return sounds:play(play_group[rand:next(1, #play_group)], sp)
+end
+
 --- Wrapper for core.sound_stop.
 --
 --  @function sounds:stop
@@ -178,7 +198,7 @@ SoundGroup = {
 			if s_count == 1 then
 				idx = 1
 			else
-				idx = rand:next(1, s_count)
+				return sounds:play_random(self, sp)
 			end
 		end
 
