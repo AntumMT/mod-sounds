@@ -141,6 +141,7 @@ SoundGroup = {
 						end
 					end
 
+					new_group.no_prepend = self.no_prepend
 					return SoundGroup(new_group)
 				end,
 			}
