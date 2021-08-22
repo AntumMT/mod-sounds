@@ -10,6 +10,7 @@ What is the purpose of this mod? There are three ideas behind `sounds`:
 2. It is simply a well of sounds. Many sound files are provided & can be used with [minetest.sound_play](https://minetest.gitlab.io/minetest/minetest-namespace-reference/#sounds) just as normal. There is also a wrapper function, [sounds:play](https://antummt.github.io/mod-sounds/reference/latest/topics/api.html#sounds:play), that does its best to verify that a sound played successfully. If so, it will return a sound handle ID. Otherwise it will return `nil`. A random sound can be played from a list with [sounds:play_random](https://antummt.github.io/mod-sounds/reference/latest/topics/api.html#sounds:play_random). It also caches all loaded mod sounds after server startup in `sounds.cache` table. So sound files can easily be checked for existence. *Section: [Checking for Existing Sounds](#checking-for-existing-sounds)*
 3. It adds callable sound groups that can be used to play specified individual sounds, or a random sound in the group. The benefit to this is that the file naming convention is irrelivent. The only thing that matters is that the sound file is registered with the group. *Section: [Playing Sounds Manually](#playing-sounds-manually)*
 
+Note that most included sounds have been set with a peak amplitude of -6.0db.
 
 
 <img src="screenshot.png" alt="icon" width="200" />
