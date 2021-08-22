@@ -8,6 +8,7 @@ TODO:
 - create sounds.glass group
 - shorten length of rain_light, rain_medium, & wind
 - add "sounds.play_random" function
+- fix clock_tick loop
 - tests:
 	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)
 - add more sounds:
