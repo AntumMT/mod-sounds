@@ -66,6 +66,7 @@
 | [explosion_02][]                  | studiomandragore             | CC0          |                         |
 | [explosion_03][]                  | FlashTrauma                  | CC0          |                         |
 | [explosion_distant][]*            | Tobiasz 'unfa' Karoń         | CC0          |                         |
+| [explosion_scifi][]               | Anomaex                      | CC0          |                         |
 | [frog][]                          | kayceemixer                  | CC0          |                         |
 | [fire_crackle][]                  | 16FThumaF                    | CC0          | loopable                |
 | [fireball_01][]                   | Julien Matthey               | CC0          |                         |
@@ -309,6 +310,7 @@
 [explosion_02]: https://freesound.org/s/401628/
 [explosion_03]: https://freesound.org/s/398283/
 [explosion_distant]: https://freesound.org/s/352143/
+[explosion_scifi]: https://freesound.org/s/490253/
 [fire_crackle]: https://freesound.org/s/499032/
 [fireball_01]: https://freesound.org/s/105016/
 [fireball_02]: https://freesound.org/s/346917/
