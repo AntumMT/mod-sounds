@@ -30,6 +30,7 @@
 | [chalk_screech_03][]              | Sirderf                      | CC BY 3.0    |                         |
 | [chalk_write*][chalk_write]       | thavis360                    | CC0          |                         |
 | [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                         |
+| [cicada_01][]                     | InspectorJ                   | CC BY 3.0    | loopable                |
 | [clock_tick][]                    | AntumDeluge                  | CC0          | loopable                |
 | [cobra*][cobra]                   | N/A                          | CC0          |                         |
 | [coin][]                          | greenvwbeetle                | CC0          |                         |
@@ -251,6 +252,7 @@
 [chalk_screech_03]: https://freesound.org/s/332288/
 [chalk_write]: https://freesound.org/s/178433/
 [chicken]: https://freesound.org/s/24967/
+[cicada_01]: https://freesound.org/s/400331/
 [clock_tick]: https://opengameart.org/node/16323
 [cobra]: https://archive.org/details/unknowncobracobrabitewmv
 [coin]: https://freesound.org/s/423332/

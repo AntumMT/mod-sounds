@@ -12,7 +12,6 @@ TODO:
 	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)
 - add more sounds:
 	- hit/damage
-	- cicada
 	- more explosions
 	- short fuse
 - add sounds from:
