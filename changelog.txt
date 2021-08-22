@@ -5,6 +5,7 @@ next
 	- some "ar_fire sounds" to "ar_burst"
 - added sounds:
 	- ar_burst
+	- explosion
 	- scrape
 
 
