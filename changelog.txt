@@ -3,6 +3,8 @@ next
 ----
 - deleted sounds:
 	- melee_hit_12 (similar to melee_hit_16)
+- renamed sounds:
+	- melee_hit_16 to melee_hit_12
 
 
 v1.10
