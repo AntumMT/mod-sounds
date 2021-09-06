@@ -161,6 +161,11 @@ sounds.enable_builtin_groups
 - type:    bool
 - default: true
 
+sounds.disabled_groups
+- Disables individual built-in sound groups categories.
+- type:    string (comma-separated list)
+- default: empty
+
 sounds.enable_tests
 - Enables sounds testing with sounds_tests chat command.
 - type:    bool

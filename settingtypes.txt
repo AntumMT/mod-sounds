@@ -2,5 +2,9 @@
 # Enables default built-in sound groups.
 sounds.enable_builtin_groups (Built-in sound groups) bool true
 
+# Disables individual built-in sound groups categories.
+# Only useful if sounds.enable_builtin_groups is enabled.
+sounds.disabled_groups (Disabled sound groups) string
+
 # Enables sounds testing with /sounds_test chat command.
 sounds.enable_tests (Sounds tests) bool false

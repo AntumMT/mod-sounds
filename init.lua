@@ -38,8 +38,14 @@ local scripts = {
 if sounds.enable_builtin_groups then
 	local dir_groups = sounds.modpath .. "/groups"
 	for _, lua in ipairs(core.get_dir_list(dir_groups, false)) do
-		if lua:find("%.lua$") then --and lua ~= "node.lua" then
-			table.insert(scripts, "groups/" .. lua:gsub("%.lua$", ""))
+		if lua:find("%.lua$") then
+			local sg = lua:gsub("%.lua$", "")
+			if not sounds.disabled_groups[sg] then
+				sounds.log("debug", "sounds groups \"" .. sg .. "\" loading")
+				table.insert(scripts, "groups/" .. sg)
+			else
+				sounds.log("debug", "sounds groups \"" .. sg .. "\" disabled")
+			end
 		end
 	end
 end
