@@ -72,14 +72,18 @@ local get_tests_fs = function(pname)
 	if p_cache.selected_group then
 		local group_name = groups_list[p_cache.selected_group]
 		local s_group
-		if string.find(group_name, ".") then
-			s_group = sounds
-			for _, subgroup in ipairs(group_name:split(".")) do
-				s_group = s_group[subgroup]
+		if group_name then
+			if string.find(group_name, ".") then
+				s_group = sounds
+				for _, subgroup in ipairs(group_name:split(".")) do
+					s_group = s_group[subgroup]
+				end
+			else
+				s_group = sounds[group_name]
 			end
-		else
-			s_group = sounds[group_name]
 		end
+
+		s_group = s_group or {}
 
 		local s = ""
 		local s_added = 0
@@ -193,13 +197,15 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 				if selected_group then
 					local group_name = groups_list[selected_group]
 					local sound_group
-					if string.find(group_name, ".") then
-						sound_group = sounds
-						for _, subgroup in ipairs(group_name:split(".")) do
-							sound_group = sound_group[subgroup]
+					if group_name then
+						if string.find(group_name, ".") then
+							sound_group = sounds
+							for _, subgroup in ipairs(group_name:split(".")) do
+								sound_group = sound_group[subgroup]
+							end
+						else
+							sound_group = sounds[sound_group]
 						end
-					else
-						sound_group = sounds[sound_group]
 					end
 
 					if type(sound_group) == "SoundGroup" then
@@ -238,13 +244,15 @@ core.register_on_player_receive_fields(function(player, formname, fields)
 				if selected_group then
 					local group_name = groups_list[selected_group]
 					local sound_group
-					if string.find(group_name, ".") then
-						sound_group = sounds
-						for _, subgroup in ipairs(group_name:split(".")) do
-							sound_group = sound_group[subgroup]
+					if group_name then
+						if string.find(group_name, ".") then
+							sound_group = sounds
+							for _, subgroup in ipairs(group_name:split(".")) do
+								sound_group = sound_group[subgroup]
+							end
+						else
+							sound_group = sounds[sound_group]
 						end
-					else
-						sound_group = sounds[sound_group]
 					end
 
 					if type(sound_group) == "SoundGroup" then
