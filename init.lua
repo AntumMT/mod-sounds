@@ -3,13 +3,22 @@ sounds = {}
 sounds.modname = core.get_current_modname()
 sounds.modpath = core.get_modpath(sounds.modname)
 
+local debugging = core.settings:get_bool("debug_mods", false)
+
 sounds.log = function(lvl, msg)
 	if not msg then
 		msg = lvl
 		lvl = nil
 	end
 
+	if not debugging and lvl == "debug" then return end
+
 	msg = "[" .. sounds.modname .. "] " .. msg
+
+	if lvl == "debug" then
+		msg = "[DEBUG] " .. msg
+		lvl = "action"
+	end
 
 	if not lvl then
 		core.log(msg)
