@@ -156,13 +156,8 @@ Sounds can be looped by checking the "Loop" box.
 #### Settings:
 
 ```
-sounds.enable_builtin_groups
-- Enables default built-in sound groups.
-- type:    bool
-- default: true
-
 sounds.disabled_groups
-- Disables individual built-in sound groups categories.
+- Disables individual built-in sound groups categories. "all" disables all categories.
 - type:    string (comma-separated list)
 - default: empty
 

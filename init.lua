@@ -35,7 +35,7 @@ local scripts = {
 	"api",
 }
 
-if sounds.enable_builtin_groups then
+if not sounds.disabled_groups["all"] then
 	local dir_groups = sounds.modpath .. "/groups"
 	for _, lua in ipairs(core.get_dir_list(dir_groups, false)) do
 		if lua:find("%.lua$") then
@@ -48,6 +48,8 @@ if sounds.enable_builtin_groups then
 			end
 		end
 	end
+else
+	sounds.log("debug", "built-in sounds groups disabled")
 end
 
 -- ensure that node.lua is loaded after groups/node.lua

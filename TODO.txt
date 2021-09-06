@@ -7,4 +7,3 @@ TODO:
 - allow setting explicit parameters for individual sounds in SoundGroup instances
 - tests:
 	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)
-- use keyword "all" in "sounds.disabled_groups" to disable built-in sounds groups instead of separate "sounds.enable_builtin_groups" setting

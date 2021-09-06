@@ -4,17 +4,11 @@
 --  @topic settings
 
 
---- Enables default built-in sound groups.
---
---  @setting sounds.enable_builtin_groups
---  @settype bool
---  @default true
-sounds.enable_builtin_groups = core.settings:get_bool("sounds.enable_builtin_groups", true)
-
 --- Disables individual built-in sound groups categories.
 --
---  Only useful if sounds.enable_builtin_groups is enabled. Group names that can be disabled
---  are the filenames in the "groups" directory without the ".lua" suffix.
+--  Category names that can be disabled are the filenames in the
+--  "groups" directory without the ".lua" suffix. Use "all" to
+--  disable all built-in groups.
 --
 --  @setting sounds.disabled_groups
 --  @settype string (comma-separated list)

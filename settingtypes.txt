@@ -1,9 +1,9 @@
 
-# Enables default built-in sound groups.
-sounds.enable_builtin_groups (Built-in sound groups) bool true
-
 # Disables individual built-in sound groups categories.
-# Only useful if sounds.enable_builtin_groups is enabled.
+#
+# Category names that can be disabled are the filenames in the
+# "groups" directory without the ".lua" suffix. Use "all" to
+# disable all built-in groups.
 sounds.disabled_groups (Disabled sound groups) string
 
 # Enables sounds testing with /sounds_test chat command.
