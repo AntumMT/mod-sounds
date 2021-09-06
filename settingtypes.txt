@@ -1,3 +1,6 @@
 
+# Enables default built-in sound groups.
+sounds.enable_builtin_groups (Built-in sound groups) bool true
+
 # Enables sounds testing with /sounds_test chat command.
 sounds.enable_tests (Sounds tests) bool false

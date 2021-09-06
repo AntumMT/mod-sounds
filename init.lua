@@ -19,21 +19,24 @@ sounds.log = function(lvl, msg)
 end
 
 
+dofile(sounds.modpath .. "/settings.lua")
+
 local scripts = {
-	"settings",
 	"override",
 	"api",
-	"groups/main",
-	"groups/animal",
-	"groups/creature",
-	"groups/firearm",
-	"groups/node",
-	"groups/projectile",
-	"groups/scifi",
-	"groups/vehicle",
-	"groups/weather",
-	"node",
 }
+
+if sounds.enable_builtin_groups then
+	local dir_groups = sounds.modpath .. "/groups"
+	for _, lua in ipairs(core.get_dir_list(dir_groups, false)) do
+		if lua:find("%.lua$") then --and lua ~= "node.lua" then
+			table.insert(scripts, "groups/" .. lua:gsub("%.lua$", ""))
+		end
+	end
+end
+
+-- ensure that node.lua is loaded after groups/node.lua
+table.insert(scripts, "node")
 
 for _, s in ipairs(scripts) do
 	dofile(sounds.modpath .. "/" .. s .. ".lua")

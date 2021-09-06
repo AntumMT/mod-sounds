@@ -153,6 +153,20 @@ To test sounds cached in sound groups, select a group in the left column of the 
 
 Sounds can be looped by checking the "Loop" box.
 
+#### Settings:
+
+```
+sounds.enable_builtin_groups
+- Enables default built-in sound groups.
+- type:    bool
+- default: true
+
+sounds.enable_tests
+- Enables sounds testing with sounds_tests chat command.
+- type:    bool
+- default: false
+```
+
 ### Links:
 
 - [![ContentDB](https://content.minetest.net/packages/AntumDeluge/sounds/shields/title/)](https://content.minetest.net/packages/AntumDeluge/sounds/)

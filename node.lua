@@ -23,6 +23,8 @@ local node_sounds = {
 		return tbl
 	end,
 }
+
+sounds.node = sounds.node or {} -- in case groups/node.lua was not loaded
 setmetatable(sounds.node, node_sounds)
 
 --- Sounds for "choppy" objects & tools.
