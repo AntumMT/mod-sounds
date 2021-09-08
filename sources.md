@@ -31,6 +31,7 @@
 | [chalk_write*][chalk_write]       | thavis360                    | CC0          |                          |
 | [chicken*][chicken]               | www.bonson.ca                | CC BY 3.0    |                          |
 | [church_bells_01][]               | Jonathan Shaw (InspectorJ)   | CC BY 3.0    | loopable                 |
+| [church_bells_02][]               | Jonathan Shaw (InspectorJ)   | CC BY 3.0    | loopable                 |
 | [cicada_01][]                     | Jonathan Shaw (InspectorJ)   | CC BY 3.0    | loopable                 |
 | [cicada_02][]                     | Exomène                      | CC BY 3.0    | loopable                 |
 | [cicada_03][]                     | beau_rl                      | CC0          | loopable                 |
@@ -277,6 +278,7 @@
 [chalk_write]: https://freesound.org/s/178433/
 [chicken]: https://freesound.org/s/24967/
 [church_bells_01]: https://freesound.org/s/371267/
+[church_bells_02]: https://freesound.org/s/417769/
 [cicada_01]: https://freesound.org/s/400331/
 [cicada_02]: https://freesound.org/s/317472/
 [cicada_03]: https://freesound.org/s/554120/

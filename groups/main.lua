@@ -84,8 +84,10 @@ sounds.chalk_write = iSoundGroup({
 
 --- @sndgroup sounds.church_bells
 --  @snd church_bells_01 (loopable)
+--  @snd church_bells_02 (loopable)
 sounds.church_bells = iSoundGroup({
 	"church_bells_01",
+	"church_bells_02",
 })
 
 
