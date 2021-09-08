@@ -3,6 +3,8 @@ next
 ----
 - added setting to enable/disable built-in sound groups
 - added setting to disable individual sound groups categories
+- added sounds:
+	- church_bells
 
 
 v1.10.1
