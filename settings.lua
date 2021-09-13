@@ -27,8 +27,8 @@ end
 --
 --  @setting sounds.enable_biome_sounds
 --  @settype bool
---  @default true
-sounds.enable_biome_sounds = core.settings:get_bool("sounds.enable_biome_sounds", true)
+--  @default false
+sounds.enable_biome_sounds = core.settings:get_bool("sounds.enable_biome_sounds", false)
 
 --- Interval between playing biome sounds.
 --

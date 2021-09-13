@@ -187,7 +187,7 @@ sounds.enable_tests
 sounds.enable_biome_sounds
 - Enables/Disables ambiance sounds for biomes.
 - type:    bool
-- default: true
+- default: false
 
 sounds.biome_interval
 - Interval between playing biome sounds.

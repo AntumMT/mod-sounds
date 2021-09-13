@@ -7,7 +7,7 @@
 sounds.disabled_groups (Disabled sound groups) string
 
 # Enables/Disables ambiance sounds for biomes.
-sounds.enable_biome_sounds (Enable biome sounds) bool true
+sounds.enable_biome_sounds (Enable biome sounds) bool false
 
 # Interval between playing biome sounds.
 sounds.biome_interval (Biome sound interval) int 30 5
