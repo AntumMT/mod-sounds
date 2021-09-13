@@ -153,6 +153,24 @@ To test sounds cached in sound groups, select a group in the left column of the 
 
 Sounds can be looped by checking the "Loop" box.
 
+#### Biome Ambiance:
+
+A sound group can be registered for playing sounds randomly in a biome with the `sounds:register_biome_sounds` method:
+
+```
+sounds:register_biome_sounds(biome, snds, params)
+- Registers a sound group to be played in a biome.
+- parameters:
+  - biome:  Biome name.
+  - snds:   string, table, or SoundGroup of sounds registered with biome.
+  - params: SimpleSoundSpec parameters (optional).
+```
+
+Example usage:
+```lua
+sounds:register_biome_sounds("grassland", sounds.bird, {gain=0.25})
+```
+
 #### Settings:
 
 ```
@@ -165,6 +183,21 @@ sounds.enable_tests
 - Enables sounds testing with sounds_tests chat command.
 - type:    bool
 - default: false
+
+sounds.enable_biome_sounds
+- Enables/Disables ambiance sounds for biomes.
+- type:    bool
+- default: true
+
+sounds.biome_interval
+- Interval between playing biome sounds.
+- type:    int
+- default: 30
+
+sounds.biome_chance
+- Chance that sound will be played at interval (0-100).
+- type:    int
+- default: 20
 ```
 
 ### Links:
