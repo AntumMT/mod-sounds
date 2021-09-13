@@ -1,9 +1,4 @@
 
-next
-----
-- sounds.enable_biome_sounds set to false by default
-
-
 v1.11
 -----
 - added setting to enable/disable built-in sound groups
