@@ -192,11 +192,14 @@ sounds.enable_biome_sounds
 sounds.biome_interval
 - Interval between playing biome sounds.
 - type:    int
+- min:     5
 - default: 30
 
 sounds.biome_chance
-- Chance that sound will be played at interval (0-100).
+- Chance that sound will be played at interval.
 - type:    int
+- min:     0
+- max:     100
 - default: 20
 ```
 

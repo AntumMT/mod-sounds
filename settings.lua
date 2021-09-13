@@ -30,6 +30,21 @@ end
 --  @default true
 sounds.enable_biome_sounds = core.settings:get_bool("sounds.enable_biome_sounds", true)
 
+--- Interval between playing biome sounds.
+--
+--  @setting sounds.biome_interval
+--  @settype int
+--  @min 5
+--  @default 30
+
+--- Chance that sound will be played at interval.
+--
+--  @setting sounds.biome_chance
+--  @settype int
+--  @min 0
+--  @max 100
+--  @default 20
+
 --- Enables sounds testing with [sounds_tests](tests.html#sounds_tests) chat command.
 --
 --  @setting sounds.enable_tests

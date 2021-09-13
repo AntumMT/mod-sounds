@@ -10,7 +10,7 @@ sounds.disabled_groups (Disabled sound groups) string
 sounds.enable_biome_sounds (Enable biome sounds) bool true
 
 # Interval between playing biome sounds.
-sounds.biome_interval (Biome sound interval) int 30 0
+sounds.biome_interval (Biome sound interval) int 30 5
 
 # Chance that sound will be played at interval.
 sounds.biome_chance (Biome sound chance) int 20 0 100

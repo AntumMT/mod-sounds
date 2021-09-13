@@ -99,7 +99,7 @@ if sounds.enable_biome_sounds then
 	local interval = tonumber(core.settings:get("sounds.biome_interval")) or 30
 	local chance = tonumber(core.settings:get("sounds.biome_chance")) or 20
 
-	interval = interval >= 0 and interval or 0
+	interval = interval >= 5 and interval or 5
 	chance = chance >= 0 and chance or 0
 	chance = chance <= 100 and chance or 100
 
