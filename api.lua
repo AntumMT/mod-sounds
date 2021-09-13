@@ -11,6 +11,11 @@ local failed = {}
 local rand = PcgRandom(os.time())
 
 
+--- Functions
+--
+--  @section functions
+
+
 --- Plays a sound.
 --
 --
