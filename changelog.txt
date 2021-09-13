@@ -3,6 +3,7 @@ next
 ----
 - added setting to enable/disable built-in sound groups
 - added setting to disable individual sound groups categories
+- fixed caching random sounds count
 - shortened sounds rain_light, rain_medium, & wind
 - added sounds:
 	- church_bells

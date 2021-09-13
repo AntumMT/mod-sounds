@@ -78,10 +78,13 @@ core.register_on_mods_loaded(function()
 
 				-- files for playing randomly by core must have suffix trimmed
 				if basename:find("%.[0-9]$") then
-					cache_value = basename:gsub("^.*%.(.*)$", "%1")
-					cache_value = tonumber(cache_value)
-
 					basename = basename:gsub("%.[0-9]$", "")
+					cache_value = sounds.cache[basename]
+					if not cache_value then
+						cache_value = 1
+					else
+						cache_value = cache_value + 1
+					end
 				end
 
 				sounds.cache[basename] = cache_value

@@ -4,4 +4,3 @@ TODO:
 - allow setting explicit parameters for individual sounds in SoundGroup instances
 - tests:
 	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)
-- sound count for node_dug_glass is wrong, should be 3 but shows 1
