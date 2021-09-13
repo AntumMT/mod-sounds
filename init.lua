@@ -118,7 +118,7 @@ if sounds.enable_biome_sounds then
 				if b_id then
 					local b_sounds = sounds:get_biome_sounds(core.get_biome_name(b_id))
 
-					if type(b_sounds.group) == "SoundGroup" then
+					if b_sounds and type(b_sounds.group) == "SoundGroup" then
 						local b_params = {}
 						if b_sounds.params then
 							b_params = table.copy(b_sounds.params)
