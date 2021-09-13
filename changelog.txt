@@ -1,6 +1,6 @@
 
-next
-----
+v1.11
+-----
 - added setting to enable/disable built-in sound groups
 - added setting to disable individual sound groups categories
 - fixed caching random sounds count
