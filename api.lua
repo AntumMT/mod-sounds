@@ -127,7 +127,7 @@ SoundGroup = {
 			def.__type = "SoundGroup"
 
 			def.__init = {
-				-- execute "play" methode when called directly
+				-- execute "play" method when called directly
 				__call = self.play,
 
 				-- allow arithmetic operation to join groups
