@@ -298,3 +298,29 @@ setmetatable(SoundGroup, SoundGroup.__init)
 iSoundGroup = table.copy(SoundGroup)
 setmetatable(iSoundGroup, SoundGroup.__init)
 iSoundGroup.prepend = true
+
+
+local biome_sounds = {}
+
+--- Registers sounds to play randomly in biome.
+--
+--  @function sounds:register_biome_sounds
+--  @tparam string biome Biome name.
+--  @param snds Sounds registered with biome. Can be `string`, `table`, or `SoundGroup`.
+sounds.register_biome_sounds = function(self, biome, snds)
+	biome_sounds[biome] = SoundGroup(snds)
+end
+
+--- Retrieves sounds for biome.
+--
+--  @function sounds:get_biome_sounds
+--  @tparam[opt] biome Biome name.
+--  @return `SoundGroup` or `nil`. If biome parameter is `nil`, then all registered biome
+--  sound groups are returned.
+sounds.get_biome_sounds = function(self, biome)
+	if not biome then
+		return biome_sounds
+	end
+
+	return biome_sounds[biome]
+end

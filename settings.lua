@@ -23,6 +23,13 @@ for _, d in ipairs(string.split(core.settings:get("sounds.disabled_groups") or "
 	end
 end
 
+--- Enables/Disables ambiance sounds for biomes.
+--
+--  @setting sounds.enable_biome_sounds
+--  @settype bool
+--  @default true
+sounds.enable_biome_sounds = core.settings:get_bool("sounds.enable_biome_sounds", true)
+
 --- Enables sounds testing with [sounds_tests](tests.html#sounds_tests) chat command.
 --
 --  @setting sounds.enable_tests

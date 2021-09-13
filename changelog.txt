@@ -5,6 +5,7 @@ next
 - added setting to disable individual sound groups categories
 - fixed caching random sounds count
 - SoundGroup can be constructed with string parameter
+- biome sounds can be registered with sounds.register_biome_sounds
 - shortened sounds rain_light, rain_medium, & wind
 - added sounds:
 	- church_bells

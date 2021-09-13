@@ -1,6 +1,6 @@
 
 TODO:
-- add ambiance registration for biomes
 - allow setting explicit parameters for individual sounds in SoundGroup instances
 - tests:
 	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)
+- allow setting parameters for biome sounds registration
