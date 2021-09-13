@@ -156,7 +156,7 @@ Sounds can be looped by checking the "Loop" box.
 
 #### Biome Ambiance:
 
-A sound group can be registered for playing sounds randomly in a biome with the `sounds:register_biome_sounds` method:
+A sound group can be registered for playing sounds randomly in a biome with the `sounds:register_biome_sounds` method (`sounds.enable_biome_sounds` must be enabled):
 
 ```
 sounds:register_biome_sounds(biome, snds, params)
