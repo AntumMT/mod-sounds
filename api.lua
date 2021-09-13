@@ -309,6 +309,10 @@ local biome_sounds = {}
 --  @param snds Sounds registered with biome. Can be `string`, `table`, or `SoundGroup`.
 --  @tparam[opt] table params Sound parameter table.
 sounds.register_biome_sounds = function(self, biome, snds, params)
+	if not sounds.enable_biome_sounds then
+		sounds.log("warning", "sounds:register_biome_sounds: biome sounds disabled, sounds will not play")
+	end
+
 	biome_sounds[biome] = {group=SoundGroup(snds), params=params}
 end
 
