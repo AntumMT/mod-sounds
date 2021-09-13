@@ -328,7 +328,7 @@ end
 --- Retrieves sounds for biome.
 --
 --  @function sounds:get_biome_sounds
---  @tparam[opt] biome Biome name.
+--  @tparam[opt] string biome Biome name.
 --  @return `SoundGroup` or `nil`. If biome parameter is `nil`, then all registered biome
 --  sound groups are returned.
 sounds.get_biome_sounds = function(self, biome)
