@@ -34,9 +34,8 @@
 
 <h2>Contents</h2>
 <ul>
-<li><a href="#Functions">Functions</a></li>
-<li><a href="#Objects">Objects </a></li>
 <li><a href="#Functions">Functions </a></li>
+<li><a href="#Objects">Objects </a></li>
 </ul>
 
 
@@ -69,7 +68,7 @@
 </p>
 
 
-<h2><a href="#Functions">Functions</a></h2>
+<h2><a href="#Functions">Functions </a></h2>
 <table class="function_list">
 	<tr>
 	<td class="name" nowrap><a href="#sounds:play">sounds:play (name[, sp])</a></td>
@@ -82,6 +81,14 @@
 	<tr>
 	<td class="name" nowrap><a href="#sounds:stop">sounds:stop (handle)</a></td>
 	<td class="summary">Wrapper for core.sound_stop.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds:register_biome_sounds">sounds:register_biome_sounds (biome, snds[, params])</a></td>
+	<td class="summary">Registers sounds to play randomly in biome.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#sounds:get_biome_sounds">sounds:get_biome_sounds ([Biome])</a></td>
+	<td class="summary">Retrieves sounds for biome.</td>
 	</tr>
 </table>
 <h2><a href="#Objects">Objects </a></h2>
@@ -115,23 +122,12 @@
 	<td class="summary">Internal Sound Group.</td>
 	</tr>
 </table>
-<h2><a href="#Functions">Functions </a></h2>
-<table class="function_list">
-	<tr>
-	<td class="name" nowrap><a href="#sounds:register_biome_sounds">sounds:register_biome_sounds (biome, snds[, params])</a></td>
-	<td class="summary">Registers sounds to play randomly in biome.</td>
-	</tr>
-	<tr>
-	<td class="name" nowrap><a href="#sounds:get_biome_sounds">sounds:get_biome_sounds ([Biome])</a></td>
-	<td class="summary">Retrieves sounds for biome.</td>
-	</tr>
-</table>
 
 <br/>
 <br/>
 
 
-    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+    <h2 class="section-header "><a name="Functions"></a>Functions </h2>
 
     <dl class="function">
     <dt>
@@ -241,6 +237,79 @@
         </li>
     </ul>
 
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds:register_biome_sounds"></a>
+    <strong>sounds:register_biome_sounds (biome, snds[, params])</strong>
+    </dt>
+    <dd>
+    Registers sounds to play randomly in biome.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">biome</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a></span>
+         Biome name.
+        </li>
+        <li><span class="parameter">snds</span>
+         Sounds registered with biome. Can be <a href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a>, <a href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a>, or <a href="../topics/api.html#SoundGroup">SoundGroup</a>.
+        </li>
+        <li><span class="parameter">params</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Sound parameter table.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "sounds:get_biome_sounds"></a>
+    <strong>sounds:get_biome_sounds ([Biome])</strong>
+    </dt>
+    <dd>
+    Retrieves sounds for biome.
+  sound groups are returned.
+
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+    </ul>
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">Biome</span>
+            <span class="types"><span class="type">biome</span></span>
+         name.
+         (<em>optional</em>)
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        <a href="../topics/api.html#SoundGroup">SoundGroup</a> or <code>nil</code>. If biome parameter is <code>nil</code>, then all registered biome
+    </ol>
 
 
 
@@ -529,90 +598,13 @@
 
 </dd>
 </dl>
-    <h2 class="section-header "><a name="Functions"></a>Functions </h2>
-
-    <dl class="function">
-    <dt>
-    <a name = "sounds:register_biome_sounds"></a>
-    <strong>sounds:register_biome_sounds (biome, snds[, params])</strong>
-    </dt>
-    <dd>
-    Registers sounds to play randomly in biome.
-
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-
-    <h3>Parameters:</h3>
-    <ul>
-        <li><span class="parameter">biome</span>
-            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a></span>
-         Biome name.
-        </li>
-        <li><span class="parameter">snds</span>
-         Sounds registered with biome. Can be <a href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a>, <a href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a>, or <a href="../topics/api.html#SoundGroup">SoundGroup</a>.
-        </li>
-        <li><span class="parameter">params</span>
-            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
-         Sound parameter table.
-         (<em>optional</em>)
-        </li>
-    </ul>
-
-
-
-
-
-</dd>
-    <dt>
-    <a name = "sounds:get_biome_sounds"></a>
-    <strong>sounds:get_biome_sounds ([Biome])</strong>
-    </dt>
-    <dd>
-    Retrieves sounds for biome.
-  sound groups are returned.
-
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-    </ul>
-
-    <h3>Parameters:</h3>
-    <ul>
-        <li><span class="parameter">Biome</span>
-            <span class="types"><span class="type">biome</span></span>
-         name.
-         (<em>optional</em>)
-        </li>
-    </ul>
-
-    <h3>Returns:</h3>
-    <ol>
-
-        <a href="../topics/api.html#SoundGroup">SoundGroup</a> or <code>nil</code>. If biome parameter is <code>nil</code>, then all registered biome
-    </ol>
-
-
-
-
-</dd>
-</dl>
 
 
 </div> <!-- id="content" -->
 </div> <!-- id="main" -->
 <div id="about">
 <i>generated by <a href="http://github.com/AntumDeluge/LDoc/tree/custom">LDoc 1.4.6-antum-dev</a></i>
-<i style="float:right;">Last updated 2021-09-13 08:53:18 </i>
+<i style="float:right;">Last updated 2021-09-13 08:56:52 </i>
 </div> <!-- id="about" -->
 </div> <!-- id="container" -->
 </body>
