@@ -3,7 +3,6 @@ TODO:
 - add ambiance registration for biomes
 - add option to get sound by string name in "SoundGroup:get" using string.match
 - create sounds.glass group
-- shorten length of rain_light, rain_medium, & wind
 - allow setting explicit parameters for individual sounds in SoundGroup instances
 - tests:
 	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)
