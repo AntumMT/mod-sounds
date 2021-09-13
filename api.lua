@@ -300,6 +300,10 @@ setmetatable(iSoundGroup, SoundGroup.__init)
 iSoundGroup.prepend = true
 
 
+--- Functions
+--
+--  @section functions
+
 local biome_sounds = {}
 
 --- Registers sounds to play randomly in biome.
