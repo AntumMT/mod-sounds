@@ -308,7 +308,7 @@ sounds.gallop = iSoundGroup({
 
 --- Lava
 --
---  @section laval
+--  @section lava
 
 
 --- @sndgroup sounds.lava_cool
