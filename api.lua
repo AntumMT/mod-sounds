@@ -307,8 +307,9 @@ local biome_sounds = {}
 --  @function sounds:register_biome_sounds
 --  @tparam string biome Biome name.
 --  @param snds Sounds registered with biome. Can be `string`, `table`, or `SoundGroup`.
-sounds.register_biome_sounds = function(self, biome, snds)
-	biome_sounds[biome] = SoundGroup(snds)
+--  @tparam[opt] table params Sound parameter table.
+sounds.register_biome_sounds = function(self, biome, snds, params)
+	biome_sounds[biome] = {group=SoundGroup(snds), params=params}
 end
 
 --- Retrieves sounds for biome.
