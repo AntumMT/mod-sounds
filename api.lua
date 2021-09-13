@@ -114,6 +114,9 @@ SoundGroup = {
 	__init = {
 		__call = function(self, def)
 			def = def or {}
+			if type(def) == "string" then
+				def = {def}
+			end
 
 			for k, v in pairs(self) do
 				if k ~= "new" and k ~= "__init" and def[k] == nil then
