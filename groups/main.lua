@@ -440,9 +440,11 @@ sounds.tool_break = iSoundGroup({
 
 
 --- @sndgroup sounds.toy_squeak
---  @snd toy_squeak
+--  @snd toy_squeak_01
+--  @snd toy_squeak_02
 sounds.toy_squeak = iSoundGroup({
-	"toy_squeak",
+	"toy_squeak_01",
+	"toy_squeak_02",
 })
 
 
