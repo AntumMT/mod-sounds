@@ -63,6 +63,7 @@
 | [doorbell_03][]                   | jorickhoofd                  | CC BY 3.0    |                          |
 | [duck_quack_01][]                 | Jonathon Jongsma             | CC BY-SA 3.0 |                          |
 | [duck_quack_02][]                 | DrMaysta                     | CC0          |                          |
+| [duck_quack_03][]                 | dobroide / qubodup           | CC BY 3.0    |                          |
 | [elephant_trumpet][]              | vataaa                       | CC0          |                          |
 | [entity_hit][]                    | sonictechtonic               | CC BY 3.0    |                          |
 | [explosion_01][]                  | JuveriSetila                 | CC0          |                          |
@@ -319,6 +320,7 @@
 [doorbell_03]: https://freesound.org/s/177875/
 [duck_quack_01]: https://www.xeno-canto.org/62258
 [duck_quack_02]: https://freesound.org/s/418509/
+[duck_quack_03]: https://freesound.org/s/442820/
 [dug_glass.1]: https://freesound.org/s/71947/
 [dug_glass.2]: https://freesound.org/s/97669/
 [dug_glass.3]: https://freesound.org/s/88808/

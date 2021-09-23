@@ -432,9 +432,11 @@ sounds.crow_caw = iSoundGroup({
 --- @sndgroup sounds.duck_quack
 --  @snd duck_quack_01
 --  @snd duck_quack_02
+--  @snd duck_quack_03
 sounds.duck_quack = iSoundGroup({
 	"duck_quack_01",
 	"duck_quack_02",
+	"duck_quack_03",
 })
 
 --- @sndgroup sounds.goose
