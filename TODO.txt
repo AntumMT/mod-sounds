@@ -4,3 +4,4 @@ TODO:
 - tests:
 	- fix wrong sound selected when changing groups (example: select #2, switch to group with one sound, switch to group with two sounds, press play)
 - set interval & chance for individual biomes
+- allow individual biomes sound groups to be configured in settings
