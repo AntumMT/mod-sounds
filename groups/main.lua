@@ -434,6 +434,19 @@ sounds.tool_break = iSoundGroup({
 
 
 
+--- Toy
+--
+--  @section toy
+
+
+--- @sndgroup sounds.toy_squeak
+--  @snd toy_squeak
+sounds.toy_squeak = iSoundGroup({
+	"toy_squeak",
+})
+
+
+
 --- Tree
 --
 --  @section tree

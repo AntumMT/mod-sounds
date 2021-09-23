@@ -176,6 +176,7 @@
 | [tiger_snarl_0[2-4]][tiger_snarl] | schots                       | CC0          |                          |
 | [tool_break*][tool_break]         | HerbertBoland                | CC BY 3.0    |                          |
 | [toucan][]                        | Niels Krabbe                 | CC BY-SA 4.0 |                          |
+| [toy_squeak][]                    | LamaMakesMusic               | CC0          |                          |
 | [train_whistle][]                 | Daniel Simion                | CC BY 3.0    |                          |
 | [tree_creak][]                    | Department64                 | CC0          |                          |
 | [turkey_gobble][]                 | JarredGibb                   | CC0          |                          |
@@ -437,6 +438,7 @@
 [tiger_snarl]: https://freesound.org/s/439280/
 [tool_break]: https://freesound.org/s/33206/
 [toucan]: https://www.xeno-canto.org/250531
+[toy_squeak]: https://freesound.org/s/403507/
 [train_whistle]: https://soundbible.com/2177-Steam-Train-Whistle.html
 [tree_creak]: https://freesound.org/s/95262/
 [turkey_gobble]: https://freesound.org/s/233125/
