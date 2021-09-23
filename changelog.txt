@@ -2,6 +2,7 @@
 next
 ----
 - added sounds:
+	- duck_quack
 	- toy_squeak
 
 

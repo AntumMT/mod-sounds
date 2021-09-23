@@ -61,7 +61,8 @@
 | [doorbell_01][]                   | kwahmah_02                   | CC BY 3.0    |                          |
 | [doorbell_02][]                   | bennstir                     | CC BY 3.0    |                          |
 | [doorbell_03][]                   | jorickhoofd                  | CC BY 3.0    |                          |
-| [duck_quack][]                    | Jonathon Jongsma             | CC BY-SA 3.0 |                          |
+| [duck_quack_01][]                 | Jonathon Jongsma             | CC BY-SA 3.0 |                          |
+| [duck_quack_02][]                 | DrMaysta                     | CC0          |                          |
 | [elephant_trumpet][]              | vataaa                       | CC0          |                          |
 | [entity_hit][]                    | sonictechtonic               | CC BY 3.0    |                          |
 | [explosion_01][]                  | JuveriSetila                 | CC0          |                          |
@@ -316,7 +317,8 @@
 [doorbell_01]: https://freesound.org/sounds/275072/
 [doorbell_02]: https://freesound.org/s/81072/
 [doorbell_03]: https://freesound.org/s/177875/
-[duck_quack]: https://www.xeno-canto.org/62258
+[duck_quack_01]: https://www.xeno-canto.org/62258
+[duck_quack_02]: https://freesound.org/s/418509/
 [dug_glass.1]: https://freesound.org/s/71947/
 [dug_glass.2]: https://freesound.org/s/97669/
 [dug_glass.3]: https://freesound.org/s/88808/
