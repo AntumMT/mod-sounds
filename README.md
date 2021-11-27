@@ -4,7 +4,7 @@
 
 A [Minetest][] mod that provides a set of free sounds & methods.
 
-What is the purpose of this mod? There are three ideas behind `sounds`:
+What is the purpose of this mod? There are four ideas behind `sounds`:
 
 1. It is intended as a more universal method for adding sounds to games rather than depending on [MTG & default][default] for sounds only. It is completely compatible with default sounds. The same methods called in `default` to set node sounds, like `default.node_sound_stone_defaults`, are implemented & it can be installed in parallel. *Section: [Replacement for default](#replacement-for-default)*
 2. It is simply a well of sounds. Many sound files are provided & can be used with [minetest.sound_play](https://minetest.gitlab.io/minetest/minetest-namespace-reference/#sounds) just as normal. There is also a wrapper function, [sounds:play](https://antummt.github.io/mod-sounds/reference/latest/topics/api.html#sounds:play), that does its best to verify that a sound played successfully. If so, it will return a sound handle ID. Otherwise it will return `nil`. A random sound can be played from a list with [sounds:play_random](https://antummt.github.io/mod-sounds/reference/latest/topics/api.html#sounds:play_random). It also caches all loaded mod sounds after server startup in `sounds.cache` table. So sound files can easily be checked for existence. *Section: [Checking for Existing Sounds](#checking-for-existing-sounds)*
