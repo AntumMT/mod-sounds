@@ -1,5 +1,6 @@
 
-# Disables individual built-in sound groups categories.
+# Disables individual built-in sound groups categories (comma-
+# separated list).
 #
 # Category names that can be disabled are the filenames in the
 # "groups" directory without the ".lua" suffix. Use "all" to
@@ -15,5 +16,5 @@ sounds.biome_interval (Biome sound interval) int 30 5
 # Chance that sound will be played at interval.
 sounds.biome_chance (Biome sound chance) int 20 0 100
 
-# Enables sounds testing with /sounds_test chat command.
+# Enables sounds testing with /sounds_tests chat command.
 sounds.enable_tests (Sounds tests) bool false
