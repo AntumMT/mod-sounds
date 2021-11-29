@@ -3,6 +3,7 @@ next
 ----
 - added sounds:
 	- duck_quack
+	- loon
 	- toy_squeak
 
 

@@ -445,6 +445,12 @@ sounds.goose = iSoundGroup({
 	"goose",
 })
 
+--- @sndgroup sounds.loon
+--  @snd loon_01
+sounds.loon = iSoundGroup({
+	"loon_01",
+})
+
 --- @sndgroup sounds.owl
 --  @snd owl_hoot
 sounds.owl = iSoundGroup({

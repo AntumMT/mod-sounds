@@ -117,6 +117,7 @@
 | [leaves*][leaves]                 | DSOADigital                  | CC0          |                          |
 | [leopard*][leopard]               | Ian Fairley                  | CC BY        |                          |
 | [lion_bellow][]                   | felix.blume                  | CC0          |                          |
+| [loon_01][]                       | Jonathon Jongsma             | CC BY-SA 3.0 |                          |
 | [match_ignite][]                  | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                          |
 | [melee_hit][]*                    | CGEffex                      | CC BY 3.0    | [OpenGameArt][oga.29445] |
 | [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation                |
@@ -376,6 +377,7 @@
 [leaves]: https://freesound.org/s/362253/
 [leopard]: https://www.youtube.com/watch?v=VFsHjBbrebk
 [lion_bellow]: https://freesound.org/s/405211/
+[loon_01]: https://www.xeno-canto.org/139388
 [match_ignite]: https://freesound.org/s/484266/
 [melee_hit]: https://freesound.org/s/98341/
 [monkey]: https://opengameart.org/node/81240
