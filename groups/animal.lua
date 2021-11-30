@@ -544,6 +544,12 @@ sounds.toucan = iSoundGroup({
 	"toucan_03",
 })
 
+--- @sndgroup sounds.trumpeter_swan
+--  @snd trumpeter_swan
+sounds.trumpeter_swan = iSoundGroup({
+	"trumpeter_swan",
+})
+
 --- @sndgroup sounds.turkey_gobble
 --  @snd turkey_gobble
 sounds.turkey_gobble = iSoundGroup({

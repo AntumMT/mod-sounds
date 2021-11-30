@@ -5,6 +5,7 @@ next
 	- duck_quack
 	- loon
 	- toy_squeak
+	- trumpeter_swan
 
 
 v1.11
