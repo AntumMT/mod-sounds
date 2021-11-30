@@ -4,6 +4,7 @@ next
 - added sounds:
 	- duck_quack
 	- loon
+	- robot
 	- toy_squeak
 	- trumpeter_swan
 

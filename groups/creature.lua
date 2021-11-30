@@ -32,6 +32,19 @@ sounds.ghost_death = iSoundGroup({
 
 
 
+--- Robot
+--
+--  @section robot
+
+
+--- @sndgroup sounds.robot
+--  @snd robot_01
+sounds.robot = iSoundGroup({
+	"robot_01",
+})
+
+
+
 --- Undead
 --
 --  @section undead
