@@ -161,6 +161,7 @@
 | [rifle_fire_dry][]                | michorvath                   | CC0          |                          |
 | [rifle_small_fire][]              | Tito Lahaye                  | CC0          |                          |
 | [robot_01][]                      | AntumDeluge                  | OGA BY 3.0   |                          |
+| [robot_02][]                      | Loge the 60th                | CC0          |                          |
 | [rooster][]                       | poorenglishjuggler           | CC0          |                          |
 | [scrape*][scrape]                 | AntumDeluge                  | CC0          |                          |
 | [sea_lion*][sea_lion]             | felix.blume                  | CC0          |                          |
@@ -424,6 +425,7 @@
 [rifle_fire_dry]: https://freesound.org/s/427603/
 [rifle_small_fire]: https://freesound.org/s/319400/
 [robot_01]: https://opengameart.org/node/132704
+[robot_02]: https://soundbible.com/1758-Door-Entry-Notification.html
 [rooster]: https://freesound.org/s/269496/
 [scrape]: https://opengameart.org/node/81247
 [sea_lion]: https://freesound.org/s/499564/
