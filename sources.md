@@ -121,6 +121,7 @@
 | [loon_[02-03]][loon_02]           | Jonathon Jongsma             | CC BY-SA 3.0 |                          |
 | [match_ignite][]                  | Jonathan Shaw (InspectorJ)   | CC BY 3.0    |                          |
 | [melee_hit][]*                    | CGEffex                      | CC BY 3.0    | [OpenGameArt][oga.29445] |
+| [mermaid_song][]*                 | poots                        | CC BY 3.0    |                          |
 | [monkey*][monkey]                 | AntumDeluge                  | CC0          | imitation                |
 | [motorbike_idle][]                | m1rk0                        | CC BY 3.0    | loopable                 |
 | [mouse][]                         | AntumDeluge                  | CC0          | imitation                |
@@ -385,6 +386,7 @@
 [loon_02]: https://www.xeno-canto.org/139387
 [match_ignite]: https://freesound.org/s/484266/
 [melee_hit]: https://freesound.org/s/98341/
+[mermaid_song]: https://freesound.org/s/123092/
 [monkey]: https://opengameart.org/node/81240
 [motorbike_idle]: https://freesound.org/s/23212/
 [mouse]: https://opengameart.org/node/16331

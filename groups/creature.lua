@@ -32,6 +32,27 @@ sounds.ghost_death = iSoundGroup({
 
 
 
+--- Mermaid
+--
+--  @section mermaid
+
+
+--- @sndgroup sounds.mermaid_song
+--  @snd mermaid_song_01
+--  @snd mermaid_song_02
+--  @snd mermaid_song_03
+--  @snd mermaid_song_04
+--  @snd mermaid_song_05
+sounds.mermaid_song = iSoundGroup({
+	"mermaid_song_01",
+	"mermaid_song_02",
+	"mermaid_song_03",
+	"mermaid_song_04",
+	"mermaid_song_05",
+})
+
+
+
 --- Robot
 --
 --  @section robot
