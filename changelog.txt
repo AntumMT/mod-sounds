@@ -1,6 +1,7 @@
 
-next
+v1.12
 ----
+- fixed cache value check
 - added sounds:
 	- duck_quack
 	- loon
