@@ -80,7 +80,7 @@ core.register_on_mods_loaded(function()
 				if basename:find("%.[0-9]$") then
 					basename = basename:gsub("%.[0-9]$", "")
 					cache_value = sounds.cache[basename]
-					if not cache_value then
+					if type(cache_value) ~= "number" then
 						cache_value = 1
 					else
 						cache_value = cache_value + 1
